@@ -2,5 +2,10 @@
 title: "About"
 date: "2016-05-05T21:48:51-07:00"
 ---
+My name is Kevin Gilds, and I am a professional in the nonprofit sector. I use R and Github to manage nonprofit evaluation work. 
 
-This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium-theme).
+I have been successful at wrangling nonprofit program data to help staff and improve efficiency.   
+
+
+
+Praying to connect with other R users and who know what Github is.
