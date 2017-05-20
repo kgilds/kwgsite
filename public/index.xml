@@ -6,10 +6,19 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 20 May 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blogdown lessons</title>
+      <link>/2017/05/20/blogdown-lessons/</link>
+      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/05/20/blogdown-lessons/</guid>
+      <description>The biggest challenge in rendering the site was using the R studio GUI Git. How many times did I restart my computer before I deduced the problem. The Git process would stall out. I used the new Git desktop feature (https://desktop.github.com/) and it worked to get the site rending and add content.</description>
+    </item>
     
     <item>
       <title>A Plain Markdown Post</title>

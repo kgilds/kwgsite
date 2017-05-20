@@ -14,5 +14,5 @@ featuredalt: ''
 featuredpath: ''
 linktitle: ''
 ---
-The biggest challenge in rendering the site was using the R studio GUI Git. How many times did I restart my computer before I deduced the problem.  The Git process would stall out. I used the new Git desktop feature here and it worked to get the site rending and add content. 
+The biggest challenge in rendering the site was using the R studio GUI Git. How many times did I restart my computer before I deduced the problem.  The Git process would stall out. I used the new Git desktop feature (https://desktop.github.com/) and it worked to get the site rending and add content. 
 
