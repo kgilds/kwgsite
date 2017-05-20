@@ -17,7 +17,8 @@
       <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/05/20/blogdown-lessons/</guid>
-      <description>The biggest challenge in rendering the site was using the R studio GUI Git. How many times did I restart my computer before I deduced the problem. The Git process would stall out. I used the new Git desktop feature (https://desktop.github.com/) and it worked to get the site rending and add content.</description>
+      <description>One big challenge in rendering the site was using the R studio GUI Git. How many times did I restart my computer before I deduced the problem? The Git process would stall out.
+To solve, I used the new Git desktop feature (https://desktop.github.com/) and it worked.</description>
     </item>
     
   </channel>
