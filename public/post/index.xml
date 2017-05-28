@@ -6,28 +6,10 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 May 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Metallica Concerts, Maps,  &amp; R</title>
-      <link>/2017/05/26/metallica-concerts-maps-r/</link>
-      <pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/05/26/metallica-concerts-maps-r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Metallica, Maps, and R</title>
-      <link>/2017/05/26/metallica-maps-and-r/</link>
-      <pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/05/26/metallica-maps-and-r/</guid>
-      <description>library(leaflet)## Warning: package &amp;#39;leaflet&amp;#39; was built under R version 3.4.0library(tidyverse)## Warning: package &amp;#39;tidyverse&amp;#39; was built under R version 3.4.0## Loading tidyverse: ggplot2## Loading tidyverse: tibble## Loading tidyverse: tidyr## Loading tidyverse: readr## Loading tidyverse: purrr## Loading tidyverse: dplyr## Warning: package &amp;#39;ggplot2&amp;#39; was built under R version 3.4.0## Warning: package &amp;#39;tibble&amp;#39; was built under R version 3.</description>
-    </item>
     
     <item>
       <title>Blogdown lessons</title>
@@ -67,147 +49,6 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
       <guid>/2015/01/01/lorem-ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
-    
-    <item>
-      <title>Citations</title>
-      <link>/1/01/01/citations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/citations/</guid>
-      <description>I was finally able to create a bibliography and complete a cite within R Studio. This took me some effort to figure out though.
- I can&amp;rsquo;t seem to figure out how to complete from JabRef but was able to implement with a Json file from Zotero.
- I may not have needed the json file as I was trying to different file formats until it dawned on me that I actually needed to cite a source before the bibliography would be created.</description>
-    </item>
-    
-    <item>
-      <title>Na.omit</title>
-      <link>/1/01/01/na.omit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/na.omit/</guid>
-      <description>na. strings The argument na.string= &amp;quot;&amp;quot; saved me a lot of work today. Happy I came across this in Stack Over Flow relatively quickly.
-http://stackoverflow.com/questions/24172111/change-the-blank-cells-to-na.
-My data set apparently has hidden spaces and the na.omit function was not removing these observations. As a result, my factor levels were messed up and my table summaries were awful.
-It is fun to learn new things.</description>
-    </item>
-    
-    <item>
-      <title>Now</title>
-      <link>/1/01/01/now/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/now/</guid>
-      <description>I studied sociology as an undergraduate in the 1990s. At times, the concepts of sociology seemed mysterious&amp;ndash;almost just theoretical&amp;ndash;Not now, the concepts of class/group conflict, legitimacy, celebrity, are crystal clear.
-The time for laziness is over, history is happening and people are what shape history.
-A book that I recently re-read is Lilia and this book is helpful in providing a theoretical framework for what is happening. It appears we are moving towards valuing biological value patterns.</description>
-    </item>
-    
-    <item>
-      <title>Pipes</title>
-      <link>/1/01/01/pipes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/pipes/</guid>
-      <description>I finally started using pipes in my workflow; it took a bit to get used to but I think I finally got it.
-The pipes are this %&amp;gt;%; here is a link to Official Documentation
-Here is some code that I used this weekend.
-langarts &amp;lt;- inner_join(q1_langarts, q2_langarts, by=&amp;quot;girlCode&amp;quot;) dim(langarts) langarts_1 &amp;lt;- langarts %&amp;gt;% select(girlCode, council.x, lang_pts, lang_pts2) langarts_q2q1 &amp;lt;- langarts_1 %&amp;gt;% mutate(pt_diff = lang_pts2 - lang_pts)  </description>
-    </item>
-    
-    <item>
-      <title>Projects in R Studio</title>
-      <link>/1/01/01/projects-in-r-studio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/projects-in-r-studio/</guid>
-      <description>I use RStudio nearly everday and thought it may be easier to blog with R studio. After research, I realized it is easy to do with Jeykll and Github pages.
-I suspected the only change that would have to be implemented would be to use Projects in RStudio. I was hesistant to do this because I made the assumption that you had to start with a fresh (new) directory this not the case.</description>
-    </item>
-    
-    <item>
-      <title>R Fun and updates</title>
-      <link>/1/01/01/r-fun-and-updates/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/r-fun-and-updates/</guid>
-      <description>Github I think I finally learned to use Github correctly. This is pretty basic so if you understand Github you may want to stop reading now.
-The master branch should be the code that is currently working. If one wants to add development or try something put in a branch to be sure that it works.
-Here is the video that helped me understand this. video
-I have used it and made fairly basic updates and they seemed to merge ok.</description>
-    </item>
-    
-    <item>
-      <title>R Milestones</title>
-      <link>/1/01/01/r-milestones/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/r-milestones/</guid>
-      <description>Proud to have finally met some basic programming milestones in R. A couple of months ago, I was finally able to write a function.
-For the longest time, I wanted to be able to loop over a column and place the grade point in a new column. I finally accomplished this task. Here is the basic code.
-lang_pts &amp;lt;- numeric(0) for(i in mq1_lang$langGrade){ lang_pts&amp;lt;- c(lang_pts,switch(i, &amp;quot;A&amp;quot; =4, &amp;quot;B&amp;quot;=3, &amp;quot;C&amp;quot;=2, &amp;quot;D&amp;quot;=1, &amp;quot;F&amp;quot;=0, &amp;quot;I&amp;quot;=0)) lang_pts } mq1_lang &amp;lt;- cbind(mq1_lang, lang_pts)  </description>
-    </item>
-    
-    <item>
-      <title>Shiny</title>
-      <link>/1/01/01/shiny/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/shiny/</guid>
-      <description>Friday I listen to an R Podcast regarding the Shiny Developer Conference . I was pysched about performing crazy-cool Shiny App. I have been humbled.
-No Shiny App emerged this weekend; however, one important things did happen.
-Working through the Shiny App, I came up with an idea to attach another R programming problem.</description>
-    </item>
-    
-    <item>
-      <title>Special Moments</title>
-      <link>/1/01/01/special-moments/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/special-moments/</guid>
-      <description>Special moments Last Saturday, I spent a couple of hours troubleshooting why I could not successfully render an image in my markdown file. I put the concern has an issue on my Github repository. I was using forward and back slashes, changing the working directory. I was thinking about funny tweets to send about this, I was looking on Stack Overflow.
-While driving around with my wife and kids to pick up produce it dawned on me; I should not be putting the script in a chunk as it is not r code.</description>
-    </item>
-    
-    <item>
-      <title>Str Function</title>
-      <link>/1/01/01/str-function/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/str-function/</guid>
-      <description>Str function The str function lets you take a look at the underlying structure of your data object. This function is useful for troubleshooting. I was having fun with factors and was able to compare my factor levels from one object to the next.
-str(&amp;quot;object&amp;quot;)  Using the str function I was able to see the issue and make the corrected change.</description>
-    </item>
-    
-    <item>
-      <title>Sub-function</title>
-      <link>/1/01/01/sub-function/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/sub-function/</guid>
-      <description>Function of the week Data management or data cleaning one of the most under appreciated task when it comes to completing a data analysis.
-General users break data patterns all the time and enter data that is not quite correct. One function that can help you fix data without changing the original data source is the &amp;ldquo;sub function&amp;rdquo;
-Here is an example of how I used the sub function. I needed to remove + from grade data entry.</description>
-    </item>
-    
-    <item>
-      <title>Workflow</title>
-      <link>/1/01/01/workflow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/workflow/</guid>
-      <description>Workflow I have been using Google Keep as a reminder for goals and more mundane tasks that need to be dealt with on a regular basis. It feels light and is easy to set a reminder and it also shows up in your e-mail.
-The best part is the voice note feature.</description>
-    </item>
-    
-    <item>
-      <title>Workflow</title>
-      <link>/1/01/01/workflow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/workflow/</guid>
-      <description>I manage nonprofit evaluation projects with Github, Trello, Slack and WorkFlowy. Github and Trello are more for Task managment and there is some redundancy to the process but I make every attempt to integrate these tools.
-What I think gets lost with Github, Trello, and Slack is that it is hard to see the entire puzzle. Workflowys is a narrative of what is going on with a project. When, I complete it hides but the best part is that it is easy to bring back to see what the hell happened.</description>
     </item>
     
     <item>
