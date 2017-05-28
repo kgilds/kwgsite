@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2017/05/26/metallica-concerts-maps-r/</loc>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/05/26/metallica-maps-and-r/</loc>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/05/20/blogdown-lessons/</loc>
     <lastmod>2017-05-20T00:00:00+00:00</lastmod>
   </url>
@@ -39,9 +49,88 @@
   </url>
   
   <url>
+    <loc>/1/01/01/citations/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/data-management/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dplyr/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/functions/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/git/</loc>
     <lastmod>2017-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gmail/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/google-keep/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/knitr/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/leaflet/</loc>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/looping/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/metallica/</loc>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/metallica/</loc>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/na.strings/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/na.omit/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/now/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/pipes/</loc>
   </url>
   
   <url>
@@ -52,14 +141,27 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/projects-in-r-studio/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2017-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/r-fun-and-updates/</loc>
   </url>
   
   <url>
@@ -69,8 +171,12 @@
   </url>
   
   <url>
+    <loc>/1/01/01/r-milestones/</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2017-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -81,9 +187,61 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/tags/rmarkdown/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/shiny/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/shiny/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/special-moments/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/str/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/str-function/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/sub-function/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/sub-function/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/workflow/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/workflow/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/hacked-automation/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/makefiles-and-automation/</loc>
   </url>
   
 </urlset>

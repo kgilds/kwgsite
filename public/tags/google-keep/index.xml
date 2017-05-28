@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Keep on R for the rest of us</title>
+    <link>/tags/google-keep/</link>
+    <description>Recent content in Google Keep on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/google-keep/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Workflow</title>
+      <link>/1/01/01/workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/workflow/</guid>
+      <description>Workflow I have been using Google Keep as a reminder for goals and more mundane tasks that need to be dealt with on a regular basis. It feels light and is easy to set a reminder and it also shows up in your e-mail.
+The best part is the voice note feature.</description>
+    </item>
+    
+  </channel>
+</rss>

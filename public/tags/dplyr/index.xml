@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dplyr on R for the rest of us</title>
+    <link>/tags/dplyr/</link>
+    <description>Recent content in Dplyr on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/dplyr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pipes</title>
+      <link>/1/01/01/pipes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/pipes/</guid>
+      <description>I finally started using pipes in my workflow; it took a bit to get used to but I think I finally got it.
+The pipes are this %&amp;gt;%; here is a link to Official Documentation
+Here is some code that I used this weekend.
+langarts &amp;lt;- inner_join(q1_langarts, q2_langarts, by=&amp;quot;girlCode&amp;quot;) dim(langarts) langarts_1 &amp;lt;- langarts %&amp;gt;% select(girlCode, council.x, lang_pts, lang_pts2) langarts_q2q1 &amp;lt;- langarts_1 %&amp;gt;% mutate(pt_diff = lang_pts2 - lang_pts)  </description>
+    </item>
+    
+  </channel>
+</rss>

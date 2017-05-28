@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Na.Strings on R for the rest of us</title>
+    <link>/tags/na.strings/</link>
+    <description>Recent content in Na.Strings on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/na.strings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Na.omit</title>
+      <link>/1/01/01/na.omit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/na.omit/</guid>
+      <description>na. strings The argument na.string= &amp;quot;&amp;quot; saved me a lot of work today. Happy I came across this in Stack Over Flow relatively quickly.
+http://stackoverflow.com/questions/24172111/change-the-blank-cells-to-na.
+My data set apparently has hidden spaces and the na.omit function was not removing these observations. As a result, my factor levels were messed up and my table summaries were awful.
+It is fun to learn new things.</description>
+    </item>
+    
+  </channel>
+</rss>

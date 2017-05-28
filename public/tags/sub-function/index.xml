@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sub Function on R for the rest of us</title>
+    <link>/tags/sub-function/</link>
+    <description>Recent content in Sub Function on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/sub-function/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sub-function</title>
+      <link>/1/01/01/sub-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/sub-function/</guid>
+      <description>Function of the week Data management or data cleaning one of the most under appreciated task when it comes to completing a data analysis.
+General users break data patterns all the time and enter data that is not quite correct. One function that can help you fix data without changing the original data source is the &amp;ldquo;sub function&amp;rdquo;
+Here is an example of how I used the sub function. I needed to remove + from grade data entry.</description>
+    </item>
+    
+  </channel>
+</rss>

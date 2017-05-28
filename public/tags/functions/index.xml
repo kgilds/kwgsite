@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functions on R for the rest of us</title>
+    <link>/tags/functions/</link>
+    <description>Recent content in Functions on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/functions/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R Milestones</title>
+      <link>/1/01/01/r-milestones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/r-milestones/</guid>
+      <description>Proud to have finally met some basic programming milestones in R. A couple of months ago, I was finally able to write a function.
+For the longest time, I wanted to be able to loop over a column and place the grade point in a new column. I finally accomplished this task. Here is the basic code.
+lang_pts &amp;lt;- numeric(0) for(i in mq1_lang$langGrade){ lang_pts&amp;lt;- c(lang_pts,switch(i, &amp;quot;A&amp;quot; =4, &amp;quot;B&amp;quot;=3, &amp;quot;C&amp;quot;=2, &amp;quot;D&amp;quot;=1, &amp;quot;F&amp;quot;=0, &amp;quot;I&amp;quot;=0)) lang_pts } mq1_lang &amp;lt;- cbind(mq1_lang, lang_pts)  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metallica on R for the rest of us</title>
+    <link>/categories/metallica/</link>
+    <description>Recent content in Metallica on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/metallica/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Metallica Concerts, Maps,  &amp; R</title>
+      <link>/2017/05/26/metallica-concerts-maps-r/</link>
+      <pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/05/26/metallica-concerts-maps-r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metallica, Maps, and R</title>
+      <link>/2017/05/26/metallica-maps-and-r/</link>
+      <pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/05/26/metallica-maps-and-r/</guid>
+      <description>library(leaflet)## Warning: package &amp;#39;leaflet&amp;#39; was built under R version 3.4.0library(tidyverse)## Warning: package &amp;#39;tidyverse&amp;#39; was built under R version 3.4.0## Loading tidyverse: ggplot2## Loading tidyverse: tibble## Loading tidyverse: tidyr## Loading tidyverse: readr## Loading tidyverse: purrr## Loading tidyverse: dplyr## Warning: package &amp;#39;ggplot2&amp;#39; was built under R version 3.4.0## Warning: package &amp;#39;tibble&amp;#39; was built under R version 3.</description>
+    </item>
+    
+  </channel>
+</rss>

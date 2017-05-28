@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knitr on R for the rest of us</title>
+    <link>/tags/knitr/</link>
+    <description>Recent content in Knitr on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/knitr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Special Moments</title>
+      <link>/1/01/01/special-moments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/special-moments/</guid>
+      <description>Special moments Last Saturday, I spent a couple of hours troubleshooting why I could not successfully render an image in my markdown file. I put the concern has an issue on my Github repository. I was using forward and back slashes, changing the working directory. I was thinking about funny tweets to send about this, I was looking on Stack Overflow.
+While driving around with my wife and kids to pick up produce it dawned on me; I should not be putting the script in a chunk as it is not r code.</description>
+    </item>
+    
+  </channel>
+</rss>

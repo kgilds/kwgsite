@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Str on R for the rest of us</title>
+    <link>/tags/str/</link>
+    <description>Recent content in Str on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/str/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Str Function</title>
+      <link>/1/01/01/str-function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/str-function/</guid>
+      <description>Str function The str function lets you take a look at the underlying structure of your data object. This function is useful for troubleshooting. I was having fun with factors and was able to compare my factor levels from one object to the next.
+str(&amp;quot;object&amp;quot;)  Using the str function I was able to see the issue and make the corrected change.</description>
+    </item>
+    
+  </channel>
+</rss>

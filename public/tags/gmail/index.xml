@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gmail on R for the rest of us</title>
+    <link>/tags/gmail/</link>
+    <description>Recent content in Gmail on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R Fun and updates</title>
+      <link>/1/01/01/r-fun-and-updates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/r-fun-and-updates/</guid>
+      <description>Github I think I finally learned to use Github correctly. This is pretty basic so if you understand Github you may want to stop reading now.
+The master branch should be the code that is currently working. If one wants to add development or try something put in a branch to be sure that it works.
+Here is the video that helped me understand this. video
+I have used it and made fairly basic updates and they seemed to merge ok.</description>
+    </item>
+    
+  </channel>
+</rss>
