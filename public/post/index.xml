@@ -32,6 +32,16 @@ To solve, I used the new Git desktop feature (https://desktop.github.com/) and i
     </item>
     
     <item>
+      <title>makefiles and automation</title>
+      <link>/2016/10/20/makefiles-and-automation/</link>
+      <pubDate>Thu, 20 Oct 2016 21:13:14 -0500</pubDate>
+      
+      <guid>/2016/10/20/makefiles-and-automation/</guid>
+      <description>I have been working on trying to automate my workflow and want to learn to utilzie a makefile system to run a status report. To be honest, I am struggling to understand what I am reading from the tutorials.
+Next step will be to clone the repository and work through the examples.</description>
+    </item>
+    
+    <item>
       <title>Hello R Markdown</title>
       <link>/2015/07/23/hello-r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -62,16 +72,6 @@ The line of code above has dramatically improved my workflow. The render functio
 Ultimately, I still want to use the makefile feature but this process has helped identify the structure.
 Here is a snippet of how the automation works
 Created an Rmd file that does the following</description>
-    </item>
-    
-    <item>
-      <title>makefiles and automation</title>
-      <link>/1/01/01/makefiles-and-automation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/makefiles-and-automation/</guid>
-      <description>I have been working on trying to automate my workflow and want to learn to utilzie a makefile system to run a status report. To be honest, I am struggling to understand what I am reading from the tutorials.
-Next step will be to clone the repository and work through the examples.</description>
     </item>
     
   </channel>
