@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workflowy on R for the rest of us</title>
+    <link>/tags/workflowy/</link>
+    <description>Recent content in Workflowy on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Nov 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/workflowy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Workflow</title>
+      <link>/2016/11/26/workflow/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/11/26/workflow/</guid>
+      <description>I have managed nonprofit evaluation projects with Github, Trello, Slack and WorkFlowy. Github and Trello are more for Task managment and there is some redundancy to the process but I make every attempt to integrate these tools.
+What I think gets lost with Github, Trello, and Slack is that it is hard to see the entire picture. Workflowy is a narrative of what is going on with a project. The best part is being able to hide and then easily bring back content.</description>
+    </item>
+    
+  </channel>
+</rss>

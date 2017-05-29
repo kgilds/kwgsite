@@ -32,6 +32,29 @@ To solve, I used the new Git desktop feature (https://desktop.github.com/) and i
     </item>
     
     <item>
+      <title>Workflow</title>
+      <link>/2016/11/26/workflow/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/11/26/workflow/</guid>
+      <description>I have managed nonprofit evaluation projects with Github, Trello, Slack and WorkFlowy. Github and Trello are more for Task managment and there is some redundancy to the process but I make every attempt to integrate these tools.
+What I think gets lost with Github, Trello, and Slack is that it is hard to see the entire picture. Workflowy is a narrative of what is going on with a project. The best part is being able to hide and then easily bring back content.</description>
+    </item>
+    
+    <item>
+      <title>hacked automation</title>
+      <link>/2016/11/05/hacked-automation/</link>
+      <pubDate>Sat, 05 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/11/05/hacked-automation/</guid>
+      <description>rmarkdown::render(“file.name”)
+The line of code above has dramatically improved my workflow. The render function helped me reach the goal of creating an automated system of creating a status report and share data in a more efficient manner.
+Ultimately, I still want to use the makefile feature but this process has helped identify the structure.
+Here is a snippet of how the automation works
+Created an Rmd file that does the following</description>
+    </item>
+    
+    <item>
       <title>makefiles and automation</title>
       <link>/2016/10/20/makefiles-and-automation/</link>
       <pubDate>Thu, 20 Oct 2016 21:13:14 -0500</pubDate>
