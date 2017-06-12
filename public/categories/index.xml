@@ -30,6 +30,24 @@
     </item>
     
     <item>
+      <title>Craftsmanship</title>
+      <link>/categories/craftsmanship/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/craftsmanship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Management</title>
+      <link>/categories/data-management/</link>
+      <pubDate>Sun, 11 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/data-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>/categories/git/</link>
       <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
@@ -39,9 +57,18 @@
     </item>
     
     <item>
+      <title>Podcast</title>
+      <link>/categories/podcast/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/categories/r/</link>
-      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/categories/r/</guid>
       <description></description>

@@ -6,10 +6,28 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jun 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nonprofits and Data Management</title>
+      <link>/2017/06/11/nonprofits-and-data-management/</link>
+      <pubDate>Sun, 11 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/11/nonprofits-and-data-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Craftsmanship</title>
+      <link>/2017/06/03/craftsmanship/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/03/craftsmanship/</guid>
+      <description>I have been thinking a lot about craftsmanship and trying to improve my work habits. I listened to a podcast that featured Vince Vaugn, and I was impressed with Vaughn&amp;rsquo;s story. Vaughn&amp;rsquo;s commitment to the craft of acting came through in the episode. In most cases, we rarely think about the process or the journey people take on their road to success. One aspect that stuck out what his commitment to the process and working to get better at acting.</description>
+    </item>
     
     <item>
       <title>Blogdown lessons</title>
@@ -70,9 +88,8 @@ Next step will be to clone the repository and work through the examples.</descri
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
       <guid>/about/</guid>
-      <description>My name is Kevin Gilds, and I am a professional in the nonprofit sector. I use R and Github to manage nonprofit evaluation work.
-I have been successful at wrangling nonprofit program data to help staff and improve efficiency.
-Praying to connect with other R users and who know what Github is.</description>
+      <description>My name is Kevin Gilds, and I am a professional in the nonprofit sector.I have been successful at wrangling nonprofit program data and developing methods to make procesing data easier for staff. I use R and Git to manage and automate the evaluaiton of a state wide mentoring program.
+The title of this blog is R for the rest of us. The phrase R has a steep learning cure is true and I want to assist anyone who is attempting to leap up to the R language and feel lost.</description>
     </item>
     
     <item>

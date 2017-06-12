@@ -6,10 +6,28 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jun 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nonprofits and Data Management</title>
+      <link>/2017/06/11/nonprofits-and-data-management/</link>
+      <pubDate>Sun, 11 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/11/nonprofits-and-data-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Craftsmanship</title>
+      <link>/2017/06/03/craftsmanship/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/03/craftsmanship/</guid>
+      <description>I have been thinking a lot about craftsmanship and trying to improve my work habits. I listened to a podcast that featured Vince Vaugn, and I was impressed with Vaughn&amp;rsquo;s story. Vaughn&amp;rsquo;s commitment to the craft of acting came through in the episode. In most cases, we rarely think about the process or the journey people take on their road to success. One aspect that stuck out what his commitment to the process and working to get better at acting.</description>
+    </item>
     
     <item>
       <title>Blogdown lessons</title>
