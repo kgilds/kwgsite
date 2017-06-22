@@ -18,7 +18,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     url = "https://github.com/kgilds"
 [[menu.main]]
     name = "Twitter"
-    url = "https://twitter.com/kevn_gilds"
+    url = "https://twitter.com/kevin_gilds"
 
 [params]
     description = "R for the rest of us."
