@@ -5,18 +5,18 @@ date: '2016-05-05T21:48:51-07:00'
 
 # Kevin Gilds, MPA
 
-The title of this blog is *R for the rest of us*. The phrase R has a steep learning curve is true, and I hope to assist anyone who is attempting to leap up to the R from spreadsheets.
+The title of this blog is *R for the rest of us*. The phrase R has a steep learning curve is true, and I hope to assist anyone who is attempting to leap up to R from spreadsheets.
 
-I use R and Git to manage and automate the evaluation of Get REAL! a state wide mentoring program. I came to R from a unique path--the social service sector.
+I use R and Git to manage and automate the evaluation of [Get REAL!](http://www.fldoe.org/schools/family-community/activities-programs/mentoring_student_assistance.stml) a state wide mentoring program. I came to R from a unique path--the social service sector.
 
-Currently working as a Veteran Services Contract Coordinator at the Senior Connection Center. This positon allows me to use my unique blend of social service experience and data management skills. 
+Currently  I work as the Veteran Services Contract Coordinator at the [Senior Connection Center](http://seniorconnectioncenter.org/). This positon allows me to use my unique blend of social service experience and data management skills.
 
-Learning R and basic data science has heled me wrangle nonprofit program data and developing methods to make data processing and reporting easier.  
+Learning R and basic data science has heled me wrangle nonprofit program data and develop methods to make data processing and reporting easier.  
 
 ## Areas of Interest:
-*Youth aging out of foster care* I worked in the child welfare system for 7 years both as a direct service worker and in quality assurance. A great experience was working with the *Jim Casey Youth Opportunities Initiative* and serving on their self-evaluation team. This is the time,.
+*Youth aging out of foster care* I worked in the child welfare system for 7 years both as a direct service worker and in quality assurance. A great experience was working with the [*Jim Casey Youth Opportunities Initiative*](http://www.aecf.org/work/child-welfare/jim-casey-youth-opportunities-initiative/) and serving on their self-evaluation team. This is the time,.
 
-### Articles pertaining to child welfare
+### College pertaining to child welfare
 
 Masters Capstone Project: [Cash vs. government service](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxwb3J0a2V2aW5naWxkc3xneDo0ODk5OGY1Y2UzMjNmZGNi)
 
