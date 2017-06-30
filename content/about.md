@@ -16,7 +16,7 @@ I work as the Veteran Services Contract Coordinator at the [Senior Connection Ce
 ## Areas of Interest:
 *Youth aging out of foster care* I worked in the child welfare system for 7 years both as a direct service worker and in quality assurance. A great experience was working with the [*Jim Casey Youth Opportunities Initiative*](http://www.aecf.org/work/child-welfare/jim-casey-youth-opportunities-initiative/) and serving on their self-evaluation team.
 
-### College pertaining to child welfare
+### College papers pertaining to child welfare
 
 Masters Capstone Project: [Cash vs. government service](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxwb3J0a2V2aW5naWxkc3xneDo0ODk5OGY1Y2UzMjNmZGNi)
 
