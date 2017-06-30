@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2017/06/23/leadership-development/</loc>
+    <lastmod>2017-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/06/11/nonprofits-and-data-management/</loc>
     <lastmod>2017-06-11T00:00:00+00:00</lastmod>
   </url>
@@ -94,6 +99,12 @@
   </url>
   
   <url>
+    <loc>/categories/leadership/</loc>
+    <lastmod>2017-06-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/makefiles/</loc>
     <lastmod>2016-10-20T21:13:14-05:00</lastmod>
     <priority>0</priority>
@@ -113,7 +124,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-06-11T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -131,7 +142,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-06-11T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
