@@ -7,9 +7,9 @@ date: '2016-05-05T21:48:51-07:00'
 
 The title of this blog is *R for the rest of us*. The phrase R has a steep learning curve is true, and I hope to assist anyone leap up to *R* from spreadsheets.
 
-I came to *R* from a unique path--the social service sector. Currently, I  use *R* to manage and automate the evaluation of [Get REAL!](http://www.fldoe.org/schools/family-community/activities-programs/mentoring_student_assistance.stml)-- a state wide mentoring program.
+I came to *R* from a unique path--the social service sector. Currently, I use *R* to manage and automate the evaluation of [Get REAL!](http://www.fldoe.org/schools/family-community/activities-programs/mentoring_student_assistance.stml)-- a state wide mentoring program.
 
-Learning *R* and basic data science has heled me wrangle nonprofit program data and develop methods to make data processing and reporting easier.  
+Learning *R* and basic data science has helped me wrangle nonprofit program data and develop methods to make data processing and reporting easier.  
 
 I work as the Veteran Services Contract Coordinator at the [Senior Connection Center](http://seniorconnectioncenter.org/). This positon allows me to use my unique blend of social service experience and data management skills.
 
