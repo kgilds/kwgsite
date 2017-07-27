@@ -126,5 +126,14 @@ Here is a snippet of how the automation works
 Created an Rmd file that does the following</description>
     </item>
     
+    <item>
+      <title>metallica</title>
+      <link>/1/01/01/metallica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/metallica/</guid>
+      <description>library(leaflet)## Warning: package &amp;#39;leaflet&amp;#39; was built under R version 3.4.0metallica &amp;lt;-read.csv(&amp;quot;Mettalica.csv&amp;quot;)data &amp;lt;- data.frame(id = 1:6,content = c(&amp;quot;Senior Connection Center&amp;quot; , &amp;quot;Evaluation Consultant&amp;quot; ,&amp;quot;Girl Scouts of WCF&amp;quot;, &amp;quot;Career Source Pinellas&amp;quot;, &amp;quot;Cby25 Initiative&amp;quot;, &amp;quot;Camelot Community Care&amp;quot;),start = c(&amp;quot;2013-07-13&amp;quot;, &amp;quot;2013-09-01&amp;quot;, &amp;quot;2011-07-08&amp;quot;, &amp;quot;2011-01-10&amp;quot;,&amp;quot;2010-01-08&amp;quot;, &amp;quot;2007-04-2017&amp;quot; ),end = c(NA,NA, NA, NA, NA, NA))Iowa_met &amp;lt;- data.frame (Date =c(J))leaflet(data = metallica) %&amp;gt;% addTiles() %&amp;gt;%addMarkers(~lng, ~lat, popup = ~as.</description>
+    </item>
+    
   </channel>
 </rss>

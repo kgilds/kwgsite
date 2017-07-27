@@ -99,6 +99,10 @@
   </url>
   
   <url>
+    <loc>/kevins_resume/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/leadership/</loc>
     <lastmod>2017-06-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -166,6 +170,10 @@
   
   <url>
     <loc>/1/01/01/hacked-automation/</loc>
+  </url>
+  
+  <url>
+    <loc>/1/01/01/metallica/</loc>
   </url>
   
 </urlset>
