@@ -124,22 +124,21 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </item>
     
     <item>
-      <title></title>
-      <link>/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/resume/</guid>
-      <description>KEVIN W. GILDS, MPA    Cell: 863-399-4363 email: kevingilds@gmail.com Lakeland, FL      Skill Summary Excel/Access|Calculate/Interpret Statistics|R Programming | Git/Github | SQL &amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;| &amp;mdash;|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;|
-Work Experience PROJECT MANAGMENT
- Led team in managing the process of helping seniors obtain eligibility for Long Term Care Services: assigned workloads, set milestones, and monitored progress of monthly releases, resulting in achieving performance measures every month over 2 years.</description>
-    </item>
-    
-    <item>
       <title>KEVIN W. GILDS, MPA</title>
       <link>/kevins_resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/kevins_resume/</guid>
+      <description>Cell: 863-399-4363email: kevingilds@gmail.comLakeland, FLSkill SummaryExcel/AccessCalculate/Interpret StatisticsR ProgrammingGit/GithubSQLWork ExperiencePROJECT MANAGMENT
+Led team in managing the process of helping seniors obtain eligibility for Long Term Care Services: assigned workloads, set milestones, and monitored progress of monthly releases, resulting in achieving performance measures every month over 2 years.</description>
+    </item>
+    
+    <item>
+      <title>KEVIN W. GILDS, MPA</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
       <description>Cell: 863-399-4363email: kevingilds@gmail.comLakeland, FLSkill SummaryExcel/AccessCalculate/Interpret StatisticsR ProgrammingGit/GithubSQLWork ExperiencePROJECT MANAGMENT
 Led team in managing the process of helping seniors obtain eligibility for Long Term Care Services: assigned workloads, set milestones, and monitored progress of monthly releases, resulting in achieving performance measures every month over 2 years.</description>
     </item>
