@@ -6,10 +6,22 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Debugging</title>
+      <link>/2017/09/02/debugging/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/09/02/debugging/</guid>
+      <description> An approach to debugging Take the approach that most likely it is your fault that something is not working. You are simply not providing clear enough directions to the computer&amp;ndash;Your computer is simple and has no grit to problem solve your sloppiness.
+Be thankful that that the computer is throwing an error rather giving a result that is wrong.
+My approach to debugging accounts for the following:
+ Data Types Spaces Syntax Errors and missing commas Other silly mistakes  </description>
+    </item>
     
     <item>
       <title>Leadership Development</title>
