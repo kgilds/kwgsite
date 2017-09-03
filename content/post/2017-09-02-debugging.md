@@ -23,6 +23,7 @@ My approach to debugging accounts for the following:
 * Data Types
 * Spaces
 * Syntax Errors and missing commas
+* Updated package/library
 * Other silly mistakes
 
 
