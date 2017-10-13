@@ -1,0 +1,80 @@
+---
+title: Where have you been my whole R Life
+author: Kevin Gilds
+date: '2017-09-30'
+categories:
+  - R, if_else, workflow
+tags:
+  - if_else
+  - mutate
+  - workflow
+description: Mutate and If_Else Partnership
+
+---
+
+I hav been using the mutate function in dplyr for about a year now. However, I recently disovered a useful partner in the if_else function. 
+
+Ultimately, this is having a big impact on my workflow. 
+
+Below is my previous workflow. I would make seperate data frames and then bind the data frames together to run counts on the variables of interests.
+
+
+
+```{r eval=FALSE}
+
+lang_success_s <- langarts %>%
+	filter(final >=2, pt_diff >=0)%>% #segment students with a final grade of C or higher and either maintained or increased their grade)
+	mutate("Success" = "TRUE") #add variable Success
+
+dim(lang_success_s)
+
+lang_success_n <- langarts %>%
+	filter(final >=2, pt_diff < 0) %>% #segment students with  final Grade C or higher but decreased their grade
+	mutate("Success" = "FALSE") # add variable Succes and fill in with false. 
+
+dim(lang_success_n)
+
+#nrow(read_success_n)
+
+lang_success_x <- langarts %>%
+	filter(final < 2) %>%  #segment students with a final grade less than C
+	mutate("Success" = "FALSE") #add Success column and fill in with false
+
+
+dim(lang_success_x)
+
+lang_success_1 <- rbind(lang_success_s, lang_success_n) #bind data fram lang_success_s, lang_success_n together. 
+
+lang_success_2 <- rbind(lang_success_1, lang_success_x) #bind data frame lang success_1 and lang_success_x
+
+
+
+```
+
+
+I ran across this [R-Studio presentation](https://rstudio-pubs-static.s3.amazonaws.com/116317_e6922e81e72e4e3f83995485ce686c14.html#/) file about the combination of mutate and ifelse. 
+
+
+
+Here is the updated code
+
+
+```{r eval=FALSE}
+lang_s <- langarts %>%
+	group_by(council, Year_Id) %>%
+	mutate("Success" = if_else(final >=2 & pt_diff >=0, TRUE, FALSE)) %>% #add variable Success and if final is greater than 2 and pt_diff is 0 or greater then fill in Success. If else fill in FALSE. 
+	count(Success == TRUE)%>%
+	rename("Success" = "Success == TRUE") %>%
+	filter(Success == TRUE)
+	
+lang_s
+```
+
+Currently, I am working to make a change to my workflow and the distinction between raw and produced data. That is for another post. 
+
+
+`
+
+
+
+
