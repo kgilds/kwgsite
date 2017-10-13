@@ -21,11 +21,29 @@
     </item>
     
     <item>
+      <title>If_else</title>
+      <link>/tags/if_else/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/if_else/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Makefiles</title>
       <link>/tags/makefiles/</link>
       <pubDate>Thu, 20 Oct 2016 21:13:14 -0500</pubDate>
       
       <guid>/tags/makefiles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mutate</title>
+      <link>/tags/mutate/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mutate/</guid>
       <description></description>
     </item>
     
@@ -53,6 +71,15 @@
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>/tags/workflow/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/workflow/</guid>
       <description></description>
     </item>
     

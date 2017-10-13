@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>If_else on R for the rest of us</title>
+    <link>/tags/if_else/</link>
+    <description>Recent content in If_else on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/if_else/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Where have you been my whole R Life</title>
+      <link>/2017/09/30/where-have-you-been-my-whole-r-life/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/09/30/where-have-you-been-my-whole-r-life/</guid>
+      <description>I hav been using the mutate function in dplyr for about a year now. However, I recently disovered a useful partner in the if_else function.
+Ultimately, this is having a big impact on my workflow.
+Below is my previous workflow. I would make seperate data frames and then bind the data frames together to run counts on the variables of interests.
+lang_success_s &amp;lt;- langarts %&amp;gt;%filter(final &amp;gt;=2, pt_diff &amp;gt;=0)%&amp;gt;% #segment students with a final grade of C or higher and either maintained or increased their grade)mutate(&amp;quot;Success&amp;quot; = &amp;quot;TRUE&amp;quot;) #add variable Successdim(lang_success_s)lang_success_n &amp;lt;- langarts %&amp;gt;%filter(final &amp;gt;=2, pt_diff &amp;lt; 0) %&amp;gt;% #segment students with final Grade C or higher but decreased their grademutate(&amp;quot;Success&amp;quot; = &amp;quot;FALSE&amp;quot;) # add variable Succes and fill in with false.</description>
+    </item>
+    
+  </channel>
+</rss>
