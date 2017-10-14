@@ -6,10 +6,20 @@
     <description>Recent content in Craftsmanship on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/craftsmanship/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Scheduled Time</title>
+      <link>/2017/10/14/scheduled-time/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/10/14/scheduled-time/</guid>
+      <description>More on the book Deep Work. Cal Newport suggest scheduling every minute of your day.
+This is challenging&amp;ndash;it takes training and practice but it has had profound impact on my productivity and well being.</description>
+    </item>
     
     <item>
       <title>Converging to Deep Work</title>
