@@ -22,9 +22,6 @@ I figured there had to be better way. The following is an incremental improvemen
 ```{r eval=FALSE}
 
 
-
-setwd("~/getRealMY20172018/Produced_data")
-
 pre_council_dupes <- preDupes %>%
 	split.data.frame(.$council) #split the data frame into a list based on council
 	
