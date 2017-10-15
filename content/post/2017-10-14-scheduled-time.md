@@ -20,5 +20,13 @@ More on the book *Deep Work*.  Cal Newport suggest scheduling every minute of yo
 This is challenging--it takes training and practice but it has had profound impact on my productivity and well being. 
 
 
+	Everyone has a plan 'til they are punched in the mouth.--Mike Tyson 
+
+
+Tasks either take longer or get completed quicker than expected thus there is a lot of adjustment to the schedule but it is well worth the effort. 
+
+=
+
+
 
 
