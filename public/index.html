@@ -10,7 +10,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.20.7" />
+        <meta name="generator" content="Hugo 0.30.2" />
         
 
 
@@ -21,7 +21,9 @@
             
         
 
-        
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="R for the rest of us"/>
+<meta name="twitter:description" content="R for the rest of us."/>
+
         <meta property="og:title" content="R for the rest of us" />
 <meta property="og:description" content="R for the rest of us." />
 <meta property="og:type" content="website" />
@@ -29,7 +31,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-10-14T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2017-10-31T00:00:00&#43;00:00"/>
 
 
 
@@ -199,6 +201,10 @@
 
                 
                     <li>
+                        <a href="./2017/10/31/ubuntu/"><p>Ubuntu</p></a>
+                    </li>
+                
+                    <li>
                         <a href="./2017/10/14/reviewing-functions/"><p>Reviewing Functions</p></a>
                     </li>
                 
@@ -212,10 +218,6 @@
                 
                     <li>
                         <a href="./2017/09/04/converging-to-deep-work/"><p>Converging to Deep Work</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="./2017/09/02/debugging/"><p>Debugging</p></a>
                     </li>
                 
             </ul>
@@ -232,7 +234,7 @@
     <header>
     <div class="title">
         
-            <h2><a href="./2017/10/14/reviewing-functions/">Reviewing Functions</a></h2>
+            <h2><a href="./2017/10/31/ubuntu/">Ubuntu</a></h2>
         
         
     </div>
@@ -242,9 +244,9 @@
         
 
         <time class="published"
-            datetime='2017-10-14'>
-            October 14, 2017</time>
-        <span class="author">Kevin </span>
+            datetime='2017-10-31'>
+            October 31, 2017</time>
+        <span class="author">Kevin</span>
         
         
     </div>
@@ -256,43 +258,43 @@
             
 
 
-<li><a href="//twitter.com/share?url=%2f2017%2f10%2f14%2freviewing-functions%2f&text=Reviewing%20Functions&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2017%2f10%2f31%2fubuntu%2f&text=Ubuntu&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=%2f2017%2f10%2f14%2freviewing-functions%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=%2f2017%2f10%2f31%2fubuntu%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f10%2f14%2freviewing-functions%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f10%2f31%2fubuntu%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2017%2f10%2f14%2freviewing-functions%2f&title=Reviewing%20Functions" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2017%2f10%2f31%2fubuntu%2f&title=Ubuntu" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f10%2f14%2freviewing-functions%2f&title=Reviewing%20Functions" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f10%2f31%2fubuntu%2f&title=Ubuntu" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f10%2f14%2freviewing-functions%2f&title=Reviewing%20Functions" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f10%2f31%2fubuntu%2f&title=Ubuntu" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by Kevin%20&body=%2f2017%2f10%2f14%2freviewing-functions%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2017%2f10%2f31%2fubuntu%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -302,21 +304,7 @@
     
 
     <div id="content">
-        <p>I am starting on the new year of project and was revisiting some functions. I had a function that created a csv file of duplicate values for every organization that submitted data. The function was useful but a pain to run the function for every organization on separate chunks.</p>
-<p>I figured there had to be better way. The following is an incremental improvement to the old process but I do have a sense there is a better way.</p>
-<pre class="r"><code>pre_council_dupes &lt;- preDupes %&gt;%
-    split.data.frame(.$council) #split the data frame into a list based on council
-    
-
-
-for (council in names(pre_council_dupes)){  #loop over the list based on names
-    write.csv(pre_council_dupes[[council]], paste0(council,&quot;_pre_student_dupes.csv&quot;)) #write a csv file based on pre_council_dupes object subsetted by council, paste name of council into file name  the _pre_student_dupes.csv is the rest of the file name
-    
-    
-}
-
-pre_council_dupes</code></pre>
-<p>```</p>
+        <p>I finally did it. I bought a refrubished laptop and installed Ubuntu to run R. Thus far so good.</p>
 
     </div>
 
@@ -342,9 +330,9 @@ pre_council_dupes</code></pre>
 
     
     
-        <li><a href='./categories/r'>R</a></li>
+        <li><a href='./categories/ubuntu'>ubuntu</a></li>
     
-        <li><a href='./categories/functions'>functions</a></li>
+        <li><a href='./categories/linux'>linux</a></li>
     
 </ul>
 
@@ -352,8 +340,8 @@ pre_council_dupes</code></pre>
 </article>
 <ul class="actions pagination">
     
-        <li><a href="./2017/10/14/scheduled-time/"
-                class="button big previous">Scheduled Time</a></li>
+        <li><a href="./2017/10/14/reviewing-functions/"
+                class="button big previous">Reviewing Functions</a></li>
     
 
     
@@ -372,43 +360,43 @@ pre_council_dupes</code></pre>
             
 
 
-<li><a href="//twitter.com/share?url=%2f2017%2f10%2f14%2freviewing-functions%2f&text=Reviewing%20Functions&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2017%2f10%2f31%2fubuntu%2f&text=Ubuntu&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=%2f2017%2f10%2f14%2freviewing-functions%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=%2f2017%2f10%2f31%2fubuntu%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f10%2f14%2freviewing-functions%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f10%2f31%2fubuntu%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2017%2f10%2f14%2freviewing-functions%2f&title=Reviewing%20Functions" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2017%2f10%2f31%2fubuntu%2f&title=Ubuntu" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f10%2f14%2freviewing-functions%2f&title=Reviewing%20Functions" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f10%2f31%2fubuntu%2f&title=Ubuntu" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f10%2f14%2freviewing-functions%2f&title=Reviewing%20Functions" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f10%2f31%2fubuntu%2f&title=Ubuntu" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by Kevin%20&body=%2f2017%2f10%2f14%2freviewing-functions%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2017%2f10%2f31%2fubuntu%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -450,6 +438,20 @@ pre_council_dupes</code></pre>
                     
                 
 
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="./2017/10/31/ubuntu/">Ubuntu</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-10-31'>
+                                    October 31, 2017</time>
+                            </header>
+                        </article>
+                    </li>
                 
                     <li>
                         <article>
@@ -503,20 +505,6 @@ pre_council_dupes</code></pre>
                                 <time class="published" datetime=
                                     '2017-09-04'>
                                     September 4, 2017</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="./2017/09/02/debugging/">Debugging</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2017-09-02'>
-                                    September 2, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -617,6 +605,15 @@ pre_council_dupes</code></pre>
                     <li>
                         <article>
                             <header>
+                                <a href="./categories/linux/">linux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="./categories/podcast/">podcast</a>
                                 <span style="float:right;">1</span>
                             </header>
@@ -636,6 +633,15 @@ pre_council_dupes</code></pre>
                         <article>
                             <header>
                                 <a href="./categories/r-if_else-workflow/">r-if_else-workflow</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="./categories/ubuntu/">ubuntu</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>

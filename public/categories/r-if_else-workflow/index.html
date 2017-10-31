@@ -18,7 +18,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.20.7" />
+        <meta name="generator" content="Hugo 0.30.2" />
         
 
 
@@ -29,7 +29,9 @@
             
         
 
-        
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="R If_else Workflow"/>
+<meta name="twitter:description" content="R for the rest of us."/>
+
         <meta property="og:title" content="R If_else Workflow" />
 <meta property="og:description" content="R for the rest of us." />
 <meta property="og:type" content="website" />
@@ -202,6 +204,10 @@
 
                 
                     <li>
+                        <a href="../../2017/10/31/ubuntu/"><p>Ubuntu</p></a>
+                    </li>
+                
+                    <li>
                         <a href="../../2017/10/14/reviewing-functions/"><p>Reviewing Functions</p></a>
                     </li>
                 
@@ -215,10 +221,6 @@
                 
                     <li>
                         <a href="../../2017/09/04/converging-to-deep-work/"><p>Converging to Deep Work</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="../../2017/09/02/debugging/"><p>Debugging</p></a>
                     </li>
                 
             </ul>
@@ -262,13 +264,7 @@
     <p>I hav been using the mutate function in dplyr for about a year now. However, I recently disovered a useful partner in the if_else function.
 Ultimately, this is having a big impact on my workflow.
 Below is my previous workflow. I would make seperate data frames and then bind the data frames together to run counts on the variables of interests.
-lang_success_s &lt;- langarts %&gt;%
-filter(final &gt;=2, pt_diff &gt;=0)%&gt;% #segment students with a final grade of C or higher and either maintained or increased their grade)
-mutate(&quot;Success&quot; = &quot;TRUE&quot;) #add variable Success
-dim(lang_success_s)
-lang_success_n &lt;- langarts %&gt;%
-filter(final &gt;=2, pt_diff &lt; 0) %&gt;% #segment students with final Grade C or higher but decreased their grade
-mutate(&quot;Success&quot; = &quot;FALSE&quot;) # add variable Succes and fill in with false.</p>
+lang_success_s &lt;- langarts %&gt;% filter(final &gt;=2, pt_diff &gt;=0)%&gt;% #segment students with a final grade of C or higher and either maintained or increased their grade) mutate(&quot;Success&quot; = &quot;TRUE&quot;) #add variable Success dim(lang_success_s) lang_success_n &lt;- langarts %&gt;% filter(final &gt;=2, pt_diff &lt; 0) %&gt;% #segment students with final Grade C or higher but decreased their grade mutate(&quot;Success&quot; = &quot;FALSE&quot;) # add variable Succes and fill in with false.</p>
 
     <footer>
         <ul class="actions">
@@ -351,6 +347,20 @@ mutate(&quot;Success&quot; = &quot;FALSE&quot;) # add variable Succes and fill i
                     <li>
                         <article>
                             <header>
+                                <h3><a href="../../2017/10/31/ubuntu/">Ubuntu</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-10-31'>
+                                    October 31, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <h3><a href="../../2017/10/14/reviewing-functions/">Reviewing Functions</a></h3>
                                 
                                     
@@ -400,20 +410,6 @@ mutate(&quot;Success&quot; = &quot;FALSE&quot;) # add variable Succes and fill i
                                 <time class="published" datetime=
                                     '2017-09-04'>
                                     September 4, 2017</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="../../2017/09/02/debugging/">Debugging</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2017-09-02'>
-                                    September 2, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -514,6 +510,15 @@ mutate(&quot;Success&quot; = &quot;FALSE&quot;) # add variable Succes and fill i
                     <li>
                         <article>
                             <header>
+                                <a href="../../categories/linux/">linux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="../../categories/podcast/">podcast</a>
                                 <span style="float:right;">1</span>
                             </header>
@@ -533,6 +538,15 @@ mutate(&quot;Success&quot; = &quot;FALSE&quot;) # add variable Succes and fill i
                         <article>
                             <header>
                                 <a href="../../categories/r-if_else-workflow/">r-if_else-workflow</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/ubuntu/">ubuntu</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>

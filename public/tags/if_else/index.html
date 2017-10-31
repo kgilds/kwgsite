@@ -16,7 +16,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.20.7" />
+        <meta name="generator" content="Hugo 0.30.2" />
         
 
 
@@ -27,7 +27,9 @@
             
         
 
-        
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="If_else"/>
+<meta name="twitter:description" content="R for the rest of us."/>
+
         <meta property="og:title" content="If_else" />
 <meta property="og:description" content="R for the rest of us." />
 <meta property="og:type" content="website" />
@@ -200,6 +202,10 @@
 
                 
                     <li>
+                        <a href="../../2017/10/31/ubuntu/"><p>Ubuntu</p></a>
+                    </li>
+                
+                    <li>
                         <a href="../../2017/10/14/reviewing-functions/"><p>Reviewing Functions</p></a>
                     </li>
                 
@@ -215,10 +221,6 @@
                         <a href="../../2017/09/04/converging-to-deep-work/"><p>Converging to Deep Work</p></a>
                     </li>
                 
-                    <li>
-                        <a href="../../2017/09/02/debugging/"><p>Debugging</p></a>
-                    </li>
-                
             </ul>
         </section>
 
@@ -232,6 +234,67 @@
         
             
         
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../2017/10/31/ubuntu/">Ubuntu</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-10-31'>
+            October 31, 2017</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>I finally did it. I bought a refrubished laptop and installed Ubuntu to run R. Thus far so good.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../2017/10/31/ubuntu/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../categories/ubuntu'>ubuntu</a></li>
+    
+        <li><a href='../../categories/linux'>linux</a></li>
+    
+</ul>
+
+    </footer>
+</article>
 
         
             <article class="post">
@@ -388,13 +451,7 @@ Everyone has a plan &lsquo;til they are punched in the mouth.&ndash;Mike Tyson  
     <p>I hav been using the mutate function in dplyr for about a year now. However, I recently disovered a useful partner in the if_else function.
 Ultimately, this is having a big impact on my workflow.
 Below is my previous workflow. I would make seperate data frames and then bind the data frames together to run counts on the variables of interests.
-lang_success_s &lt;- langarts %&gt;%
-filter(final &gt;=2, pt_diff &gt;=0)%&gt;% #segment students with a final grade of C or higher and either maintained or increased their grade)
-mutate(&quot;Success&quot; = &quot;TRUE&quot;) #add variable Success
-dim(lang_success_s)
-lang_success_n &lt;- langarts %&gt;%
-filter(final &gt;=2, pt_diff &lt; 0) %&gt;% #segment students with final Grade C or higher but decreased their grade
-mutate(&quot;Success&quot; = &quot;FALSE&quot;) # add variable Succes and fill in with false.</p>
+lang_success_s &lt;- langarts %&gt;% filter(final &gt;=2, pt_diff &gt;=0)%&gt;% #segment students with a final grade of C or higher and either maintained or increased their grade) mutate(&quot;Success&quot; = &quot;TRUE&quot;) #add variable Success dim(lang_success_s) lang_success_n &lt;- langarts %&gt;% filter(final &gt;=2, pt_diff &lt; 0) %&gt;% #segment students with final Grade C or higher but decreased their grade mutate(&quot;Success&quot; = &quot;FALSE&quot;) # add variable Succes and fill in with false.</p>
 
     <footer>
         <ul class="actions">
@@ -798,48 +855,6 @@ To solve, I used the new Git desktop feature (<a href="https://desktop.github.co
 </article>
 
         
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="../../2016/12/30/a-plain-markdown-post/">A Plain Markdown Post</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2016-12-30'>
-            December 30, 2016</time>
-        <span class="author"></span>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>This is a post written in plain Markdown (<em>.md) instead of R Markdown (</em>.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&rsquo;s Markdown and Pandoc&rsquo;s Markdown.</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="../../2016/12/30/a-plain-markdown-post/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-
-    
-    
-</ul>
-
-    </footer>
-</article>
-
-        
 
         
 <ul class="actions pagination">
@@ -885,6 +900,20 @@ To solve, I used the new Git desktop feature (<a href="https://desktop.github.co
                     
                 
 
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../2017/10/31/ubuntu/">Ubuntu</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-10-31'>
+                                    October 31, 2017</time>
+                            </header>
+                        </article>
+                    </li>
                 
                     <li>
                         <article>
@@ -938,20 +967,6 @@ To solve, I used the new Git desktop feature (<a href="https://desktop.github.co
                                 <time class="published" datetime=
                                     '2017-09-04'>
                                     September 4, 2017</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="../../2017/09/02/debugging/">Debugging</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2017-09-02'>
-                                    September 2, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -1052,6 +1067,15 @@ To solve, I used the new Git desktop feature (<a href="https://desktop.github.co
                     <li>
                         <article>
                             <header>
+                                <a href="../../categories/linux/">linux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="../../categories/podcast/">podcast</a>
                                 <span style="float:right;">1</span>
                             </header>
@@ -1071,6 +1095,15 @@ To solve, I used the new Git desktop feature (<a href="https://desktop.github.co
                         <article>
                             <header>
                                 <a href="../../categories/r-if_else-workflow/">r-if_else-workflow</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/ubuntu/">ubuntu</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on R for the rest of us</title>
+    <link>/categories/ubuntu/</link>
+    <description>Recent content in Ubuntu on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>/2017/10/31/ubuntu/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/10/31/ubuntu/</guid>
+      <description>I finally did it. I bought a refrubished laptop and installed Ubuntu to run R. Thus far so good.</description>
+    </item>
+    
+  </channel>
+</rss>

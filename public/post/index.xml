@@ -6,10 +6,19 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>/2017/10/31/ubuntu/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/10/31/ubuntu/</guid>
+      <description>I finally did it. I bought a refrubished laptop and installed Ubuntu to run R. Thus far so good.</description>
+    </item>
     
     <item>
       <title>Reviewing Functions</title>
@@ -41,7 +50,7 @@ Everyone has a plan &#39;til they are punched in the mouth.--Mike Tyson  Tasks e
       <description>I hav been using the mutate function in dplyr for about a year now. However, I recently disovered a useful partner in the if_else function.
 Ultimately, this is having a big impact on my workflow.
 Below is my previous workflow. I would make seperate data frames and then bind the data frames together to run counts on the variables of interests.
-lang_success_s &amp;lt;- langarts %&amp;gt;%filter(final &amp;gt;=2, pt_diff &amp;gt;=0)%&amp;gt;% #segment students with a final grade of C or higher and either maintained or increased their grade)mutate(&amp;quot;Success&amp;quot; = &amp;quot;TRUE&amp;quot;) #add variable Successdim(lang_success_s)lang_success_n &amp;lt;- langarts %&amp;gt;%filter(final &amp;gt;=2, pt_diff &amp;lt; 0) %&amp;gt;% #segment students with final Grade C or higher but decreased their grademutate(&amp;quot;Success&amp;quot; = &amp;quot;FALSE&amp;quot;) # add variable Succes and fill in with false.</description>
+lang_success_s &amp;lt;- langarts %&amp;gt;% filter(final &amp;gt;=2, pt_diff &amp;gt;=0)%&amp;gt;% #segment students with a final grade of C or higher and either maintained or increased their grade) mutate(&amp;quot;Success&amp;quot; = &amp;quot;TRUE&amp;quot;) #add variable Success dim(lang_success_s) lang_success_n &amp;lt;- langarts %&amp;gt;% filter(final &amp;gt;=2, pt_diff &amp;lt; 0) %&amp;gt;% #segment students with final Grade C or higher but decreased their grade mutate(&amp;quot;Success&amp;quot; = &amp;quot;FALSE&amp;quot;) # add variable Succes and fill in with false.</description>
     </item>
     
     <item>
@@ -154,9 +163,9 @@ Next step will be to clone the repository and work through the examples.</descri
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/2015/07/23/hello-r-markdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
     </item>
     
     <item>
@@ -179,15 +188,6 @@ The line of code above has dramatically improved my workflow. The render functio
 Ultimately, I still want to use the makefile feature but this process has helped identify the structure.
 Here is a snippet of how the automation works
 Created an Rmd file that does the following</description>
-    </item>
-    
-    <item>
-      <title>metallica</title>
-      <link>/1/01/01/metallica/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/metallica/</guid>
-      <description>library(leaflet)## Warning: package &amp;#39;leaflet&amp;#39; was built under R version 3.4.0metallica &amp;lt;-read.csv(&amp;quot;Mettalica.csv&amp;quot;)data &amp;lt;- data.frame(id = 1:6,content = c(&amp;quot;Senior Connection Center&amp;quot; , &amp;quot;Evaluation Consultant&amp;quot; ,&amp;quot;Girl Scouts of WCF&amp;quot;, &amp;quot;Career Source Pinellas&amp;quot;, &amp;quot;Cby25 Initiative&amp;quot;, &amp;quot;Camelot Community Care&amp;quot;),start = c(&amp;quot;2013-07-13&amp;quot;, &amp;quot;2013-09-01&amp;quot;, &amp;quot;2011-07-08&amp;quot;, &amp;quot;2011-01-10&amp;quot;,&amp;quot;2010-01-08&amp;quot;, &amp;quot;2007-04-2017&amp;quot; ),end = c(NA,NA, NA, NA, NA, NA))Iowa_met &amp;lt;- data.frame (Date =c(J))leaflet(data = metallica) %&amp;gt;% addTiles() %&amp;gt;%addMarkers(~lng, ~lat, popup = ~as.</description>
     </item>
     
   </channel>

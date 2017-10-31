@@ -75,6 +75,15 @@
     </item>
     
     <item>
+      <title>Linux</title>
+      <link>/categories/linux/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Podcast</title>
       <link>/categories/podcast/</link>
       <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
@@ -98,6 +107,15 @@
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/categories/r-if_else-workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>/categories/ubuntu/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/ubuntu/</guid>
       <description></description>
     </item>
     

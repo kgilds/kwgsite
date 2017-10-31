@@ -16,7 +16,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.20.7" />
+        <meta name="generator" content="Hugo 0.30.2" />
         
 
 
@@ -27,7 +27,9 @@
             
         
 
-        
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="R Markdown"/>
+<meta name="twitter:description" content="R for the rest of us."/>
+
         <meta property="og:title" content="R Markdown" />
 <meta property="og:description" content="R for the rest of us." />
 <meta property="og:type" content="website" />
@@ -35,7 +37,7 @@
 
 
 
-<meta property="og:updated_time" content="2016-11-26T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2016-12-30T21:49:57-07:00"/>
 
 
 
@@ -200,6 +202,10 @@
 
                 
                     <li>
+                        <a href="../../../../2017/10/31/ubuntu/"><p>Ubuntu</p></a>
+                    </li>
+                
+                    <li>
                         <a href="../../../../2017/10/14/reviewing-functions/"><p>Reviewing Functions</p></a>
                     </li>
                 
@@ -215,10 +221,6 @@
                         <a href="../../../../2017/09/04/converging-to-deep-work/"><p>Converging to Deep Work</p></a>
                     </li>
                 
-                    <li>
-                        <a href="../../../../2017/09/02/debugging/"><p>Debugging</p></a>
-                    </li>
-                
             </ul>
         </section>
 
@@ -232,6 +234,48 @@
         
             
         
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../../../2016/12/30/a-plain-markdown-post/">A Plain Markdown Post</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2016-12-30'>
+            December 30, 2016</time>
+        <span class="author"></span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>This is a post written in plain Markdown (<em>.md) instead of R Markdown (</em>.Rmd). The major differences are:
+ You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&rsquo;s Markdown and Pandoc&rsquo;s Markdown.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../../../2016/12/30/a-plain-markdown-post/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+
+    
+    
+</ul>
+
+    </footer>
+</article>
 
         
             <article class="post">
@@ -423,13 +467,9 @@ Next step will be to clone the repository and work through the examples.</p>
 
     
 
-    <p>R Markdown
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com">http://rmarkdown.rstudio.com</a>.
+    <p>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com">http://rmarkdown.rstudio.com</a>.
 You can embed an R code chunk like this:
-summary(cars)</p>
-
-<h2 id="speed-dist-min-4-0-min-2-00-1st-qu-12-0-1st-qu-26-00-median-15-0-median-36-00-mean-15-4-mean-42-98-3rd-qu">speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</h2>
-</p>
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</p>
 
     <footer>
         <ul class="actions">
@@ -552,62 +592,6 @@ Created an Rmd file that does the following</p>
 </article>
 
         
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="../../../../1/01/01/metallica/">metallica</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='0001-01-01'>
-            January 1, 0001</time>
-        <span class="author">Kevin Gilds, MPA</span>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>library(leaflet)</p>
-
-<h2 id="warning-package-39-leaflet-39-was-built-under-r-version-3-4-0">Warning: package &#39;leaflet&#39; was built under R version 3.4.0</h2>
-
-<p>metallica &lt;-read.csv(&quot;Mettalica.csv&quot;)
-data &lt;- data.frame(
-id = 1:6,
-content = c(&quot;Senior Connection Center&quot; , &quot;Evaluation Consultant&quot; ,&quot;Girl Scouts of WCF&quot;, &quot;Career Source Pinellas&quot;, &quot;Cby25 Initiative&quot;, &quot;Camelot Community Care&quot;),
-start = c(&quot;2013-07-13&quot;, &quot;2013-09-01&quot;, &quot;2011-07-08&quot;, &quot;2011-01-10&quot;,&quot;2010-01-08&quot;, &quot;2007-04-2017&quot; ),
-end = c(NA,NA, NA, NA, NA, NA)
-)
-Iowa_met &lt;- data.frame (
-Date =c(J)
-)
-leaflet(data = metallica) %&gt;% addTiles() %&gt;%
-addMarkers(~lng, ~lat, popup = ~as.</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="../../../../1/01/01/metallica/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-
-    
-    
-</ul>
-
-    </footer>
-</article>
-
-        
 
         
 <ul class="actions pagination">
@@ -653,6 +637,20 @@ addMarkers(~lng, ~lat, popup = ~as.</p>
                     
                 
 
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../../../2017/10/31/ubuntu/">Ubuntu</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-10-31'>
+                                    October 31, 2017</time>
+                            </header>
+                        </article>
+                    </li>
                 
                     <li>
                         <article>
@@ -706,20 +704,6 @@ addMarkers(~lng, ~lat, popup = ~as.</p>
                                 <time class="published" datetime=
                                     '2017-09-04'>
                                     September 4, 2017</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="../../../../2017/09/02/debugging/">Debugging</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2017-09-02'>
-                                    September 2, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -820,6 +804,15 @@ addMarkers(~lng, ~lat, popup = ~as.</p>
                     <li>
                         <article>
                             <header>
+                                <a href="../../../../categories/linux/">linux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="../../../../categories/podcast/">podcast</a>
                                 <span style="float:right;">1</span>
                             </header>
@@ -839,6 +832,15 @@ addMarkers(~lng, ~lat, popup = ~as.</p>
                         <article>
                             <header>
                                 <a href="../../../../categories/r-if_else-workflow/">r-if_else-workflow</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/ubuntu/">ubuntu</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>
