@@ -17,7 +17,9 @@
       <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/10/31/ubuntu/</guid>
-      <description>I finally did it. I bought a refrubished laptop and installed Ubuntu to run R. Thus far so good.</description>
+      <description>I finally did it. I bought a refrubished laptop and installed Ubuntu to run R. The only trouble I had was installing R studio. It appears there are some challenges adding outside software on this platform&amp;ndash;Ubuntu 16.4
+This article helped me throught the process Install R, R-Studio on Ubuntu
+The only adjustment I had to make was to change the verison number of R-Studio I was downloading. Basically you update the version number; in my case instead of downloading 1.</description>
     </item>
     
     <item>
