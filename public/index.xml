@@ -6,10 +6,20 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>working directory</title>
+      <link>/2017/11/04/working-directory/</link>
+      <pubDate>Sat, 04 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/11/04/working-directory/</guid>
+      <description>One of the biggest challenges starting with R was understanding the concept of the working directory. This seems crazy in retrospect. However, a bad habit that festered was changing the working directory in the chunks of my Rmd files. I could not figure it how to make R read the data and I simply ignored the warnings.
+This fall I read some posts in R-Studio Community on workflow in R and I wanted to incorproate these techniques.</description>
+    </item>
     
     <item>
       <title>Ubuntu</title>

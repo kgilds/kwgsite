@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2017/11/04/working-directory/</loc>
+    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/10/31/ubuntu/</loc>
     <lastmod>2017-10-31T00:00:00+00:00</lastmod>
   </url>
@@ -118,6 +123,12 @@
   </url>
   
   <url>
+    <loc>/categories/computer-literacy/</loc>
+    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/craftsmanship/</loc>
     <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -199,13 +210,19 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-10-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -222,8 +239,14 @@
   </url>
   
   <url>
+    <loc>/categories/r-studio-community/</loc>
+    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2017-10-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

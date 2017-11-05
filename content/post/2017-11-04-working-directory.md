@@ -16,20 +16,34 @@ featuredpath: ''
 linktitle: ''
 ---
 
-One of the biggest challenges starting with R was understanding the concept of the working directory. This seems crazy in retrospect. However, a bad habit that festered was changing the working directory in the chunks of my Rmd files. I could not figure it how to make R read the data and I simply  ignored the warnings. 
+This seems basic in retrospect but one of the biggest challenges starting with R was understanding the concept of the working directory. A bad habit that festered was changing the working directory in the chunks of my Rmd files. I could not figure it how to make R read the data and I simply ignored the warnings. 
 
-This fall I read some posts in R-Studio Community on workflow in R and I wanted to incorproate these techniques. However, I needed to figure this working directory out.  I reviewed Github, researched the topioc on Stack Overflow, and thought about asking on R-Studio Community. However, I was not sure I couldd even formulate the problem. 
+This fall I read some posts in [R-Studio Community](https://community.rstudio.com/t/best-practices-for-organizing-rmarkdown-projects/914) on workflow in R and I wanted to incorporate these techniques. However, I needed to figure this working directory out.  I reviewed Github, researched the topic on Stack Overflow, and thought about asking on R-Studio Community. However, I was not sure I could even formulate the problem. 
 
-My data sits in multiple folders in the Project Folder
+My data sits in multiple folders in the Project Folder and I could not get to read the data or source scripts. 
+
+This is what I was trying with no success. 
+
+
+```r
+
+setwd(~getRealMY2017208/raw_data)
+
+readRD("student_10222017.rds")
+```
+
+Finally, I figured it out and it was simple as being more explicit in the file address. 
+
+
+
 
 I set my Global Options/R Markdown setting to Evaluate Chunks in Project.  
 
-Finally, I figured it out and it was simple as being more explicit in the file address. I was
-
-I
-
 ```r
-student_10222017
+readRDS("raw_data/student_10222017.rds")
+
 ```
+
+Ultimately, to make the analysis more reproducible; there should be  code to set that the working directory is the project. 
 
 

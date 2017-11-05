@@ -6,76 +6,19 @@
     <description>Recent content in R on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 04 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Na.omit</title>
-      <link>/1/01/01/na.omit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>working directory</title>
+      <link>/2017/11/04/working-directory/</link>
+      <pubDate>Sat, 04 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/1/01/01/na.omit/</guid>
-      <description>na. strings The argument na.string= &amp;quot;&amp;quot; saved me a lot of work today. Happy I came across this in Stack Over Flow relatively quickly.
-http://stackoverflow.com/questions/24172111/change-the-blank-cells-to-na.
-My data set apparently has hidden spaces and the na.omit function was not removing these observations. As a result, my factor levels were messed up and my table summaries were awful.
-It is fun to learn new things.</description>
-    </item>
-    
-    <item>
-      <title>Pipes</title>
-      <link>/1/01/01/pipes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/pipes/</guid>
-      <description>I finally started using pipes in my workflow; it took a bit to get used to but I think I finally got it.
-The pipes are this %&amp;gt;%; here is a link to Official Documentation
-Here is some code that I used this weekend.
-langarts &amp;lt;- inner_join(q1_langarts, q2_langarts, by=&amp;quot;girlCode&amp;quot;) dim(langarts) langarts_1 &amp;lt;- langarts %&amp;gt;% select(girlCode, council.x, lang_pts, lang_pts2) langarts_q2q1 &amp;lt;- langarts_1 %&amp;gt;% mutate(pt_diff = lang_pts2 - lang_pts)  </description>
-    </item>
-    
-    <item>
-      <title>R Fun and updates</title>
-      <link>/1/01/01/r-fun-and-updates/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/r-fun-and-updates/</guid>
-      <description>Github I think I finally learned to use Github correctly. This is pretty basic so if you understand Github you may want to stop reading now.
-The master branch should be the code that is currently working. If one wants to add development or try something put in a branch to be sure that it works.
-Here is the video that helped me understand this. video
-I have used it and made fairly basic updates and they seemed to merge ok.</description>
-    </item>
-    
-    <item>
-      <title>Shiny</title>
-      <link>/1/01/01/shiny/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/shiny/</guid>
-      <description>Friday I listen to an R Podcast regarding the Shiny Developer Conference . I was pysched about performing crazy-cool Shiny App. I have been humbled.
-No Shiny App emerged this weekend; however, one important things did happen.
-Working through the Shiny App, I came up with an idea to attach another R programming problem.</description>
-    </item>
-    
-    <item>
-      <title>Str Function</title>
-      <link>/1/01/01/str-function/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/str-function/</guid>
-      <description>Str function The str function lets you take a look at the underlying structure of your data object. This function is useful for troubleshooting. I was having fun with factors and was able to compare my factor levels from one object to the next.
-str(&amp;quot;object&amp;quot;)  Using the str function I was able to see the issue and make the corrected change.</description>
-    </item>
-    
-    <item>
-      <title>Sub-function</title>
-      <link>/1/01/01/sub-function/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/sub-function/</guid>
-      <description>Function of the week Data management or data cleaning one of the most under appreciated task when it comes to completing a data analysis.
-General users break data patterns all the time and enter data that is not quite correct. One function that can help you fix data without changing the original data source is the &amp;ldquo;sub function&amp;rdquo;
-Here is an example of how I used the sub function. I needed to remove + from grade data entry.</description>
+      <guid>/2017/11/04/working-directory/</guid>
+      <description>One of the biggest challenges starting with R was understanding the concept of the working directory. This seems crazy in retrospect. However, a bad habit that festered was changing the working directory in the chunks of my Rmd files. I could not figure it how to make R read the data and I simply ignored the warnings.
+This fall I read some posts in R-Studio Community on workflow in R and I wanted to incorproate these techniques.</description>
     </item>
     
   </channel>

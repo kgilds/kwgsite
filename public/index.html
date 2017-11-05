@@ -31,7 +31,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-10-31T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2017-11-04T00:00:00&#43;00:00"/>
 
 
 
@@ -201,6 +201,10 @@
 
                 
                     <li>
+                        <a href="./2017/11/04/working-directory/"><p>working directory</p></a>
+                    </li>
+                
+                    <li>
                         <a href="./2017/10/31/ubuntu/"><p>Ubuntu</p></a>
                     </li>
                 
@@ -214,10 +218,6 @@
                 
                     <li>
                         <a href="./2017/09/30/where-have-you-been-my-whole-r-life/"><p>Where have you been my whole R Life</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="./2017/09/04/converging-to-deep-work/"><p>Converging to Deep Work</p></a>
                     </li>
                 
             </ul>
@@ -234,7 +234,7 @@
     <header>
     <div class="title">
         
-            <h2><a href="./2017/10/31/ubuntu/">Ubuntu</a></h2>
+            <h2><a href="./2017/11/04/working-directory/">working directory</a></h2>
         
         
     </div>
@@ -244,8 +244,8 @@
         
 
         <time class="published"
-            datetime='2017-10-31'>
-            October 31, 2017</time>
+            datetime='2017-11-04'>
+            November 4, 2017</time>
         <span class="author">Kevin</span>
         
         
@@ -258,43 +258,43 @@
             
 
 
-<li><a href="//twitter.com/share?url=%2f2017%2f10%2f31%2fubuntu%2f&text=Ubuntu&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2017%2f11%2f04%2fworking-directory%2f&text=working%20directory&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=%2f2017%2f10%2f31%2fubuntu%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=%2f2017%2f11%2f04%2fworking-directory%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f10%2f31%2fubuntu%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f11%2f04%2fworking-directory%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2017%2f10%2f31%2fubuntu%2f&title=Ubuntu" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2017%2f11%2f04%2fworking-directory%2f&title=working%20directory" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f10%2f31%2fubuntu%2f&title=Ubuntu" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f11%2f04%2fworking-directory%2f&title=working%20directory" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f10%2f31%2fubuntu%2f&title=Ubuntu" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f11%2f04%2fworking-directory%2f&title=working%20directory" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2017%2f10%2f31%2fubuntu%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2017%2f11%2f04%2fworking-directory%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -304,13 +304,20 @@
     
 
     <div id="content">
-        <p>I finally did it. I bought a refrubished laptop and installed Ubuntu to run R. The only trouble I had was installing R studio. It appears there are some challenges adding outside software on this platform&ndash;Ubuntu 16.4</p>
+        <p>One of the biggest challenges starting with R was understanding the concept of the working directory. This seems crazy in retrospect. However, a bad habit that festered was changing the working directory in the chunks of my Rmd files. I could not figure it how to make R read the data and I simply  ignored the warnings.</p>
 
-<p>This article helped me throught the process <a href="https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-ubuntu-12-04-14-04-16-04-b6b3107f7779">Install R, R-Studio on Ubuntu</a></p>
+<p>This fall I read some posts in R-Studio Community on workflow in R and I wanted to incorproate these techniques. However, I needed to figure this working directory out.  I reviewed Github, researched the topioc on Stack Overflow, and thought about asking on R-Studio Community. However, I was not sure I couldd even formulate the problem.</p>
 
-<p>The only adjustment I had to make was to change the verison number of R-Studio I was downloading. Basically you update the version number; in my case instead of downloading 1.0.44; I downloaded verision 1.1.383.  You can find the most current version of R-Studio here (<a href="https://www.rstudio.com/products/rstudio/download/#download">https://www.rstudio.com/products/rstudio/download/#download</a>).</p>
+<p>My data sits in multiple folders in the Project Folder</p>
 
-<p>Thus far so good, I love it.</p>
+<p>I set my Global Options/R Markdown setting to Evaluate Chunks in Project.</p>
+
+<p>Finally, I figured it out and it was simple as being more explicit in the file address. I was</p>
+
+<p>I</p>
+
+<pre><code class="language-r">student_10222017
+</code></pre>
 
     </div>
 
@@ -336,9 +343,11 @@
 
     
     
-        <li><a href='./categories/ubuntu'>ubuntu</a></li>
+        <li><a href='./categories/r'>R</a></li>
     
-        <li><a href='./categories/linux'>linux</a></li>
+        <li><a href='./categories/computer-literacy'>computer literacy</a></li>
+    
+        <li><a href='./categories/r-studio-community'>R-studio community</a></li>
     
 </ul>
 
@@ -346,8 +355,8 @@
 </article>
 <ul class="actions pagination">
     
-        <li><a href="./2017/10/14/reviewing-functions/"
-                class="button big previous">Reviewing Functions</a></li>
+        <li><a href="./2017/10/31/ubuntu/"
+                class="button big previous">Ubuntu</a></li>
     
 
     
@@ -366,43 +375,43 @@
             
 
 
-<li><a href="//twitter.com/share?url=%2f2017%2f10%2f31%2fubuntu%2f&text=Ubuntu&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2017%2f11%2f04%2fworking-directory%2f&text=working%20directory&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=%2f2017%2f10%2f31%2fubuntu%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=%2f2017%2f11%2f04%2fworking-directory%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f10%2f31%2fubuntu%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f11%2f04%2fworking-directory%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2017%2f10%2f31%2fubuntu%2f&title=Ubuntu" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2017%2f11%2f04%2fworking-directory%2f&title=working%20directory" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f10%2f31%2fubuntu%2f&title=Ubuntu" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f11%2f04%2fworking-directory%2f&title=working%20directory" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f10%2f31%2fubuntu%2f&title=Ubuntu" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f11%2f04%2fworking-directory%2f&title=working%20directory" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2017%2f10%2f31%2fubuntu%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2017%2f11%2f04%2fworking-directory%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -444,6 +453,20 @@
                     
                 
 
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="./2017/11/04/working-directory/">working directory</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-11-04'>
+                                    November 4, 2017</time>
+                            </header>
+                        </article>
+                    </li>
                 
                     <li>
                         <article>
@@ -501,20 +524,6 @@
                         </article>
                     </li>
                 
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="./2017/09/04/converging-to-deep-work/">Converging to Deep Work</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2017-09-04'>
-                                    September 4, 2017</time>
-                            </header>
-                        </article>
-                    </li>
-                
 
                 
                     <li>
@@ -558,6 +567,15 @@
                         <article>
                             <header>
                                 <a href="./categories/blogdown/">blogdown</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="./categories/computer-literacy/">computer-literacy</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>
@@ -630,7 +648,7 @@
                         <article>
                             <header>
                                 <a href="./categories/r/">r</a>
-                                <span style="float:right;">6</span>
+                                <span style="float:right;">7</span>
                             </header>
                         </article>
                     </li>
@@ -639,6 +657,15 @@
                         <article>
                             <header>
                                 <a href="./categories/r-if_else-workflow/">r-if_else-workflow</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="./categories/r-studio-community/">r-studio-community</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>
