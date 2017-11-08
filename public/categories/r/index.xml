@@ -17,8 +17,8 @@
       <pubDate>Sat, 04 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/11/04/working-directory/</guid>
-      <description>One of the biggest challenges starting with R was understanding the concept of the working directory. This seems crazy in retrospect. However, a bad habit that festered was changing the working directory in the chunks of my Rmd files. I could not figure it how to make R read the data and I simply ignored the warnings.
-This fall I read some posts in R-Studio Community on workflow in R and I wanted to incorproate these techniques.</description>
+      <description>This seems basic in retrospect but one of the biggest challenges starting with R was understanding the concept of the working directory. For the most part, I figured the working directory out. However a bad habit that festered was changing the working directory in the chunks of my Rmd files.
+Below is how I would configure my R chunks to read data or source scripts/functions. My data sits in multiple folders in the Project Folder, and I could not get the chunk to read the data or source scripts without setting the working directly.</description>
     </item>
     
     <item>

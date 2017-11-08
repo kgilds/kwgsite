@@ -6,10 +6,22 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gaps</title>
+      <link>/2017/11/08/gaps/</link>
+      <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/11/08/gaps/</guid>
+      <description>I keep coming across the concept of gaps&amp;ndash;more specifically the gap between reality and one&amp;rsquo;s vision for how reality should be. I first came across this concept in the Fifth Discipline by Peter Senge.
+Currently I am reading Man&amp;rsquo;s Search for Meaning by Viktor Frankl.
+This concept also came up in this interview of Ray Dalio that I listened to this week.
+Frankl argues that mental health requires tension and the essence of being a human being is to close the gap between what is and what should be.</description>
+    </item>
     
     <item>
       <title>working directory</title>
@@ -17,8 +29,8 @@
       <pubDate>Sat, 04 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/11/04/working-directory/</guid>
-      <description>One of the biggest challenges starting with R was understanding the concept of the working directory. This seems crazy in retrospect. However, a bad habit that festered was changing the working directory in the chunks of my Rmd files. I could not figure it how to make R read the data and I simply ignored the warnings.
-This fall I read some posts in R-Studio Community on workflow in R and I wanted to incorproate these techniques.</description>
+      <description>This seems basic in retrospect but one of the biggest challenges starting with R was understanding the concept of the working directory. For the most part, I figured the working directory out. However a bad habit that festered was changing the working directory in the chunks of my Rmd files.
+Below is how I would configure my R chunks to read data or source scripts/functions. My data sits in multiple folders in the Project Folder, and I could not get the chunk to read the data or source scripts without setting the working directly.</description>
     </item>
     
     <item>
