@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2017/11/15/more-gaps/</loc>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/11/15/test/</loc>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/11/08/gaps/</loc>
     <lastmod>2017-11-08T00:00:00+00:00</lastmod>
   </url>
@@ -185,7 +195,7 @@
   
   <url>
     <loc>/categories/life/</loc>
-    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -198,6 +208,12 @@
   <url>
     <loc>/tags/makefiles/</loc>
     <lastmod>2016-10-20T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/management/</loc>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -221,7 +237,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -257,7 +273,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-11-08T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
