@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "R for the rest of us"
 theme = "hugo-future-imperfect"
 googleAnalytics = ""
-disqusShortname = "r-for-the-rest-of-us."
+disqusShortname = "r-for-the-rest-of-us"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
 [permalinks]
