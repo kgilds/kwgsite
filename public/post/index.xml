@@ -6,10 +6,20 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Metallica Concerts with the Tidyverse</title>
+      <link>/2017/11/19/metallica-concerts-with-the-tidyverse/</link>
+      <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/11/19/metallica-concerts-with-the-tidyverse/</guid>
+      <description>Introduction Most of my work in R is hidden from public view&amp;ndash;this seems like a blessing but is a curse in many respects; I get no feedback on my work in R. I felt challenged and inspired by David Robinson&amp;rsquo;s post to share their work.
+I completed the following analyis while keeping my mind off Hurricane Irma in September 2017 and after review it covers a lot of concepts in the Tidyverse.</description>
+    </item>
     
     <item>
       <title>More Gaps</title>
