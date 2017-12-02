@@ -1,5 +1,5 @@
 ---
-title: Data Management
+title: Data Entry Application
 author: Kevin
 date: '2017-12-01'
 slug: data-management
