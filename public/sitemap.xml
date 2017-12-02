@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2017/12/01/data-management/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/11/19/metallica-concerts-with-the-tidyverse/</loc>
     <lastmod>2017-11-19T00:00:00+00:00</lastmod>
   </url>
@@ -242,7 +247,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -254,7 +259,7 @@
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -278,13 +283,19 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-11-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/shiny/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
