@@ -37,7 +37,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-12-01T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2017-12-02T00:00:00&#43;00:00"/>
 
 
 
@@ -202,6 +202,10 @@
 
                 
                     <li>
+                        <a href="../2017/12/02/a-bit-of-a-hack/"><p>A bit of a hack</p></a>
+                    </li>
+                
+                    <li>
                         <a href="../2017/12/01/data-management/"><p>Data Entry Application</p></a>
                     </li>
                 
@@ -217,10 +221,6 @@
                         <a href="../2017/11/15/test/"><p>Test</p></a>
                     </li>
                 
-                    <li>
-                        <a href="../2017/11/08/gaps/"><p>Gaps</p></a>
-                    </li>
-                
             </ul>
         </section>
 
@@ -234,6 +234,69 @@
         
             
         
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../2017/12/02/a-bit-of-a-hack/">A bit of a hack</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-12-02'>
+            December 2, 2017</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>This week I also finished up a feature of an application that I have been thinking about implementing. I wanted to summarize data entry by site location. The problem is that variable I am trying to summarize is free data entry&ndash;hence many ways to write the name of the school and mispelling. I used a bit of hack with the gsub function.
+My approach was this.
+site$school &lt;- toupper(site$school) site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL MAGNET&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL SCHOOL&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELLMIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKE ACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKEACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKE ACAMAY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DREAM ACADENY&quot;, &quot;DREAM ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;FREEDOM MS&quot;, &quot;FREEDOM MIDDLE SCHOOL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fixed=TRUE, site$school)  However, my sense is that there is a better way implment this with regular expressions.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../2017/12/02/a-bit-of-a-hack/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../categories/r'>R</a></li>
+    
+        <li><a href='../categories/gsub'>gsub</a></li>
+    
+</ul>
+
+    </footer>
+</article>
 
         
             <article class="post">
@@ -783,70 +846,6 @@ Everyone has a plan &lsquo;til they are punched in the mouth.&ndash;Mike Tyson  
 </article>
 
         
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="../2017/09/30/where-have-you-been-my-whole-r-life/">Where have you been my whole R Life</a></h2>
-        
-        
-            <p>Mutate and If_Else Partnership</p>
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2017-09-30'>
-            September 30, 2017</time>
-        <span class="author">Kevin Gilds</span>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>I hav been using the mutate function in dplyr for about a year now. However, I recently disovered a useful partner in the if_else function.
-Ultimately, this is having a big impact on my workflow.
-Below is my previous workflow. I would make seperate data frames and then bind the data frames together to run counts on the variables of interests.
-lang_success_s &lt;- langarts %&gt;% filter(final &gt;=2, pt_diff &gt;=0)%&gt;% #segment students with a final grade of C or higher and either maintained or increased their grade) mutate(&quot;Success&quot; = &quot;TRUE&quot;) #add variable Success dim(lang_success_s) lang_success_n &lt;- langarts %&gt;% filter(final &gt;=2, pt_diff &lt; 0) %&gt;% #segment students with final Grade C or higher but decreased their grade mutate(&quot;Success&quot; = &quot;FALSE&quot;) # add variable Succes and fill in with false.</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="../2017/09/30/where-have-you-been-my-whole-r-life/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-                        Category
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='../categories/r-if_else-workflow'>R, if_else, workflow</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
 
         
 <ul class="actions pagination">
@@ -892,6 +891,20 @@ lang_success_s &lt;- langarts %&gt;% filter(final &gt;=2, pt_diff &gt;=0)%&gt;% 
                     
                 
 
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../2017/12/02/a-bit-of-a-hack/">A bit of a hack</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-12-02'>
+                                    December 2, 2017</time>
+                            </header>
+                        </article>
+                    </li>
                 
                     <li>
                         <article>
@@ -945,20 +958,6 @@ lang_success_s &lt;- langarts %&gt;% filter(final &gt;=2, pt_diff &gt;=0)%&gt;% 
                                 <time class="published" datetime=
                                     '2017-11-15'>
                                     November 15, 2017</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="../2017/11/08/gaps/">Gaps</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2017-11-08'>
-                                    November 8, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -1059,6 +1058,15 @@ lang_success_s &lt;- langarts %&gt;% filter(final &gt;=2, pt_diff &gt;=0)%&gt;% 
                     <li>
                         <article>
                             <header>
+                                <a href="../categories/gsub/">gsub</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="../categories/leadership/">leadership</a>
                                 <span style="float:right;">1</span>
                             </header>
@@ -1105,7 +1113,7 @@ lang_success_s &lt;- langarts %&gt;% filter(final &gt;=2, pt_diff &gt;=0)%&gt;% 
                         <article>
                             <header>
                                 <a href="../categories/r/">r</a>
-                                <span style="float:right;">8</span>
+                                <span style="float:right;">9</span>
                             </header>
                         </article>
                     </li>

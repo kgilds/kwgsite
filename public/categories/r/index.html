@@ -39,7 +39,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-12-01T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2017-12-02T00:00:00&#43;00:00"/>
 
 
 
@@ -204,6 +204,10 @@
 
                 
                     <li>
+                        <a href="../../2017/12/02/a-bit-of-a-hack/"><p>A bit of a hack</p></a>
+                    </li>
+                
+                    <li>
                         <a href="../../2017/12/01/data-management/"><p>Data Entry Application</p></a>
                     </li>
                 
@@ -219,10 +223,6 @@
                         <a href="../../2017/11/15/test/"><p>Test</p></a>
                     </li>
                 
-                    <li>
-                        <a href="../../2017/11/08/gaps/"><p>Gaps</p></a>
-                    </li>
-                
             </ul>
         </section>
 
@@ -234,6 +234,69 @@
     <div id="main">
         <h1>R</h1>
         
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../2017/12/02/a-bit-of-a-hack/">A bit of a hack</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-12-02'>
+            December 2, 2017</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>This week I also finished up a feature of an application that I have been thinking about implementing. I wanted to summarize data entry by site location. The problem is that variable I am trying to summarize is free data entry&ndash;hence many ways to write the name of the school and mispelling. I used a bit of hack with the gsub function.
+My approach was this.
+site$school &lt;- toupper(site$school) site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL MAGNET&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL SCHOOL&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELLMIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKE ACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKEACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKE ACAMAY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DREAM ACADENY&quot;, &quot;DREAM ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;FREEDOM MS&quot;, &quot;FREEDOM MIDDLE SCHOOL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fixed=TRUE, site$school)  However, my sense is that there is a better way implment this with regular expressions.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../2017/12/02/a-bit-of-a-hack/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../categories/r'>R</a></li>
+    
+        <li><a href='../../categories/gsub'>gsub</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
         
             <article class="post">
     <header>
@@ -780,6 +843,20 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                     <li>
                         <article>
                             <header>
+                                <h3><a href="../../2017/12/02/a-bit-of-a-hack/">A bit of a hack</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-12-02'>
+                                    December 2, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <h3><a href="../../2017/12/01/data-management/">Data Entry Application</a></h3>
                                 
                                     
@@ -829,20 +906,6 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                                 <time class="published" datetime=
                                     '2017-11-15'>
                                     November 15, 2017</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="../../2017/11/08/gaps/">Gaps</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2017-11-08'>
-                                    November 8, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -943,6 +1006,15 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                     <li>
                         <article>
                             <header>
+                                <a href="../../categories/gsub/">gsub</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="../../categories/leadership/">leadership</a>
                                 <span style="float:right;">1</span>
                             </header>
@@ -989,7 +1061,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                         <article>
                             <header>
                                 <a href="../../categories/r/">r</a>
-                                <span style="float:right;">8</span>
+                                <span style="float:right;">9</span>
                             </header>
                         </article>
                     </li>

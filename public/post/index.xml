@@ -6,10 +6,21 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A bit of a hack</title>
+      <link>/2017/12/02/a-bit-of-a-hack/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/02/a-bit-of-a-hack/</guid>
+      <description>This week I also finished up a feature of an application that I have been thinking about implementing. I wanted to summarize data entry by site location. The problem is that variable I am trying to summarize is free data entry&amp;ndash;hence many ways to write the name of the school and mispelling. I used a bit of hack with the gsub function.
+My approach was this.
+site$school &amp;lt;- toupper(site$school) site$school &amp;lt;- gsub(&amp;quot;DOWDELL MIDDLE&amp;quot;, &amp;quot;DOWDELL&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;DOWDELL MAGNET&amp;quot;, &amp;quot;DOWDELL&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;DOWDELL SCHOOL&amp;quot;, &amp;quot;DOWDELL&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;DOWDELLMIDDLE&amp;quot;, &amp;quot;DOWDELL&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;DOWDELL MIDDLE&amp;quot;, &amp;quot;DOWDELL&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;BLAKE ACADMY&amp;quot;, &amp;quot;BLAKE ACADEMY&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;BLAKEACADMY&amp;quot;, &amp;quot;BLAKE ACADEMY&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;BLAKE ACAMAY&amp;quot;, &amp;quot;BLAKE ACADEMY&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;DREAM ACADENY&amp;quot;, &amp;quot;DREAM ACADEMY&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;FREEDOM MS&amp;quot;, &amp;quot;FREEDOM MIDDLE SCHOOL&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;RIBUALT MDDLE&amp;quot;, &amp;quot;RIBAULT MIDDLE&amp;quot;, fixed=TRUE, site$school)  However, my sense is that there is a better way implment this with regular expressions.</description>
+    </item>
     
     <item>
       <title>Data Entry Application</title>
