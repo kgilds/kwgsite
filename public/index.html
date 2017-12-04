@@ -31,7 +31,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-12-02T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2017-12-04T00:00:00&#43;00:00"/>
 
 
 
@@ -201,6 +201,10 @@
 
                 
                     <li>
+                        <a href="./2017/12/04/writing/"><p>Writing</p></a>
+                    </li>
+                
+                    <li>
                         <a href="./2017/12/02/a-bit-of-a-hack/"><p>A bit of a hack</p></a>
                     </li>
                 
@@ -214,10 +218,6 @@
                 
                     <li>
                         <a href="./2017/11/15/more-gaps/"><p>More Gaps</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="./2017/11/15/test/"><p>Test</p></a>
                     </li>
                 
             </ul>
@@ -234,7 +234,7 @@
     <header>
     <div class="title">
         
-            <h2><a href="./2017/12/02/a-bit-of-a-hack/">A bit of a hack</a></h2>
+            <h2><a href="./2017/12/04/writing/">Writing</a></h2>
         
         
     </div>
@@ -244,8 +244,8 @@
         
 
         <time class="published"
-            datetime='2017-12-02'>
-            December 2, 2017</time>
+            datetime='2017-12-04'>
+            December 4, 2017</time>
         <span class="author">Kevin</span>
         
         
@@ -258,43 +258,43 @@
             
 
 
-<li><a href="//twitter.com/share?url=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f&text=A%20bit%20of%20a%20hack&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2017%2f12%2f04%2fwriting%2f&text=Writing&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=%2f2017%2f12%2f04%2fwriting%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f12%2f04%2fwriting%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f&title=A%20bit%20of%20a%20hack" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2017%2f12%2f04%2fwriting%2f&title=Writing" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f&title=A%20bit%20of%20a%20hack" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f12%2f04%2fwriting%2f&title=Writing" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f&title=A%20bit%20of%20a%20hack" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f12%2f04%2fwriting%2f&title=Writing" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2017%2f12%2f04%2fwriting%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -304,27 +304,12 @@
     
 
     <div id="content">
-        <p>This week I also finished up a feature of an application that I have been thinking about implementing. I wanted to summarize data entry by site location. The problem is that variable I am trying to summarize is free data entry&ndash;hence many ways to write the name of the school and mispelling. I used a bit of hack with the gsub function.</p>
+        <p>Last week, I had a couple of hints from blog posts/podcasts that I should be writing every day. Mostly their work/art prompts makes me want to write more.</p>
 
-<p>My approach was this.</p>
+<p>I have been impressed with this blog by <a href="https://austinkleon.com/">Austin Kleon</a> and apparently everyone has known about <a href="https://waitbutwhy.com/wait-but-who">Wait but why</a></p>
 
-<pre><code class="language-r">site$school &lt;- toupper(site$school)
-
-
-site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school)
-site$school &lt;- gsub(&quot;DOWDELL MAGNET&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school)
-site$school &lt;- gsub(&quot;DOWDELL SCHOOL&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school)
-site$school &lt;- gsub(&quot;DOWDELLMIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school)
-site$school &lt;- gsub(&quot;DOWDELL  MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school)
-site$school &lt;- gsub(&quot;BLAKE ACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school)
-site$school &lt;- gsub(&quot;BLAKEACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school)
-site$school &lt;- gsub(&quot;BLAKE ACAMAY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school)
-site$school &lt;- gsub(&quot;DREAM ACADENY&quot;, &quot;DREAM ACADEMY&quot;, fixed=TRUE, site$school)
-site$school &lt;- gsub(&quot;FREEDOM MS&quot;, &quot;FREEDOM MIDDLE SCHOOL&quot;, fixed=TRUE, site$school)
-site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fixed=TRUE, site$school)
-</code></pre>
-
-<p>However, my sense is that there is a better way implment this with regular expressions. I need to find examples in the wild and my firs stop is <a href="http://tidytextmining.com/">here</a></p>
+<p>I am determined not to code or write at night as I believe strong that impacts my sleep.
+I have been effective in getting up every morning writing code for an ongoing project and do not want to give that time up. However, I think I can divide some of this time up and still be productive.</p>
 
     </div>
 
@@ -350,9 +335,11 @@ site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fi
 
     
     
-        <li><a href='./categories/r'>R</a></li>
+        <li><a href='./categories/craftsmanship'>craftsmanship</a></li>
     
-        <li><a href='./categories/gsub'>gsub</a></li>
+        <li><a href='./categories/leadership'>leadership</a></li>
+    
+        <li><a href='./categories/life'>life</a></li>
     
 </ul>
 
@@ -360,8 +347,8 @@ site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fi
 </article>
 <ul class="actions pagination">
     
-        <li><a href="./2017/12/01/data-management/"
-                class="button big previous">Data Entry Application</a></li>
+        <li><a href="./2017/12/02/a-bit-of-a-hack/"
+                class="button big previous">A bit of a hack</a></li>
     
 
     
@@ -405,43 +392,43 @@ site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fi
             
 
 
-<li><a href="//twitter.com/share?url=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f&text=A%20bit%20of%20a%20hack&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2017%2f12%2f04%2fwriting%2f&text=Writing&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=%2f2017%2f12%2f04%2fwriting%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f12%2f04%2fwriting%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f&title=A%20bit%20of%20a%20hack" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2017%2f12%2f04%2fwriting%2f&title=Writing" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f&title=A%20bit%20of%20a%20hack" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f12%2f04%2fwriting%2f&title=Writing" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f&title=A%20bit%20of%20a%20hack" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f12%2f04%2fwriting%2f&title=Writing" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2017%2f12%2f02%2fa-bit-of-a-hack%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2017%2f12%2f04%2fwriting%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -483,6 +470,20 @@ site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fi
                     
                 
 
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="./2017/12/04/writing/">Writing</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-12-04'>
+                                    December 4, 2017</time>
+                            </header>
+                        </article>
+                    </li>
                 
                     <li>
                         <article>
@@ -530,20 +531,6 @@ site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fi
                         <article>
                             <header>
                                 <h3><a href="./2017/11/15/more-gaps/">More Gaps</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2017-11-15'>
-                                    November 15, 2017</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="./2017/11/15/test/">Test</a></h3>
                                 
                                     
                                 
@@ -615,7 +602,7 @@ site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fi
                         <article>
                             <header>
                                 <a href="./categories/craftsmanship/">craftsmanship</a>
-                                <span style="float:right;">3</span>
+                                <span style="float:right;">4</span>
                             </header>
                         </article>
                     </li>
@@ -660,7 +647,7 @@ site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fi
                         <article>
                             <header>
                                 <a href="./categories/leadership/">leadership</a>
-                                <span style="float:right;">1</span>
+                                <span style="float:right;">2</span>
                             </header>
                         </article>
                     </li>
@@ -669,7 +656,7 @@ site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fi
                         <article>
                             <header>
                                 <a href="./categories/life/">life</a>
-                                <span style="float:right;">2</span>
+                                <span style="float:right;">3</span>
                             </header>
                         </article>
                     </li>

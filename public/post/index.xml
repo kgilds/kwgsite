@@ -6,10 +6,21 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Writing</title>
+      <link>/2017/12/04/writing/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/04/writing/</guid>
+      <description>Last week, I had a couple of hints from blog posts/podcasts that I should be writing every day. Mostly their work/art prompts makes me want to write more.
+I have been impressed with this blog by Austin Kleon and apparently everyone has known about Wait but why
+I am determined not to code or write at night as I believe strong that impacts my sleep. I have been effective in getting up every morning writing code for an ongoing project and do not want to give that time up.</description>
+    </item>
     
     <item>
       <title>A bit of a hack</title>
