@@ -14,7 +14,7 @@ featuredpath: ''
 linktitle: ''
 ---
 
-This week I also finished up a feature of an application that I have been thinking about implementing. I wanted to summarize data entry by site location. The problem is that variable I am trying to summarize is free data entry--hence many ways to write the name of the school and mispelling. I used a bit of hack with the gsub function.  
+This week I also finished up a feature of an application that I have been thinking about implementing. I wanted to summarize data entry by site location. The problem is that variable I am trying to summarize is free data entry--hence many ways to write the name of the school and misspelling. I used a bit of hack with the gsub function.  
 
 
 My approach was this. 
@@ -36,7 +36,7 @@ site$school <- gsub("FREEDOM MS", "FREEDOM MIDDLE SCHOOL", fixed=TRUE, site$scho
 site$school <- gsub("RIBUALT MDDLE", "RIBAULT MIDDLE", fixed=TRUE, site$school)
 ```
 
-However, my sense is that there is a better way implment this with regular expressions. I need to find examples in the wild and my firs stop is [here](http://tidytextmining.com/)
+However, my sense is that there is a better way implement this with regular expressions. I need to find examples in the wild and my firs stop is [here](http://tidytextmining.com/)
 
 
 

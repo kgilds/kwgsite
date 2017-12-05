@@ -204,6 +204,10 @@
 
                 
                     <li>
+                        <a href="../../2017/12/05/diminishing-returns/"><p>Diminishing Returns</p></a>
+                    </li>
+                
+                    <li>
                         <a href="../../2017/12/04/writing/"><p>Writing</p></a>
                     </li>
                 
@@ -217,10 +221,6 @@
                 
                     <li>
                         <a href="../../2017/11/19/metallica-concerts-with-the-tidyverse/"><p>Metallica Concerts with the Tidyverse</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="../../2017/11/15/more-gaps/"><p>More Gaps</p></a>
                     </li>
                 
             </ul>
@@ -259,9 +259,9 @@
 
     
 
-    <p>This week I also finished up a feature of an application that I have been thinking about implementing. I wanted to summarize data entry by site location. The problem is that variable I am trying to summarize is free data entry&ndash;hence many ways to write the name of the school and mispelling. I used a bit of hack with the gsub function.
+    <p>This week I also finished up a feature of an application that I have been thinking about implementing. I wanted to summarize data entry by site location. The problem is that variable I am trying to summarize is free data entry&ndash;hence many ways to write the name of the school and misspelling. I used a bit of hack with the gsub function.
 My approach was this.
-site$school &lt;- toupper(site$school) site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL MAGNET&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL SCHOOL&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELLMIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKE ACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKEACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKE ACAMAY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DREAM ACADENY&quot;, &quot;DREAM ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;FREEDOM MS&quot;, &quot;FREEDOM MIDDLE SCHOOL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fixed=TRUE, site$school)  However, my sense is that there is a better way implment this with regular expressions.</p>
+site$school &lt;- toupper(site$school) site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL MAGNET&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL SCHOOL&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELLMIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKE ACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKEACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKE ACAMAY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DREAM ACADENY&quot;, &quot;DREAM ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;FREEDOM MS&quot;, &quot;FREEDOM MIDDLE SCHOOL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fixed=TRUE, site$school)  However, my sense is that there is a better way implement this with regular expressions.</p>
 
     <footer>
         <ul class="actions">
@@ -843,6 +843,20 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                     <li>
                         <article>
                             <header>
+                                <h3><a href="../../2017/12/05/diminishing-returns/">Diminishing Returns</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-12-05'>
+                                    December 5, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <h3><a href="../../2017/12/04/writing/">Writing</a></h3>
                                 
                                     
@@ -892,20 +906,6 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                                 <time class="published" datetime=
                                     '2017-11-19'>
                                     November 19, 2017</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="../../2017/11/15/more-gaps/">More Gaps</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2017-11-15'>
-                                    November 15, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -1025,7 +1025,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
                         <article>
                             <header>
                                 <a href="../../categories/life/">life</a>
-                                <span style="float:right;">3</span>
+                                <span style="float:right;">4</span>
                             </header>
                         </article>
                     </li>
