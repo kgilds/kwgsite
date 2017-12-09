@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2017/12/08/balance/</loc>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/12/08/friday-night-music/</loc>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/12/07/cooper-s-pace/</loc>
     <lastmod>2017-12-07T00:00:00+00:00</lastmod>
   </url>
@@ -143,14 +153,14 @@
   </url>
   
   <url>
-    <loc>/tags/automation/</loc>
-    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
+    <loc>/categories/automation/</loc>
+    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/automation/</loc>
-    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
+    <loc>/tags/automation/</loc>
+    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -236,7 +246,7 @@
   
   <url>
     <loc>/categories/life/</loc>
-    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -278,19 +288,19 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
     <lastmod>2017-12-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -314,7 +324,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-12-07T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -355,14 +365,14 @@
   </url>
   
   <url>
-    <loc>/tags/workflow/</loc>
-    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
+    <loc>/categories/workflow/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/workflow/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+    <loc>/tags/workflow/</loc>
+    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
