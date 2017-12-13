@@ -1,4 +1,4 @@
-baseurl = "/""
+baseurl = "/"
 relativeurls = true
 languageCode = "en-us"
 title = "R for the rest of us"
