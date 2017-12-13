@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://kgilds.rbind.io/"
 relativeurls = true
 languageCode = "en-us"
 title = "R for the rest of us"
