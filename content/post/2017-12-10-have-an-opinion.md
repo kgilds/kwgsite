@@ -14,5 +14,5 @@ featuredpath: ''
 linktitle: ''
 ---
 
-[Seth's blog post today](http://sethgodin.typepad.com/seths_blog/2017/12/a-point-of-view.html) 
+[Seth's blog post today](http://sethgodin.typepad.com/seths_blog/2017/12/a-point-of-view.html):
 I am proud that I practice this and promote this philosophy.
