@@ -1,0 +1,861 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>working directory</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.30.2" />
+        
+
+
+        
+            <meta name="author" content="Kevin">
+        
+        
+            
+                <meta name="description" content="R for the rest of us.">
+            
+        
+
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="working directory"/>
+<meta name="twitter:description" content="This seems basic in retrospect but one of the biggest challenges starting with R was understanding the concept of the working directory. For the most part, I figured the working directory out. However a bad habit that festered was changing the working directory in the chunks of my Rmd files.
+Below is how I would configure my R chunks to read data or source scripts/functions. My data sits in multiple folders in the Project Folder, and I could not get the chunk to read the data or source scripts without setting the working directly."/>
+
+        <meta property="og:title" content="working directory" />
+<meta property="og:description" content="This seems basic in retrospect but one of the biggest challenges starting with R was understanding the concept of the working directory. For the most part, I figured the working directory out. However a bad habit that festered was changing the working directory in the chunks of my Rmd files.
+Below is how I would configure my R chunks to read data or source scripts/functions. My data sits in multiple folders in the Project Folder, and I could not get the chunk to read the data or source scripts without setting the working directly." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/2017/11/04/working-directory/" />
+
+
+
+<meta property="article:published_time" content="2017-11-04T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-11-04T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="working directory">
+<meta itemprop="description" content="This seems basic in retrospect but one of the biggest challenges starting with R was understanding the concept of the working directory. For the most part, I figured the working directory out. However a bad habit that festered was changing the working directory in the chunks of my Rmd files.
+Below is how I would configure my R chunks to read data or source scripts/functions. My data sits in multiple folders in the Project Folder, and I could not get the chunk to read the data or source scripts without setting the working directly.">
+
+
+<meta itemprop="datePublished" content="2017-11-04T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-11-04T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="210">
+
+
+
+<meta itemprop="keywords" content="R," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="../../../../css/google-font.css" />
+            <link rel="stylesheet" href="../../../../css/font-awesome.min.css" />
+            <link rel="stylesheet" href="../../../../css/main.css" />
+            <link rel="stylesheet" href="../../../../css/add-on.css" />
+            <link rel="stylesheet" href="../../../../css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="../../../../"></i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="../../../../about/">
+                        About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://github.com/kgilds">
+                        GitHub
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="../../../../resume/">
+                        Resume
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://twitter.com/kevin_gilds">
+                        Twitter
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="../../../../about/">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/kgilds">
+                            <h3>
+                                
+                                GitHub
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="../../../../resume/">
+                            <h3>
+                                
+                                Resume
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://twitter.com/kevin_gilds">
+                            <h3>
+                                
+                                Twitter
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="../../../../2017/12/10/have-an-opinion/"><p>Have an opinion</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="../../../../2017/12/10/meditation/"><p>Meditation</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="../../../../2017/12/08/balance/"><p>Balance</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="../../../../2017/12/08/friday-night-music/"><p>Friday night music</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="../../../../2017/12/07/cooper-s-pace/"><p>Cooper&#39;s Pace</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=%2f2017%2f11%2f04%2fworking-directory%2f&text=working%20directory&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=%2f2017%2f11%2f04%2fworking-directory%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f11%2f04%2fworking-directory%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=%2f2017%2f11%2f04%2fworking-directory%2f&title=working%20directory" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f11%2f04%2fworking-directory%2f&title=working%20directory" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f11%2f04%2fworking-directory%2f&title=working%20directory" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2017%2f11%2f04%2fworking-directory%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="../../../../2017/11/04/working-directory/">working directory</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-11-04'>
+            November 4, 2017</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=%2f2017%2f11%2f04%2fworking-directory%2f&text=working%20directory&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=%2f2017%2f11%2f04%2fworking-directory%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2017%2f11%2f04%2fworking-directory%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=%2f2017%2f11%2f04%2fworking-directory%2f&title=working%20directory" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f11%2f04%2fworking-directory%2f&title=working%20directory" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f11%2f04%2fworking-directory%2f&title=working%20directory" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2017%2f11%2f04%2fworking-directory%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+
+    <div id="content">
+        
+
+<p>This seems basic in retrospect but one of the biggest challenges starting with R was understanding the concept of the working directory. For the most part, I figured the working directory out. However a bad habit that festered was changing the working directory in the chunks of my Rmd files.</p>
+
+<p>Below is how I would configure my R chunks to read data or source scripts/functions.
+My data sits in multiple folders in the Project Folder, and I could not get the chunk to read the data or source scripts without setting the working directly.</p>
+
+<pre><code class="language-R">setwd(~getRealMY2017208/raw_data)
+
+readRD(&quot;student_10222017.rds&quot;)
+
+</code></pre>
+
+<p>This fall I read some posts in <a href="https://community.rstudio.com/t/best-practices-for-organizing-rmarkdown-projects/914">R-Studio Community</a> on workflow in R and I wanted to incorporate these techniques. However, I needed to figure this working directory issue out.</p>
+
+<p>I reviewed Github, researched the topic on Stack Overflow, and thought about asking on R-Studio Community. However, I was not sure I could even formulate the problem.</p>
+
+<h3 id="solution">Solution</h3>
+
+<p>It was not really the working directory after all. I needed to more explict in my file address.</p>
+
+<ul>
+<li>I set my Global Options/R Markdown setting to Evaluate Chunks in Project.<br /></li>
+</ul>
+
+<pre><code class="language-r">readRDS(&quot;raw_data/student_10222017.rds&quot;)
+
+</code></pre>
+
+<p>Ultimately, to make the analysis more reproducible; there should be code to set that the working directory is the project directy.</p>
+
+<pre><code class="language-r &quot;setup&quot;, include=FALSE">require(&quot;knitr&quot;)
+opts_knit$set(root.dir = &quot;~/gits/project/&quot;)
+</code></pre>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../../../categories/r'>R</a></li>
+    
+        <li><a href='../../../../categories/computer-literacy'>computer literacy</a></li>
+    
+        <li><a href='../../../../categories/r-studio-community'>R-studio community</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="../../../../2017/10/31/ubuntu/"
+                class="button big previous">Ubuntu</a></li>
+    
+
+    
+        <li><a href="../../../../2017/11/08/gaps/"
+                class="button big next">Gaps</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "r-for-the-rest-of-us" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+            
+            <ul class="icons">
+                
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../../../2017/12/10/have-an-opinion/">Have an opinion</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-12-10'>
+                                    December 10, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../../../2017/12/10/meditation/">Meditation</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-12-10'>
+                                    December 10, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../../../2017/12/08/balance/">Balance</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-12-08'>
+                                    December 8, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../../../2017/12/08/friday-night-music/">Friday night music</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-12-08'>
+                                    December 8, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../../../2017/12/07/cooper-s-pace/">Cooper&#39;s Pace</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-12-07'>
+                                    December 7, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                "/post/"
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="../../../../categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/automation/">automation</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/blogdown/">blogdown</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/computer-literacy/">computer-literacy</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/craftsmanship/">craftsmanship</a>
+                                <span style="float:right;">5</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/data-management/">data-management</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/functions/">functions</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/git/">git</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/gsub/">gsub</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/leadership/">leadership</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/life/">life</a>
+                                <span style="float:right;">6</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/linux/">linux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/management/">management</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/podcast/">podcast</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/r/">r</a>
+                                <span style="float:right;">9</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/r-if_else-workflow/">r-if_else-workflow</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/r-studio-community/">r-studio-community</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/shiny/">shiny</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/system-theory/">system-theory</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/tidyverse/">tidyverse</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/ubuntu/">ubuntu</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/workflow/">workflow</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/worklife/">worklife</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+            </ul>
+
+            <p class="copyright">&copy; R for the rest of us. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="../../../../js/jquery.min.js"></script>
+            <script src="../../../../js/skel.min.js"></script>
+            <script src="../../../../js/util.js"></script>
+            <script src="../../../../js/main.js"></script>
+            <script src="../../../../js/backToTop.js"></script>
+            <script src="../../../../js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+
