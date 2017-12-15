@@ -3,7 +3,7 @@ relativeurls = true
 languageCode = "en-us"
 title = "R for the rest of us"
 theme = "hugo-future-imperfect"
-googleAnalytics = ""
+googleAnalytics = "UA-111258922-1"
 disqusShortname = "r-for-the-rest-of-us"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
