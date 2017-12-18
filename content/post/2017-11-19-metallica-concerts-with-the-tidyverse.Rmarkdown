@@ -21,7 +21,7 @@ I completed the following analysis while in the midst of Hurricane Irma in Septe
 
 ## Metallica Concerts
 
-![Metallica--Orlando](img/metallica.jpg)
+![Metallica--Orlando](/img/metallica.jpg)
 
 I have attended eight (8) Metallica concerts from 1989 through 2017. Metallica makes available their sets list from their shows at [Met on Tour](https://www.metallica.com/tour/past). The only show where I had to use a different data source is the 1989 show in Cedar Rapids, Iowa. I used this 
 [SetList](https://www.setlist.fm/setlist/metallica/1989/hilton-coliseum-ames-ia-33d6d411.html) from Ames, Iowa as a proxy and this list matches my memory. Here is the set list from each show using a datatable. 
@@ -69,7 +69,7 @@ setlist_tour <- inner_join(setlist, tours, by="id") #join setlist with tours
 setlist_tour <- setlist_tour %>%
 	select(3, 2, 6:9) 
 
-datatable(setlist_tour)
+#kable(setlist_tour)
 
 
 
@@ -78,7 +78,6 @@ datatable(setlist_tour)
 
 ## Song Count by City
 
-I have seen Metallica perform the most songs in Cedar Rapids, Iowa and a close second is Tampa, FL. 
 
 
 ```{r setlist_tour_tbl}
@@ -91,6 +90,9 @@ setlist_tour_tbl <- tours %>%
 kable(setlist_tour_tbl) #display pretty table
 
 ```
+
+
+I have seen Metallica perform the most songs in Cedar Rapids, Iowa and a close second is Tampa, FL. 
 
 
 ```{r setlist_tour_city}
