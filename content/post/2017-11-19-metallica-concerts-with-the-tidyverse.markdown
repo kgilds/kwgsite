@@ -65,7 +65,7 @@ setlist_tour <- setlist_tour %>%
 #kable(setlist_tour)
 ```
 
-## Song Count by City
+## Tours
 
 
 
@@ -91,6 +91,8 @@ kable(setlist_tour_tbl) #display pretty table
 |Tampa           |Madly In Anger With The World |
 |Tampa           |World Magnetic                |
 |Orlando         |World Wired                   |
+
+## Song Count by City
 
 
 I have seen Metallica perform the most songs in Cedar Rapids, Iowa and a close second is Tampa, FL. 

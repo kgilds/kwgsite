@@ -76,7 +76,7 @@ setlist_tour <- setlist_tour %>%
 
 ```
 
-## Song Count by City
+## Tours
 
 
 
@@ -90,6 +90,8 @@ setlist_tour_tbl <- tours %>%
 kable(setlist_tour_tbl) #display pretty table
 
 ```
+
+## Song Count by City
 
 
 I have seen Metallica perform the most songs in Cedar Rapids, Iowa and a close second is Tampa, FL. 
