@@ -6,7 +6,7 @@
     <description>Recent content in Categories on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Nov 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Automation</title>
       <link>/categories/automation/</link>
-      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 05 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>/categories/automation/</guid>
       <description></description>
@@ -131,18 +131,9 @@
     <item>
       <title>R</title>
       <link>/categories/r/</link>
-      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R If_else Workflow</title>
-      <link>/categories/r-if_else-workflow/</link>
-      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/r-if_else-workflow/</guid>
       <description></description>
     </item>
     
