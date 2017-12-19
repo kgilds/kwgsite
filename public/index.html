@@ -211,7 +211,7 @@ ga('send', 'pageview');
 
                 
                     <li>
-                        <a href="./2017/12/13/images/"><p>Discus</p></a>
+                        <a href="./2017/12/13/images/"><p>The fix for disqus and images</p></a>
                     </li>
                 
                     <li>
@@ -244,7 +244,7 @@ ga('send', 'pageview');
     <header>
     <div class="title">
         
-            <h2><a href="./2017/12/13/images/">Discus</a></h2>
+            <h2><a href="./2017/12/13/images/">The fix for disqus and images</a></h2>
         
         
     </div>
@@ -268,7 +268,7 @@ ga('send', 'pageview');
             
 
 
-<li><a href="//twitter.com/share?url=%2f2017%2f12%2f13%2fimages%2f&text=Discus&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2017%2f12%2f13%2fimages%2f&text=The%20fix%20for%20disqus%20and%20images&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
@@ -286,19 +286,19 @@ ga('send', 'pageview');
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2017%2f12%2f13%2fimages%2f&title=Discus" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2017%2f12%2f13%2fimages%2f&title=The%20fix%20for%20disqus%20and%20images" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f12%2f13%2fimages%2f&title=Discus" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f12%2f13%2fimages%2f&title=The%20fix%20for%20disqus%20and%20images" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f12%2f13%2fimages%2f&title=Discus" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f12%2f13%2fimages%2f&title=The%20fix%20for%20disqus%20and%20images" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
@@ -314,7 +314,32 @@ ga('send', 'pageview');
     
 
     <div id="content">
-        <p>Is the cure worse than the disease. I fixed an issue with Discus comments to find my images will not render.</p>
+        <p>Is the cure worse than the disease is what I pondered after I fixed an issue with Disqus comments.</p>
+
+<p>The fix for addressing the Disqus issues was changingg the baseurl parameter from &ldquo;/&rdquo; to the name of the website.</p>
+
+<p>Before</p>
+
+<pre><code>&quot;/&quot;
+</code></pre>
+
+<p>The fix</p>
+
+<pre><code>baseurl = &quot;http://kgilds.rbind.io/&quot;
+</code></pre>
+
+<p>However after this was fixed, images on my site would not hold steady. They would render initally but if you clicked away and came back  to the page with the image; the image would be gone. I suspect this had something to do with the relative path of the image. I made this slight adjustment to reference the image below</p>
+
+<p>Before</p>
+
+<pre><code>![luke](img/luke.jpg)
+</code></pre>
+
+<p>The fix</p>
+
+<pre><code>![luke](/img/luke.jpg)
+
+</code></pre>
 
 <p><img src="./img/luke.jpg" alt="luke" /></p>
 
@@ -382,7 +407,7 @@ ga('send', 'pageview');
             
 
 
-<li><a href="//twitter.com/share?url=%2f2017%2f12%2f13%2fimages%2f&text=Discus&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2017%2f12%2f13%2fimages%2f&text=The%20fix%20for%20disqus%20and%20images&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
@@ -400,19 +425,19 @@ ga('send', 'pageview');
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2017%2f12%2f13%2fimages%2f&title=Discus" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2017%2f12%2f13%2fimages%2f&title=The%20fix%20for%20disqus%20and%20images" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f12%2f13%2fimages%2f&title=Discus" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2017%2f12%2f13%2fimages%2f&title=The%20fix%20for%20disqus%20and%20images" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f12%2f13%2fimages%2f&title=Discus" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2017%2f12%2f13%2fimages%2f&title=The%20fix%20for%20disqus%20and%20images" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
@@ -464,7 +489,7 @@ ga('send', 'pageview');
                     <li>
                         <article>
                             <header>
-                                <h3><a href="./2017/12/13/images/">Discus</a></h3>
+                                <h3><a href="./2017/12/13/images/">The fix for disqus and images</a></h3>
                                 
                                     
                                 

@@ -12,12 +12,16 @@
     
     
     <item>
-      <title>Discus</title>
+      <title>The fix for disqus and images</title>
       <link>/2017/12/13/images/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/12/13/images/</guid>
-      <description>Is the cure worse than the disease. I fixed an issue with Discus comments to find my images will not render.</description>
+      <description>Is the cure worse than the disease is what I pondered after I fixed an issue with Disqus comments.
+The fix for addressing the Disqus issues was changingg the baseurl parameter from &amp;ldquo;/&amp;rdquo; to the name of the website.
+Before
+&amp;quot;/&amp;quot;  The fix
+baseurl = &amp;quot;http://kgilds.rbind.io/&amp;quot;  However after this was fixed, images on my site would not hold steady. They would render initally but if you clicked away and came back to the page with the image; the image would be gone.</description>
     </item>
     
     <item>
