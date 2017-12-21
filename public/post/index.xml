@@ -12,16 +12,16 @@
     
     
     <item>
-      <title>The fix for disqus and images</title>
+      <title>The fix for Disqus and Images</title>
       <link>/2017/12/13/images/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/12/13/images/</guid>
       <description>Is the cure worse than the disease is what I pondered after I fixed an issue with Disqus comments.
-The fix for addressing the Disqus issues was changingg the baseurl parameter from &amp;ldquo;/&amp;rdquo; to the name of the website.
+I could not figure out to get the Disqus Comment section to render on this site.
+The fix for addressing the Disqus issues was changing the baseurl parameter from &amp;ldquo;/&amp;rdquo; to the name of the website in the confg.toml file. This Github Issue helped me resolve.
 Before
-&amp;quot;/&amp;quot;  The fix
-baseurl = &amp;quot;http://kgilds.rbind.io/&amp;quot;  However after this was fixed, images on my site would not hold steady. They would render initally but if you clicked away and came back to the page with the image; the image would be gone.</description>
+baseurl= &amp;quot;/&amp;quot;  The fix</description>
     </item>
     
     <item>
