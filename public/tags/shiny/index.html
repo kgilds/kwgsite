@@ -16,7 +16,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.20.7" />
+        <meta name="generator" content="Hugo 0.30.2" />
         
 
 
@@ -27,7 +27,9 @@
             
         
 
-        
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Shiny"/>
+<meta name="twitter:description" content="R for the rest of us."/>
+
         <meta property="og:title" content="Shiny" />
 <meta property="og:description" content="R for the rest of us." />
 <meta property="og:type" content="website" />
@@ -35,7 +37,7 @@
 
 
 
-
+<meta property="og:updated_time" content="2017-12-21T00:00:00&#43;00:00"/>
 
 
 
@@ -75,6 +77,16 @@
         
         
             
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-111258922-1', 'auto');
+ga('send', 'pageview');
+</script>
+
         
     </head>
     <body>
@@ -104,7 +116,13 @@
                 </li>
             
                 <li>
-                    <a href="https://twitter.com/kevn_gilds">
+                    <a href="../../resume/">
+                        Resume
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://twitter.com/kevin_gilds">
                         Twitter
                     </a>
                 </li>
@@ -162,7 +180,16 @@
                     </li>
                 
                     <li>
-                        <a href="https://twitter.com/kevn_gilds">
+                        <a href="../../resume/">
+                            <h3>
+                                
+                                Resume
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://twitter.com/kevin_gilds">
                             <h3>
                                 
                                 Twitter
@@ -185,23 +212,23 @@
 
                 
                     <li>
-                        <a href="../../2017/05/26/metallica-concerts-maps-r/"><p>Metallica Concerts, Maps,  &amp; R</p></a>
+                        <a href="../../2017/12/21/shiny-for-teaching/"><p>Shiny for Teaching</p></a>
                     </li>
                 
                     <li>
-                        <a href="../../2017/05/26/metallica-maps-and-r/"><p>Metallica, Maps, and R</p></a>
+                        <a href="../../2017/12/21/troubleshooting/"><p>Troubleshooting</p></a>
                     </li>
                 
                     <li>
-                        <a href="../../2017/05/20/blogdown-lessons/"><p>Blogdown lessons</p></a>
+                        <a href="../../2017/12/13/images/"><p>The fix for Disqus and Images</p></a>
                     </li>
                 
                     <li>
-                        <a href="../../2016/12/30/a-plain-markdown-post/"><p>A Plain Markdown Post</p></a>
+                        <a href="../../2017/12/10/have-an-opinion/"><p>Have an opinion</p></a>
                     </li>
                 
                     <li>
-                        <a href="../../2015/07/23/hello-r-markdown/"><p>Hello R Markdown</p></a>
+                        <a href="../../2017/12/10/meditation/"><p>Meditation</p></a>
                     </li>
                 
             </ul>
@@ -223,7 +250,7 @@
     <header>
     <div class="title">
         
-            <h2><a href="../../2017/05/26/metallica-concerts-maps-r/">Metallica Concerts, Maps,  &amp; R</a></h2>
+            <h2><a href="../../2017/12/21/shiny-for-teaching/">Shiny for Teaching</a></h2>
         
         
     </div>
@@ -233,155 +260,8 @@
         
 
         <time class="published"
-            datetime='2017-05-26'>
-            May 26, 2017</time>
-        <span class="author">kevin</span>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p></p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="../../2017/05/26/metallica-concerts-maps-r/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-                        Categories
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='../../categories/metallica'>Metallica</a></li>
-    
-        <li><a href='../../categories/leaflet'>leaflet</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="../../2017/05/26/metallica-maps-and-r/">Metallica, Maps, and R</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2017-05-26'>
-            May 26, 2017</time>
-        <span class="author">kevin</span>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>library(leaflet)</p>
-
-<h2 id="warning-package-39-leaflet-39-was-built-under-r-version-3-4-0">Warning: package &#39;leaflet&#39; was built under R version 3.4.0</h2>
-
-<p>library(tidyverse)</p>
-
-<h2 id="warning-package-39-tidyverse-39-was-built-under-r-version-3-4-0">Warning: package &#39;tidyverse&#39; was built under R version 3.4.0</h2>
-
-<h2 id="loading-tidyverse-ggplot2">Loading tidyverse: ggplot2</h2>
-
-<h2 id="loading-tidyverse-tibble">Loading tidyverse: tibble</h2>
-
-<h2 id="loading-tidyverse-tidyr">Loading tidyverse: tidyr</h2>
-
-<h2 id="loading-tidyverse-readr">Loading tidyverse: readr</h2>
-
-<h2 id="loading-tidyverse-purrr">Loading tidyverse: purrr</h2>
-
-<h2 id="loading-tidyverse-dplyr">Loading tidyverse: dplyr</h2>
-
-<h2 id="warning-package-39-ggplot2-39-was-built-under-r-version-3-4-0">Warning: package &#39;ggplot2&#39; was built under R version 3.4.0</h2>
-
-<h2 id="warning-package-39-tibble-39-was-built-under-r-version-3">Warning: package &#39;tibble&#39; was built under R version 3.</h2>
-</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="../../2017/05/26/metallica-maps-and-r/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-                        Categories
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='../../categories/metallica'>Metallica</a></li>
-    
-        <li><a href='../../categories/leaflet'>leaflet</a></li>
-    
-        <li><a href='../../categories/r'>R</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="../../2017/05/20/blogdown-lessons/">Blogdown lessons</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2017-05-20'>
-            May 20, 2017</time>
+            datetime='2017-12-21'>
+            December 21, 2017</time>
         <span class="author">Kevin</span>
         
         
@@ -390,123 +270,12 @@
 
     
 
-    <p>One big challenge in rendering the site was using the R studio GUI Git. How many times did I restart my computer before I deduced the problem? The Git process would stall out.
-To solve, I used the new Git desktop feature (<a href="https://desktop.github.com/">https://desktop.github.com/</a>) and it worked.</p>
+    <p>My two cents is that Shiny should be taught to those being introduced to R.
+I wrote a script one weekend to process/clean a data set. The script worked but I was unsettled that I was going to have copy this script for another data set. The reason I was unsetteled was because my script was dependent on the data frame I was working on but it did not have to be until the final result.</p>
 
     <footer>
         <ul class="actions">
-            <li><a href="../../2017/05/20/blogdown-lessons/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-                        Categories
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='../../categories/r'>R</a></li>
-    
-        <li><a href='../../categories/blogdown'>blogdown</a></li>
-    
-        <li><a href='../../categories/git'>Git</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="../../2016/12/30/a-plain-markdown-post/">A Plain Markdown Post</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2016-12-30'>
-            December 30, 2016</time>
-        <span class="author"></span>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>This is a post written in plain Markdown (<em>.md) instead of R Markdown (</em>.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&rsquo;s Markdown and Pandoc&rsquo;s Markdown.</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="../../2016/12/30/a-plain-markdown-post/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-
-    
-    
-</ul>
-
-    </footer>
-</article>
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="../../2015/07/23/hello-r-markdown/">Hello R Markdown</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2015-07-23'>
-            July 23, 2015</time>
-        <span class="author">Frida Gomam</span>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>R Markdown
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com">http://rmarkdown.rstudio.com</a>.
-You can embed an R code chunk like this:
-summary(cars)</p>
-
-<h2 id="speed-dist-min-4-0-min-2-00-1st-qu-12-0-1st-qu-26-00-median-15-0-median-36-00-mean-15-4-mean-42-98-3rd-qu">speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</h2>
-</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="../../2015/07/23/hello-r-markdown/" class="button big">Continue Reading</a></li>
+            <li><a href="../../2017/12/21/shiny-for-teaching/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
     
@@ -541,7 +310,7 @@ summary(cars)</p>
     <header>
     <div class="title">
         
-            <h2><a href="../../2015/01/01/lorem-ipsum/">Lorem Ipsum</a></h2>
+            <h2><a href="../../2017/12/21/troubleshooting/">Troubleshooting</a></h2>
         
         
     </div>
@@ -551,9 +320,9 @@ summary(cars)</p>
         
 
         <time class="published"
-            datetime='2015-01-01'>
-            January 1, 2015</time>
-        <span class="author"></span>
+            datetime='2017-12-21'>
+            December 21, 2017</time>
+        <span class="author">Kevin</span>
         
         
     </div>
@@ -561,13 +330,82 @@ summary(cars)</p>
 
     
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>I have transitioned from using databases to store evolving data to the Rds format. I finally ran into some trouble with the RDS format this weekend. I was stumpted when previous code would not work on this new data.
+The str function is the MVP of this troubleshooting adventure. My rule is that when something does not work as expected. 1). Look for silly typos. 2). Check your type of data&ndash;the str function helps you check what type of data you are working with.</p>
 
     <footer>
         <ul class="actions">
-            <li><a href="../../2015/01/01/lorem-ipsum/" class="button big">Continue Reading</a></li>
+            <li><a href="../../2017/12/21/troubleshooting/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../categories/r'>R</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../2017/12/13/images/">The fix for Disqus and Images</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-12-13'>
+            December 13, 2017</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>Is the cure worse than the disease is what I pondered after I fixed an issue with Disqus comments.
+I could not figure out to get the Disqus Comment section to render on this site.
+The fix for addressing the Disqus issues was changing the baseurl parameter from &ldquo;/&rdquo; to the name of the website in the confg.toml file. This Github Issue helped me resolve.
+Before
+baseurl= &quot;/&quot;  The fix</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../2017/12/13/images/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
     
 
     
@@ -582,7 +420,7 @@ summary(cars)</p>
     <header>
     <div class="title">
         
-            <h2><a href="../../1/01/01/citations/">Citations</a></h2>
+            <h2><a href="../../2017/12/10/have-an-opinion/">Have an opinion</a></h2>
         
         
     </div>
@@ -592,9 +430,9 @@ summary(cars)</p>
         
 
         <time class="published"
-            datetime='0001-01-01'>
-            January 1, 0001</time>
-        <span class="author">Kevin Gilds, MPA</span>
+            datetime='2017-12-10'>
+            December 10, 2017</time>
+        <span class="author">Kevin</span>
         
         
     </div>
@@ -602,15 +440,139 @@ summary(cars)</p>
 
     
 
-    <p>I was finally able to create a bibliography and complete a cite within R Studio. This took me some effort to figure out though.
- I can&rsquo;t seem to figure out how to complete from JabRef but was able to implement with a Json file from Zotero.
- I may not have needed the json file as I was trying to different file formats until it dawned on me that I actually needed to cite a source before the bibliography would be created.</p>
+    <p>Seth&rsquo;s blog post today: I am proud that I practice this and promote this philosophy.</p>
 
     <footer>
         <ul class="actions">
-            <li><a href="../../1/01/01/citations/" class="button big">Continue Reading</a></li>
+            <li><a href="../../2017/12/10/have-an-opinion/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../categories/management'>management</a></li>
+    
+        <li><a href='../../categories/worklife'>worklife</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../2017/12/10/meditation/">Meditation</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-12-10'>
+            December 10, 2017</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>I started the practice of meditating about 2 months ago. I am proud of myself for sticking to it. Some days are better than others but the key is learning that the rep or value is learning to recognize your thoughts have drifted and to come back.
+Meditation is not a cure all but it does help you get out of a bad mental state quicker.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../2017/12/10/meditation/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../categories/life'>life</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../2017/12/08/balance/">Balance</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-12-08'>
+            December 8, 2017</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>I recall walking into a college orientation and being uncertain if I was in the right room. The reason I was uncertain is because there were more parents in the room than college kids. It never occurred to me to take my parents with me to college orientation. My bias has been that those students who brought their parents with them were doomed to failure. I suspect my bias is wrong&ndash;maybe.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../2017/12/08/balance/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
     
 
     
@@ -625,7 +587,7 @@ summary(cars)</p>
     <header>
     <div class="title">
         
-            <h2><a href="../../1/01/01/na.omit/">Na.omit</a></h2>
+            <h2><a href="../../2017/12/08/friday-night-music/">Friday night music</a></h2>
         
         
     </div>
@@ -635,9 +597,9 @@ summary(cars)</p>
         
 
         <time class="published"
-            datetime='0001-01-01'>
-            January 1, 0001</time>
-        <span class="author"></span>
+            datetime='2017-12-08'>
+            December 8, 2017</time>
+        <span class="author">Kevin</span>
         
         
     </div>
@@ -645,19 +607,34 @@ summary(cars)</p>
 
     
 
-    <p>na. strings The argument na.string= &quot;&quot; saved me a lot of work today. Happy I came across this in Stack Over Flow relatively quickly.
-<a href="http://stackoverflow.com/questions/24172111/change-the-blank-cells-to-na">http://stackoverflow.com/questions/24172111/change-the-blank-cells-to-na</a>.
-My data set apparently has hidden spaces and the na.omit function was not removing these observations. As a result, my factor levels were messed up and my table summaries were awful.
-It is fun to learn new things.</p>
+    <p></p>
 
     <footer>
         <ul class="actions">
-            <li><a href="../../1/01/01/na.omit/" class="button big">Continue Reading</a></li>
+            <li><a href="../../2017/12/08/friday-night-music/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
     
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
 
     
+    
+        <li><a href='../../categories/life'>life</a></li>
     
 </ul>
 
@@ -669,7 +646,7 @@ It is fun to learn new things.</p>
     <header>
     <div class="title">
         
-            <h2><a href="../../1/01/01/now/">Now</a></h2>
+            <h2><a href="../../2017/12/07/cooper-s-pace/">Cooper&#39;s Pace</a></h2>
         
         
     </div>
@@ -679,9 +656,9 @@ It is fun to learn new things.</p>
         
 
         <time class="published"
-            datetime='0001-01-01'>
-            January 1, 0001</time>
-        <span class="author">Kevin Gilds, MPA</span>
+            datetime='2017-12-07'>
+            December 7, 2017</time>
+        <span class="author">Kevin</span>
         
         
     </div>
@@ -689,18 +666,34 @@ It is fun to learn new things.</p>
 
     
 
-    <p>I studied sociology as an undergraduate in the 1990s. At times, the concepts of sociology seemed mysterious&ndash;almost just theoretical&ndash;Not now, the concepts of class/group conflict, legitimacy, celebrity, are crystal clear.
-The time for laziness is over, history is happening and people are what shape history.
-A book that I recently re-read is Lilia and this book is helpful in providing a theoretical framework for what is happening. It appears we are moving towards valuing biological value patterns.</p>
+    <p>Attended a parent teacher conference this morning. I asked the teacher about the pace of his work and she said it&rsquo;s at Cooper&rsquo;s pace. This means that he is delibrate in his work; it took me nearly 40 years to work at a deliberate pace. did this change</p>
 
     <footer>
         <ul class="actions">
-            <li><a href="../../1/01/01/now/" class="button big">Continue Reading</a></li>
+            <li><a href="../../2017/12/07/cooper-s-pace/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
     
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
 
     
+    
+        <li><a href='../../categories/craftsmanship'>craftsmanship</a></li>
     
 </ul>
 
@@ -712,7 +705,7 @@ A book that I recently re-read is Lilia and this book is helpful in providing a 
     <header>
     <div class="title">
         
-            <h2><a href="../../1/01/01/pipes/">Pipes</a></h2>
+            <h2><a href="../../2017/12/06/automation/">This needs a script</a></h2>
         
         
     </div>
@@ -722,9 +715,9 @@ A book that I recently re-read is Lilia and this book is helpful in providing a 
         
 
         <time class="published"
-            datetime='0001-01-01'>
-            January 1, 0001</time>
-        <span class="author"></span>
+            datetime='2017-12-06'>
+            December 6, 2017</time>
+        <span class="author">Kevin</span>
         
         
     </div>
@@ -732,19 +725,94 @@ A book that I recently re-read is Lilia and this book is helpful in providing a 
 
     
 
-    <p>I finally started using pipes in my workflow; it took a bit to get used to but I think I finally got it.
-The pipes are this %&gt;%; here is a link to Official Documentation
-Here is some code that I used this weekend.
-langarts &lt;- inner_join(q1_langarts, q2_langarts, by=&quot;girlCode&quot;) dim(langarts) langarts_1 &lt;- langarts %&gt;% select(girlCode, council.x, lang_pts, lang_pts2) langarts_q2q1 &lt;- langarts_1 %&gt;% mutate(pt_diff = lang_pts2 - lang_pts)</p>
+    <p>I was writing this morning about the benefits of automation and that even the most simple script is a method of automation. Ironically enough I finished parsing through a spreadsheet in preparation of a meeting and when I finished making copies; a new report was sent to me. This needs a script.</p>
 
     <footer>
         <ul class="actions">
-            <li><a href="../../1/01/01/pipes/" class="button big">Continue Reading</a></li>
+            <li><a href="../../2017/12/06/automation/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
     
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
 
     
+    
+        <li><a href='../../categories/r'>r</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../2017/12/05/diminishing-returns/">Diminishing Returns</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-12-05'>
+            December 5, 2017</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>I listened to a bunch of podcast today but I hardly recall any points. Ok, maybe one point stuck out and that is the value of being bored&ndash;that means maybe not listening to so many podcast in short time frame. Today, the points really had no chance to stick.
+This reminds to revisit the exercise of a working meditation while commuting to work.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../2017/12/05/diminishing-returns/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../categories/life'>life</a></li>
     
 </ul>
 
@@ -801,13 +869,13 @@ langarts &lt;- inner_join(q1_langarts, q2_langarts, by=&quot;girlCode&quot;) dim
                     <li>
                         <article>
                             <header>
-                                <h3><a href="../../2017/05/26/metallica-concerts-maps-r/">Metallica Concerts, Maps,  &amp; R</a></h3>
+                                <h3><a href="../../2017/12/21/shiny-for-teaching/">Shiny for Teaching</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2017-05-26'>
-                                    May 26, 2017</time>
+                                    '2017-12-21'>
+                                    December 21, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -815,13 +883,13 @@ langarts &lt;- inner_join(q1_langarts, q2_langarts, by=&quot;girlCode&quot;) dim
                     <li>
                         <article>
                             <header>
-                                <h3><a href="../../2017/05/26/metallica-maps-and-r/">Metallica, Maps, and R</a></h3>
+                                <h3><a href="../../2017/12/21/troubleshooting/">Troubleshooting</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2017-05-26'>
-                                    May 26, 2017</time>
+                                    '2017-12-21'>
+                                    December 21, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -829,13 +897,13 @@ langarts &lt;- inner_join(q1_langarts, q2_langarts, by=&quot;girlCode&quot;) dim
                     <li>
                         <article>
                             <header>
-                                <h3><a href="../../2017/05/20/blogdown-lessons/">Blogdown lessons</a></h3>
+                                <h3><a href="../../2017/12/13/images/">The fix for Disqus and Images</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2017-05-20'>
-                                    May 20, 2017</time>
+                                    '2017-12-13'>
+                                    December 13, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -843,13 +911,13 @@ langarts &lt;- inner_join(q1_langarts, q2_langarts, by=&quot;girlCode&quot;) dim
                     <li>
                         <article>
                             <header>
-                                <h3><a href="../../2016/12/30/a-plain-markdown-post/">A Plain Markdown Post</a></h3>
+                                <h3><a href="../../2017/12/10/have-an-opinion/">Have an opinion</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2016-12-30'>
-                                    December 30, 2016</time>
+                                    '2017-12-10'>
+                                    December 10, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -857,13 +925,13 @@ langarts &lt;- inner_join(q1_langarts, q2_langarts, by=&quot;girlCode&quot;) dim
                     <li>
                         <article>
                             <header>
-                                <h3><a href="../../2015/07/23/hello-r-markdown/">Hello R Markdown</a></h3>
+                                <h3><a href="../../2017/12/10/meditation/">Meditation</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2015-07-23'>
-                                    July 23, 2015</time>
+                                    '2017-12-10'>
+                                    December 10, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -901,7 +969,52 @@ langarts &lt;- inner_join(q1_langarts, q2_langarts, by=&quot;girlCode&quot;) dim
                     <li>
                         <article>
                             <header>
+                                <a href="../../categories/automation/">automation</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="../../categories/blogdown/">blogdown</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/computer-literacy/">computer-literacy</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/craftsmanship/">craftsmanship</a>
+                                <span style="float:right;">5</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/data-management/">data-management</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/functions/">functions</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>
@@ -919,7 +1032,16 @@ langarts &lt;- inner_join(q1_langarts, q2_langarts, by=&quot;girlCode&quot;) dim
                     <li>
                         <article>
                             <header>
-                                <a href="../../categories/leaflet/">leaflet</a>
+                                <a href="../../categories/gsub/">gsub</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/leadership/">leadership</a>
                                 <span style="float:right;">2</span>
                             </header>
                         </article>
@@ -928,8 +1050,35 @@ langarts &lt;- inner_join(q1_langarts, q2_langarts, by=&quot;girlCode&quot;) dim
                     <li>
                         <article>
                             <header>
-                                <a href="../../categories/metallica/">metallica</a>
+                                <a href="../../categories/life/">life</a>
+                                <span style="float:right;">6</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/linux/">linux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/management/">management</a>
                                 <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/podcast/">podcast</a>
+                                <span style="float:right;">1</span>
                             </header>
                         </article>
                     </li>
@@ -938,7 +1087,70 @@ langarts &lt;- inner_join(q1_langarts, q2_langarts, by=&quot;girlCode&quot;) dim
                         <article>
                             <header>
                                 <a href="../../categories/r/">r</a>
-                                <span style="float:right;">3</span>
+                                <span style="float:right;">14</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/r-studio-community/">r-studio-community</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/shiny/">shiny</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/system-theory/">system-theory</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/tidyverse/">tidyverse</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/ubuntu/">ubuntu</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/workflow/">workflow</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/worklife/">worklife</a>
+                                <span style="float:right;">1</span>
                             </header>
                         </article>
                     </li>

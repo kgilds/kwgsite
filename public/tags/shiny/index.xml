@@ -6,19 +6,19 @@
     <description>Recent content in Shiny on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 21 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Shiny</title>
-      <link>/1/01/01/shiny/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Shiny for Teaching</title>
+      <link>/2017/12/21/shiny-for-teaching/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/1/01/01/shiny/</guid>
-      <description>Friday I listen to an R Podcast regarding the Shiny Developer Conference . I was pysched about performing crazy-cool Shiny App. I have been humbled.
-No Shiny App emerged this weekend; however, one important things did happen.
-Working through the Shiny App, I came up with an idea to attach another R programming problem.</description>
+      <guid>/2017/12/21/shiny-for-teaching/</guid>
+      <description>My two cents is that Shiny should be taught to those being introduced to R.
+I wrote a script one weekend to process/clean a data set. The script worked but I was unsettled that I was going to have copy this script for another data set. The reason I was unsetteled was because my script was dependent on the data frame I was working on but it did not have to be until the final result.</description>
     </item>
     
   </channel>

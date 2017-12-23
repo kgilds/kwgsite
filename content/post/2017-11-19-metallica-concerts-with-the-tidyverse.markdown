@@ -141,6 +141,27 @@ kable(song_count_avg) #display pretty table
 Below is a graph of the song_titles I have heard more than once. At first, glance, I was surprised that I had not seen *Master of Puppets* eight times. I checked the data and it occurred to me during the [*M2K*](https://www.metallica.com/tour/10360) Tour in St. Petersburg that Metallica performed *Masterarium*--a mix of Master of Puppets and Welcome Home Sanitarium--A fantastic performance. 
 
 
+To produce the plot below I used techniques from [Text Minning with R](https://www.tidytextmining.com/)
+
+
+```r
+song_count <- setlist_tour %>%
+	count(song_title, sort = TRUE) #set up for graph
+	
+
+#kable(song_count)
+
+
+
+setlist_tour %>%
+	count(song_title) %>%
+	filter(n >2) %>%
+	mutate(song_title = reorder(song_title, n)) %>% #this changes the order of the graph
+	ggplot(aes(song_title, n)) +
+	geom_col() +
+	xlab(NULL) +
+	coord_flip()
+```
 
 <img src="/post/2017-11-19-metallica-concerts-with-the-tidyverse_files/figure-html/song_count_graph-1.png" width="672" />
 

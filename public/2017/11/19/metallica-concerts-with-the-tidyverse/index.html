@@ -60,7 +60,7 @@ I completed the following analysis while in the midst of Hurricane Irma in Septe
 
 <meta itemprop="datePublished" content="2017-11-19T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2017-11-19T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="594">
+<meta itemprop="wordCount" content="647">
 
 
 
@@ -230,6 +230,14 @@ ga('send', 'pageview');
 
                 
                     <li>
+                        <a href="../../../../2017/12/21/shiny-for-teaching/"><p>Shiny for Teaching</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="../../../../2017/12/21/troubleshooting/"><p>Troubleshooting</p></a>
+                    </li>
+                
+                    <li>
                         <a href="../../../../2017/12/13/images/"><p>The fix for Disqus and Images</p></a>
                     </li>
                 
@@ -239,14 +247,6 @@ ga('send', 'pageview');
                 
                     <li>
                         <a href="../../../../2017/12/10/meditation/"><p>Meditation</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="../../../../2017/12/08/balance/"><p>Balance</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="../../../../2017/12/08/friday-night-music/"><p>Friday night music</p></a>
                     </li>
                 
             </ul>
@@ -567,6 +567,26 @@ kable(song_count_avg) #display pretty table
 
 <p>Below is a graph of the song_titles I have heard more than once. At first, glance, I was surprised that I had not seen <em>Master of Puppets</em> eight times. I checked the data and it occurred to me during the <a href="https://www.metallica.com/tour/10360"><em>M2K</em></a> Tour in St. Petersburg that Metallica performed <em>Masterarium</em>&ndash;a mix of Master of Puppets and Welcome Home Sanitarium&ndash;A fantastic performance.</p>
 
+<p>To produce the plot below I used techniques from <a href="https://www.tidytextmining.com/">Text Minning with R</a></p>
+
+<pre><code class="language-r">song_count &lt;- setlist_tour %&gt;%
+	count(song_title, sort = TRUE) #set up for graph
+	
+
+#kable(song_count)
+
+
+
+setlist_tour %&gt;%
+	count(song_title) %&gt;%
+	filter(n &gt;2) %&gt;%
+	mutate(song_title = reorder(song_title, n)) %&gt;% #this changes the order of the graph
+	ggplot(aes(song_title, n)) +
+	geom_col() +
+	xlab(NULL) +
+	coord_flip()
+</code></pre>
+
 <p><img src="../../../../post/2017-11-19-metallica-concerts-with-the-tidyverse_files/figure-html/song_count_graph-1.png" width="672" /></p>
 
 <p>This <a href="https://stackoverflow.com/questions/26114525/r-how-to-count-how-many-values-per-level-in-a-given-factor">article</a>
@@ -778,6 +798,34 @@ kable(song_count_tour)
                     <li>
                         <article>
                             <header>
+                                <h3><a href="../../../../2017/12/21/shiny-for-teaching/">Shiny for Teaching</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-12-21'>
+                                    December 21, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../../../2017/12/21/troubleshooting/">Troubleshooting</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-12-21'>
+                                    December 21, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <h3><a href="../../../../2017/12/13/images/">The fix for Disqus and Images</a></h3>
                                 
                                     
@@ -813,34 +861,6 @@ kable(song_count_tour)
                                 <time class="published" datetime=
                                     '2017-12-10'>
                                     December 10, 2017</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="../../../../2017/12/08/balance/">Balance</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2017-12-08'>
-                                    December 8, 2017</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="../../../../2017/12/08/friday-night-music/">Friday night music</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2017-12-08'>
-                                    December 8, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -996,7 +1016,7 @@ kable(song_count_tour)
                         <article>
                             <header>
                                 <a href="../../../../categories/r/">r</a>
-                                <span style="float:right;">12</span>
+                                <span style="float:right;">14</span>
                             </header>
                         </article>
                     </li>
