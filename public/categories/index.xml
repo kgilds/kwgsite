@@ -23,7 +23,7 @@
     <item>
       <title>Blogdown</title>
       <link>/categories/blogdown/</link>
-      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/categories/blogdown/</guid>
       <description></description>
@@ -53,6 +53,15 @@
       <pubDate>Sun, 11 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/categories/data-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disqus</title>
+      <link>/categories/disqus/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/disqus/</guid>
       <description></description>
     </item>
     
