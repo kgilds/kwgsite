@@ -27,7 +27,7 @@ I wrote a script one weekend to process/clean a data set. The script worked but 
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/2017/12/21/troubleshooting/</guid>
-      <description>I have transitioned from using databases to store evolving data to the Rds format. I finally ran into some trouble with the RDS format this weekend. I was stumpted when previous code would not work on this new data.
+      <description>I have transitioned from using databases to store evolving data to the Rds format. I finally ran into some trouble with the RDS format. I was stumpted when previous code would not work on this new data.
 The str function is the MVP of this troubleshooting adventure. My rule is that when something does not work as expected. 1). Look for silly typos. 2). Check your type of data&amp;ndash;the str function helps you check what type of data you are working with.</description>
     </item>
     
