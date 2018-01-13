@@ -6,10 +6,29 @@
     <description>Recent content in R on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go for a spin?</title>
+      <link>/2018/01/11/go-for-a-spin/</link>
+      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/11/go-for-a-spin/</guid>
+      <description>One reason, I love Rmarkdown is that you can show and check your work. The benefits of rep
+2+2  ## [1] 4 My Rmarkdown documents reports were long and somewhat intense. Last summer in R-studo community I came across this thread on how to organize a project. What struck me was the sourcing of scripts to generate Rmarkdown reports. Initially, I had a hard time with this because I could not figure out the working directory [see this post]</description>
+    </item>
+    
+    <item>
+      <title>Go for a spin?</title>
+      <link>/2018/01/11/go-for-a-spin/</link>
+      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/11/go-for-a-spin/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Notebooks with R</title>
@@ -24,6 +43,20 @@ A second benefit, I have noted with notebooks is that when Preview is selected; 
     </item>
     
     <item>
+      <title>Framework for Troubleshooting</title>
+      <link>/2017/12/21/troubleshooting/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/21/troubleshooting/</guid>
+      <description>I transitioned from using databases to the RDS format to store evolving data. I ran into some trouble with the RDS format. I was stumped when previous working code would not work on a new data set.
+My troubleshooting framework is as follows:
+1) Look for silly typos.
+2) Check your data types.
+3) Isolate the issue.
+The str function is the MVP of this troubleshooting adventure with a a little help from isolating the issue.</description>
+    </item>
+    
+    <item>
       <title>Shiny for Teaching</title>
       <link>/2017/12/21/shiny-for-teaching/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
@@ -31,16 +64,6 @@ A second benefit, I have noted with notebooks is that when Preview is selected; 
       <guid>/2017/12/21/shiny-for-teaching/</guid>
       <description>My two cents is that Shiny should be taught to those being introduced to R.
 I wrote a script one weekend to process/clean a data set. The script worked but I was unsettled that I was going to have copy this script for another data set. The reason I was unsetteled was because my script was dependent on the data frame I was working on but it did not have to be until the final result.</description>
-    </item>
-    
-    <item>
-      <title>Troubleshooting</title>
-      <link>/2017/12/21/troubleshooting/</link>
-      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/12/21/troubleshooting/</guid>
-      <description>I have transitioned from using databases to store evolving data to the Rds format. I finally ran into some trouble with the RDS format. I was stumpted when previous code would not work on this new data.
-The str function is the MVP of this troubleshooting adventure. My rule is that when something does not work as expected. 1). Look for silly typos. 2). Check your type of data&amp;ndash;the str function helps you check what type of data you are working with.</description>
     </item>
     
     <item>

@@ -18,7 +18,7 @@
       
       <guid>/2017/12/13/images/</guid>
       <description>Is the cure worse than the disease is what I pondered after I fixed an issue with Disqus comments.
-I could not figure out to get the Disqus Comment section to render on this site.
+I could not figure out how to get the Disqus Comment section to render on this site.
 The fix for addressing the Disqus issues was changing the baseurl parameter from &amp;ldquo;/&amp;rdquo; to the name of the website in the confg.toml file. This Github Issue helped me resolve.
 Before
 baseurl= &amp;quot;/&amp;quot;  The fix</description>
