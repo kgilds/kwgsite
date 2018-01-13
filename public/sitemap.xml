@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2018/01/13/troubleshooting/</loc>
+    <lastmod>2018-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/01/11/go-for-a-spin/</loc>
     <lastmod>2018-01-11T00:00:00+00:00</lastmod>
   </url>
@@ -23,18 +28,8 @@
   </url>
   
   <url>
-    <loc>/2017/12/21/troubleshooting/</loc>
-    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2017/12/21/shiny-for-teaching/</loc>
     <lastmod>2017-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2017/12/13/images/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -163,6 +158,11 @@
   </url>
   
   <url>
+    <loc>/2017/01/12/images/</loc>
+    <lastmod>2017-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2016/12/30/a-plain-markdown-post/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
   </url>
@@ -198,20 +198,20 @@
   </url>
   
   <url>
-    <loc>/tags/automation/</loc>
-    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/automation/</loc>
     <lastmod>2016-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/tags/automation/</loc>
+    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/blogdown/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -253,7 +253,7 @@
   
   <url>
     <loc>/categories/disqus/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -303,7 +303,7 @@
   
   <url>
     <loc>/tags/likert/</loc>
-    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -351,19 +351,19 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2018-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/r/</loc>
     <lastmod>2017-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -381,13 +381,13 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/rds/</loc>
-    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -404,20 +404,20 @@
   </url>
   
   <url>
-    <loc>/tags/shiny/</loc>
-    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/shiny/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/str/</loc>
+    <loc>/tags/shiny/</loc>
     <lastmod>2017-12-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/str/</loc>
+    <lastmod>2018-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -452,14 +452,14 @@
   </url>
   
   <url>
-    <loc>/tags/workflow/</loc>
-    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
+    <loc>/categories/workflow/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/workflow/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+    <loc>/tags/workflow/</loc>
+    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,24 @@
     <description>Recent content in R on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Framework for Troubleshooting</title>
+      <link>/2018/01/13/troubleshooting/</link>
+      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/13/troubleshooting/</guid>
+      <description>I transitioned from using databases to the RDS format to store evolving data. I ran into some trouble with the RDS format. I was stumped when previous working code would not work on a new data set.
+My troubleshooting framework is as follows:
+1) Look for silly typos.
+2) Check your data types.
+3) Isolate the issue.
+The str function is the MVP of this troubleshooting adventure with a a little help from isolating the issue.</description>
+    </item>
     
     <item>
       <title>Go for a spin?</title>
@@ -40,20 +54,6 @@
 However, I have slowly been adopting notebooks into my work flow and here are my use cases for notebooks.
 One benefit is testing code or troubleshooting code, I am using in a shiny application.
 A second benefit, I have noted with notebooks is that when Preview is selected; the html document will generate and includes the normal output but will also show code that does not work along with the error messages.</description>
-    </item>
-    
-    <item>
-      <title>Framework for Troubleshooting</title>
-      <link>/2017/12/21/troubleshooting/</link>
-      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/12/21/troubleshooting/</guid>
-      <description>I transitioned from using databases to the RDS format to store evolving data. I ran into some trouble with the RDS format. I was stumped when previous working code would not work on a new data set.
-My troubleshooting framework is as follows:
-1) Look for silly typos.
-2) Check your data types.
-3) Isolate the issue.
-The str function is the MVP of this troubleshooting adventure with a a little help from isolating the issue.</description>
     </item>
     
     <item>

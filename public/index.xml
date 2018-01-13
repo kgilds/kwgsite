@@ -6,10 +6,24 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Framework for Troubleshooting</title>
+      <link>/2018/01/13/troubleshooting/</link>
+      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/13/troubleshooting/</guid>
+      <description>I transitioned from using databases to the RDS format to store evolving data. I ran into some trouble with the RDS format. I was stumped when previous working code would not work on a new data set.
+My troubleshooting framework is as follows:
+1) Look for silly typos.
+2) Check your data types.
+3) Isolate the issue.
+The str function is the MVP of this troubleshooting adventure with a a little help from isolating the issue.</description>
+    </item>
     
     <item>
       <title>Go for a spin?</title>
@@ -52,20 +66,6 @@ A second benefit, I have noted with notebooks is that when Preview is selected; 
     </item>
     
     <item>
-      <title>Framework for Troubleshooting</title>
-      <link>/2017/12/21/troubleshooting/</link>
-      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/12/21/troubleshooting/</guid>
-      <description>I transitioned from using databases to the RDS format to store evolving data. I ran into some trouble with the RDS format. I was stumped when previous working code would not work on a new data set.
-My troubleshooting framework is as follows:
-1) Look for silly typos.
-2) Check your data types.
-3) Isolate the issue.
-The str function is the MVP of this troubleshooting adventure with a a little help from isolating the issue.</description>
-    </item>
-    
-    <item>
       <title>Shiny for Teaching</title>
       <link>/2017/12/21/shiny-for-teaching/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
@@ -73,19 +73,6 @@ The str function is the MVP of this troubleshooting adventure with a a little he
       <guid>/2017/12/21/shiny-for-teaching/</guid>
       <description>My two cents is that Shiny should be taught to those being introduced to R.
 I wrote a script one weekend to process/clean a data set. The script worked but I was unsettled that I was going to have copy this script for another data set. The reason I was unsetteled was because my script was dependent on the data frame I was working on but it did not have to be until the final result.</description>
-    </item>
-    
-    <item>
-      <title>The fix for Disqus and Images</title>
-      <link>/2017/12/13/images/</link>
-      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/12/13/images/</guid>
-      <description>Is the cure worse than the disease is what I pondered after I fixed an issue with Disqus comments.
-I could not figure out how to get the Disqus Comment section to render on this site.
-The fix for addressing the Disqus issues was changing the baseurl parameter from &amp;ldquo;/&amp;rdquo; to the name of the website in the confg.toml file. This Github Issue helped me resolve.
-Before
-baseurl= &amp;quot;/&amp;quot;  The fix</description>
     </item>
     
     <item>
@@ -340,6 +327,19 @@ My experience is that nonprofit organizations do not manage their program data i
       <guid>/2017/05/20/blogdown-lessons/</guid>
       <description>One big challenge in rendering the site was using the R studio GUI Git. How many times did I restart my computer before I deduced the problem? The Git process would stall out.
 To solve, I used the new Git desktop feature (https://desktop.github.com/) and it worked.</description>
+    </item>
+    
+    <item>
+      <title>The fix for Disqus and Images</title>
+      <link>/2017/01/12/images/</link>
+      <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/01/12/images/</guid>
+      <description>Is the cure worse than the disease is what I pondered after I fixed an issue with Disqus comments.
+I could not figure out how to get the Disqus Comment section to render on this site.
+The fix for addressing the Disqus issues was changing the baseurl parameter from &amp;ldquo;/&amp;rdquo; to the name of the website in the confg.toml file. This Github Issue helped me resolve.
+Before
+baseurl= &amp;quot;/&amp;quot;  The fix</description>
     </item>
     
     <item>

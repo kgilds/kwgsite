@@ -6,23 +6,10 @@
     <description>Recent content in Blogdown on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 May 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/blogdown/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>The fix for Disqus and Images</title>
-      <link>/2017/12/13/images/</link>
-      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/12/13/images/</guid>
-      <description>Is the cure worse than the disease is what I pondered after I fixed an issue with Disqus comments.
-I could not figure out how to get the Disqus Comment section to render on this site.
-The fix for addressing the Disqus issues was changing the baseurl parameter from &amp;ldquo;/&amp;rdquo; to the name of the website in the confg.toml file. This Github Issue helped me resolve.
-Before
-baseurl= &amp;quot;/&amp;quot;  The fix</description>
-    </item>
     
     <item>
       <title>Blogdown lessons</title>
@@ -32,6 +19,19 @@ baseurl= &amp;quot;/&amp;quot;  The fix</description>
       <guid>/2017/05/20/blogdown-lessons/</guid>
       <description>One big challenge in rendering the site was using the R studio GUI Git. How many times did I restart my computer before I deduced the problem? The Git process would stall out.
 To solve, I used the new Git desktop feature (https://desktop.github.com/) and it worked.</description>
+    </item>
+    
+    <item>
+      <title>The fix for Disqus and Images</title>
+      <link>/2017/01/12/images/</link>
+      <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/01/12/images/</guid>
+      <description>Is the cure worse than the disease is what I pondered after I fixed an issue with Disqus comments.
+I could not figure out how to get the Disqus Comment section to render on this site.
+The fix for addressing the Disqus issues was changing the baseurl parameter from &amp;ldquo;/&amp;rdquo; to the name of the website in the confg.toml file. This Github Issue helped me resolve.
+Before
+baseurl= &amp;quot;/&amp;quot;  The fix</description>
     </item>
     
   </channel>
