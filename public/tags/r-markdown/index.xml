@@ -6,10 +6,19 @@
     <description>Recent content in R Markdown on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What I love most about Markdown</title>
+      <link>/2018/01/19/what-i-love-most-about-markdown/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/19/what-i-love-most-about-markdown/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>

@@ -6,10 +6,29 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Teaching Shiny</title>
+      <link>/2018/01/19/shiny-for-teaching/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/19/shiny-for-teaching/</guid>
+      <description>It was a struggle for me to learn to write my own functions in R. The moment it did sink in; My though was this&amp;ndash;this is like a Shiny Input and Output.
+My two cents is that Shiny should be introduced sooner rather than later for those beginning to learn R.The basis for my assertion is this that learning Shiny helped me conceptualize how make my own functions and added to my computer literacy regarding web development.</description>
+    </item>
+    
+    <item>
+      <title>What I love most about Markdown</title>
+      <link>/2018/01/19/what-i-love-most-about-markdown/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/01/19/what-i-love-most-about-markdown/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Framework for Troubleshooting</title>
@@ -63,16 +82,6 @@ A second benefit, I have noted with notebooks is that when Preview is selected; 
       
       <guid>/2017/12/28/how-i-started-with-r/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Shiny for Teaching</title>
-      <link>/2017/12/21/shiny-for-teaching/</link>
-      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/12/21/shiny-for-teaching/</guid>
-      <description>My two cents is that Shiny should be taught to those being introduced to R.
-I wrote a script one weekend to process/clean a data set. The script worked but I was unsettled that I was going to have copy this script for another data set. The reason I was unsetteled was because my script was dependent on the data frame I was working on but it did not have to be until the final result.</description>
     </item>
     
     <item>
