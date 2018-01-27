@@ -1,10 +1,10 @@
 ---
-title: When it sinks in
-author: Kevin
+title: "When it sinks in"
+author: "Kevin"
 date: '2018-01-25'
 slug: when-it-sinks-in
-categories: [R]
-tags: [list.files]
+tags: list.files
+categories: R
 ---
 
 
