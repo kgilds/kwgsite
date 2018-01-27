@@ -5,6 +5,9 @@ date: '2018-01-25'
 slug: when-it-sinks-in
 tags: list.files
 categories: R
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 
