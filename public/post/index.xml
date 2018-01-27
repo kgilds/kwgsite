@@ -6,19 +6,19 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>When it sinks in</title>
-      <link>/2018/01/25/when-it-sinks-in/</link>
-      <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
+      <title>list.files</title>
+      <link>/2018/01/27/list-files/</link>
+      <pubDate>Sat, 27 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/01/25/when-it-sinks-in/</guid>
-      <description>I learned how to use the list.file function from Dean Attali’s Post: Mimicking a Google Form with a Shiny App
-However the power of the list.file function finally set this in this week. The function is not merely a method to list the files–it can be a method to put all those files to an object that can be manipulated–mind blown. 😄
+      <guid>/2018/01/27/list-files/</guid>
+      <description>I learned how to use the list.file function from Dean Attali&amp;rsquo;s Post: Mimicking a Google Form with a Shiny App
+However the power of the list.file function finally set this in this week. The function is not merely a method to list the files&amp;ndash;it can be a method to put all those files to an object that can be manipulated&amp;ndash;mind blown. 😄
 Here is my script to combine multiple pdf files using the tabulizer package.</description>
     </item>
     
