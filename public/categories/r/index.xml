@@ -6,10 +6,20 @@
     <description>Recent content in R on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Under the hood with geom_bar</title>
+      <link>/2018/02/01/r4ds/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/01/r4ds/</guid>
+      <description>I have struggled with bar plots using ggplot2&amp;ndash; I never bothered to look under the hood to understand what was happening; I just hacked away until I get a reasonable looking bar plot.
+This has changed since I signed up for the R4DS community slack group in December and have been working my way slowly through the R for Data Science Book. As, I have been going through Chapter 3, I finally started looking under the hood and learning the fundamentals of gglot2.</description>
+    </item>
     
     <item>
       <title>list.files</title>
