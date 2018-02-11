@@ -31,7 +31,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-02-01T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2018-02-10T00:00:00&#43;00:00"/>
 
 
 
@@ -211,6 +211,10 @@ ga('send', 'pageview');
 
                 
                     <li>
+                        <a href="./2018/02/10/janitor-for-dupes/"><p>get_dupes function--Janitor Package</p></a>
+                    </li>
+                
+                    <li>
                         <a href="./2018/02/01/r4ds/"><p>Under the hood with geom_bar</p></a>
                     </li>
                 
@@ -224,10 +228,6 @@ ga('send', 'pageview');
                 
                     <li>
                         <a href="./2018/01/19/what-i-love-most-about-markdown/"><p>What I love most about Markdown</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="./2018/01/13/troubleshooting/"><p>Framework for Troubleshooting</p></a>
                     </li>
                 
             </ul>
@@ -244,7 +244,7 @@ ga('send', 'pageview');
     <header>
     <div class="title">
         
-            <h2><a href="./2018/02/01/r4ds/">Under the hood with geom_bar</a></h2>
+            <h2><a href="./2018/02/10/janitor-for-dupes/">get_dupes function--Janitor Package</a></h2>
         
         
     </div>
@@ -254,8 +254,8 @@ ga('send', 'pageview');
         
 
         <time class="published"
-            datetime='2018-02-01'>
-            February 1, 2018</time>
+            datetime='2018-02-10'>
+            February 10, 2018</time>
         <span class="author">Kevin</span>
         
         
@@ -268,43 +268,43 @@ ga('send', 'pageview');
             
 
 
-<li><a href="//twitter.com/share?url=%2f2018%2f02%2f01%2fr4ds%2f&text=Under%20the%20hood%20with%20geom_bar&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f&text=get_dupes%20function--Janitor%20Package&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=%2f2018%2f02%2f01%2fr4ds%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2018%2f02%2f01%2fr4ds%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2018%2f02%2f01%2fr4ds%2f&title=Under%20the%20hood%20with%20geom_bar" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f&title=get_dupes%20function--Janitor%20Package" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2018%2f02%2f01%2fr4ds%2f&title=Under%20the%20hood%20with%20geom_bar" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f&title=get_dupes%20function--Janitor%20Package" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2018%2f02%2f01%2fr4ds%2f&title=Under%20the%20hood%20with%20geom_bar" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f&title=get_dupes%20function--Janitor%20Package" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2018%2f02%2f01%2fr4ds%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -314,11 +314,7 @@ ga('send', 'pageview');
     
 
     <div id="content">
-        <p>I have struggled with bar plots using ggplot2&ndash; I never bothered to look under the hood to understand what was happening; I just hacked away until I get a reasonable looking bar plot.</p>
-
-<p>This has changed since I signed up for the R4DS community slack group in December and have been working my way slowly through the <em>R for Data Science</em> Book. As, I have been going through Chapter 3, I finally started looking under the hood and learning the fundamentals of gglot2.</p>
-
-<p>Fireworks 🎆 went off when reviewing <strong>Statistical Transformations</strong> and I read and understood this&ndash;&ldquo;Other graphs, like bar charts, calculate new values to plot:&rdquo;</p>
+        <p>The <a href="https://github.com/sfirke/janitor">Janitor Package</a> was recommended to me on the R4DS Slack Channel. I was finally able to check it out this weekend and the <code>get_dupes</code> function is what I have been looking for my whole R life. I can&rsquo;t wait to play with some of the tably features.</p>
 
     </div>
 
@@ -352,8 +348,8 @@ ga('send', 'pageview');
 </article>
 <ul class="actions pagination">
     
-        <li><a href="./2018/01/27/list-files/"
-                class="button big previous">list.files</a></li>
+        <li><a href="./2018/02/01/r4ds/"
+                class="button big previous">Under the hood with geom_bar</a></li>
     
 
     
@@ -397,43 +393,43 @@ ga('send', 'pageview');
             
 
 
-<li><a href="//twitter.com/share?url=%2f2018%2f02%2f01%2fr4ds%2f&text=Under%20the%20hood%20with%20geom_bar&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f&text=get_dupes%20function--Janitor%20Package&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=%2f2018%2f02%2f01%2fr4ds%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2018%2f02%2f01%2fr4ds%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2018%2f02%2f01%2fr4ds%2f&title=Under%20the%20hood%20with%20geom_bar" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f&title=get_dupes%20function--Janitor%20Package" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2018%2f02%2f01%2fr4ds%2f&title=Under%20the%20hood%20with%20geom_bar" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f&title=get_dupes%20function--Janitor%20Package" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2018%2f02%2f01%2fr4ds%2f&title=Under%20the%20hood%20with%20geom_bar" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f&title=get_dupes%20function--Janitor%20Package" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2018%2f02%2f01%2fr4ds%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by Kevin&body=%2f2018%2f02%2f10%2fjanitor-for-dupes%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -475,6 +471,20 @@ ga('send', 'pageview');
                     
                 
 
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="./2018/02/10/janitor-for-dupes/">get_dupes function--Janitor Package</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2018-02-10'>
+                                    February 10, 2018</time>
+                            </header>
+                        </article>
+                    </li>
                 
                     <li>
                         <article>
@@ -528,20 +538,6 @@ ga('send', 'pageview');
                                 <time class="published" datetime=
                                     '2018-01-19'>
                                     January 19, 2018</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="./2018/01/13/troubleshooting/">Framework for Troubleshooting</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2018-01-13'>
-                                    January 13, 2018</time>
                             </header>
                         </article>
                     </li>
@@ -706,7 +702,7 @@ ga('send', 'pageview');
                         <article>
                             <header>
                                 <a href="./categories/r/">r</a>
-                                <span style="float:right;">20</span>
+                                <span style="float:right;">21</span>
                             </header>
                         </article>
                     </li>
