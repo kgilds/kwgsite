@@ -37,7 +37,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-12-10T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2018-01-11T00:00:00&#43;00:00"/>
 
 
 
@@ -212,23 +212,23 @@ ga('send', 'pageview');
 
                 
                     <li>
+                        <a href="../../../../2018/02/18/how-i-started-with-r/"><p>How I started with R</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="../../../../2018/02/17/my-week-in-r/"><p>My week in R</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="../../../../2018/02/17/shiny-fun/"><p>Shiny Fun</p></a>
+                    </li>
+                
+                    <li>
                         <a href="../../../../2018/02/10/janitor-for-dupes/"><p>get_dupes function--Janitor Package</p></a>
                     </li>
                 
                     <li>
                         <a href="../../../../2018/02/01/r4ds/"><p>Under the hood with geom_bar</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="../../../../2018/01/27/list-files/"><p>list.files</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="../../../../2018/01/19/shiny-for-teaching/"><p>Teaching Shiny</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="../../../../2018/01/19/what-i-love-most-about-markdown/"><p>What I love most about Markdown</p></a>
                     </li>
                 
             </ul>
@@ -244,6 +244,129 @@ ga('send', 'pageview');
         
             
         
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../../../2018/01/11/go-for-a-spin/">Go for a spin?</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-01-11'>
+            January 11, 2018</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p></p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../../../2018/01/11/go-for-a-spin/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../../../categories/r'>R</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../../../2018/01/05/notebooks-with-r/">Notebooks with R</a></h2>
+        
+        
+            <p>Use cases for using notebooks in R</p>
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-01-05'>
+            January 5, 2018</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>I have been ambivalent about using the notebook feature in R studio. I test drove Jupyter Notebooks, and I did not love the experience&ndash;even using R.
+However, I have slowly been adopting notebooks into my work flow and here are my use cases for notebooks.
+One benefit is testing code or troubleshooting code, I am using in a shiny application.
+A second benefit, I have noted with notebooks is that when Preview is selected; the html document will generate and includes the normal output but will also show code that does not work along with the error messages.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../../../2018/01/05/notebooks-with-r/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../../../categories/r'>R</a></li>
+    
+</ul>
+
+    </footer>
+</article>
 
         
             <article class="post">
@@ -715,131 +838,6 @@ I am determined not to code or write at night as I believe strong that impacts m
 </article>
 
         
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="../../../../2017/12/02/a-bit-of-a-hack/">A bit of a hack</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2017-12-02'>
-            December 2, 2017</time>
-        <span class="author">Kevin</span>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>This week I also finished up a feature of an application that I have been thinking about implementing. I wanted to summarize data entry by site location. The problem is that variable I am trying to summarize is free data entry&ndash;hence many ways to write the name of the school and misspelling. I used a bit of hack with the gsub function.
-My approach was this.
-site$school &lt;- toupper(site$school) site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL MAGNET&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL SCHOOL&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELLMIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKE ACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKEACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKE ACAMAY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DREAM ACADENY&quot;, &quot;DREAM ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;FREEDOM MS&quot;, &quot;FREEDOM MIDDLE SCHOOL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fixed=TRUE, site$school)  However, my sense is that there is a better way implement this with regular expressions.</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="../../../../2017/12/02/a-bit-of-a-hack/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-                        Categories
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='../../../../categories/r'>R</a></li>
-    
-        <li><a href='../../../../categories/gsub'>gsub</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="../../../../2017/12/01/data-management/">Data Entry Application</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2017-12-01'>
-            December 1, 2017</time>
-        <span class="author">Kevin</span>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>My intent was to build a data entry application with Python using the flask web environment. Somehow I managed to talk myself into using Shiny with the help of this post from Dean Atalli. It only took me about a couple of distracted hours with 3 kids to get through the tutorial and a morning to update a line of code to get the example working.
-The pros to this approach are the following:</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="../../../../2017/12/01/data-management/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-                        Categories
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='../../../../categories/r'>R</a></li>
-    
-        <li><a href='../../../../categories/shiny'>shiny</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
 
         
 <ul class="actions pagination">
@@ -890,6 +888,48 @@ The pros to this approach are the following:</p>
                     <li>
                         <article>
                             <header>
+                                <h3><a href="../../../../2018/02/18/how-i-started-with-r/">How I started with R</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2018-02-18'>
+                                    February 18, 2018</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../../../2018/02/17/my-week-in-r/">My week in R</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2018-02-17'>
+                                    February 17, 2018</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../../../2018/02/17/shiny-fun/">Shiny Fun</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2018-02-17'>
+                                    February 17, 2018</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <h3><a href="../../../../2018/02/10/janitor-for-dupes/">get_dupes function--Janitor Package</a></h3>
                                 
                                     
@@ -911,48 +951,6 @@ The pros to this approach are the following:</p>
                                 <time class="published" datetime=
                                     '2018-02-01'>
                                     February 1, 2018</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="../../../../2018/01/27/list-files/">list.files</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2018-01-27'>
-                                    January 27, 2018</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="../../../../2018/01/19/shiny-for-teaching/">Teaching Shiny</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2018-01-19'>
-                                    January 19, 2018</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="../../../../2018/01/19/what-i-love-most-about-markdown/">What I love most about Markdown</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2018-01-19'>
-                                    January 19, 2018</time>
                             </header>
                         </article>
                     </li>

@@ -6,10 +6,38 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How I started with R</title>
+      <link>/2018/02/18/how-i-started-with-r/</link>
+      <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/18/how-i-started-with-r/</guid>
+      <description>Yesterday, I was reading a thread on the R-Studio Community about how to convince colleagues to switch from Excel to R. It made me think about what prompted me to make the switch. I am not sure there is anything worse than analyzing survey data in Excel.
+In July of 2011 I started a job at a nonprofit organization as a Quality Assurance Coordinator. My main duty was to develop surveys that measured customer satisfaction and program quality.</description>
+    </item>
+    
+    <item>
+      <title>My week in R</title>
+      <link>/2018/02/17/my-week-in-r/</link>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/17/my-week-in-r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny Fun</title>
+      <link>/2018/02/17/shiny-fun/</link>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/17/shiny-fun/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>get_dupes function--Janitor Package</title>
@@ -103,15 +131,6 @@ The str function is the MVP of this troubleshooting adventure with a a little he
 However, I have slowly been adopting notebooks into my work flow and here are my use cases for notebooks.
 One benefit is testing code or troubleshooting code, I am using in a shiny application.
 A second benefit, I have noted with notebooks is that when Preview is selected; the html document will generate and includes the normal output but will also show code that does not work along with the error messages.</description>
-    </item>
-    
-    <item>
-      <title>How I started with R</title>
-      <link>/2017/12/28/how-i-started-with-r/</link>
-      <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/12/28/how-i-started-with-r/</guid>
-      <description></description>
     </item>
     
     <item>
