@@ -5,6 +5,9 @@ date: '2018-02-23'
 slug: test-driving
 tags: []
 categories: []
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 # Introduction
