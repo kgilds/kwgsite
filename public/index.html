@@ -316,6 +316,7 @@ ga('send', 'pageview');
     <div id="content">
         <div id="introduction" class="section level1">
 <h1>Introduction</h1>
+<p>But why</p>
 <p>I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the <code>r readxl package</code> in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the <a href="https://github.com/tidyverse/readxl">Github Repo</a>.</p>
 <p>The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016.</p>
 <pre class="r"><code>library(tidyverse)</code></pre>
@@ -338,11 +339,11 @@ library(knitr)</code></pre>
 <p>Use the Get function from httr to grab the file</p>
 <pre class="r"><code>GET(url, write_disk(absences &lt;- tempfile(fileext = &quot;.xls&quot;)))</code></pre>
 <pre><code>## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls]
-##   Date: 2018-02-27 00:22
+##   Date: 2018-02-27 01:12
 ##   Status: 200
 ##   Content-Type: application/msexcel
 ##   Size: 751 kB
-## &lt;ON DISK&gt;  /tmp/RtmppR3NpU/file141e29898201.xls</code></pre>
+## &lt;ON DISK&gt;  /tmp/RtmpR14vri/file22efed7f6a9.xls</code></pre>
 </div>
 <div id="read-the-data" class="section level3">
 <h3>Read the data</h3>

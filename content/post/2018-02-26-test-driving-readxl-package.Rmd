@@ -5,9 +5,14 @@ date: '2018-02-26'
 slug: test-driving-readxl-package
 categories: []
 tags: []
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 # Introduction
+
+But why
 
 I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the ` r readxl package ` in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the [Github Repo](https://github.com/tidyverse/readxl). 
 
