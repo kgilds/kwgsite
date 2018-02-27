@@ -6,10 +6,20 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Test Driving readxl package</title>
+      <link>/2018/02/26/test-driving-readxl-package/</link>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/26/test-driving-readxl-package/</guid>
+      <description>Introduction I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the Github Repo.
+The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016.</description>
+    </item>
     
     <item>
       <title>Test Driving readxl</title>
@@ -471,6 +481,18 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
       <guid>/2015/01/01/lorem-ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>Test Driving readxl Kevin
+2018-02-23
+Introduction I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the Github Repo.
+The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016.</description>
     </item>
     
     <item>
