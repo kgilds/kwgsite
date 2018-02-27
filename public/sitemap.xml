@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/2018/02/26/the-streak/</loc>
+    <lastmod>2018-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/02/23/test-driving/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
   </url>
@@ -242,13 +247,13 @@
   </url>
   
   <url>
-    <loc>/categories/automation/</loc>
+    <loc>/tags/automation/</loc>
     <lastmod>2016-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/automation/</loc>
+    <loc>/categories/automation/</loc>
     <lastmod>2016-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -412,14 +417,14 @@
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2018-02-10T00:00:00+00:00</lastmod>
+    <loc>/tags/r/</loc>
+    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
+    <loc>/categories/r/</loc>
+    <lastmod>2018-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -460,14 +465,14 @@
   </url>
   
   <url>
-    <loc>/categories/shiny/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <loc>/tags/shiny/</loc>
+    <lastmod>2018-01-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/shiny/</loc>
-    <lastmod>2018-01-19T00:00:00+00:00</lastmod>
+    <loc>/categories/shiny/</loc>
+    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -508,14 +513,14 @@
   </url>
   
   <url>
-    <loc>/categories/workflow/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+    <loc>/tags/workflow/</loc>
+    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/workflow/</loc>
-    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
+    <loc>/categories/workflow/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
