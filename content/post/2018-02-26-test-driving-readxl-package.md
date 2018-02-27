@@ -4,6 +4,8 @@ Kevin
 
 # Introduction
 
+But why
+
 I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the ` r readxl package ` in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the [Github Repo](https://github.com/tidyverse/readxl). 
 
 The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016. 
@@ -53,11 +55,11 @@ GET(url, write_disk(absences <- tempfile(fileext = ".xls")))
 
 ```
 ## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls]
-##   Date: 2018-02-27 01:05
+##   Date: 2018-02-27 01:11
 ##   Status: 200
 ##   Content-Type: application/msexcel
 ##   Size: 751 kB
-## <ON DISK>  /tmp/Rtmp1mcrvz/file1ed646426ca1.xls
+## <ON DISK>  /tmp/RtmprHLpwW/file2271e73473c.xls
 ```
 
 
