@@ -10,11 +10,11 @@ output:
     keep_md: yes
 ---
 
-# Introduction
+# Introduction:
 
 
 
-I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the ` r readxl package ` in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the [Github Repo](https://github.com/tidyverse/readxl). 
+I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the ` r readxl package ` in order to wrangle spreadsheets in the wild. This post closely follows closely with the examples on the [Github Repo](https://github.com/tidyverse/readxl). 
 
 The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016. 
 
@@ -25,7 +25,7 @@ library(httr)
 library(knitr)
 ```
 
-### Getting the data
+### The data:
 
 The url of the data set is below
 ```{r url}
@@ -41,19 +41,19 @@ GET(url, write_disk(absences <- tempfile(fileext = ".xls")))
 
 
 
-### Read the data
+### Read the data:
 ```{r}
 absences_1 <- read_excel(absences)
 
 ```
 
-### Check the data out with the str function
+### Check the data out with the str function:
 ```{r}
 str(absences_1)
 ```
 
 
-### Display the data
+### Display the data:
 ```{r}
 absences_1
 ```
@@ -104,7 +104,7 @@ absences_2 <- read_excel(absences, skip = 2)
 
 ```
 
-### Use str again to check what we are dealing with
+### Use str again to check what we are dealing with:
 ```{r}
 str(absences_2)
 ```
