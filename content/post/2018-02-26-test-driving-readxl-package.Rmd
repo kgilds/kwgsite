@@ -1,5 +1,5 @@
 ---
-title: Test Driving readxl package
+title: Test Driving The Readxl package
 author: Kevin
 date: '2018-02-26'
 slug: test-driving-readxl-package
@@ -14,9 +14,9 @@ output:
 
 
 
-I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the ` r readxl package ` in order to wrangle spreadsheets in the wild. This post closely follows closely with the examples on the [Github Repo](https://github.com/tidyverse/readxl). 
+I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good opportunity to learn the ` r readxl package `. This post closely follows closely with the examples on the [Github Repo](https://github.com/tidyverse/readxl). 
 
-The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016. 
+The file consists of results of a survey of schools in Florida that captured the count of students who were absent more than 21 days in the  2015-2016 school year. 
 
 ```{r load_libraries}
 library(tidyverse)
@@ -33,7 +33,7 @@ url <- 'http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls
 
 ```
 
-Use the Get function from httr to grab the file
+Use the  GET function from httr to grab the file
 ```{r get file}
 GET(url, write_disk(absences <- tempfile(fileext = ".xls")))
 
@@ -58,7 +58,7 @@ str(absences_1)
 absences_1
 ```
 
-The output is not in a tidy format. The first row has a title and the second row provides a description of the data. Lets extract just the meta data using ` r (n_max = 2)`.  
+The output is not in a tidy format. The first row has a title and the second row provides a description of the data. Lets extract just the meta data using ` r (n_max = )` argument.  
 
 ```{r meta}
 meta <- read_excel(absences, n_max = 2)
@@ -66,15 +66,14 @@ meta <- read_excel(absences, n_max = 2)
 meta
 ```
 
-This is not exactly what I want. Using ` r (n_max = 2)` we captured the title and message about the data but we also captured the other columns and row information.  I am going to use the range argument to isolate the title and description of the data. 
+This is not exactly what I want. Using the ` r (n_max =)` function  we captured the title and message about the data, but we also captured the other columns and row information.  I am going to use the  ` r (range)` argument to isolate the title and description of the data. 
 
 ```{r meta_1}
 meta_1 <- read_excel(absences, range="A1:A2")
-
 meta_1
 ```
 
-An important warning about the data is cut off in the blog down output. I am going to isolate on the cell to clearly display the message about the data. 
+An important warning about the data is cut off in the blogdown output. I am going to isolate on the cell to clearly display the message about the data. 
 
 ```{r meta_2}
 meta_2 <- read_excel(absences, range="A2")
@@ -96,7 +95,7 @@ absences_2 <- read_excel(absences, skip =2, na = *)
 
 ### Let me introduce you to skip:
 
-Now, that we have the title and message about the data, let us put the data in tidy format. From our exercise above we know that the first two rows are not helpful. Fortunately we can use the ` r (skip = 2)` argument to bypass the first 2 rows. 
+Now, that we have the title and message about the data, let us put the data in tidy format. From our exercise above we know that the first two rows are not helpful. Fortunately we can use the ` r (skip = )` argument to bypass the first 2 rows. 
 
 ```{r}
 absences_2 <- read_excel(absences, skip = 2)
