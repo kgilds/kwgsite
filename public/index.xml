@@ -17,7 +17,7 @@
       <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/02/26/test-driving-readxl-package/</guid>
-      <description>Introduction I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the Github Repo.
+      <description>Introduction: I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with the examples on the Github Repo.
 The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016.</description>
     </item>
     
@@ -522,8 +522,7 @@ The file consists of data from a survey of schools in Florida that provides a co
       <guid>/1/01/01/</guid>
       <description>Test Driving readxl package Kevin
 2018-02-26
-Introduction But why
-I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the Github Repo.
+Introduction I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the Github Repo.
 The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016.</description>
     </item>
     

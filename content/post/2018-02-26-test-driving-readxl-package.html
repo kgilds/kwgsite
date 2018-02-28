@@ -13,8 +13,8 @@ output:
 
 
 <div id="introduction" class="section level1">
-<h1>Introduction</h1>
-<p>I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the <code>r readxl package</code> in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the <a href="https://github.com/tidyverse/readxl">Github Repo</a>.</p>
+<h1>Introduction:</h1>
+<p>I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the <code>r readxl package</code> in order to wrangle spreadsheets in the wild. This post closely follows closely with the examples on the <a href="https://github.com/tidyverse/readxl">Github Repo</a>.</p>
 <p>The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016.</p>
 <pre class="r"><code>library(tidyverse)</code></pre>
 <pre><code>## Loading tidyverse: ggplot2
@@ -29,25 +29,25 @@ output:
 <pre class="r"><code>library(readxl)
 library(httr)
 library(knitr)</code></pre>
-<div id="getting-the-data" class="section level3">
-<h3>Getting the data</h3>
+<div id="the-data" class="section level3">
+<h3>The data:</h3>
 <p>The url of the data set is below</p>
 <pre class="r"><code>url &lt;- &#39;http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls&#39;</code></pre>
 <p>Use the Get function from httr to grab the file</p>
 <pre class="r"><code>GET(url, write_disk(absences &lt;- tempfile(fileext = &quot;.xls&quot;)))</code></pre>
 <pre><code>## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls]
-##   Date: 2018-02-28 10:15
+##   Date: 2018-02-28 10:23
 ##   Status: 200
 ##   Content-Type: application/msexcel
 ##   Size: 751 kB
-## &lt;ON DISK&gt;  /tmp/RtmpJOCH20/file360c7869903a.xls</code></pre>
+## &lt;ON DISK&gt;  /tmp/RtmpYIQi3p/file39172aeeac19.xls</code></pre>
 </div>
 <div id="read-the-data" class="section level3">
-<h3>Read the data</h3>
+<h3>Read the data:</h3>
 <pre class="r"><code>absences_1 &lt;- read_excel(absences)</code></pre>
 </div>
 <div id="check-the-data-out-with-the-str-function" class="section level3">
-<h3>Check the data out with the str function</h3>
+<h3>Check the data out with the str function:</h3>
 <pre class="r"><code>str(absences_1)</code></pre>
 <pre><code>## Classes &#39;tbl_df&#39;, &#39;tbl&#39; and &#39;data.frame&#39;:    4039 obs. of  7 variables:
 ##  $ Students Absent 21 or More Days by School
@@ -60,7 +60,7 @@ library(knitr)</code></pre>
 ##  $ X__6                                                              : chr  NA &quot;% Absent 21 or More Days&quot; &quot;0.278509&quot; &quot;0.0527046&quot; ...</code></pre>
 </div>
 <div id="display-the-data" class="section level3">
-<h3>Display the data</h3>
+<h3>Display the data:</h3>
 <pre class="r"><code>absences_1</code></pre>
 <pre><code>## # A tibble: 4,039 x 7
 ##           `Students Absent 21 or More Days by School\n2015-16, Final Survey 5`
@@ -117,7 +117,7 @@ absences_2 &lt;- read_excel(absences, skip =2, na = *)</code></pre>
 <pre class="r"><code>absences_2 &lt;- read_excel(absences, skip = 2)</code></pre>
 </div>
 <div id="use-str-again-to-check-what-we-are-dealing-with" class="section level3">
-<h3>Use str again to check what we are dealing with</h3>
+<h3>Use str again to check what we are dealing with:</h3>
 <pre class="r"><code>str(absences_2)</code></pre>
 <pre><code>## Classes &#39;tbl_df&#39;, &#39;tbl&#39; and &#39;data.frame&#39;:    4037 obs. of  7 variables:
 ##  $ District #              : num  1 1 1 1 1 1 1 1 1 1 ...
