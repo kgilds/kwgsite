@@ -211,7 +211,7 @@ ga('send', 'pageview');
 
                 
                     <li>
-                        <a href="./2018/02/26/test-driving-readxl-package/"><p>Test Driving readxl package</p></a>
+                        <a href="./2018/02/26/test-driving-readxl-package/"><p>Test Driving The Readxl package</p></a>
                     </li>
                 
                     <li>
@@ -244,7 +244,7 @@ ga('send', 'pageview');
     <header>
     <div class="title">
         
-            <h2><a href="./2018/02/26/test-driving-readxl-package/">Test Driving readxl package</a></h2>
+            <h2><a href="./2018/02/26/test-driving-readxl-package/">Test Driving The Readxl package</a></h2>
         
         
     </div>
@@ -268,7 +268,7 @@ ga('send', 'pageview');
             
 
 
-<li><a href="//twitter.com/share?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&text=Test%20Driving%20readxl%20package&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&text=Test%20Driving%20The%20Readxl%20package&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
@@ -286,19 +286,19 @@ ga('send', 'pageview');
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&title=Test%20Driving%20readxl%20package" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&title=Test%20Driving%20The%20Readxl%20package" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&title=Test%20Driving%20readxl%20package" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&title=Test%20Driving%20The%20Readxl%20package" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&title=Test%20Driving%20readxl%20package" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&title=Test%20Driving%20The%20Readxl%20package" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
@@ -316,8 +316,8 @@ ga('send', 'pageview');
     <div id="content">
         <div id="introduction" class="section level1">
 <h1>Introduction:</h1>
-<p>I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the <code>r readxl package</code> in order to wrangle spreadsheets in the wild. This post closely follows closely with the examples on the <a href="https://github.com/tidyverse/readxl">Github Repo</a>.</p>
-<p>The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016.</p>
+<p>I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good opportunity to learn the <code>r readxl package</code>. This post closely follows closely with the examples on the <a href="https://github.com/tidyverse/readxl">Github Repo</a>.</p>
+<p>The file consists of results of a survey of schools in Florida that captured the count of students who were absent more than 21 days in the 2015-2016 school year.</p>
 <pre class="r"><code>library(tidyverse)</code></pre>
 <pre><code>## Loading tidyverse: ggplot2
 ## Loading tidyverse: tibble
@@ -335,14 +335,14 @@ library(knitr)</code></pre>
 <h3>The data:</h3>
 <p>The url of the data set is below</p>
 <pre class="r"><code>url &lt;- &#39;http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls&#39;</code></pre>
-<p>Use the Get function from httr to grab the file</p>
+<p>Use the GET function from httr to grab the file</p>
 <pre class="r"><code>GET(url, write_disk(absences &lt;- tempfile(fileext = &quot;.xls&quot;)))</code></pre>
 <pre><code>## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls]
-##   Date: 2018-02-28 10:23
+##   Date: 2018-02-28 23:18
 ##   Status: 200
 ##   Content-Type: application/msexcel
 ##   Size: 751 kB
-## &lt;ON DISK&gt;  /tmp/RtmpYIQi3p/file39172aeeac19.xls</code></pre>
+## &lt;ON DISK&gt;  /tmp/Rtmpw4Kvr8/file419f7582fbea.xls</code></pre>
 </div>
 <div id="read-the-data" class="section level3">
 <h3>Read the data:</h3>
@@ -379,7 +379,7 @@ library(knitr)</code></pre>
 ## 10                                                                           1
 ## # ... with 4,029 more rows, and 6 more variables: X__1 &lt;chr&gt;, X__2 &lt;chr&gt;,
 ## #   X__3 &lt;chr&gt;, X__4 &lt;chr&gt;, X__5 &lt;chr&gt;, X__6 &lt;chr&gt;</code></pre>
-<p>The output is not in a tidy format. The first row has a title and the second row provides a description of the data. Lets extract just the meta data using <code>r (n_max = 2)</code>.</p>
+<p>The output is not in a tidy format. The first row has a title and the second row provides a description of the data. Lets extract just the meta data using <code>r (n_max = )</code> argument.</p>
 <pre class="r"><code>meta &lt;- read_excel(absences, n_max = 2)
 
 meta</code></pre>
@@ -390,15 +390,14 @@ meta</code></pre>
 ## 2                                                                  District #
 ## # ... with 6 more variables: X__1 &lt;chr&gt;, X__2 &lt;chr&gt;, X__3 &lt;chr&gt;,
 ## #   X__4 &lt;chr&gt;, X__5 &lt;chr&gt;, X__6 &lt;chr&gt;</code></pre>
-<p>This is not exactly what I want. Using <code>r (n_max = 2)</code> we captured the title and message about the data but we also captured the other columns and row information. I am going to use the range argument to isolate the title and description of the data.</p>
+<p>This is not exactly what I want. Using the <code>r (n_max =)</code> function we captured the title and message about the data, but we also captured the other columns and row information. I am going to use the <code>r (range)</code> argument to isolate the title and description of the data.</p>
 <pre class="r"><code>meta_1 &lt;- read_excel(absences, range=&quot;A1:A2&quot;)
-
 meta_1</code></pre>
 <pre><code>## # A tibble: 1 x 1
 ##          `Students Absent 21 or More Days by School\n2015-16, Final Survey 5`
 ##                                                                         &lt;chr&gt;
 ## 1 *To provide meaningful results and to protect the privacy of individual stu</code></pre>
-<p>An important warning about the data is cut off in the blog down output. I am going to isolate on the cell to clearly display the message about the data.</p>
+<p>An important warning about the data is cut off in the blogdown output. I am going to isolate on the cell to clearly display the message about the data.</p>
 <pre class="r"><code>meta_2 &lt;- read_excel(absences, range=&quot;A2&quot;)
 
 meta_2</code></pre>
@@ -415,7 +414,7 @@ absences_2 &lt;- read_excel(absences, skip =2, na = *)</code></pre>
 </div>
 <div id="let-me-introduce-you-to-skip" class="section level3">
 <h3>Let me introduce you to skip:</h3>
-<p>Now, that we have the title and message about the data, let us put the data in tidy format. From our exercise above we know that the first two rows are not helpful. Fortunately we can use the <code>r (skip = 2)</code> argument to bypass the first 2 rows.</p>
+<p>Now, that we have the title and message about the data, let us put the data in tidy format. From our exercise above we know that the first two rows are not helpful. Fortunately we can use the <code>r (skip = )</code> argument to bypass the first 2 rows.</p>
 <pre class="r"><code>absences_2 &lt;- read_excel(absences, skip = 2)</code></pre>
 </div>
 <div id="use-str-again-to-check-what-we-are-dealing-with" class="section level3">
@@ -513,7 +512,7 @@ absences_2 &lt;- read_excel(absences, skip =2, na = *)</code></pre>
             
 
 
-<li><a href="//twitter.com/share?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&text=Test%20Driving%20readxl%20package&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&text=Test%20Driving%20The%20Readxl%20package&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
@@ -531,19 +530,19 @@ absences_2 &lt;- read_excel(absences, skip =2, na = *)</code></pre>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&title=Test%20Driving%20readxl%20package" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&title=Test%20Driving%20The%20Readxl%20package" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&title=Test%20Driving%20readxl%20package" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&title=Test%20Driving%20The%20Readxl%20package" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&title=Test%20Driving%20readxl%20package" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2018%2f02%2f26%2ftest-driving-readxl-package%2f&title=Test%20Driving%20The%20Readxl%20package" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
@@ -595,7 +594,7 @@ absences_2 &lt;- read_excel(absences, skip =2, na = *)</code></pre>
                     <li>
                         <article>
                             <header>
-                                <h3><a href="./2018/02/26/test-driving-readxl-package/">Test Driving readxl package</a></h3>
+                                <h3><a href="./2018/02/26/test-driving-readxl-package/">Test Driving The Readxl package</a></h3>
                                 
                                     
                                 
