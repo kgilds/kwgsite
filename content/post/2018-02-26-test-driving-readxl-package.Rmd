@@ -3,7 +3,7 @@ title: Test Driving The Readxl package
 author: Kevin
 date: '2018-02-26'
 slug: test-driving-readxl-package
-categories: []
+categories: [R]
 tags: []
 output: 
   html_document: 
