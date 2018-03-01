@@ -6,10 +6,20 @@
     <description>Recent content in R on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Test Driving The Readxl package</title>
+      <link>/2018/02/26/test-driving-readxl-package/</link>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/26/test-driving-readxl-package/</guid>
+      <description>Introduction: I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good opportunity to learn the readxl package. This post closely follows with the examples on the Github Repo.
+The file consists of a count of students who were absent more than 21 days in the 2015-2016 school year. The data is broken down by school district and school; the data also includes enrollment data and percent of students who missed more than 21 days by school.</description>
+    </item>
     
     <item>
       <title>get_dupes function--Janitor Package</title>

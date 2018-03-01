@@ -3,7 +3,7 @@ title: Test Driving The Readxl package
 author: Kevin
 date: '2018-02-26'
 slug: test-driving-readxl-package
-categories: []
+categories: [R]
 tags: []
 output: 
   html_document: 
@@ -39,11 +39,11 @@ library(knitr)</code></pre>
 <p>Use the GET function from httr to grab the file</p>
 <pre class="r"><code>GET(url, write_disk(absences &lt;- tempfile(fileext = &quot;.xls&quot;)))</code></pre>
 <pre><code>## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls]
-##   Date: 2018-03-01 02:02
+##   Date: 2018-03-01 02:05
 ##   Status: 200
 ##   Content-Type: application/msexcel
 ##   Size: 751 kB
-## &lt;ON DISK&gt;  /tmp/Rtmp96kjpH/file4e473cd3cecb.xls</code></pre>
+## &lt;ON DISK&gt;  /tmp/RtmpxqpKIY/file50078cb2496.xls</code></pre>
 </div>
 <div id="read-the-data" class="section level3">
 <h3>Read the data:</h3>
