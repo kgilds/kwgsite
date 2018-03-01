@@ -13,11 +13,11 @@ output:
 # Introduction:
 
 
+I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good opportunity to learn the ` readxl package `. This post closely follows with the examples on the [Github Repo](https://github.com/tidyverse/readxl). 
 
-I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good opportunity to learn the ` r readxl package `. This post closely follows closely with the examples on the [Github Repo](https://github.com/tidyverse/readxl). 
+The file consists of a count of students who were absent more than 21 days in the  2015-2016 school year. The data is broken down by school district and school; the data also includes enrollment data  and percent of students who missed more than 21 days by school. 
 
-The file consists of results of a survey of schools in Florida that captured the count of students who were absent more than 21 days in the  2015-2016 school year. 
-
+#Load Libraries:
 ```{r load_libraries}
 library(tidyverse)
 library(readxl)
@@ -58,7 +58,7 @@ str(absences_1)
 absences_1
 ```
 
-The output is not in a tidy format. The first row has a title and the second row provides a description of the data. Lets extract just the meta data using ` r (n_max = )` argument.  
+The output is not in a tidy format. The first row has a title and the second row provides a description of the data. Lets extract just the meta data using ` n_max = ` argument.  
 
 ```{r meta}
 meta <- read_excel(absences, n_max = 2)
@@ -66,7 +66,7 @@ meta <- read_excel(absences, n_max = 2)
 meta
 ```
 
-This is not exactly what I want. Using the ` r (n_max =)` function  we captured the title and message about the data, but we also captured the other columns and row information.  I am going to use the  ` r (range)` argument to isolate the title and description of the data. 
+This is not exactly what I want. Using the ` n_max =` argument we captured the title and message about the data, but we also captured the other columns and row information.  I am going to use the  ` range = ` argument to isolate the title and description of the data. 
 
 ```{r meta_1}
 meta_1 <- read_excel(absences, range="A1:A2")
@@ -82,7 +82,7 @@ meta_2
 
 ```
 
-This did the trick. The message indicates that an asterisk is used when there is less than 10 students at a school. There is a ` r (na)` argument in the read_excel function but I could not get it work with a plain asterisk or an asterisk in quotes. Maybe a regular expression would work. 
+This did the trick. The message indicates that an asterisk is used when there is less than 10 students at a school. There is a ` (na)` argument in the read_excel function but I could not get it work with a plain asterisk or an asterisk in quotes. Maybe a regular expression would work. 
 
 ```{r eval=FALSE}
 absences_2 <- read_excel(absences, skip =2, na = "*")
@@ -95,7 +95,7 @@ absences_2 <- read_excel(absences, skip =2, na = *)
 
 ### Let me introduce you to skip:
 
-Now, that we have the title and message about the data, let us put the data in tidy format. From our exercise above we know that the first two rows are not helpful. Fortunately we can use the ` r (skip = )` argument to bypass the first 2 rows. 
+Now, that we have the title and message about the data, let us put the data in tidy format. From our exercise above we know that the first two rows are not helpful. Fortunately we can use the ` skip = ` argument to bypass the first 2 rows. 
 
 ```{r}
 absences_2 <- read_excel(absences, skip = 2)
