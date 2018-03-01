@@ -14,8 +14,11 @@ output:
 
 <div id="introduction" class="section level1">
 <h1>Introduction:</h1>
-<p>I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good opportunity to learn the <code>r readxl package</code>. This post closely follows closely with the examples on the <a href="https://github.com/tidyverse/readxl">Github Repo</a>.</p>
-<p>The file consists of results of a survey of schools in Florida that captured the count of students who were absent more than 21 days in the 2015-2016 school year.</p>
+<p>I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good opportunity to learn the <code>readxl package</code>. This post closely follows with the examples on the <a href="https://github.com/tidyverse/readxl">Github Repo</a>.</p>
+<p>The file consists of a count of students who were absent more than 21 days in the 2015-2016 school year. The data is broken down by school district and school; the data also includes enrollment data and percent of students who missed more than 21 days by school.</p>
+</div>
+<div id="load-libraries" class="section level1">
+<h1>Load Libraries:</h1>
 <pre class="r"><code>library(tidyverse)</code></pre>
 <pre><code>## Loading tidyverse: ggplot2
 ## Loading tidyverse: tibble
@@ -36,11 +39,11 @@ library(knitr)</code></pre>
 <p>Use the GET function from httr to grab the file</p>
 <pre class="r"><code>GET(url, write_disk(absences &lt;- tempfile(fileext = &quot;.xls&quot;)))</code></pre>
 <pre><code>## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls]
-##   Date: 2018-02-28 23:18
+##   Date: 2018-03-01 02:02
 ##   Status: 200
 ##   Content-Type: application/msexcel
 ##   Size: 751 kB
-## &lt;ON DISK&gt;  /tmp/Rtmpw4Kvr8/file419f7582fbea.xls</code></pre>
+## &lt;ON DISK&gt;  /tmp/Rtmp96kjpH/file4e473cd3cecb.xls</code></pre>
 </div>
 <div id="read-the-data" class="section level3">
 <h3>Read the data:</h3>
@@ -77,7 +80,7 @@ library(knitr)</code></pre>
 ## 10                                                                           1
 ## # ... with 4,029 more rows, and 6 more variables: X__1 &lt;chr&gt;, X__2 &lt;chr&gt;,
 ## #   X__3 &lt;chr&gt;, X__4 &lt;chr&gt;, X__5 &lt;chr&gt;, X__6 &lt;chr&gt;</code></pre>
-<p>The output is not in a tidy format. The first row has a title and the second row provides a description of the data. Lets extract just the meta data using <code>r (n_max = )</code> argument.</p>
+<p>The output is not in a tidy format. The first row has a title and the second row provides a description of the data. Lets extract just the meta data using <code>n_max =</code> argument.</p>
 <pre class="r"><code>meta &lt;- read_excel(absences, n_max = 2)
 
 meta</code></pre>
@@ -88,7 +91,7 @@ meta</code></pre>
 ## 2                                                                  District #
 ## # ... with 6 more variables: X__1 &lt;chr&gt;, X__2 &lt;chr&gt;, X__3 &lt;chr&gt;,
 ## #   X__4 &lt;chr&gt;, X__5 &lt;chr&gt;, X__6 &lt;chr&gt;</code></pre>
-<p>This is not exactly what I want. Using the <code>r (n_max =)</code> function we captured the title and message about the data, but we also captured the other columns and row information. I am going to use the <code>r (range)</code> argument to isolate the title and description of the data.</p>
+<p>This is not exactly what I want. Using the <code>n_max =</code> argument we captured the title and message about the data, but we also captured the other columns and row information. I am going to use the <code>range =</code> argument to isolate the title and description of the data.</p>
 <pre class="r"><code>meta_1 &lt;- read_excel(absences, range=&quot;A1:A2&quot;)
 meta_1</code></pre>
 <pre><code>## # A tibble: 1 x 1
@@ -105,14 +108,14 @@ meta_2</code></pre>
 ## #   number of students in a group is at least 10 and when the performance
 ## #   of individuals would not be disclosed. Data for groups less than 10
 ## #   are displayed with an asterisk (*). &lt;lgl&gt;</code></pre>
-<p>This did the trick. The message indicates that an asterisk is used when there is less than 10 students at a school. There is a <code>r (na)</code> argument in the read_excel function but I could not get it work with a plain asterisk or an asterisk in quotes. Maybe a regular expression would work.</p>
+<p>This did the trick. The message indicates that an asterisk is used when there is less than 10 students at a school. There is a <code>(na)</code> argument in the read_excel function but I could not get it work with a plain asterisk or an asterisk in quotes. Maybe a regular expression would work.</p>
 <pre class="r"><code>absences_2 &lt;- read_excel(absences, skip =2, na = &quot;*&quot;)
 
 absences_2 &lt;- read_excel(absences, skip =2, na = *)</code></pre>
 </div>
 <div id="let-me-introduce-you-to-skip" class="section level3">
 <h3>Let me introduce you to skip:</h3>
-<p>Now, that we have the title and message about the data, let us put the data in tidy format. From our exercise above we know that the first two rows are not helpful. Fortunately we can use the <code>r (skip = )</code> argument to bypass the first 2 rows.</p>
+<p>Now, that we have the title and message about the data, let us put the data in tidy format. From our exercise above we know that the first two rows are not helpful. Fortunately we can use the <code>skip =</code> argument to bypass the first 2 rows.</p>
 <pre class="r"><code>absences_2 &lt;- read_excel(absences, skip = 2)</code></pre>
 </div>
 <div id="use-str-again-to-check-what-we-are-dealing-with" class="section level3">
