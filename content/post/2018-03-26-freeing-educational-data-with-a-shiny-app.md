@@ -13,7 +13,7 @@ featuredpath: ''
 linktitle: ''
 ---
 
-This is a simple [Shiny Application](https://tidydatabykwg57.shinyapps.io/flabsences/). I learned a lot building the about page and using html within Shiny.  
+I built a simple [Shiny Application](https://tidydatabykwg57.shinyapps.io/flabsences/) to free data from a spreadsheet. I learned a lot--specifically not being afraid to throw in some html to make it look how I want.  
 
-I am happy to free data from a spreadsheet. 
+
 
