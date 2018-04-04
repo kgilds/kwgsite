@@ -6,10 +6,20 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Freeing Educational Data With A Shiny App</title>
+      <link>/2018/04/04/freeing-educational-data-with-a-shiny-app/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/04/freeing-educational-data-with-a-shiny-app/</guid>
+      <description>I built a Shiny Application to free data from a spreadsheet on the Florida Department of Education website. I learned a lot&amp;ndash;specifically making the input variable reactive, sprinkling in html to make it look how I want, and using the DT package for useful rendering of the data.
+Reactive I knew that I wanted to split the data into school types&amp;ndash;elementary, middle, and high and had a sense that my input value would need to be reactive.</description>
+    </item>
     
     <item>
       <title>Automation Balance</title>
