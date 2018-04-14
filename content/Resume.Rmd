@@ -35,7 +35,7 @@ DATA SCIENCE
 
 * **Developed best practices to sanitize data and merge spreadsheets using the Vlookup Function:** Resulting in increased efficiency in meeting performance measures and helping consumers get services faster.
 
-* **Identified data sources and requirements to automate billing process and colloaborated with MIS to implement**: resulting in saving 20 hours of data entry and improving efficient of billing process.     
+* **Identified data sources and requirements to automate billing process and colloaborated with MIS to implement**: resulting in saving 20 hours of data entry and improving efficiency of billing process.     
 
 
 * **Developed Google Drive Form/Spreadsheet combination to process 800+ referrals a month:** resulting in increasing data quality,  real time reporting of workload, and faster response time to referrals.
