@@ -30,10 +30,10 @@ DATA SCIENCE
 
 * **Created functions, scripts and reports in R to manage survey and academic data for the Get REAL! statewide mentoring program:** resulting in a work process that is automated and reproducible.
 
-* **Developed Shiny dashboard application to communicate data entry status from multiple site locations** resulting in keeping client updated on data entry progress. 
+* **Developed Shiny dashboard application to communicate data entry status from multiple site locations**: resulting in keeping client updated on data entry progress. 
 
 
-* **Developed best practices to sanitize data and merge spreadsheets using the Vlookup Function:** Resulting in increased efficiency in meeting performance measures and helping consumers get services faster.
+* **Developed best practices to sanitize data and merge spreadsheets using the Vlookup Function:** resulting in increased efficiency in meeting performance measures and helping consumers get services faster.
 
 * **Identified data sources and requirements to automate billing process and collaborated with MIS to implement**: resulting in saving 20 hours of data entry and improving efficiency of billing process.     
 
