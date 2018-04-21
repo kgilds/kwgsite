@@ -56,6 +56,16 @@ PROJECT MANAGMENT
 * **Created videos and written documentation to teach and document technical processes to manage data and workflow:** resulting in delegations of tasks and staff development.
 
 
+EDUCATION
+
+* University of South Florida-MPA Public Administration, 2007
+
+* University of Northern Iowa-BA Sociology, 1999
+
+* Kirkwood Community College-AA Legal Assistant, 1998
+
+
+
 SHINY APPLICATIONS
 
 [Florida School Absences](https://tidydatabykwg57.shinyapps.io/flabsences/)
