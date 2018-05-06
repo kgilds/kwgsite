@@ -41,7 +41,7 @@
     <item>
       <title>Craftsmanship</title>
       <link>/categories/craftsmanship/</link>
-      <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/craftsmanship/</guid>
       <description></description>
@@ -68,7 +68,7 @@
     <item>
       <title>Functions</title>
       <link>/categories/functions/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/functions/</guid>
       <description></description>
@@ -140,7 +140,7 @@
     <item>
       <title>R</title>
       <link>/categories/r/</link>
-      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/r/</guid>
       <description></description>
@@ -206,6 +206,15 @@
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/categories/worklife/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>/categories/writing/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/writing/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,32 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>30 Days</title>
+      <link>/2018/05/05/30-days/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/05/30-days/</guid>
+      <description>One of my favorite non-R bloggers to follow is Austin Kleon. What I love about his blog is that he talks about the craft of writing and being an artist. He has a rule about writing every day.
+My writing skill has decreased over the past couple of years; but I suspect it mostly has to with the lack of writing.
+It has been a month since my last blog post; my challenge will be to post everyday for 30 days.</description>
+    </item>
+    
+    <item>
+      <title>Developing my functions </title>
+      <link>/2018/04/22/developing-my-functions/</link>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/22/developing-my-functions/</guid>
+      <description>I have been a late bloomer in terms of developing my own tool box of functions and finally starting to see the opportunities to use functions and even to write my own packages.
+I use this function in many of my scripts to remind me of how easy it is write your own function.
+read_attendance &amp;lt;- function(rds) { read_rds(rds)  A rule of thumb is that writing a script twice means it is time to write a function; I think I managed to write a varaition of the same script 6 times before it dawned on me this should be a function.</description>
+    </item>
     
     <item>
       <title>Freeing Educational Data With A Shiny App</title>

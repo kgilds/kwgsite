@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2018/05/05/30-days/</loc>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/04/22/developing-my-functions/</loc>
+    <lastmod>2018-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/04/04/freeing-educational-data-with-a-shiny-app/</loc>
     <lastmod>2018-04-04T00:00:00+00:00</lastmod>
   </url>
@@ -311,7 +321,7 @@
   
   <url>
     <loc>/categories/craftsmanship/</loc>
-    <lastmod>2017-12-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -335,7 +345,7 @@
   
   <url>
     <loc>/categories/functions/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -439,7 +449,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -455,7 +465,7 @@
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -473,7 +483,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-04-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -564,6 +574,12 @@
   <url>
     <loc>/categories/worklife/</loc>
     <lastmod>2017-12-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/writing/</loc>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
