@@ -37,7 +37,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-01-05T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2018-01-11T00:00:00&#43;00:00"/>
 
 
 
@@ -227,6 +227,14 @@ ga('send', 'pageview');
 
                 
                     <li>
+                        <a href="../../../2018/05/07/developing-my-functions/"><p>Developing my functions </p></a>
+                    </li>
+                
+                    <li>
+                        <a href="../../../2018/05/07/learning-functions/"><p>Learning Functions</p></a>
+                    </li>
+                
+                    <li>
                         <a href="../../../2018/05/06/keep-playing/"><p>Keep Playing</p></a>
                     </li>
                 
@@ -235,15 +243,7 @@ ga('send', 'pageview');
                     </li>
                 
                     <li>
-                        <a href="../../../2018/04/22/developing-my-functions/"><p>Developing my functions </p></a>
-                    </li>
-                
-                    <li>
                         <a href="../../../2018/04/04/freeing-educational-data-with-a-shiny-app/"><p>Freeing Educational Data With A Shiny App</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="../../../2018/03/05/automaton-balance/"><p>Automation Balance</p></a>
                     </li>
                 
             </ul>
@@ -259,6 +259,65 @@ ga('send', 'pageview');
         
             
         
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../../2018/01/11/go-for-a-spin/">Go for a spin?</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-01-11'>
+            January 11, 2018</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p></p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../../2018/01/11/go-for-a-spin/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../../categories/r'>R</a></li>
+    
+</ul>
+
+    </footer>
+</article>
 
         
             <article class="post">
@@ -794,69 +853,6 @@ I am determined not to code or write at night as I believe strong that impacts m
 </article>
 
         
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="../../../2017/12/02/a-bit-of-a-hack/">A bit of a hack</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2017-12-02'>
-            December 2, 2017</time>
-        <span class="author">Kevin</span>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>This week I also finished up a feature of an application that I have been thinking about implementing. I wanted to summarize data entry by site location. The problem is that variable I am trying to summarize is free data entry&ndash;hence many ways to write the name of the school and misspelling. I used a bit of hack with the gsub function.
-My approach was this.
-site$school &lt;- toupper(site$school) site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL MAGNET&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL SCHOOL&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELLMIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DOWDELL MIDDLE&quot;, &quot;DOWDELL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKE ACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKEACADMY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;BLAKE ACAMAY&quot;, &quot;BLAKE ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;DREAM ACADENY&quot;, &quot;DREAM ACADEMY&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;FREEDOM MS&quot;, &quot;FREEDOM MIDDLE SCHOOL&quot;, fixed=TRUE, site$school) site$school &lt;- gsub(&quot;RIBUALT MDDLE&quot;, &quot;RIBAULT MIDDLE&quot;, fixed=TRUE, site$school)  However, my sense is that there is a better way implement this with regular expressions.</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="../../../2017/12/02/a-bit-of-a-hack/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-                        Categories
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='../../../categories/r'>R</a></li>
-    
-        <li><a href='../../../categories/gsub'>gsub</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
 
         
 <ul class="actions pagination">
@@ -907,6 +903,34 @@ site$school &lt;- toupper(site$school) site$school &lt;- gsub(&quot;DOWDELL MIDD
                     <li>
                         <article>
                             <header>
+                                <h3><a href="../../../2018/05/07/developing-my-functions/">Developing my functions </a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2018-05-07'>
+                                    May 7, 2018</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../../2018/05/07/learning-functions/">Learning Functions</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2018-05-07'>
+                                    May 7, 2018</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <h3><a href="../../../2018/05/06/keep-playing/">Keep Playing</a></h3>
                                 
                                     
@@ -935,20 +959,6 @@ site$school &lt;- toupper(site$school) site$school &lt;- gsub(&quot;DOWDELL MIDD
                     <li>
                         <article>
                             <header>
-                                <h3><a href="../../../2018/04/22/developing-my-functions/">Developing my functions </a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2018-04-22'>
-                                    April 22, 2018</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
                                 <h3><a href="../../../2018/04/04/freeing-educational-data-with-a-shiny-app/">Freeing Educational Data With A Shiny App</a></h3>
                                 
                                     
@@ -956,20 +966,6 @@ site$school &lt;- toupper(site$school) site$school &lt;- gsub(&quot;DOWDELL MIDD
                                 <time class="published" datetime=
                                     '2018-04-04'>
                                     April 4, 2018</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="../../../2018/03/05/automaton-balance/">Automation Balance</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2018-03-05'>
-                                    March 5, 2018</time>
                             </header>
                         </article>
                     </li>
@@ -1062,7 +1058,7 @@ site$school &lt;- toupper(site$school) site$school &lt;- gsub(&quot;DOWDELL MIDD
                         <article>
                             <header>
                                 <a href="../../../categories/functions/">functions</a>
-                                <span style="float:right;">2</span>
+                                <span style="float:right;">3</span>
                             </header>
                         </article>
                     </li>
@@ -1134,7 +1130,7 @@ site$school &lt;- toupper(site$school) site$school &lt;- gsub(&quot;DOWDELL MIDD
                         <article>
                             <header>
                                 <a href="../../../categories/r/">r</a>
-                                <span style="float:right;">25</span>
+                                <span style="float:right;">26</span>
                             </header>
                         </article>
                     </li>
