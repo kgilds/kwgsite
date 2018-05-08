@@ -6,10 +6,21 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning Functions</title>
+      <link>/2018/05/08/learning-functions/</link>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/08/learning-functions/</guid>
+      <description>My latest foray into writing functions led me to a new learning opportunity.
+My first try at this function did not work as expected. The first part of the function worked but the second argument did not take with the mutate statement. The output provided me with a table but did not take my second argument for source.
+base_count &amp;lt;- function(df, source){ mutate(df,&amp;quot;Source&amp;quot; = &amp;quot;source&amp;quot;) %&amp;gt;% count(Source) }  To Stack Overflow I go, and this post helped me out.</description>
+    </item>
     
     <item>
       <title>Developing my functions </title>
@@ -19,15 +30,6 @@
       <guid>/2018/05/07/developing-my-functions/</guid>
       <description>I have been a late bloomer in terms of developing my own tool box of functions and I have finally starting to see the opportunities to use functions and even to write my own packages.
 A rule of thumb is that writing a script twice means it is time to write a function; I managed to write a variation of the same script 6 times before it dawned on me this should be a function.</description>
-    </item>
-    
-    <item>
-      <title>Learning Functions</title>
-      <link>/2018/05/07/learning-functions/</link>
-      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/05/07/learning-functions/</guid>
-      <description></description>
     </item>
     
     <item>

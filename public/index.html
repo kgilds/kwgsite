@@ -31,7 +31,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-05-07T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2018-05-08T00:00:00&#43;00:00"/>
 
 
 
@@ -226,11 +226,11 @@ ga('send', 'pageview');
 
                 
                     <li>
-                        <a href="./2018/05/07/developing-my-functions/"><p>Developing my functions </p></a>
+                        <a href="./2018/05/08/learning-functions/"><p>Learning Functions</p></a>
                     </li>
                 
                     <li>
-                        <a href="./2018/05/07/learning-functions/"><p>Learning Functions</p></a>
+                        <a href="./2018/05/07/developing-my-functions/"><p>Developing my functions </p></a>
                     </li>
                 
                     <li>
@@ -259,7 +259,7 @@ ga('send', 'pageview');
     <header>
     <div class="title">
         
-            <h2><a href="./2018/05/07/developing-my-functions/">Developing my functions </a></h2>
+            <h2><a href="./2018/05/08/learning-functions/">Learning Functions</a></h2>
         
         
     </div>
@@ -269,8 +269,8 @@ ga('send', 'pageview');
         
 
         <time class="published"
-            datetime='2018-05-07'>
-            May 7, 2018</time>
+            datetime='2018-05-08'>
+            May 8, 2018</time>
         <span class="author">kevin</span>
         
         
@@ -283,43 +283,43 @@ ga('send', 'pageview');
             
 
 
-<li><a href="//twitter.com/share?url=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f&text=Developing%20my%20functions%20&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2018%2f05%2f08%2flearning-functions%2f&text=Learning%20Functions&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=%2f2018%2f05%2f08%2flearning-functions%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2018%2f05%2f08%2flearning-functions%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f&title=Developing%20my%20functions%20" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2018%2f05%2f08%2flearning-functions%2f&title=Learning%20Functions" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f&title=Developing%20my%20functions%20" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2018%2f05%2f08%2flearning-functions%2f&title=Learning%20Functions" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f&title=Developing%20my%20functions%20" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2018%2f05%2f08%2flearning-functions%2f&title=Learning%20Functions" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by kevin&body=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by kevin&body=%2f2018%2f05%2f08%2flearning-functions%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -329,16 +329,49 @@ ga('send', 'pageview');
     
 
     <div id="content">
-        <p>I have been a late bloomer in terms of developing my own tool box of functions and I have finally starting to see the opportunities to use functions and even to write my own packages.</p>
+        <p>My latest foray into writing functions led me to a new learning opportunity.</p>
 
-<p>A rule of thumb is that writing a script twice means it is time to write a function;
-I managed to write a variation of the same script 6 times before it dawned on me this should be a function.</p>
+<p>My first  try at this function did not work as expected. The first part of the function worked but the second argument did not take with the mutate statement. The output provided me with a table but did not take my second argument for source.</p>
 
-<p>I use this function in many of my scripts to remind me of how easy it is write your own function.</p>
+<pre><code class="language-r">base_count &lt;- function(df, source){
+	mutate(df,&quot;Source&quot;  = &quot;source&quot;) %&gt;%
+	count(Source)
 
-<pre><code class="language-r">read_attendance &lt;- function(rds) {
-	 read_rds(rds)
-	 
+	
+}
+</code></pre>
+
+<p>To Stack Overflow I go, and this <a href="https://stackoverflow.com/questions/28973056/in-r-pass-column-name-as-argument-and-use-it-in-function-with-dplyrmutate-a">post</a> helped me out.</p>
+
+<pre><code class="language-r">base_count &lt;- function(df, source){
+	mutate_(df,&quot;Source&quot;  = &quot;source&quot;) %&gt;%
+	count(Source)
+
+	
+}
+
+student_post_count &lt;- base_count(postUnique, &quot;Student Post&quot;)
+</code></pre>
+
+<p>This works! But it seems odd to have to quote the arugment in order for the function to work.</p>
+
+<p>I looked up <code>r mutate_</code> in the help page and the page informs that this verb is now superfluous  because dplyr utilizes tidy evaluation semantics.</p>
+
+<blockquote>
+<p>&ldquo;NSE verbs still capture their arguments but you can now unquote parts of these arguments.&rdquo;</p>
+</blockquote>
+
+<p>This is hazy to me, and I am not clear why this function works. The help page directs to dplyr&rsquo;s <a href="https://cran.r-project.org/web/packages/dplyr/vignettes/programming.html">vignette on programming for more information</a></p>
+
+<p>Wow!  A whole new world of understanding of how R and dplyr works.</p>
+
+<pre><code class="language-r">base_count_f &lt;- function(df, source){
+	source &lt;- enquo(source)
+	mutate(df, &quot;Source&quot; = &quot;source&quot;) %&gt;%
+		count(Source)
+}
+
+base_count_f(postUnique, Student_Post)
 </code></pre>
 
     </div>
@@ -369,14 +402,16 @@ I managed to write a variation of the same script 6 times before it dawned on me
     
         <li><a href='./categories/functions'>functions</a></li>
     
+        <li><a href='./categories/dplyr'>dplyr</a></li>
+    
 </ul>
 
     </footer>
 </article>
 <ul class="actions pagination">
     
-        <li><a href="./2018/05/07/learning-functions/"
-                class="button big previous">Learning Functions</a></li>
+        <li><a href="./2018/05/07/developing-my-functions/"
+                class="button big previous">Developing my functions </a></li>
     
 
     
@@ -420,43 +455,43 @@ I managed to write a variation of the same script 6 times before it dawned on me
             
 
 
-<li><a href="//twitter.com/share?url=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f&text=Developing%20my%20functions%20&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=%2f2018%2f05%2f08%2flearning-functions%2f&text=Learning%20Functions&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=%2f2018%2f05%2f08%2flearning-functions%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2f2018%2f05%2f08%2flearning-functions%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f&title=Developing%20my%20functions%20" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=%2f2018%2f05%2f08%2flearning-functions%2f&title=Learning%20Functions" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f&title=Developing%20my%20functions%20" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=%2f2018%2f05%2f08%2flearning-functions%2f&title=Learning%20Functions" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
 
 
-<li><a href="//www.stumbleupon.com/submit?url=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f&title=Developing%20my%20functions%20" target="_blank" class="share-btn stumbleupon">
+<li><a href="//www.stumbleupon.com/submit?url=%2f2018%2f05%2f08%2flearning-functions%2f&title=Learning%20Functions" target="_blank" class="share-btn stumbleupon">
     <i class="fa fa-stumbleupon"></i>
     <p>StumbleUpon</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by kevin&body=%2f2018%2f05%2f07%2fdeveloping-my-functions%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by kevin&body=%2f2018%2f05%2f08%2flearning-functions%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -502,13 +537,13 @@ I managed to write a variation of the same script 6 times before it dawned on me
                     <li>
                         <article>
                             <header>
-                                <h3><a href="./2018/05/07/developing-my-functions/">Developing my functions </a></h3>
+                                <h3><a href="./2018/05/08/learning-functions/">Learning Functions</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2018-05-07'>
-                                    May 7, 2018</time>
+                                    '2018-05-08'>
+                                    May 8, 2018</time>
                             </header>
                         </article>
                     </li>
@@ -516,7 +551,7 @@ I managed to write a variation of the same script 6 times before it dawned on me
                     <li>
                         <article>
                             <header>
-                                <h3><a href="./2018/05/07/learning-functions/">Learning Functions</a></h3>
+                                <h3><a href="./2018/05/07/developing-my-functions/">Developing my functions </a></h3>
                                 
                                     
                                 
@@ -648,6 +683,15 @@ I managed to write a variation of the same script 6 times before it dawned on me
                         <article>
                             <header>
                                 <a href="./categories/disqus/">disqus</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="./categories/dplyr/">dplyr</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>
