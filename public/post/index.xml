@@ -6,10 +6,39 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Fellowship for Nonprofit Professionals</title>
+      <link>/2018/05/09/data-fellowship-for-nonprofit-data-professionals/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/09/data-fellowship-for-nonprofit-data-professionals/</guid>
+      <description>This Data Fellowship opportunity was posted in the R for Data Science Online Learning Community
+There are amazing professionals doing critical work for society that need help managing and securing data.</description>
+    </item>
+    
+    <item>
+      <title>Maps</title>
+      <link>/2018/05/09/maps/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/09/maps/</guid>
+      <description>library(tidyverse)  ## Loading tidyverse: ggplot2 ## Loading tidyverse: tibble ## Loading tidyverse: tidyr ## Loading tidyverse: readr ## Loading tidyverse: purrr ## Loading tidyverse: dplyr  ## Conflicts with tidy packages ----------------------------------------------  ## filter(): dplyr, stats ## lag(): dplyr, stats  library(janitor) library(httr) library(ggmap)  Intro My issue list includes a task to map the Fl Absences data set.
+Get the Data url &amp;lt;- &#39;http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls&#39; #location of data on the internet httr::GET(url, write_disk(absences &amp;lt;- tempfile(fileext = &amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Post vs Projects</title>
+      <link>/2018/05/09/post-vs-projects/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/09/post-vs-projects/</guid>
+      <description>I just completed a draft of a post; I am not completely statisfied with the rendered output for a host of reasons. My current theme has a left side-bar and for this piece I think the sidebar inhibits the conent&amp;ndash;I suspect the content would look better with an entire page.</description>
+    </item>
     
     <item>
       <title>Learning Functions</title>
