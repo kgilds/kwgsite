@@ -5,7 +5,7 @@ date: '2018-05-10'
 slug: data-literacy
 categories:
   - R 
-  -Tidydata
+  - Tidydata
 tags: []
 description: ''
 featured: ''
