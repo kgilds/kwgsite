@@ -6,10 +6,21 @@
     <description>Recent content in R on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Teaching and Preaching Tidy Data</title>
+      <link>/2018/05/10/data-literacy/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/10/data-literacy/</guid>
+      <description>I have been a middle manager in the social service sector for approximately 10 years. In order to manage people both staff and consumers, one has to be able to manage the influx of data that comes to you.
+The most valuable skill/practice that I have implemented is the practice of keeping tidy data sets and being able to &amp;ldquo;join&amp;rdquo; differing data sets.
+I work with spreadsheet users and I teach and preach tidy data practices all the time.</description>
+    </item>
     
     <item>
       <title>Data Fellowship for Nonprofit Professionals</title>

@@ -314,14 +314,14 @@
   </url>
   
   <url>
-    <loc>/categories/automation/</loc>
-    <lastmod>2018-03-05T00:00:00+00:00</lastmod>
+    <loc>/tags/automation/</loc>
+    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/automation/</loc>
-    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
+    <loc>/categories/automation/</loc>
+    <lastmod>2018-03-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -500,14 +500,14 @@
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
+    <loc>/tags/r/</loc>
+    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2017-11-04T00:00:00+00:00</lastmod>
+    <loc>/categories/r/</loc>
+    <lastmod>2018-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -520,12 +520,6 @@
   <url>
     <loc>/categories/r-studio-community/</loc>
     <lastmod>2017-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/r-tidydata/</loc>
-    <lastmod>2018-05-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -554,13 +548,13 @@
   </url>
   
   <url>
-    <loc>/categories/shiny/</loc>
+    <loc>/tags/shiny/</loc>
     <lastmod>2018-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/shiny/</loc>
+    <loc>/categories/shiny/</loc>
     <lastmod>2018-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -590,6 +584,12 @@
   </url>
   
   <url>
+    <loc>/categories/tidydata/</loc>
+    <lastmod>2018-05-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/tidyverse/</loc>
     <lastmod>2017-11-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -602,14 +602,14 @@
   </url>
   
   <url>
-    <loc>/categories/workflow/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+    <loc>/tags/workflow/</loc>
+    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/workflow/</loc>
-    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
+    <loc>/categories/workflow/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
