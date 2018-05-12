@@ -17,7 +17,7 @@ Below are the index card that kicked off my [Florida Absences Project]( https://
 On one side of the card, I write out the general objectives of what I want to accomplish and the start date and end date of the project. 
 
 
-![index](/img/index-card.jpg)
+![index](img/index-card.jpg)
 
 The reverse is the tactical notes on the project--
 
