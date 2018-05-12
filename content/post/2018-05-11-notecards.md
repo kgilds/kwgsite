@@ -21,7 +21,7 @@ On one side of the card, I write out the general objectives of what I want to ac
 
 The reverse is the tactical notes on the project--
 
-![reverside](/img/index-card-backside.jpg)
+![otherside](img/index-card-backside.jpg)
 
 
 I started using this process after reading Cal Newport's book [*Deep Work*](http://calnewport.com/books/deep-work/)
