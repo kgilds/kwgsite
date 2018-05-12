@@ -6,10 +6,20 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Note to self</title>
+      <link>/2018/05/12/note-to-self/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/12/note-to-self/</guid>
+      <description>My post from yesterday included images of both side of an index card. Apparently, I need the practice of adding images to my posts. I tend to forget to committ the files to the static folder and get stumpeed for about 10 minutes on why the image does not render online.
+Hence a good is excuse to render this gif file.</description>
+    </item>
     
     <item>
       <title>Index Cards</title>
