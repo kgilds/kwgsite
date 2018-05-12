@@ -6,10 +6,23 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Index Cards</title>
+      <link>/2018/05/11/notecards/</link>
+      <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/11/notecards/</guid>
+      <description>Below are the index card that kicked off my Florida Absences Project.
+On one side of the card, I write out the general objectives of what I want to accomplish and the start date and end date of the project.
+The reverse is the tactical notes on the project&amp;ndash;
+I started using this process after reading Cal Newport&amp;rsquo;s book Deep Work
+I like this process; eventually more detail gets moved to Github issues but I like starting out with the index cards and keeping a physical artifact.</description>
+    </item>
     
     <item>
       <title>Teaching and Preaching Tidy Data</title>
