@@ -3,11 +3,6 @@ title: "Projects"
 ---
 
 
-# Florida School Absences
-
-[Mapped Averages](http://kgilds.rbind.io/Mapped/)
-
-
 
 
 
