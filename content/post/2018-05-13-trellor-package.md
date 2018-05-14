@@ -14,5 +14,6 @@ featuredpath: ''
 linktitle: ''
 ---
 
-I was excited to find the [trellor package](https://cran.r-project.org/web/packages/trelloR/vignettes/R_API_for_Trello.html)
+I was excited to find the [trelloR package](https://cran.r-project.org/web/packages/trelloR/vignettes/R_API_for_Trello.html) today. 
 
+I am never quite satisfied with productivity tools and hopefully this API will let me fine tune how I want every thing. 
