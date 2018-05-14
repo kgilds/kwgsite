@@ -158,7 +158,7 @@
     <item>
       <title>R</title>
       <link>/categories/r/</link>
-      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/r/</guid>
       <description></description>
@@ -206,6 +206,15 @@
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/categories/tidyverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trello</title>
+      <link>/categories/trello/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/trello/</guid>
       <description></description>
     </item>
     

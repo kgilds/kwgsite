@@ -14,7 +14,7 @@ featuredpath: ''
 linktitle: ''
 ---
 
-My post from yesterday included images of both side of an index card. Apparently, I need the practice of adding images to my posts. I tend to forget to committ the files to the static folder and get stumpeed for about 10 minutes on why the image does not render online. 
+My post from yesterday included images of both sides of an index card. Apparently, I need the practice of adding images to my posts. I tend to forget to commit the files to the static folder and get stumped for about 10 minutes on why the image does not render online. 
 
 
 Hence a good is excuse to render this gif file.

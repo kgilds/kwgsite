@@ -6,10 +6,19 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>trellor-package</title>
+      <link>/2018/05/13/trellor-package/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/13/trellor-package/</guid>
+      <description>I was excited to find the trellor package</description>
+    </item>
     
     <item>
       <title>Note to self</title>
@@ -17,7 +26,7 @@
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/05/12/note-to-self/</guid>
-      <description>My post from yesterday included images of both side of an index card. Apparently, I need the practice of adding images to my posts. I tend to forget to committ the files to the static folder and get stumpeed for about 10 minutes on why the image does not render online.
+      <description>My post from yesterday included images of both sides of an index card. Apparently, I need the practice of adding images to my posts. I tend to forget to commit the files to the static folder and get stumped for about 10 minutes on why the image does not render online.
 Hence a good is excuse to render this gif file.</description>
     </item>
     
@@ -704,12 +713,44 @@ The file consists of data from a survey of schools in Florida that provides a co
     </item>
     
     <item>
+      <title>Maps</title>
+      <link>/mapped-fl-absences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/mapped-fl-absences/</guid>
+      <description>## Loading tidyverse: ggplot2 ## Loading tidyverse: tibble ## Loading tidyverse: tidyr ## Loading tidyverse: readr ## Loading tidyverse: purrr ## Loading tidyverse: dplyr  ## Conflicts with tidy packages ----------------------------------------------  ## filter(): dplyr, stats ## lag(): dplyr, stats  Intro My issue list includes a task to map the Fl Absences data set.
+## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls] ## Date: 2018-05-13 15:47 ## Status: 200 ## Content-Type: application/msexcel ## Size: 751 kB ## &amp;lt;ON DISK&amp;gt; /tmp/RtmpsUn9eO/file2486646b38b.</description>
+    </item>
+    
+    <item>
+      <title>Maps</title>
+      <link>/mapped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/mapped/</guid>
+      <description>Hello
+## Loading tidyverse: ggplot2 ## Loading tidyverse: tibble ## Loading tidyverse: tidyr ## Loading tidyverse: readr ## Loading tidyverse: purrr ## Loading tidyverse: dplyr  ## Conflicts with tidy packages ----------------------------------------------  ## filter(): dplyr, stats ## lag(): dplyr, stats  Intro My issue list includes a task to map the Fl Absences data set.
+## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls] ## Date: 2018-05-13 16:51 ## Status: 200 ## Content-Type: application/msexcel ## Size: 751 kB ## &amp;lt;ON DISK&amp;gt; /tmp/RtmpxB5Gp8/file1ac25c323b93.</description>
+    </item>
+    
+    <item>
+      <title>Maps</title>
+      <link>/mapped_fl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/mapped_fl/</guid>
+      <description>## Loading tidyverse: ggplot2 ## Loading tidyverse: tibble ## Loading tidyverse: tidyr ## Loading tidyverse: readr ## Loading tidyverse: purrr ## Loading tidyverse: dplyr  ## Conflicts with tidy packages ----------------------------------------------  ## filter(): dplyr, stats ## lag(): dplyr, stats  Intro My issue list includes a task to map the Fl Absences data set.
+## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls] ## Date: 2018-05-13 16:03 ## Status: 200 ## Content-Type: application/msexcel ## Size: 751 kB ## &amp;lt;ON DISK&amp;gt; /tmp/RtmpKLtX5Y/file2fc2731f89e1.</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/</guid>
-      <description>Featured Posts Metallica Concerts with the Tidy Verse
+      <description>Florida School Absences Mapped Averages
+Featured Posts Metallica Concerts with the Tidy Verse
 Shiny Applications Florida Education Absences Application</description>
     </item>
     
