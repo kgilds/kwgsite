@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2018/05/14/okrs/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/05/13/trellor-package/</loc>
     <lastmod>2018-05-13T00:00:00+00:00</lastmod>
   </url>
@@ -347,6 +352,12 @@
   </url>
   
   <url>
+    <loc>/categories/bookdown/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/cal-newport/</loc>
     <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -475,15 +486,7 @@
   </url>
   
   <url>
-    <loc>/mapped-fl-absences/</loc>
-  </url>
-  
-  <url>
     <loc>/mapped/</loc>
-  </url>
-  
-  <url>
-    <loc>/mapped_fl/</loc>
   </url>
   
   <url>
@@ -518,7 +521,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -528,7 +531,7 @@
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -552,7 +555,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

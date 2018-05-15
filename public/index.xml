@@ -6,10 +6,20 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OKRs</title>
+      <link>/2018/05/14/okrs/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/14/okrs/</guid>
+      <description>After listening to this podcast with John Doerr&amp;ndash;I am bit obsessed with OKRs. This video from Google Ventures is also insightful.
+I know my upcoming OKR is going to center around completing my next report in Bookdown. I was hesitant to try in February because I was not confident I could get the output to a single-word document.</description>
+    </item>
     
     <item>
       <title>trellor-package</title>
@@ -715,33 +725,13 @@ The file consists of data from a survey of schools in Florida that provides a co
     
     <item>
       <title>Maps</title>
-      <link>/mapped-fl-absences/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/mapped-fl-absences/</guid>
-      <description>## Loading tidyverse: ggplot2 ## Loading tidyverse: tibble ## Loading tidyverse: tidyr ## Loading tidyverse: readr ## Loading tidyverse: purrr ## Loading tidyverse: dplyr  ## Conflicts with tidy packages ----------------------------------------------  ## filter(): dplyr, stats ## lag(): dplyr, stats  Intro My issue list includes a task to map the Fl Absences data set.
-## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls] ## Date: 2018-05-13 15:47 ## Status: 200 ## Content-Type: application/msexcel ## Size: 751 kB ## &amp;lt;ON DISK&amp;gt; /tmp/RtmpsUn9eO/file2486646b38b.</description>
-    </item>
-    
-    <item>
-      <title>Maps</title>
       <link>/mapped/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/mapped/</guid>
       <description>Hello
 ## Loading tidyverse: ggplot2 ## Loading tidyverse: tibble ## Loading tidyverse: tidyr ## Loading tidyverse: readr ## Loading tidyverse: purrr ## Loading tidyverse: dplyr  ## Conflicts with tidy packages ----------------------------------------------  ## filter(): dplyr, stats ## lag(): dplyr, stats  Intro My issue list includes a task to map the Fl Absences data set.
-## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls] ## Date: 2018-05-13 16:51 ## Status: 200 ## Content-Type: application/msexcel ## Size: 751 kB ## &amp;lt;ON DISK&amp;gt; /tmp/RtmpxB5Gp8/file1ac25c323b93.</description>
-    </item>
-    
-    <item>
-      <title>Maps</title>
-      <link>/mapped_fl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/mapped_fl/</guid>
-      <description>## Loading tidyverse: ggplot2 ## Loading tidyverse: tibble ## Loading tidyverse: tidyr ## Loading tidyverse: readr ## Loading tidyverse: purrr ## Loading tidyverse: dplyr  ## Conflicts with tidy packages ----------------------------------------------  ## filter(): dplyr, stats ## lag(): dplyr, stats  Intro My issue list includes a task to map the Fl Absences data set.
-## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls] ## Date: 2018-05-13 16:03 ## Status: 200 ## Content-Type: application/msexcel ## Size: 751 kB ## &amp;lt;ON DISK&amp;gt; /tmp/RtmpKLtX5Y/file2fc2731f89e1.</description>
+## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls] ## Date: 2018-05-14 01:51 ## Status: 200 ## Content-Type: application/msexcel ## Size: 751 kB ## &amp;lt;ON DISK&amp;gt; /tmp/RtmpHOT2Td/file3dd05a3b2e1.</description>
     </item>
     
     <item>
