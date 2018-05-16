@@ -6,10 +6,21 @@
     <description>Recent content in Data Management on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/data-management/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rain, Excel &amp; a CSV File</title>
+      <link>/2018/05/15/csv-files/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/15/csv-files/</guid>
+      <description>Monday was a rainy day and a perfect day to keep wiping out a database table. Whenever, I uploaded a CSV file it wiped out a database table. I only managed to do it twice.
+ I learned Excel removes blank columns in CSV files when saved
+ </description>
+    </item>
     
     <item>
       <title>Nonprofits and Data Management</title>
