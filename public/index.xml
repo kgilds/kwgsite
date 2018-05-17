@@ -6,10 +6,19 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Build Things</title>
+      <link>/2018/05/16/build-things/</link>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/16/build-things/</guid>
+      <description>Insightful suggestion from Austin Kleon&amp;ndash;Make Things == Know Thyself.</description>
+    </item>
     
     <item>
       <title>Rain, Excel &amp; a CSV File</title>
