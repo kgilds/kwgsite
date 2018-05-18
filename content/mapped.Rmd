@@ -1,0 +1,205 @@
+---
+title: "Map_Absences"
+author: "Kevin Gilds, MPA"
+date: "April 30, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(janitor)
+library(httr)
+library(ggmap)
+```
+
+```{r}
+url <- 'http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls' #location of data on the internet
+
+
+httr::GET(url, write_disk(absences <- tempfile(fileext = ".xls"))) #obtain the spreadsheet file from the internet
+
+absences_2 <- readxl::read_excel(absences, skip =2) #read the spreadsheet file and skip the first two rows
+
+absences_2 <- janitor::clean_names(absences_2) #Change column names with the Janitor.
+
+
+absences_2 <- dplyr::rename(absences_2, "absent_21_plus" = "absent_21_days_or_over") #Change name again to shorten 
+
+absences_2 <- dplyr::select(absences_2, 2, 4:6) #select columsn of interest
+
+absences_2$enrollments <- as.numeric(absences_2$enrollments) #Change data to numeric format
+absences_2$absent_21_plus <- as.numeric(absences_2$absent_21_plus) #change data to numeric format
+
+absences_2 <- dplyr::mutate(absences_2, percent = absent_21_plus / enrollments) 
+
+#calculate percent 
+absences_2 <- dplyr::mutate(absences_2, percent = percent *100) #Convert from decimal 
+
+
+
+
+
+```
+
+
+```{r}
+absent_21 <- absences_2 %>%
+  group_by(district_name) %>%
+  summarise(mean = mean(percent, na.rm = TRUE))
+
+
+
+absent_21$mean <- round(absent_21$mean, 2)
+
+absent_21
+```
+
+
+```{r}
+states <- map_data("state")
+
+```
+
+
+```{r}
+fl_df <- subset(states, region == "florida")
+
+```
+
+
+
+```{r}
+counties <- map_data("county")
+fl_county <- subset(counties, region == "florida")
+
+```
+
+
+```{r}
+fl_base <- ggplot(data = fl_df, mapping = aes(x = long, y = lat, group = group)) + 
+  coord_fixed(1.3) + 
+  geom_polygon(color = "black", fill = "gray")
+fl_base + theme_nothing()
+
+```
+
+```{r}
+fl_base + theme_nothing() + 
+  geom_polygon(data = fl_county, fill = NA, color = "white") +
+  geom_polygon(color = "black", fill = NA)  # get the state border back on top
+```
+
+cacopa <- inner_join(ca_county, pop_and_area, by = "subregion")
+
+
+```{r}
+
+```
+
+
+
+```{r}
+absent_21_c <- absent_21 %>%
+  rename("subregion" = "district_name")
+
+absent_21_c$subregion <- tolower(absent_21_c$subregion)
+
+absent_21_c
+
+saveRDS(absent_21_c, "absent_21_c.rds")
+```
+
+
+```{r}
+
+absent_21_c$subregion <- gsub("dade", "miami-dade", fixed = TRUE, absent_21_c$subregion)
+
+absent_21_c$subregion <- gsub("desoto", "de soto", fixed = TRUE, absent_21_c$subregion)
+
+absent_21_c$subregion <- gsub("st. johns", "st johns", fixed = TRUE, absent_21_c$subregion)
+
+absent_21_c$subregion <- gsub("st. lucie", "st lucie", fixed = TRUE, absent_21_c$subregion)
+
+
+
+
+```
+
+
+
+```{r}
+dade <- absent_21_c %>%
+  filter(subregion == "dade")
+
+dade
+```
+
+
+
+```{r}
+polk <- absent_21_c %>%
+  filter(subregion == "polk")
+
+polk
+```
+
+
+
+```{r}
+head(fl_county)
+```
+
+
+```{r }
+
+map_d <- inner_join(fl_county, absent_21_c, by = "subregion")
+
+
+dade <- map_d %>%
+  filter(subregion == "dade")
+
+dade
+```
+
+
+```{r}
+
+non_match <- anti_join(fl_county, absent_21_c, by = "subregion")
+
+non_match
+
+
+```
+
+
+```{r  }
+ditch_the_axes <- theme(
+  axis.text = element_blank(),
+  axis.line = element_blank(),
+  axis.ticks = element_blank(),
+  panel.border = element_blank(),
+  panel.grid = element_blank(),
+  axis.title = element_blank()
+  )
+
+
+elbow_room1 <- fl_base + 
+      geom_polygon(data = map_d, aes(fill = mean), color = "white") +
+      geom_polygon(color = "black", fill = NA) +
+      theme_bw() +
+      ditch_the_axes
+
+elbow_room1 
+```
+
+
+```{r}
+eb2 <- elbow_room1 + 
+    scale_fill_gradientn(colours = rev(rainbow(7)),
+                         breaks = c(2, 4, 10, 100, 1000, 10000),
+                         trans = "log10")
+eb2
+```
+
