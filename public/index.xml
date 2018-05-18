@@ -6,10 +6,22 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What &gt; Why</title>
+      <link>/2018/05/17/what-why/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/17/what-why/</guid>
+      <description>Today, I attended the Tampa Bay Nonprofit Leadership Confernece. The Keynote was given by Dr. Tasha Eurich on self-awarness and agile leadership.
+Excited to see @tashaeurich speak and the 8th Annual Nonprofit Leadership Center! @nlctb #TimeWellSpent pic.twitter.com/Ip0Ey0MJn4
+&amp;mdash; Tammy Charles (@TamCharlie) May 17, 2018  
+I enjoyed the hack on emphasizing what over why when a problem emerges.</description>
+    </item>
     
     <item>
       <title>Build Things</title>
@@ -744,14 +756,12 @@ The file consists of data from a survey of schools in Florida that provides a co
     </item>
     
     <item>
-      <title>Maps</title>
+      <title>Map_Absences</title>
       <link>/mapped/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/mapped/</guid>
-      <description>Hello
-## Loading tidyverse: ggplot2 ## Loading tidyverse: tibble ## Loading tidyverse: tidyr ## Loading tidyverse: readr ## Loading tidyverse: purrr ## Loading tidyverse: dplyr  ## Conflicts with tidy packages ----------------------------------------------  ## filter(): dplyr, stats ## lag(): dplyr, stats  Intro My issue list includes a task to map the Fl Absences data set.
-## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls] ## Date: 2018-05-14 01:51 ## Status: 200 ## Content-Type: application/msexcel ## Size: 751 kB ## &amp;lt;ON DISK&amp;gt; /tmp/RtmpHOT2Td/file3dd05a3b2e1.</description>
+      <description>url &amp;lt;- &amp;#39;http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls&amp;#39; #location of data on the internet httr::GET(url, write_disk(absences &amp;lt;- tempfile(fileext = &amp;quot;.xls&amp;quot;))) #obtain the spreadsheet file from the internet ## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls] ## Date: 2018-05-17 23:01 ## Status: 200 ## Content-Type: application/msexcel ## Size: 751 kB ## &amp;lt;ON DISK&amp;gt; /tmp/Rtmph3UM1w/file271d3d3e8b98.xls absences_2 &amp;lt;- readxl::read_excel(absences, skip =2) #read the spreadsheet file and skip the first two rows absences_2 &amp;lt;- janitor::clean_names(absences_2) #Change column names with the Janitor. absences_2 &amp;lt;- dplyr::rename(absences_2, &amp;quot;absent_21_plus&amp;quot; = &amp;quot;absent_21_days_or_over&amp;quot;) #Change name again to shorten absences_2 &amp;lt;- dplyr::select(absences_2, 2, 4:6) #select columsn of interest absences_2$enrollments &amp;lt;- as.</description>
     </item>
     
     <item>
