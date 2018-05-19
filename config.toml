@@ -28,6 +28,10 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     name = "Twitter"
     url = "https://twitter.com/kevin_gilds"
 
+[[menu.main]]
+	name = "R Weekly Live"
+	url =  "https://rweekly.org/"
+
    
 
 [params]
