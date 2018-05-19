@@ -6,10 +6,19 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jump In Figure It Out Later</title>
+      <link>/2018/05/18/jump-in-figure-it-out-later/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/18/jump-in-figure-it-out-later/</guid>
+      <description>My operating approach to trying new things in R.</description>
+    </item>
     
     <item>
       <title>What &gt; Why</title>
