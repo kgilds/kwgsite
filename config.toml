@@ -29,7 +29,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     url = "https://twitter.com/kevin_gilds"
 
 [[menu.main]]
-	name = "R Weekly Live"
+	name = "RWeekly"
 	url =  "https://rweekly.org/"
 
    
