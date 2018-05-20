@@ -14,7 +14,7 @@ library(httr)
 library(ggmap)
 ```
 
-```{r}
+```{r echo=FALSE}
 url <- 'http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls' #location of data on the internet
 
 
@@ -44,7 +44,7 @@ absences_2 <- dplyr::mutate(absences_2, percent = percent *100) #Convert from de
 ```
 
 
-```{r}
+```{r echo=TRUE}
 absent_21 <- absences_2 %>%
   group_by(district_name) %>%
   summarise(mean = mean(percent, na.rm = TRUE))
@@ -57,27 +57,27 @@ absent_21
 ```
 
 
-```{r}
+```{r echo=TRUE}
 states <- map_data("state")
 
 ```
 
 
-```{r}
+```{r echo=TRUE}
 fl_df <- subset(states, region == "florida")
 
 ```
 
 
 
-```{r}
+```{r echo=TRUE}
 counties <- map_data("county")
 fl_county <- subset(counties, region == "florida")
 
 ```
 
 
-```{r}
+```{r echo=TRUE}
 fl_base <- ggplot(data = fl_df, mapping = aes(x = long, y = lat, group = group)) + 
   coord_fixed(1.3) + 
   geom_polygon(color = "black", fill = "gray")
@@ -85,22 +85,19 @@ fl_base + theme_nothing()
 
 ```
 
-```{r}
+```{r echo=TRUE}
 fl_base + theme_nothing() + 
   geom_polygon(data = fl_county, fill = NA, color = "white") +
   geom_polygon(color = "black", fill = NA)  # get the state border back on top
 ```
 
-cacopa <- inner_join(ca_county, pop_and_area, by = "subregion")
-
-
-```{r}
-
-```
 
 
 
-```{r}
+
+
+
+```{r echo=TRUE}
 absent_21_c <- absent_21 %>%
   rename("subregion" = "district_name")
 
@@ -108,11 +105,11 @@ absent_21_c$subregion <- tolower(absent_21_c$subregion)
 
 absent_21_c
 
-saveRDS(absent_21_c, "absent_21_c.rds")
+#saveRDS(absent_21_c, "absent_21_c.rds")
 ```
 
 
-```{r}
+```{r echo=TRUE}
 
 absent_21_c$subregion <- gsub("dade", "miami-dade", fixed = TRUE, absent_21_c$subregion)
 
@@ -129,27 +126,7 @@ absent_21_c$subregion <- gsub("st. lucie", "st lucie", fixed = TRUE, absent_21_c
 
 
 
-```{r}
-dade <- absent_21_c %>%
-  filter(subregion == "dade")
 
-dade
-```
-
-
-
-```{r}
-polk <- absent_21_c %>%
-  filter(subregion == "polk")
-
-polk
-```
-
-
-
-```{r}
-head(fl_county)
-```
 
 
 ```{r }
