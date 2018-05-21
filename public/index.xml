@@ -6,10 +6,30 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo Resource</title>
+      <link>/2018/05/20/hugo-resource/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/20/hugo-resource/</guid>
+      <description>Yesterday, I was writing about making the distinction between different types of content. For instance some content is fine in the confines of a post and some content would be better filling an entire page.
+I have been working through how to organize this content within the confines of my theme. This video is useful in laying the framework to understanding how to structure and display items in the content folder.</description>
+    </item>
+    
+    <item>
+      <title>Post vs Project</title>
+      <link>/2018/05/19/post-vs-project/</link>
+      <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/19/post-vs-project/</guid>
+      <description>I have noticed that most my content displays quite well within the post framework for with this theme. However, at times I want to utilize the full page mode. I know how to do this but I am not positive how to make it look nice. I am going to try hack my way through this and see if I can make this work.
+I am strangely loyal to this theme; or too lazy to make a change.</description>
+    </item>
     
     <item>
       <title>Jump In Figure It Out Later</title>
@@ -770,7 +790,8 @@ The file consists of data from a survey of schools in Florida that provides a co
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/mapped/</guid>
-      <description>url &amp;lt;- &amp;#39;http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls&amp;#39; #location of data on the internet httr::GET(url, write_disk(absences &amp;lt;- tempfile(fileext = &amp;quot;.xls&amp;quot;))) #obtain the spreadsheet file from the internet ## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls] ## Date: 2018-05-17 23:01 ## Status: 200 ## Content-Type: application/msexcel ## Size: 751 kB ## &amp;lt;ON DISK&amp;gt; /tmp/Rtmph3UM1w/file271d3d3e8b98.xls absences_2 &amp;lt;- readxl::read_excel(absences, skip =2) #read the spreadsheet file and skip the first two rows absences_2 &amp;lt;- janitor::clean_names(absences_2) #Change column names with the Janitor. absences_2 &amp;lt;- dplyr::rename(absences_2, &amp;quot;absent_21_plus&amp;quot; = &amp;quot;absent_21_days_or_over&amp;quot;) #Change name again to shorten absences_2 &amp;lt;- dplyr::select(absences_2, 2, 4:6) #select columsn of interest absences_2$enrollments &amp;lt;- as.</description>
+      <description>I came across this data set from the Florida Department of Education in March. In Florida schol districts are organized by county and that this was an opportunity to improve my mappig skills.
+## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls] ## Date: 2018-05-21 00:38 ## Status: 200 ## Content-Type: application/msexcel ## Size: 751 kB ## &amp;lt;ON DISK&amp;gt; /tmp/RtmpxlgKFF/file1bfc2c8152a2.xls ## Warning: NAs introduced by coercion ## Warning: NAs introduced by coercion absent_21 &amp;lt;- absences_2 %&amp;gt;% group_by(district_name) %&amp;gt;% summarise(mean = mean(percent, na.</description>
     </item>
     
     <item>

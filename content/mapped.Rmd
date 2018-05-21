@@ -5,6 +5,8 @@ date: "April 30, 2018"
 output: html_document
 ---
 
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
@@ -14,7 +16,9 @@ library(httr)
 library(ggmap)
 ```
 
-```{r echo=FALSE}
+I came across this data set from the Florida Department of Education in March. In Florida schol districts are organized by county and that this was an opportunity to improve my mappig skills.
+
+```{r echo=FALSE, message=FALSE}
 url <- 'http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls' #location of data on the internet
 
 
@@ -56,8 +60,15 @@ absent_21$mean <- round(absent_21$mean, 2)
 absent_21
 ```
 
+## Working with ggmap
 
-```{r echo=TRUE}
+
+
+
+The first step is extract state shapes from the map data. 
+
+```{r echo=TRUE, message=FALSE}
+#get state map
 states <- map_data("state")
 
 ```
@@ -68,16 +79,19 @@ fl_df <- subset(states, region == "florida")
 
 ```
 
+The next step is to extract county shapes from Florida
 
-
-```{r echo=TRUE}
+```{r echo=TRUE, eval=TRUE}
 counties <- map_data("county")
 fl_county <- subset(counties, region == "florida")
 
 ```
 
 
-```{r echo=TRUE}
+I used this [website](http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html) by Eric C. Anders to help fine tune the maps of Florida. 
+
+This chunk of code will display the state of Florida. 
+```{r echo=TRUE, warning=FALSE}
 fl_base <- ggplot(data = fl_df, mapping = aes(x = long, y = lat, group = group)) + 
   coord_fixed(1.3) + 
   geom_polygon(color = "black", fill = "gray")
@@ -85,7 +99,9 @@ fl_base + theme_nothing()
 
 ```
 
-```{r echo=TRUE}
+
+This code chunk overlays the county shapes onto the Florida Map. 
+```{r echo=TRUE, warning=FALSE}
 fl_base + theme_nothing() + 
   geom_polygon(data = fl_county, fill = NA, color = "white") +
   geom_polygon(color = "black", fill = NA)  # get the state border back on top
@@ -95,6 +111,10 @@ fl_base + theme_nothing() +
 
 
 
+## More data munging
+
+
+In this chunk, I changed the name of the variable district_name to match the county data set. Case matters and the school district data set needed to be made lower in preperation of joining the data sets.  
 
 
 ```{r echo=TRUE}
@@ -103,11 +123,12 @@ absent_21_c <- absent_21 %>%
 
 absent_21_c$subregion <- tolower(absent_21_c$subregion)
 
-absent_21_c
+
 
 #saveRDS(absent_21_c, "absent_21_c.rds")
 ```
 
+Not all of the district_name and map data perfectly match. This is code will fix that. You will see that anti-join is easy way to test. 
 
 ```{r echo=TRUE}
 
@@ -126,7 +147,9 @@ absent_21_c$subregion <- gsub("st. lucie", "st lucie", fixed = TRUE, absent_21_c
 
 
 
+## Ready to Join
 
+This code chunk joins the two data sets. 
 
 
 ```{r }
@@ -134,12 +157,10 @@ absent_21_c$subregion <- gsub("st. lucie", "st lucie", fixed = TRUE, absent_21_c
 map_d <- inner_join(fl_county, absent_21_c, by = "subregion")
 
 
-dade <- map_d %>%
-  filter(subregion == "dade")
 
-dade
 ```
 
+This code chunk uses the anti-join function to ensure that all the counties and school district names match up. 
 
 ```{r}
 
@@ -150,6 +171,7 @@ non_match
 
 ```
 
+This code chunk sets parameters for the map outline. 
 
 ```{r  }
 ditch_the_axes <- theme(
@@ -162,18 +184,29 @@ ditch_the_axes <- theme(
   )
 
 
-elbow_room1 <- fl_base + 
+
+```
+
+
+This code chunk 
+
+```{r}
+
+map_fl_school_absences <- fl_base + 
       geom_polygon(data = map_d, aes(fill = mean), color = "white") +
       geom_polygon(color = "black", fill = NA) +
       theme_bw() +
       ditch_the_axes
 
-elbow_room1 
+map_fl_school_absences
+
 ```
 
 
-```{r}
-eb2 <- elbow_room1 + 
+This code chunk 
+
+```{r }
+eb2 <- map_fl_school_absences + 
     scale_fill_gradientn(colours = rev(rainbow(7)),
                          breaks = c(2, 4, 10, 100, 1000, 10000),
                          trans = "log10")
