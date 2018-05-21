@@ -32,6 +32,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 	name = "RWeekly"
 	url =  "https://rweekly.org/"
 
+
    
 
 [params]
