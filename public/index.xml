@@ -6,10 +6,19 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Subprojects</title>
+      <link>/2018/05/21/bookdown/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/21/bookdown/</guid>
+      <description>A key result from one of my OKR&amp;rsquo;s is to complete an evaluation report with Bookdown. I was unsure of how to incorporate Bookdown into my workflow and determined to start a new directory but at the last minute decided to make a subproject within the larger evaluation project. I never even considered this before and it seems to be working.</description>
+    </item>
     
     <item>
       <title>Hugo Resource</title>
