@@ -6,10 +6,20 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Systems and  Goals</title>
+      <link>/2018/05/22/systems-vs-goals/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/22/systems-vs-goals/</guid>
+      <description>I read this article today and thought it was an interesting perspective to consider. The author hits the mark with the half-marathon example&amp;ndash;complete the goal and now you move on.
+As an aspiring data science, I think it is good to measure progress but I also strongly believe in systems. I suspect this may be where the beauty of a well designed OKR&amp;rsquo;s can come into play. Set an ambitious objective; identify your strategy and key results to to indicate if you are on the right track.</description>
+    </item>
     
     <item>
       <title>Subprojects</title>
