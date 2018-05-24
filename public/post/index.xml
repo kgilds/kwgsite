@@ -6,10 +6,20 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Playing the Long Game</title>
+      <link>/2018/05/23/more-systems-theory/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/23/more-systems-theory/</guid>
+      <description>My post highlighted an article that encouraged one to think of systems rather than goals. Today, I heard a podcast from Seth Godin that emphasized the long term and systems.
+ In graduate school, I was briefly introduced to Systems Theory and subsequently read The Fifth Discipline. I encourage all to read this book&amp;ndash;it will help you play the long game.</description>
+    </item>
     
     <item>
       <title>Systems and  Goals</title>
