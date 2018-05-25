@@ -17,8 +17,8 @@
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/05/24/janitor-package/</guid>
-      <description>I was reviewing a previous markdown document and see an opportunity to incorporate tably functions from the janitor package and will need the forcats package to set up the infastructure.
-I was able to test out the features of tably and adorn and it made a bit giddy.
+      <description>I was reviewing a markdown document and see an opportunity to incorporate tably functions from the janitor package, and will need the forcats package to set up the infrastructure.
+I was able to test out the features of tably and adorn and it made me giddy.
 My confession is that I have never used the forcats package but I am excited to learn.</description>
     </item>
     
