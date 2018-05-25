@@ -13,8 +13,8 @@ featuredpath: ''
 linktitle: ''
 ---
 
-I was reviewing a previous markdown document and see an opportunity to incorporate tably functions from the [janitor package](https://github.com/sfirke/janitor) and  will need the [forcats package](https://github.com/tidyverse/forcats) to set up the infastructure. 
+I was reviewing a markdown document and see an opportunity to incorporate tably functions from the [janitor package](https://github.com/sfirke/janitor), and  will need the [forcats package](https://github.com/tidyverse/forcats) to set up the infrastructure. 
 
-I was able to test out the features of tably and adorn and it made a bit giddy.  
+I was able to test out the features of tably and adorn and it made me giddy.  
 
 My confession is that I have never used the forcats package but I am excited to learn. 
