@@ -130,7 +130,7 @@ absent_21_c$subregion <- tolower(absent_21_c$subregion)
 
 
 
-#saveRDS(absent_21_c, "absent_21_c.rds")
+
 ```
 
 Not all of the district_name and map data perfectly match. This is code will fix that. You will see that the anti-join function is an easy way to test. 
