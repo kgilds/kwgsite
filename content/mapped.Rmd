@@ -1,8 +1,6 @@
 ---
 title: "Map_Absences"
 author: "Kevin Gilds, MPA"
-date: "April 30, 2018"
-output: html_document
 ---
 
 
