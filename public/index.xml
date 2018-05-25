@@ -830,8 +830,9 @@ The file consists of data from a survey of schools in Florida that provides a co
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/mapped/</guid>
-      <description>I came across this data set from the Florida Department of Education in March. In Florida schol districts are organized by county and that this was an opportunity to improve my mappig skills.
-## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls] ## Date: 2018-05-21 00:38 ## Status: 200 ## Content-Type: application/msexcel ## Size: 751 kB ## &amp;lt;ON DISK&amp;gt; /tmp/RtmpxlgKFF/file1bfc2c8152a2.xls ## Warning: NAs introduced by coercion ## Warning: NAs introduced by coercion absent_21 &amp;lt;- absences_2 %&amp;gt;% group_by(district_name) %&amp;gt;% summarise(mean = mean(percent, na.</description>
+      <description>I came across this data set from the Florida Department of Education in March. In Florida school districts are organized by county and I saw this as an opportunity to improve my mapping skills.
+This tutorial from Erin C. Anderson was instrumental in being able to complete this project. In fact a lot of the code chunks were stolen.
+Data The Florida Department of Education provides data on their website regarding the number of students by school that have missed more than 21 days of school.</description>
     </item>
     
     <item>
