@@ -16,9 +16,15 @@ library(httr)
 library(ggmap)
 ```
 
-I came across this data set from the Florida Department of Education in March. In Florida schol districts are organized by county and that this was an opportunity to improve my mappig skills.
+I came across this data set from the Florida Department of Education in March. In Florida school districts are organized by county and I saw this as an opportunity to improve my mapping skills.
 
-```{r echo=FALSE, message=FALSE}
+This [tutorial](http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html) from Erin C. Anderson  was instrumental in being able to complete this project. In fact a lot of the code chunks were stolen. 
+
+## Data
+
+The [Florida Department of Education](http://www.fldoe.org/accountability/data-sys/edu-info-accountability-services/pk-12-public-school-data-pubs-reports/students.stml) provides data on their website regarding the number of students by school that have missed more than 21 days of school. [Go here for more information on this data](https://tidydatabykwg57.shinyapps.io/flabsences/)
+
+```{r echo=FALSE, message=FALSE, comments=FALSE}
 url <- 'http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls' #location of data on the internet
 
 
@@ -48,7 +54,9 @@ absences_2 <- dplyr::mutate(absences_2, percent = percent *100) #Convert from de
 ```
 
 
-```{r echo=TRUE}
+
+I want to map the average percent of students who missed 21 or more days during the 2015-2016 school year. Below is a tibble of the output. 
+```{r echo=FALSE}
 absent_21 <- absences_2 %>%
   group_by(district_name) %>%
   summarise(mean = mean(percent, na.rm = TRUE))
@@ -63,8 +71,6 @@ absent_21
 ## Working with ggmap
 
 
-
-
 The first step is extract state shapes from the map data. 
 
 ```{r echo=TRUE, message=FALSE}
@@ -73,6 +79,7 @@ states <- map_data("state")
 
 ```
 
+This code gets the Florida shape. 
 
 ```{r echo=TRUE}
 fl_df <- subset(states, region == "florida")
@@ -87,8 +94,6 @@ fl_county <- subset(counties, region == "florida")
 
 ```
 
-
-I used this [website](http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html) by Eric C. Anders to help fine tune the maps of Florida. 
 
 This chunk of code will display the state of Florida. 
 ```{r echo=TRUE, warning=FALSE}
@@ -114,7 +119,7 @@ fl_base + theme_nothing() +
 ## More data munging
 
 
-In this chunk, I changed the name of the variable district_name to match the county data set. Case matters and the school district data set needed to be made lower in preperation of joining the data sets.  
+In this chunk, I changed the name of the variable district_name to match the county data set. Case matters and the school district data set needed to be made lower in preparation of joining the data sets.  
 
 
 ```{r echo=TRUE}
@@ -128,7 +133,7 @@ absent_21_c$subregion <- tolower(absent_21_c$subregion)
 #saveRDS(absent_21_c, "absent_21_c.rds")
 ```
 
-Not all of the district_name and map data perfectly match. This is code will fix that. You will see that anti-join is easy way to test. 
+Not all of the district_name and map data perfectly match. This is code will fix that. You will see that the anti-join function is an easy way to test. 
 
 ```{r echo=TRUE}
 
@@ -188,7 +193,7 @@ ditch_the_axes <- theme(
 ```
 
 
-This code chunk 
+This code chunk plots the data from the school districts on to the map. 
 
 ```{r}
 
@@ -202,8 +207,7 @@ map_fl_school_absences
 
 ```
 
-
-This code chunk 
+Similar to the example in the tutorial; the difference between school districts is not easily distinguishable on the map. This code chunk below  is an example of how to add more  color to the map. 
 
 ```{r }
 eb2 <- map_fl_school_absences + 
@@ -212,4 +216,5 @@ eb2 <- map_fl_school_absences +
                          trans = "log10")
 eb2
 ```
+
 
