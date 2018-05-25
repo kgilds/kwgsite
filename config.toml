@@ -30,7 +30,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
 [[menu.main]]
 	name = "Mapped"
-	url =  "/Map_Absences/"
+	url =  "/mapped/"
 
 
    
