@@ -69,7 +69,7 @@ absent_21
 ## Working with ggmap
 
 
-The first step is extract state shapes from the map data. 
+The first step is extract data to build the map. 
 
 ```{r echo=TRUE, message=FALSE}
 #get state map
@@ -77,14 +77,14 @@ states <- map_data("state")
 
 ```
 
-This code gets the Florida shape. 
+This code gets the parameters for Florida
 
 ```{r echo=TRUE}
 fl_df <- subset(states, region == "florida")
 
 ```
 
-The next step is to extract county shapes from Florida
+The next step is to extract county parameters from Florida
 
 ```{r echo=TRUE, eval=TRUE}
 counties <- map_data("county")
