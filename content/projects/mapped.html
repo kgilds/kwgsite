@@ -1,5 +1,10 @@
 ---
-title: "Map_Absences"
+title: "Mapped School District Absences"
+author: "Kevin Gilds, MPA"
+---
+
+---
+title: "Mapped School District Absences"
 author: "Kevin Gilds, MPA"
 ---
 
@@ -11,11 +16,11 @@ author: "Kevin Gilds, MPA"
 <h2>Data</h2>
 <p>The <a href="http://www.fldoe.org/accountability/data-sys/edu-info-accountability-services/pk-12-public-school-data-pubs-reports/students.stml">Florida Department of Education</a> provides data on their website regarding the number of students by school that have missed more than 21 days of school. <a href="https://tidydatabykwg57.shinyapps.io/flabsences/">Go here for more information on this data</a></p>
 <pre><code>## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls]
-##   Date: 2018-05-25 22:33
+##   Date: 2018-05-27 18:32
 ##   Status: 200
 ##   Content-Type: application/msexcel
 ##   Size: 751 kB
-## &lt;ON DISK&gt;  /tmp/Rtmp4ixS0b/file2f0a5f422a62.xls</code></pre>
+## &lt;ON DISK&gt;  /tmp/Rtmp7vp78G/file4c3c7c649f0e.xls</code></pre>
 <pre><code>## Warning: NAs introduced by coercion
 
 ## Warning: NAs introduced by coercion</code></pre>
@@ -37,12 +42,12 @@ author: "Kevin Gilds, MPA"
 </div>
 <div id="working-with-ggmap" class="section level2">
 <h2>Working with ggmap</h2>
-<p>The first step is extract state shapes from the map data.</p>
+<p>The first step is extract data to build the map.</p>
 <pre class="r"><code>#get state map
 states &lt;- map_data(&quot;state&quot;)</code></pre>
-<p>This code gets the Florida shape.</p>
+<p>This code gets the parameters for Florida</p>
 <pre class="r"><code>fl_df &lt;- subset(states, region == &quot;florida&quot;)</code></pre>
-<p>The next step is to extract county shapes from Florida</p>
+<p>The next step is to extract county parameters from Florida</p>
 <pre class="r"><code>counties &lt;- map_data(&quot;county&quot;)
 fl_county &lt;- subset(counties, region == &quot;florida&quot;)</code></pre>
 <p>This chunk of code will display the state of Florida.</p>
@@ -50,12 +55,12 @@ fl_county &lt;- subset(counties, region == &quot;florida&quot;)</code></pre>
   coord_fixed(1.3) + 
   geom_polygon(color = &quot;black&quot;, fill = &quot;gray&quot;)
 fl_base + theme_nothing()</code></pre>
-<p><img src="/mapped_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p><img src="/projects/mapped_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
 <p>This code chunk overlays the county shapes onto the Florida Map.</p>
 <pre class="r"><code>fl_base + theme_nothing() + 
   geom_polygon(data = fl_county, fill = NA, color = &quot;white&quot;) +
   geom_polygon(color = &quot;black&quot;, fill = NA)  # get the state border back on top</code></pre>
-<p><img src="/mapped_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p><img src="/projects/mapped_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
 </div>
 <div id="more-data-munging" class="section level2">
 <h2>More data munging</h2>
@@ -100,12 +105,12 @@ non_match</code></pre>
       ditch_the_axes
 
 map_fl_school_absences</code></pre>
-<p><img src="/mapped_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+<p><img src="/projects/mapped_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
 <p>Similar to the example in the tutorial; the difference between school districts is not easily distinguishable on the map. This code chunk below is an example of how to add more color to the map.</p>
 <pre class="r"><code>eb2 &lt;- map_fl_school_absences + 
     scale_fill_gradientn(colours = rev(rainbow(7)),
                          breaks = c(2, 4, 10, 100, 1000, 10000),
                          trans = &quot;log10&quot;)
 eb2</code></pre>
-<p><img src="/mapped_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<p><img src="/projects/mapped_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
 </div>
