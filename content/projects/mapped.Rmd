@@ -1,6 +1,6 @@
 ---
 title: "Mapped School District Absences"
-author: "Kevin Gilds, MPA"
+
 ---
 
 
