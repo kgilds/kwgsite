@@ -27,7 +27,8 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
 [[menu.main]]
     name = "Projects"
-    url = "/Projects/"
+    	identifier = "Projects"
+        url = "/kevin"
 
 
 
