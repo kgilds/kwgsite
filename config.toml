@@ -29,10 +29,6 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     name = "Projects"
     url = "/Projects/"
 
-[[menu.main]]
-    name = "Maps"
-    url = "/mapped/"
-
 
 
 [params]
