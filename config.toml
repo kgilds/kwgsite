@@ -45,7 +45,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
     paragraph = "Nonprofit Sector Data Science"
 
-    about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+    about     = "Documenting my efforts to learn R and life."
 
 
 
