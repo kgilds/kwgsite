@@ -1,6 +1,6 @@
 ---
 title: "Mapped School District Absences"
-
+subtitle: "Average percent by School District"
 ---
 
 
