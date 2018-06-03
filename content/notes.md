@@ -1,3 +1,10 @@
+----
+title: "worknotes"
+
+----
+
+# Notes from workin
+
 ### 06/03/2018
 Yesterday 06/02/2018 downloaded updated data and ran all. Think I got teacher and parent survey where I want. Strategy will be put the table as they are now but collapse some of the levels so that graph can be a bit cleaner or focused; currently I would have to run the width wider and the output to word is sub-optimal. There is a function in Forcats that will do this. 
 
