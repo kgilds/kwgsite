@@ -6,7 +6,7 @@ title: "Projects"
 # Projects
 
 
-http://kgilds.rbind.io/projects/mapped
+[Mapped Florida Absences](http://kgilds.rbind.io/projects/mapped)
 
 # Featured Posts
 
