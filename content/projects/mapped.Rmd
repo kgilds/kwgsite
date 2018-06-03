@@ -1,6 +1,6 @@
 ---
 title: "Mapped School District Absences"
-subtitle: "Average percent by School District"
+subtitle: Average percent by School District
 ---
 
 
@@ -12,6 +12,7 @@ library(tidyverse)
 library(janitor)
 library(httr)
 library(ggmap)
+library(DT)
 ```
 
 I came across this data set from the Florida Department of Education in March. In Florida school districts are organized by county and I saw this as an opportunity to improve my mapping skills.
@@ -57,14 +58,15 @@ I want to map the average percent of students who missed 21 or more days during 
 ```{r echo=FALSE}
 absent_21 <- absences_2 %>%
   group_by(district_name) %>%
-  summarise(mean = mean(percent, na.rm = TRUE))
-
+  summarise(mean = mean(percent, na.rm = TRUE)) 
+  
 
 
 absent_21$mean <- round(absent_21$mean, 2)
 
 absent_21
 ```
+
 
 ## Working with ggmap
 
