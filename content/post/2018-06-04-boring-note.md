@@ -15,7 +15,8 @@ linktitle: ''
 ---
 
 Sent e-mail with link to shiny app for status report and html file. Noted that there is a typo as. 
-< studen post
+
+> studen post
 
 Sent proposal of when data entry needs to be completed by.  
 
@@ -29,4 +30,4 @@ Worked on package; noted that I forgot I had already completed a success functio
 Rinse and repeat
 
 
-
+> 37 minutes
