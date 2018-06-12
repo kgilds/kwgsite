@@ -16,6 +16,8 @@ The param tag needed needed to have the df param right after it. For some reason
 
 I deleted the \code{function} reference to other functions in the documentation section.
 
-The only concern testing in the real world is that succcess_c did not load in current version of package. Another concern is that I need to think about the name of the varialbes; they seem to be the name of the functins which I am not jazzed about.
+The only concern testing in the real world is that succcess_c did not load in current version of package. Another concern is that I need to think about the name of the variables; they seem to be the name of the functions which I am not jazzed about.
+
+Tommorrow work on the academic enagement functions--start out in the report enviornment
 
 > Approx 80 minutes. 
