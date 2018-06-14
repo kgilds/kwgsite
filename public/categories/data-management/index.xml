@@ -6,10 +6,21 @@
     <description>Recent content in Data Management on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/data-management/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The point</title>
+      <link>/2018/06/01/the-point/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/01/the-point/</guid>
+      <description>I came across this article on twitter tonight.
+I don&amp;rsquo;t know that I have the expertise to concur or disagree with this article&amp;ndash;I mean the premise is correct being able to solve business problems seems like a &amp;lsquo;no-brainer&amp;rsquo;.
+Another important skill is political skills. Sometimes you see what others do not see and you have to sell the vision to the right people.</description>
+    </item>
     
     <item>
       <title>Rain, Excel &amp; a CSV File</title>

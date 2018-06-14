@@ -6,10 +6,235 @@
     <description>Recent content in Posts on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018-06-13-shiny-dashboard-worknotes</title>
+      <link>/2018/06/13/shiny-dashboard-worknotes/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/13/shiny-dashboard-worknotes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shiny-dashboard</title>
+      <link>/2018/06/12/shiny-dashboard/</link>
+      <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/12/shiny-dashboard/</guid>
+      <description>This morning, I worked on laying the infrastructure for adding a match indicator in my Shiny app dashboard. I also updated the match script to send the rds file to the bookdown directory.
+My next step is update the server section to render the match information. It may worth considering changing the layout of my table.
+ worktime 50 minutes
+ </description>
+    </item>
+    
+    <item>
+      <title>Legos</title>
+      <link>/2018/06/11/legos/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/11/legos/</guid>
+      <description>This post is fabulous on so many levels.
+I think there is a parallel with automating certain tasks&amp;ndash;there is more quality human tasks that can be done.</description>
+    </item>
+    
+    <item>
+      <title>milestones</title>
+      <link>/2018/06/10/milestones/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/10/milestones/</guid>
+      <description>This morning I successfully employed the Forcats package and re_code function to change factor levels for easier plotting and implemented the scales function to display the percent sign.
+I like seven point likert scales but I don&amp;rsquo;t like the output of seven point scales on graphs or tables&amp;ndash;especially with a scale like Strongly Disagree through Strongly Agree.
+p_relationship &amp;lt;- parent %&amp;gt;% group_by(Time) %&amp;gt;% #Pre and Post variable mutate(positive_relationships = fct_recode(positive_relationships, #recode the levels to make it easier to plot and table display) &amp;quot;Strong Disagreement&amp;quot; = &amp;quot;Strongly Disagree&amp;quot;, &amp;quot;Strong Disagreement&amp;quot; = &amp;quot;Disagree&amp;quot;, &amp;quot;Slight Disagreement&amp;quot; = &amp;quot;Slightly Disagree&amp;quot;, &amp;quot;Neutral&amp;quot; = &amp;quot;Neither Agree/Disagree&amp;quot;, &amp;quot;Slight Agreement&amp;quot; = &amp;quot;Slightly Agree&amp;quot;, &amp;quot;Strong Agreement&amp;quot; = &amp;quot;Agree&amp;quot;, &amp;quot;Strong Agreement&amp;quot; = &amp;quot;Strongly Agree&amp;quot;))  This is going to be a pain for the whole report but not too bad for each sub-section.</description>
+    </item>
+    
+    <item>
+      <title>Circles</title>
+      <link>/2018/06/09/circles/</link>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/09/circles/</guid>
+      <description>I have been a bit obsessed with trying to get a nice looking list page for projects for my website. Funny, I revisited the theme code and they have since updated to include archetypes and a method for listing other content.</description>
+    </item>
+    
+    <item>
+      <title>worknotes</title>
+      <link>/2018/06/08/worknotes/</link>
+      <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/08/worknotes/</guid>
+      <description>This morning I updated the getreal2 package with ae and am functions and was able to test ae functions in bookdown environment. Reviewing the workflow, I need a test function to ensure students do have a large average without answering enough questions.
+I took a look at the parent survey and at this time I will use the functions in the janitor package.
+This blog post looks like it should help me with status report functions.</description>
+    </item>
+    
+    <item>
+      <title>updating-package</title>
+      <link>/2018/06/07/updating-package/</link>
+      <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/07/updating-package/</guid>
+      <description>I was happy to learn that updating a R-package is easy; at least my update this morning was painless. The first time I worked on a package it felt awful.
+This morning I worked to fix some issues. I made the necessary changes and re-built the package with ease. Cleaned up the rest of the report; wiped out unnecessary chunks and merged back in with master.
+I notice when working with bookdown a lot of files change when you preview.</description>
+    </item>
+    
+    <item>
+      <title>package progress</title>
+      <link>/2018/06/06/package-progress/</link>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/06/package-progress/</guid>
+      <description>This morning, I worked on getreal2 package and was able test the package in the real world.
+The warnings from yesterday were able to be addressed.
+The param tag needed needed to have the df param right after it. For some reason, I just had dots.
+I deleted the \code{function} reference to other functions in the documentation section.
+The only concern testing in the real world is that succcess_c did not load in current version of package.</description>
+    </item>
+    
+    <item>
+      <title>Chronology</title>
+      <link>/2018/06/05/chronology/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/05/chronology/</guid>
+      <description>I heard this interview with Jane Mayer. I was struck by their conversation about doucmenting the chronology of events: the story will write itself.
+ </description>
+    </item>
+    
+    <item>
+      <title>package warnings</title>
+      <link>/2018/06/05/package-warnings/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/05/package-warnings/</guid>
+      <description>06/05/2018 Worked on adding specific life skills functions this morning. CMD check a couple of warnings that functions were not documented. ran
+ devtools::doucument()
+ This updated Roxygen? library; maybe this is why Ctr + Shift + D did not work.
+It is awesome to see your work in help files.
+Received new warnings and was having a hard time sorting it out
+It says df is not defined?</description>
+    </item>
+    
+    <item>
+      <title>Boring Note</title>
+      <link>/2018/06/04/boring-note/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/04/boring-note/</guid>
+      <description>Sent e-mail with link to shiny app for status report and html file. Noted that there is a typo as.
+ studen post
+ Sent proposal of when data entry needs to be completed by.
+Worked on package; noted that I forgot I had already completed a success function&amp;ndash;hopefully, I made it better. Ran package check; added R dependency. Added student match function; made this more general as it can pertain to more modules as well.</description>
+    </item>
+    
+    <item>
+      <title>Worknotes</title>
+      <link>/2018/06/03/worknotes/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/03/worknotes/</guid>
+      <description>One new approach is to post worknotes. My hope is that the work notes help generate better content for future articles and projects.
+Yesterday 06/02/2018 downloaded updated data and ran all. Think I got teacher and parent survey where I want. Strategy will be put the table as they are now but collapse some of the levels so that graph can be a bit cleaner or focused; currently I would have to run the width wider and the output to word is sub-optimal.</description>
+    </item>
+    
+    <item>
+      <title>More Content</title>
+      <link>/2018/06/02/more-content/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/02/more-content/</guid>
+      <description>I was tempted to update my webpage theme to academic this morning. My past behavior would be to hastily change themes. I managed to hold off and remind myself; I need more contet and develop my writing.
+I watched this webinar from R Studio  on blogdown. What may be underated in the video is the section on Why you should have a website.
+ Share what you have learned with your future self &amp;ndash;Yihui Xie</description>
+    </item>
+    
+    <item>
+      <title>The point</title>
+      <link>/2018/06/01/the-point/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/01/the-point/</guid>
+      <description>I came across this article on twitter tonight.
+I don&amp;rsquo;t know that I have the expertise to concur or disagree with this article&amp;ndash;I mean the premise is correct being able to solve business problems seems like a &amp;lsquo;no-brainer&amp;rsquo;.
+Another important skill is political skills. Sometimes you see what others do not see and you have to sell the vision to the right people.</description>
+    </item>
+    
+    <item>
+      <title>Flashcards</title>
+      <link>/2018/05/31/flashcards/</link>
+      <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/31/flashcards/</guid>
+      <description>I came across this article on Lifehacker and discovered the resource of Anki Flashcards.
+Anki Web has preloaded templates including R and statistics. I can sync my desktop program with an application on my phone and study R during lunch.</description>
+    </item>
+    
+    <item>
+      <title>Back to Drawing Board: Functions</title>
+      <link>/2018/05/30/back-to-drawing-board-functions/</link>
+      <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/30/back-to-drawing-board-functions/</guid>
+      <description>I was working through some code this weekend and used one of my former post. Yikes, it did not work. Did I just imagine it worked prior?
+I need to work through this page</description>
+    </item>
+    
+    <item>
+      <title>ggplot win</title>
+      <link>/2018/05/29/win/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/29/win/</guid>
+      <description>This weekend I was creating some plots and was pleased that I was purposeful with the plotting arguments rather than copying other code and hoping it turns out the way I want.
+The book R For Data Science is a great way to learn the fundamentals.
+My next challenge is incorporating the scales argument to render the percent sign.</description>
+    </item>
+    
+    <item>
+      <title>Git Fun</title>
+      <link>/2018/05/28/git-fun/</link>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/28/git-fun/</guid>
+      <description>I was in the process of trying to burn down a git repo but after other failed attempts&amp;ndash;I determined that I was going to have to learn what I was doing wrong.
+I could not seem to connect my new directory to my bitbucket repository. The problem was that I could not find or seem to create a new branch. The key is knowing that a branch can&amp;rsquo;t be a branch until there is files on the branch.</description>
+    </item>
+    
+    <item>
+      <title>Package Your Data</title>
+      <link>/2018/05/27/a-package-as-a-product/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/27/a-package-as-a-product/</guid>
+      <description>One reason I want to complete a package is the benefit of storing and accessing data. The directions for completing this task is found here.</description>
+    </item>
+    
+    <item>
+      <title>Package Challenge</title>
+      <link>/2018/05/26/package-challenge/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/26/package-challenge/</guid>
+      <description>This post got me fired up this morning.
+I have a report due July 21, I think I can create the report in bookdown and concurrently develop a package.</description>
+    </item>
+    
+    <item>
+      <title>Upgrading Old Code</title>
+      <link>/2018/05/25/updating-old-code/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/25/updating-old-code/</guid>
+      <description>I started working on upgrading a markdown report this morning using r forcats and r janitor. Like other renovations this turned into a complete overhaul and did not even get to the fun stuff.
+I had to dig into rreadr to update many of the columns to factors. One thing to recall is to knit rather than relying on re-running chunks&amp;ndash;there seems to be something about starting fresh.
+Typically investments like these payoff in the long run.</description>
+    </item>
     
     <item>
       <title>Sweeping with the Janitor Package.</title>

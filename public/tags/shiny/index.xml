@@ -6,10 +6,22 @@
     <description>Recent content in Shiny on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>shiny-dashboard</title>
+      <link>/2018/06/12/shiny-dashboard/</link>
+      <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/12/shiny-dashboard/</guid>
+      <description>This morning, I worked on laying the infrastructure for adding a match indicator in my Shiny app dashboard. I also updated the match script to send the rds file to the bookdown directory.
+My next step is update the server section to render the match information. It may worth considering changing the layout of my table.
+ worktime 50 minutes
+ </description>
+    </item>
     
     <item>
       <title>Freeing Educational Data With A Shiny App</title>

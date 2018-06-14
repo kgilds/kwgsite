@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Bookdown</title>
+      <link>/tags/bookdown/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bookdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cal Newport</title>
       <link>/tags/cal-newport/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
@@ -39,11 +48,38 @@
     </item>
     
     <item>
+      <title>Forcats</title>
+      <link>/tags/forcats/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/forcats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>/tags/functions/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Geom_bar</title>
       <link>/tags/geom_bar/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/geom_bar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ggplot2</title>
+      <link>/tags/ggplot2/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ggplot2/</guid>
       <description></description>
     </item>
     
@@ -158,7 +194,7 @@
     <item>
       <title>Shiny</title>
       <link>/tags/shiny/</link>
-      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/shiny/</guid>
       <description></description>

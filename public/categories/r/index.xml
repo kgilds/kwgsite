@@ -6,10 +6,124 @@
     <description>Recent content in R on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018-06-13-shiny-dashboard-worknotes</title>
+      <link>/2018/06/13/shiny-dashboard-worknotes/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/13/shiny-dashboard-worknotes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>milestones</title>
+      <link>/2018/06/10/milestones/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/10/milestones/</guid>
+      <description>This morning I successfully employed the Forcats package and re_code function to change factor levels for easier plotting and implemented the scales function to display the percent sign.
+I like seven point likert scales but I don&amp;rsquo;t like the output of seven point scales on graphs or tables&amp;ndash;especially with a scale like Strongly Disagree through Strongly Agree.
+p_relationship &amp;lt;- parent %&amp;gt;% group_by(Time) %&amp;gt;% #Pre and Post variable mutate(positive_relationships = fct_recode(positive_relationships, #recode the levels to make it easier to plot and table display) &amp;quot;Strong Disagreement&amp;quot; = &amp;quot;Strongly Disagree&amp;quot;, &amp;quot;Strong Disagreement&amp;quot; = &amp;quot;Disagree&amp;quot;, &amp;quot;Slight Disagreement&amp;quot; = &amp;quot;Slightly Disagree&amp;quot;, &amp;quot;Neutral&amp;quot; = &amp;quot;Neither Agree/Disagree&amp;quot;, &amp;quot;Slight Agreement&amp;quot; = &amp;quot;Slightly Agree&amp;quot;, &amp;quot;Strong Agreement&amp;quot; = &amp;quot;Agree&amp;quot;, &amp;quot;Strong Agreement&amp;quot; = &amp;quot;Strongly Agree&amp;quot;))  This is going to be a pain for the whole report but not too bad for each sub-section.</description>
+    </item>
+    
+    <item>
+      <title>Boring Note</title>
+      <link>/2018/06/04/boring-note/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/04/boring-note/</guid>
+      <description>Sent e-mail with link to shiny app for status report and html file. Noted that there is a typo as.
+ studen post
+ Sent proposal of when data entry needs to be completed by.
+Worked on package; noted that I forgot I had already completed a success function&amp;ndash;hopefully, I made it better. Ran package check; added R dependency. Added student match function; made this more general as it can pertain to more modules as well.</description>
+    </item>
+    
+    <item>
+      <title>Worknotes</title>
+      <link>/2018/06/03/worknotes/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/03/worknotes/</guid>
+      <description>One new approach is to post worknotes. My hope is that the work notes help generate better content for future articles and projects.
+Yesterday 06/02/2018 downloaded updated data and ran all. Think I got teacher and parent survey where I want. Strategy will be put the table as they are now but collapse some of the levels so that graph can be a bit cleaner or focused; currently I would have to run the width wider and the output to word is sub-optimal.</description>
+    </item>
+    
+    <item>
+      <title>More Content</title>
+      <link>/2018/06/02/more-content/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/02/more-content/</guid>
+      <description>I was tempted to update my webpage theme to academic this morning. My past behavior would be to hastily change themes. I managed to hold off and remind myself; I need more contet and develop my writing.
+I watched this webinar from R Studio  on blogdown. What may be underated in the video is the section on Why you should have a website.
+ Share what you have learned with your future self &amp;ndash;Yihui Xie</description>
+    </item>
+    
+    <item>
+      <title>Flashcards</title>
+      <link>/2018/05/31/flashcards/</link>
+      <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/31/flashcards/</guid>
+      <description>I came across this article on Lifehacker and discovered the resource of Anki Flashcards.
+Anki Web has preloaded templates including R and statistics. I can sync my desktop program with an application on my phone and study R during lunch.</description>
+    </item>
+    
+    <item>
+      <title>Back to Drawing Board: Functions</title>
+      <link>/2018/05/30/back-to-drawing-board-functions/</link>
+      <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/30/back-to-drawing-board-functions/</guid>
+      <description>I was working through some code this weekend and used one of my former post. Yikes, it did not work. Did I just imagine it worked prior?
+I need to work through this page</description>
+    </item>
+    
+    <item>
+      <title>ggplot win</title>
+      <link>/2018/05/29/win/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/29/win/</guid>
+      <description>This weekend I was creating some plots and was pleased that I was purposeful with the plotting arguments rather than copying other code and hoping it turns out the way I want.
+The book R For Data Science is a great way to learn the fundamentals.
+My next challenge is incorporating the scales argument to render the percent sign.</description>
+    </item>
+    
+    <item>
+      <title>Git Fun</title>
+      <link>/2018/05/28/git-fun/</link>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/28/git-fun/</guid>
+      <description>I was in the process of trying to burn down a git repo but after other failed attempts&amp;ndash;I determined that I was going to have to learn what I was doing wrong.
+I could not seem to connect my new directory to my bitbucket repository. The problem was that I could not find or seem to create a new branch. The key is knowing that a branch can&amp;rsquo;t be a branch until there is files on the branch.</description>
+    </item>
+    
+    <item>
+      <title>Package Your Data</title>
+      <link>/2018/05/27/a-package-as-a-product/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/27/a-package-as-a-product/</guid>
+      <description>One reason I want to complete a package is the benefit of storing and accessing data. The directions for completing this task is found here.</description>
+    </item>
+    
+    <item>
+      <title>Upgrading Old Code</title>
+      <link>/2018/05/25/updating-old-code/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/25/updating-old-code/</guid>
+      <description>I started working on upgrading a markdown report this morning using r forcats and r janitor. Like other renovations this turned into a complete overhaul and did not even get to the fun stuff.
+I had to dig into rreadr to update many of the columns to factors. One thing to recall is to knit rather than relying on re-running chunks&amp;ndash;there seems to be something about starting fresh.
+Typically investments like these payoff in the long run.</description>
+    </item>
     
     <item>
       <title>Sweeping with the Janitor Package.</title>

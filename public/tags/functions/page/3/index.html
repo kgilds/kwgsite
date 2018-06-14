@@ -16,7 +16,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.20.7" />
+        <meta name="generator" content="Hugo 0.30.2" />
         
 
 
@@ -27,7 +27,10 @@
             
         
 
-        
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Functions"/>
+<meta name="twitter:description" content="R for the rest of us."/>
+<meta name="twitter:site" content="@kevin_gilds"/>
+
         <meta property="og:title" content="Functions" />
 <meta property="og:description" content="R for the rest of us." />
 <meta property="og:type" content="website" />
@@ -35,7 +38,7 @@
 
 
 
-
+<meta property="og:updated_time" content="2018-05-25T00:00:00&#43;00:00"/>
 
 
 
@@ -75,6 +78,16 @@
         
         
             
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-111258922-1', 'auto');
+ga('send', 'pageview');
+</script>
+
         
     </head>
     <body>
@@ -98,14 +111,22 @@
                 </li>
             
                 <li>
-                    <a href="https://github.com/kgilds">
-                        GitHub
+                    <a href="../../../../kevin">
+                        
+                            <i class="Projects">&nbsp;</i>Projects
                     </a>
                 </li>
             
                 <li>
-                    <a href="https://twitter.com/kevn_gilds">
-                        Twitter
+                    <a href="../../../../resume/">
+                        Resume
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="../../../../notes">
+                        
+                            <i class="Worknotes">&nbsp;</i>Worknotes
                     </a>
                 </li>
             
@@ -153,19 +174,32 @@
                     </li>
                 
                     <li>
-                        <a href="https://github.com/kgilds">
+                        <a href="../../../../kevin">
                             <h3>
                                 
-                                GitHub
+                                    <i class="Projects">&nbsp;</i>
+                                
+                                Projects
                             </h3>
                         </a>
                     </li>
                 
                     <li>
-                        <a href="https://twitter.com/kevn_gilds">
+                        <a href="../../../../resume/">
                             <h3>
                                 
-                                Twitter
+                                Resume
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="../../../../notes">
+                            <h3>
+                                
+                                    <i class="Worknotes">&nbsp;</i>
+                                
+                                Worknotes
                             </h3>
                         </a>
                     </li>
@@ -185,23 +219,23 @@
 
                 
                     <li>
-                        <a href="../../../../2017/05/26/metallica-concerts-maps-r/"><p>Metallica Concerts, Maps,  &amp; R</p></a>
+                        <a href="../../../../2018/06/13/shiny-dashboard-worknotes/"><p>2018-06-13-shiny-dashboard-worknotes</p></a>
                     </li>
                 
                     <li>
-                        <a href="../../../../2017/05/26/metallica-maps-and-r/"><p>Metallica, Maps, and R</p></a>
+                        <a href="../../../../2018/06/12/shiny-dashboard/"><p>shiny-dashboard</p></a>
                     </li>
                 
                     <li>
-                        <a href="../../../../2017/05/20/blogdown-lessons/"><p>Blogdown lessons</p></a>
+                        <a href="../../../../2018/06/11/legos/"><p>Legos</p></a>
                     </li>
                 
                     <li>
-                        <a href="../../../../2016/12/30/a-plain-markdown-post/"><p>A Plain Markdown Post</p></a>
+                        <a href="../../../../2018/06/10/milestones/"><p>milestones</p></a>
                     </li>
                 
                     <li>
-                        <a href="../../../../2015/07/23/hello-r-markdown/"><p>Hello R Markdown</p></a>
+                        <a href="../../../../2018/06/09/circles/"><p>Circles</p></a>
                     </li>
                 
             </ul>
@@ -223,7 +257,7 @@
     <header>
     <div class="title">
         
-            <h2><a href="../../../../1/01/01/hacked-automation/">hacked automation</a></h2>
+            <h2><a href="../../../../2018/05/25/updating-old-code/">Upgrading Old Code</a></h2>
         
         
     </div>
@@ -233,9 +267,9 @@
         
 
         <time class="published"
-            datetime='0001-01-01'>
-            January 1, 0001</time>
-        <span class="author">Kevin Gilds, MPA</span>
+            datetime='2018-05-25'>
+            May 25, 2018</time>
+        <span class="author">Kevin</span>
         
         
     </div>
@@ -243,20 +277,36 @@
 
     
 
-    <p>rmarkdown::render(&ldquo;file.name&rdquo;)
-The line of code above has dramatically improved my workflow. The render function helped me reach the goal of creating an automated system of creating a status report and share data in a more efficient manner.
-Ultimately, I still want to use the makefile feature but this process has helped identify the structure.
-Here is a snippet of how the automation works
-Created an Rmd file that does the following</p>
+    <p>I started working on upgrading a markdown report this morning using r forcats and r janitor. Like other renovations this turned into a complete overhaul and did not even get to the fun stuff.
+I had to dig into rreadr to update many of the columns to factors. One thing to recall is to knit rather than relying on re-running chunks&ndash;there seems to be something about starting fresh.
+Typically investments like these payoff in the long run.</p>
 
     <footer>
         <ul class="actions">
-            <li><a href="../../../../1/01/01/hacked-automation/" class="button big">Continue Reading</a></li>
+            <li><a href="../../../../2018/05/25/updating-old-code/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
     
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
 
     
+    
+        <li><a href='../../../../categories/r'>R</a></li>
     
 </ul>
 
@@ -268,7 +318,7 @@ Created an Rmd file that does the following</p>
     <header>
     <div class="title">
         
-            <h2><a href="../../../../1/01/01/makefiles-and-automation/">makefiles and automation</a></h2>
+            <h2><a href="../../../../2018/05/24/janitor-package/">Sweeping with the Janitor Package.</a></h2>
         
         
     </div>
@@ -278,9 +328,9 @@ Created an Rmd file that does the following</p>
         
 
         <time class="published"
-            datetime='0001-01-01'>
-            January 1, 0001</time>
-        <span class="author">Kevin Gilds, MPA</span>
+            datetime='2018-05-24'>
+            May 24, 2018</time>
+        <span class="author">Kevin</span>
         
         
     </div>
@@ -288,17 +338,523 @@ Created an Rmd file that does the following</p>
 
     
 
-    <p>I have been working on trying to automate my workflow and want to learn to utilzie a makefile system to run a status report. To be honest, I am struggling to understand what I am reading from the tutorials.
-Next step will be to clone the repository and work through the examples.</p>
+    <p>I was reviewing a markdown document and see an opportunity to incorporate tably functions from the janitor package, and will need the forcats package to set up the infrastructure.
+I was able to test out the features of tably and adorn and it made me giddy.
+My confession is that I have never used the forcats package but I am excited to learn.</p>
 
     <footer>
         <ul class="actions">
-            <li><a href="../../../../1/01/01/makefiles-and-automation/" class="button big">Continue Reading</a></li>
+            <li><a href="../../../../2018/05/24/janitor-package/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
     
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
 
     
+    
+        <li><a href='../../../../categories/r'>R</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../../../2018/05/23/more-systems-theory/">Playing the Long Game</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-05-23'>
+            May 23, 2018</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>My post highlighted an article that encouraged one to think of systems rather than goals. Today, I heard a podcast from Seth Godin that emphasized the long term and systems.
+ In graduate school, I was briefly introduced to Systems Theory and subsequently read The Fifth Discipline. I encourage all to read this book&ndash;it will help you play the long game.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../../../2018/05/23/more-systems-theory/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../../../categories/management'>management</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../../../2018/05/22/systems-vs-goals/">Systems and  Goals</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-05-22'>
+            May 22, 2018</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>I read this article today and thought it was an interesting perspective to consider. The author hits the mark with the half-marathon example&ndash;complete the goal and now what.
+As an aspiring data science, I think it is good to measure progress but I also strongly believe in systems and I like where the author was going. I suspect this may be where the beauty of a well designed OKR&rsquo;s can come into play.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../../../2018/05/22/systems-vs-goals/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../../../categories/craftsmanship'>craftsmanship</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../../../2018/05/21/bookdown/">Subprojects</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-05-21'>
+            May 21, 2018</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>A key result from one of my OKR&rsquo;s is to complete an evaluation report with Bookdown. I was unsure of how to incorporate Bookdown into my workflow and determined to start a new directory but at the last minute decided to make a subproject within the larger evaluation project. I never even considered this before and it seems to be working.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../../../2018/05/21/bookdown/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../../../categories/r'>R</a></li>
+    
+        <li><a href='../../../../categories/bookdown'>bookdown</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../../../2018/05/20/hugo-resource/">Hugo Resource</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-05-20'>
+            May 20, 2018</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>Yesterday, I was writing about making the distinction between different types of content. For instance some content is fine in the confines of a post and some content would be better filling an entire page.
+I have been working through how to organize this content within the confines of my theme. This video is useful in laying the framework to understanding how to structure and display items in the content folder.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../../../2018/05/20/hugo-resource/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../../../categories/r'>R</a></li>
+    
+        <li><a href='../../../../categories/blogdown'>blogdown</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../../../2018/05/19/post-vs-project/">Post vs Project</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-05-19'>
+            May 19, 2018</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>I have noticed that most my content displays quite well within the post framework for with this theme. However, at times I want to utilize the full page mode. I know how to do this but I am not positive how to make it look nice. I am going to try hack my way through this and see if I can make this work.
+I am strangely loyal to this theme; or too lazy to make a change.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../../../2018/05/19/post-vs-project/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../../../categories/r'>R</a></li>
+    
+        <li><a href='../../../../categories/blogdown'>blogdown</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../../../2018/05/18/jump-in-figure-it-out-later/">Jump In Figure It Out Later</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-05-18'>
+            May 18, 2018</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>My operating approach to trying new things in R.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../../../2018/05/18/jump-in-figure-it-out-later/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../../../categories/r'>R</a></li>
+    
+        <li><a href='../../../../categories/troubleshooting'>Troubleshooting</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../../../2018/05/17/what-why/">What &gt; Why</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-05-17'>
+            May 17, 2018</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>Today, I attended the Tampa Bay Nonprofit Leadership Confernece. The Keynote was given by Dr. Tasha Eurich on self-awarness and agile leadership.
+Excited to see @tashaeurich speak and the 8th Annual Nonprofit Leadership Center! @nlctb #TimeWellSpent pic.twitter.com/Ip0Ey0MJn4
+&mdash; Tammy Charles (@TamCharlie) May 17, 2018<br />
+I enjoyed the hack on emphasizing what over why when a problem emerges.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../../../2018/05/17/what-why/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../../../categories/leadership'>leadership</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="../../../../2018/05/16/build-things/">Build Things</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-05-16'>
+            May 16, 2018</time>
+        <span class="author">Kevin</span>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>Insightful suggestion from Austin Kleon&ndash;Make Things == Know Thyself.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="../../../../2018/05/16/build-things/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='../../../../categories/craftsmanship'>craftsmanship</a></li>
     
 </ul>
 
@@ -315,7 +871,8 @@ Next step will be to clone the repository and work through the examples.</p>
     
 
     
-        <li><a href="#" class="disabled button big next">Next Page</a></li>
+        <li><a href="../../../../tags/functions/page/4/"
+                class="button big next">Next Page</a></li>
     
 </ul>
 
@@ -327,12 +884,80 @@ Next step will be to clone the repository and work through the examples.</p>
         <section id="intro">
             
             
+                
+                    <a href="../../../../" class="logo"><img src="img/batman.jpg" alt="Hugo Future Imperfect" /></a>
+                
+            
+            
+                <header>
+                    <h2>Learning R for Social Good</h2>
+                    <p>Nonprofit Sector Data Science</p>
+                </header>
             
             <ul class="icons">
                 
                     <li><a href="../../../../tags/functions/index.xml" type="application/rss+xml"
                         target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 
+                
+                    
+<li><a href="//github.com/kgilds" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/kevingilds" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/kevin_gilds" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
                 
             </ul>
         </section>
@@ -355,13 +980,13 @@ Next step will be to clone the repository and work through the examples.</p>
                     <li>
                         <article>
                             <header>
-                                <h3><a href="../../../../2017/05/26/metallica-concerts-maps-r/">Metallica Concerts, Maps,  &amp; R</a></h3>
+                                <h3><a href="../../../../2018/06/13/shiny-dashboard-worknotes/">2018-06-13-shiny-dashboard-worknotes</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2017-05-26'>
-                                    May 26, 2017</time>
+                                    '2018-06-13'>
+                                    June 13, 2018</time>
                             </header>
                         </article>
                     </li>
@@ -369,13 +994,13 @@ Next step will be to clone the repository and work through the examples.</p>
                     <li>
                         <article>
                             <header>
-                                <h3><a href="../../../../2017/05/26/metallica-maps-and-r/">Metallica, Maps, and R</a></h3>
+                                <h3><a href="../../../../2018/06/12/shiny-dashboard/">shiny-dashboard</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2017-05-26'>
-                                    May 26, 2017</time>
+                                    '2018-06-12'>
+                                    June 12, 2018</time>
                             </header>
                         </article>
                     </li>
@@ -383,13 +1008,13 @@ Next step will be to clone the repository and work through the examples.</p>
                     <li>
                         <article>
                             <header>
-                                <h3><a href="../../../../2017/05/20/blogdown-lessons/">Blogdown lessons</a></h3>
+                                <h3><a href="../../../../2018/06/11/legos/">Legos</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2017-05-20'>
-                                    May 20, 2017</time>
+                                    '2018-06-11'>
+                                    June 11, 2018</time>
                             </header>
                         </article>
                     </li>
@@ -397,13 +1022,13 @@ Next step will be to clone the repository and work through the examples.</p>
                     <li>
                         <article>
                             <header>
-                                <h3><a href="../../../../2016/12/30/a-plain-markdown-post/">A Plain Markdown Post</a></h3>
+                                <h3><a href="../../../../2018/06/10/milestones/">milestones</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2016-12-30'>
-                                    December 30, 2016</time>
+                                    '2018-06-10'>
+                                    June 10, 2018</time>
                             </header>
                         </article>
                     </li>
@@ -411,13 +1036,13 @@ Next step will be to clone the repository and work through the examples.</p>
                     <li>
                         <article>
                             <header>
-                                <h3><a href="../../../../2015/07/23/hello-r-markdown/">Hello R Markdown</a></h3>
+                                <h3><a href="../../../../2018/06/09/circles/">Circles</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2015-07-23'>
-                                    July 23, 2015</time>
+                                    '2018-06-09'>
+                                    June 9, 2018</time>
                             </header>
                         </article>
                     </li>
@@ -455,8 +1080,89 @@ Next step will be to clone the repository and work through the examples.</p>
                     <li>
                         <article>
                             <header>
+                                <a href="../../../../categories/automation/">automation</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="../../../../categories/blogdown/">blogdown</a>
+                                <span style="float:right;">8</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/bookdown/">bookdown</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/computer-literacy/">computer-literacy</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/craftsmanship/">craftsmanship</a>
+                                <span style="float:right;">10</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/data-management/">data-management</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/disqus/">disqus</a>
                                 <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/dplyr/">dplyr</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/excel/">excel</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/functions/">functions</a>
+                                <span style="float:right;">3</span>
                             </header>
                         </article>
                     </li>
@@ -465,6 +1171,15 @@ Next step will be to clone the repository and work through the examples.</p>
                         <article>
                             <header>
                                 <a href="../../../../categories/git/">git</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/gsub/">gsub</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>
@@ -473,8 +1188,8 @@ Next step will be to clone the repository and work through the examples.</p>
                     <li>
                         <article>
                             <header>
-                                <a href="../../../../categories/leaflet/">leaflet</a>
-                                <span style="float:right;">2</span>
+                                <a href="../../../../categories/leadership/">leadership</a>
+                                <span style="float:right;">3</span>
                             </header>
                         </article>
                     </li>
@@ -482,8 +1197,44 @@ Next step will be to clone the repository and work through the examples.</p>
                     <li>
                         <article>
                             <header>
-                                <a href="../../../../categories/metallica/">metallica</a>
-                                <span style="float:right;">2</span>
+                                <a href="../../../../categories/life/">life</a>
+                                <span style="float:right;">6</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/linux/">linux</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/management/">management</a>
+                                <span style="float:right;">4</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/nonprofit/">nonprofit</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/podcast/">podcast</a>
+                                <span style="float:right;">1</span>
                             </header>
                         </article>
                     </li>
@@ -492,7 +1243,124 @@ Next step will be to clone the repository and work through the examples.</p>
                         <article>
                             <header>
                                 <a href="../../../../categories/r/">r</a>
-                                <span style="float:right;">3</span>
+                                <span style="float:right;">48</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/r-studio-community/">r-studio-community</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/shiny/">shiny</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/shinydashboard/">shinydashboard</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/system-theory/">system-theory</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/tidydata/">tidydata</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/tidyverse/">tidyverse</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/trello/">trello</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/troubleshooting/">troubleshooting</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/ubuntu/">ubuntu</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/workflow/">workflow</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/worklife/">worklife</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/worknotes/">worknotes</a>
+                                <span style="float:right;">8</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../../../categories/writing/">writing</a>
+                                <span style="float:right;">1</span>
                             </header>
                         </article>
                     </li>
@@ -503,6 +1371,15 @@ Next step will be to clone the repository and work through the examples.</p>
 
     
         
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Documenting my efforts to learn R and life.</p>
+
+            <ul class="actions">
+                <li><a href="../../../../about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
 
     
         <section id="footer">
@@ -511,6 +1388,65 @@ Next step will be to clone the repository and work through the examples.</p>
                     <li><a href="../../../../tags/functions/index.xml" type="application/rss+xml"
                         target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 
+                
+                    
+<li><a href="//github.com/kgilds" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/kevingilds" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/kevin_gilds" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
                 
             </ul>
 

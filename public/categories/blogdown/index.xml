@@ -6,10 +6,30 @@
     <description>Recent content in Blogdown on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/blogdown/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Circles</title>
+      <link>/2018/06/09/circles/</link>
+      <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/09/circles/</guid>
+      <description>I have been a bit obsessed with trying to get a nice looking list page for projects for my website. Funny, I revisited the theme code and they have since updated to include archetypes and a method for listing other content.</description>
+    </item>
+    
+    <item>
+      <title>More Content</title>
+      <link>/2018/06/02/more-content/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/02/more-content/</guid>
+      <description>I was tempted to update my webpage theme to academic this morning. My past behavior would be to hastily change themes. I managed to hold off and remind myself; I need more contet and develop my writing.
+I watched this webinar from R Studio  on blogdown. What may be underated in the video is the section on Why you should have a website.
+ Share what you have learned with your future self &amp;ndash;Yihui Xie</description>
+    </item>
     
     <item>
       <title>Hugo Resource</title>

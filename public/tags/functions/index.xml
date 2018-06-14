@@ -6,19 +6,19 @@
     <description>Recent content in Functions on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/functions/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>R Milestones</title>
-      <link>/1/01/01/r-milestones/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Worknotes</title>
+      <link>/2018/06/03/worknotes/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/1/01/01/r-milestones/</guid>
-      <description>Proud to have finally met some basic programming milestones in R. A couple of months ago, I was finally able to write a function.
-For the longest time, I wanted to be able to loop over a column and place the grade point in a new column. I finally accomplished this task. Here is the basic code.
-lang_pts &amp;lt;- numeric(0) for(i in mq1_lang$langGrade){ lang_pts&amp;lt;- c(lang_pts,switch(i, &amp;quot;A&amp;quot; =4, &amp;quot;B&amp;quot;=3, &amp;quot;C&amp;quot;=2, &amp;quot;D&amp;quot;=1, &amp;quot;F&amp;quot;=0, &amp;quot;I&amp;quot;=0)) lang_pts } mq1_lang &amp;lt;- cbind(mq1_lang, lang_pts)  </description>
+      <guid>/2018/06/03/worknotes/</guid>
+      <description>One new approach is to post worknotes. My hope is that the work notes help generate better content for future articles and projects.
+Yesterday 06/02/2018 downloaded updated data and ran all. Think I got teacher and parent survey where I want. Strategy will be put the table as they are now but collapse some of the levels so that graph can be a bit cleaner or focused; currently I would have to run the width wider and the output to word is sub-optimal.</description>
     </item>
     
   </channel>
