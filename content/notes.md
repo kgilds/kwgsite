@@ -4,6 +4,20 @@ title: "Work Notes"
 
 # Working notes raw
 
+### 07/02/2018
+
+> 50 minutes
+
+finished pushing, pull request, and merge q4. Started working on functions for academic success. Created test notebook have a working type for count; need get to percent, test functions as well; need solid percent, counts and supplemental data. 
+
+### 07/01/2018
+
+> 250 minutes
+
+Finished the matches for the academic data, successfully added to getreal package and tested in bookdown environment. Everything seems to be working fine
+
+
+
 ### 06/03/2018
 Yesterday 06/02/2018 downloaded updated data and ran all. Think I got teacher and parent survey where I want. Strategy will be put the table as they are now but collapse some of the levels so that graph can be a bit cleaner or focused; currently I would have to run the width wider and the output to word is sub-optimal. There is a function in Forcats that will do this. 
 
