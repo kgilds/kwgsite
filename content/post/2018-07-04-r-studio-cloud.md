@@ -13,5 +13,5 @@ featuredpath: ''
 linktitle: ''
 ---
 
-I made this post with R Studio Cloud. Safe your self some trouble and read about project template. I re-read and I still do not have it right. Otherwise, I think I am in live. 
+I made this post with R Studio Cloud. Safe your self some trouble and read about project template. I re-read and I still do not have it right. Otherwise, I think I am in love
 
