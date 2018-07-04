@@ -12,6 +12,8 @@ tested some script in notebook and converted to functions and updated package. H
 
 Stuck on a my function gives me 351 successes and test functions come up with 348 successes. Spent 50 minutes running tests and trying to eyeball the problem. 
 
+Found the error. The function was correct; the error was in the test functions not accounting for half increases. tested seems to give the right answer. Need to update the functions in the package. 
+
 ### 07/03/2018
 
 > worktime 20 minutes
