@@ -4,6 +4,21 @@ title: "Work Notes"
 
 # Working notes raw
 
+### 07/04/2018
+
+> worktime 150 minutes
+
+tested some script in notebook and converted to functions and updated package. Had to work through some issues. However, we are stuck on the math not adding up. 
+
+Stuck on a my function gives me 351 successes and test functions come up with 348 successes. Spent 50 minutes running tests and trying to eyeball the problem. 
+
+### 07/03/2018
+
+> worktime 20 minutes
+
+worked on lang notebook. 
+
+
 ### 07/02/2018
 
 > 50 minutes
