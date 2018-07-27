@@ -4,6 +4,14 @@ title: "Work Notes"
 
 # Working notes raw
 
+### 07/25/2018
+
+Submitted final draft of report this morning. Sunday discovered that the parent and techer survey had duplicates and had to work that out. I determined that I was not going to render this report in Word or even PDF this time around. Moved directory to Gitlab and moved all the rmd documents and data there. 
+
+Came up with a clever way to count and analyze pre and post survey data with Janitor. Still need a process to de-dupe; is there a conditional method with the janitor package with the dupes; could you build it.
+
+Writing and implementing the Get REAL! package was awesome. I could not get it to render to Word correctly. 
+
 ### 07/04/2018
 
 > worktime 150 minutes
