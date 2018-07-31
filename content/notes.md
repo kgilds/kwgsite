@@ -4,6 +4,11 @@ title: "Work Notes"
 
 # Working notes raw
 
+07/27/2018-07/28/2018
+
+Worked on framework for council report. Experimented with the janior package. Determiend to work into the report council data but because the report was functioned out there was no easy way to render grouped by council output.  Sunday morning made a push for parameterized reports; my god I am not even close to implementing. Determiend to make seperate branches for each council. 
+
+-----------------
 ### 07/25/2018
 
 Submitted final draft of report this morning. Sunday discovered that the parent and techer survey had duplicates and had to work that out. I determined that I was not going to render this report in Word or even PDF this time around. Moved directory to Gitlab and moved all the rmd documents and data there. 
