@@ -5,7 +5,7 @@ date: '2018-07-29'
 slug: constraints
 categories: []
 tags: []
-description: ''
+description: 'Constraint is good'
 featured: ''
 featuredalt: ''
 featuredpath: ''
