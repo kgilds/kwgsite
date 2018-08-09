@@ -4,6 +4,24 @@ title: "Work Notes"
 
 # Working notes raw
 
+
+8/09/2018 60 minutes
+        note to self can't use tabs with pretty-html output. 
+---------------------------
+8/08/2018 50 minutes; 
+        computer was working very slowly had to re-start R-studio took some time off
+        thinking last night I still want to write the book and include pictures? 
+    50 minutes putting the structure together. 
+        #todo don't forget to include improve_program comments
+            tried and this did not work @08/08/2018
+--------------------------------            
+08/07/2018
+50 minutes comments analysis; should be done this week. 
+    df %>% filter(!is.na(x1)) awesome script to filter out NA.
+        https://stackoverflow.com/questions/22353633/filter-for-complete-cases-in-data-frame-using-dplyr-case-wise-deletion
+
+------------------
+
 07/27/2018-07/28/2018
 
 Worked on framework for council report. Experimented with the janior package. Determiend to work into the report council data but because the report was functioned out there was no easy way to render grouped by council output.  Sunday morning made a push for parameterized reports; my god I am not even close to implementing. Determiend to make seperate branches for each council. 
