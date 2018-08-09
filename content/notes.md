@@ -12,8 +12,8 @@ title: "Work Notes"
         computer was working very slowly had to re-start R-studio took some time off
         thinking last night I still want to write the book and include pictures? 
     50 minutes putting the structure together. 
-        #todo don't forget to include improve_program comments
-            tried and this did not work @08/08/2018
+    todo don't forget to include improve_program comments
+    tried and this did not work @08/08/2018
 --------------------------------            
 08/07/2018
 50 minutes comments analysis; should be done this week. 
