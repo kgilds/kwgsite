@@ -4,6 +4,54 @@ title: "Work Notes"
 
 # Working notes raw
 
+
+8/09/2018 60 minutes
+        note to self can't use tabs with pretty-html output. 
+---------------------------
+8/08/2018 50 minutes; 
+        computer was working very slowly had to re-start R-studio took some time off
+        thinking last night I still want to write the book and include pictures? 
+    50 minutes putting the structure together. 
+    todo don't forget to include improve_program comments
+    tried and this did not work @08/08/2018
+--------------------------------            
+08/07/2018
+50 minutes comments analysis; should be done this week. 
+    df %>% filter(!is.na(x1)) awesome script to filter out NA.
+        https://stackoverflow.com/questions/22353633/filter-for-complete-cases-in-data-frame-using-dplyr-case-wise-deletion
+
+------------------
+
+07/27/2018-07/28/2018
+
+Worked on framework for council report. Experimented with the janior package. Determiend to work into the report council data but because the report was functioned out there was no easy way to render grouped by council output.  Sunday morning made a push for parameterized reports; my god I am not even close to implementing. Determiend to make seperate branches for each council. 
+
+-----------------
+### 07/25/2018
+
+Submitted final draft of report this morning. Sunday discovered that the parent and techer survey had duplicates and had to work that out. I determined that I was not going to render this report in Word or even PDF this time around. Moved directory to Gitlab and moved all the rmd documents and data there. 
+
+Came up with a clever way to count and analyze pre and post survey data with Janitor. Still need a process to de-dupe; is there a conditional method with the janitor package with the dupes; could you build it.
+
+Writing and implementing the Get REAL! package was awesome. I could not get it to render to Word correctly. 
+
+### 07/04/2018
+
+> worktime 150 minutes
+
+tested some script in notebook and converted to functions and updated package. Had to work through some issues. However, we are stuck on the math not adding up. 
+
+Stuck on a my function gives me 351 successes and test functions come up with 348 successes. Spent 50 minutes running tests and trying to eyeball the problem. 
+
+Found the error. The function was correct; the error was in the test functions not accounting for half increases. tested seems to give the right answer. Need to update the functions in the package. 
+
+### 07/03/2018
+
+> worktime 20 minutes
+
+worked on lang notebook. 
+
+
 ### 07/02/2018
 
 > 50 minutes
