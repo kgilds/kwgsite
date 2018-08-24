@@ -1,0 +1,18 @@
+---
+title: Fun with Spotifyr
+author: Kevin
+date: '2018-06-23'
+slug: fun-with-spotifyr
+categories:
+  - r
+tags: [forcats]
+      
+---
+
+I played around with the [spotifyr](https://github.com/charlie86/spotifyr) package today.  I started a Metallica notebook and completed EDA with the variables. I used the forcats package and  fct_reorder again to render a plot that to display in order the popularity 
+
+
+```{r}
+
+```
+

@@ -1,0 +1,55 @@
+---
+title: Where have you been my whole R Life
+author: Kevin Gilds
+date: '2017-09-30'
+categories:
+  - R
+tags:
+  - if_else
+  - mutate
+  - workflow
+description: Mutate and If_Else Partnership
+
+---
+
+
+
+<p>I hav been using the mutate function in dplyr for about a year now. However, I recently disovered a useful partner in the if_else function.</p>
+<p>Ultimately, this is having a big impact on my workflow.</p>
+<p>Below is my previous workflow. I would make seperate data frames and then bind the data frames together to run counts on the variables of interests.</p>
+<pre class="r"><code>lang_success_s &lt;- langarts %&gt;%
+    filter(final &gt;=2, pt_diff &gt;=0)%&gt;% #segment students with a final grade of C or higher and either maintained or increased their grade)
+    mutate(&quot;Success&quot; = &quot;TRUE&quot;) #add variable Success
+
+dim(lang_success_s)
+
+lang_success_n &lt;- langarts %&gt;%
+    filter(final &gt;=2, pt_diff &lt; 0) %&gt;% #segment students with  final Grade C or higher but decreased their grade
+    mutate(&quot;Success&quot; = &quot;FALSE&quot;) # add variable Succes and fill in with false. 
+
+dim(lang_success_n)
+
+#nrow(read_success_n)
+
+lang_success_x &lt;- langarts %&gt;%
+    filter(final &lt; 2) %&gt;%  #segment students with a final grade less than C
+    mutate(&quot;Success&quot; = &quot;FALSE&quot;) #add Success column and fill in with false
+
+
+dim(lang_success_x)
+
+lang_success_1 &lt;- rbind(lang_success_s, lang_success_n) #bind data fram lang_success_s, lang_success_n together. 
+
+lang_success_2 &lt;- rbind(lang_success_1, lang_success_x) #bind data frame lang success_1 and lang_success_x</code></pre>
+<p>I ran across this <a href="https://rstudio-pubs-static.s3.amazonaws.com/116317_e6922e81e72e4e3f83995485ce686c14.html#/">R-Studio presentation</a> file about the combination of mutate and ifelse.</p>
+<p>Here is the updated code</p>
+<pre class="r"><code>lang_s &lt;- langarts %&gt;%
+    group_by(council, Year_Id) %&gt;%
+    mutate(&quot;Success&quot; = if_else(final &gt;=2 &amp; pt_diff &gt;=0, TRUE, FALSE)) %&gt;% #add variable Success and if final is greater than 2 and pt_diff is 0 or greater then fill in Success. If else fill in FALSE. 
+    count(Success == TRUE)%&gt;%
+    rename(&quot;Success&quot; = &quot;Success == TRUE&quot;) %&gt;%
+    filter(Success == TRUE)
+    
+lang_s</code></pre>
+<p>Currently, I am working to make a change to my workflow and the distinction between raw and produced data. That is for another post.</p>
+<p>`</p>

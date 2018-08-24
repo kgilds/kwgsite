@@ -1,0 +1,23 @@
+---
+title: Constraints
+author: Kevin
+date: '2018-06-19'
+slug: constraints
+categories:
+  - worknotes
+tags: []
+---
+
+Typically I spend around 50-100 minutes per day working on R programming and this is typically planned and focused work. This morning I loosed up my rules--I  did not track my time formally and I listened to Volbeat loudly while I worked. I did this because I knew I was going to have extra time today. It was fun but I could feel my brain straining to think and listen at the same time
+
+Later in the morning, I ran into trouble ordering some factors for a plot. Lately, I have been able to methodically figure out problems and issues even if it means coming back to a problem the next morning. Not today, I had time so I tried to brute force my way through this. Eventually, I figured it out--ironically it was my first idea that I did not execute well the firs time. 
+
+
+
+
+
+```{r eval=FALSE}
+enrollment$month <- fct_relevel(enrollment$month, "Aug", "Sep",....)
+```
+
+The larger point is that the constraint of time can help you focus; and when you have time keep the focus. 

@@ -1,0 +1,18 @@
+---
+title: Under the hood with geom_bar
+author: Kevin
+date: '2018-02-01'
+slug: r4ds
+categories:
+  - R
+tags: [geom_bar]
+---
+
+I have struggled with bar plots using ggplot2-- I never bothered to look under the hood to understand what was happening; I just hacked away until I get a reasonable looking bar plot. 
+
+This has changed since I signed up for the R4DS community slack group in December and have been working my way slowly through the *R for Data Science* Book. As, I have been going through Chapter 3, I finally started looking under the hood and learning the fundamentals of gglot2. 
+
+Fireworks `r  emo::ji("fireworks")` went off when reviewing **Statistical Transformations** and I read and understood this--"Other graphs, like bar charts, calculate new values to plot:"
+
+
+
