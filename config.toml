@@ -14,13 +14,15 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     
 [[menu.main]]
 	name = "Resume"
+	identi = "fa fa-handshake-o"
     url = "/Resume/"
 
 
 
 [[menu.main]]
     name = "Worknotes"
-    	identifier = "Worknotes"
+    	identifier = "fa fa-briefcase"              
+    	
         url = "/notes"
 
 [[menu.main]]
