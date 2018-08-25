@@ -87,16 +87,16 @@ canonifyURLs = true
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "Hugo Future Imperfect"
+    header    = "Learning R for Social Good"
 
-  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+    paragraph = "Nonprofit Sector Data Science"
 
-  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+    about     = "Documenting my efforts to learn R and life."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/img/main/logo.jpg"
+    src       = "img/batman.jpg"
     # Sets Image to be a cirlce
     circle    = false
     # Sets Image to be Future Imperfect's hexagon
@@ -129,8 +129,8 @@ canonifyURLs = true
   weight = 3
 
 [[menu.main]]
-  name = "Itemized"
-  url = "/itemized/"
+  name = "Projects"
+  url = "/projects/"
   identifier = "fa fa-list"
   weight = 4
 
