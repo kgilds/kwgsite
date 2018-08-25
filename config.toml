@@ -7,7 +7,7 @@ paginate = 3
 disqusShortname = "r-for-the-rest-of-us"
 googleAnalytics =  "UA-111258922-1"
 pluralizeListTitles = false
-
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 [params]
   # Sets the meta tag description
   description          = "Learning R for Social Good"
