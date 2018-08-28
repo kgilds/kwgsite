@@ -1,0 +1,181 @@
+baseurl = "http://kgilds.rbind.io/"
+relativeurls = true
+languageCode = "en-us"
+title = "R for the rest of us"
+theme = "hugo-future-imperfect-master"
+googleAnalytics = "UA-111258922-1"
+disqusShortname = "r-for-the-rest-of-us"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+pluralizeListTitles = false
+# Set the followings to true as part of your site SEO
+enableRobotsTXT = true
+canonifyURLs = true
+
+[params]
+  # Sets the meta tag description
+  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  # Sets the navbarTitle that appears in the top left of the navigation bar
+  navbarTitle          = "Future Imperfect"
+  # Sets where "View More Posts" links
+  viewMorePostLink     = "/blog/"
+
+# Optional Params
+  # Sets navbarTitle to match the section of the website
+  dynamicTitles        = true
+  # Sets RSS icons to appear on the sidebar with the social media buttons
+  rssAppearAtTop       = true
+  rssAppearAtBottom    = true
+  # Sets Social Media icons to appear on the sidebar
+  socialAppearAtTop    = true
+  socialAppearAtBottom = true
+  # Sets Categories to sort by number of posts instead of alphabetical
+  categoriesByCount    = true
+  # set to show or to hide categories in the sidebar
+  showSidebarCategories = true
+  # Sets Estimated Reading Time to appear in post headers
+  includeReadingTime   = true
+  # Sets the Favicon and Version for the site. Default support is for
+  # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
+  # These are stored in the favicon folder. See the following for more information:
+  # https://github.com/audreyr/favicon-cheat-sheet
+  loadFavicon          = false
+  faviconVersion       = ""
+  # Sets Social Share links to appear on posts
+  socialShare          = true
+  # Sets specific share to appear on posts (default behavior is to appear)
+  socialShareTwitter   = true
+  socialShareGoogleplus = true
+  socialShareFacebook  = true
+  socialShareReddit    = true
+  socialShareLinkedin  = true
+  socialShareStumbleupon = true
+  socialSharePinterest = true
+  socialShareEmail     = true
+
+  # Load custom CSS or JavaScript files. The variable is an array so that you
+  # can load multiple files if necessary. You can also load the standard theme
+  # files by adding the value, "default".
+  # customCSS            = ["default", "/path/to/file"]
+  # customJS             = ["default", "/path/to/file"]
+  customCSS            = ["default"]
+  customJS             = ["default"]
+
+  # options for highlight.js (version, additional languages, and theme)
+  disable_highlight = false # set to true to disable Highlight
+  highlightjsVersion = "9.11.0"
+  highlightjsCDN = "//cdn.bootcss.com"
+  highlightjsLang = ["r", "yaml", "css"]
+  highlightjsTheme = "github"
+  MathJaxCDN = "//cdn.bootcss.com"
+  MathJaxVersion = "2.7.1"
+
+
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+
+    
+[[menu.main]]
+	name = "Resume"
+	identi = "fa fa-handshake-o"
+    url = "/Resume/"
+
+
+
+[[menu.main]]
+    name = "Worknotes"
+    	identifier = "fa fa-briefcase"              
+    	
+        url = "/notes"
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  identifier = "fa fa-id-card-o"
+  weight = 2
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  identifier = "fa fa-newspaper-o"
+  weight = 3
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  identifier = "fa fa-list"
+  weight = 4
+
+[params]
+    description = "R for the rest of us."
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+    socialAppearAtTop    = true
+    socialAppearAtBottom = true
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+[params.intro]
+    header    = "Learning R for Social Good"
+
+    paragraph = "Nonprofit Sector Data Science"
+
+    about     = "Documenting my efforts to learn R and life."
+
+
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+    
+    [params.intro.pic]
+    src       = "img/batman.jpg"
+    # modify your picture in the shape of a circle or
+    # future imperfect's hexagonal shape
+    circle    = false
+    imperfect = true
+    width     = ""
+    alt       = "Hugo Future Imperfect"
+
+
+# Insert your username and the icon will apear on the page as long as
+# socialAppearAtTop or socialAppearAtBottom is set to true in the params area
+# The social media icons will appear on the sidebar
+[social]
+    github          = "kgilds"
+    bitbucket       = ""
+    jsfiddle        = ""
+    codepen         = ""
+    foursquare      = ""
+    dribbble        = ""
+    deviantart      = ""
+    behance         = ""
+    flickr          = ""
+    instagram       = ""
+    youtube         = ""
+    vimeo           = ""
+    vine            = ""
+    medium          = ""
+    wordpress       = ""
+    tumblr          = ""
+    xing            = ""
+    linkedin        = "kevingilds"
+    slideshare      = ""
+    stackoverflow   = ""
+    reddit          = ""
+    pinterest       = ""
+    googleplus      = ""
+    facebook        = ""
+    facebook_admin  = ""
+    twitter_domain  = ""
+    twitter         = "kevin_gilds"
+    email           = ""
+
