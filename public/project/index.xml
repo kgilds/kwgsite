@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on R for the rest of us</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on R for the rest of us</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mapped School District Absences</title>
+      <link>/project/mapped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/mapped/</guid>
+      <description>I came across this data set from the Florida Department of Education in March. In Florida school districts are organized by county and I saw this as an opportunity to improve my mapping skills.
+This tutorial from Erin C. Anderson was instrumental in being able to complete this project. In fact a lot of the code chunks were stolen.
+Data The Florida Department of Education provides data on their website regarding the number of students by school that have missed more than 21 days of school.</description>
+    </item>
+    
+  </channel>
+</rss>

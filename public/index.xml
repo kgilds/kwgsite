@@ -6,26 +6,259 @@
     <description>Recent content on R for the rest of us</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Sequence Charts</title>
+      <link>/sequence-charts/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/sequence-charts/</guid>
+      <description>I have been focused on modeling system processes. I spotted that Gitlab supported mermaid in its markdown.
+It is easy to use and I noticed that it can be used within the R enviornment with the DiagrammR package</description>
+    </item>
+    
+    <item>
+      <title>Sequence Charts</title>
+      <link>/2018/08/19/sequence-charts/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/19/sequence-charts/</guid>
+      <description>I have been focused on modeling system processes. I spotted that Gitlab supported mermaid in its markdown.
+It is easy to use and I noticed that it can be used within the R enviornment with the DiagrammR package</description>
+    </item>
+    
+    <item>
+      <title>A slump</title>
+      <link>/blog/a-slump/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/a-slump/</guid>
+      <description>Currently working through a slump. In Good to Great by Jim Collins references the concept of the 20 mile march. This stretch has been cold and boring.
+On Sunday, I had great ambitions to re-work and improve a data cleaning process. I have spent 3 hours and 20 minutes over the past few days working through a process of reading data into R.
+What I learned is for the next post.</description>
+    </item>
+    
+    <item>
+      <title>positive deviance</title>
+      <link>/blog/positive-deviance/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/positive-deviance/</guid>
+      <description>Today, I listened to Francesca Gino on the Hidden Brain Podcast regarding creative people engaging in positive deviance or breaking the rules for the good of us all.
+Like everything it is a balance and it is important to know the rules first and to be open.
+ </description>
+    </item>
+    
+    <item>
+      <title>Constraints</title>
+      <link>/blog/constraints/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/constraints/</guid>
+      <description>Typically, my habit is to use a Pomodoro tracker. In my haste to finish up a report, I stopped using it last week and just plowed through the work. I stay focused on work for the most part, but I think the work is better when there is a defined starting and ending point.</description>
+    </item>
+    
+    <item>
+      <title>OKR-progress</title>
+      <link>/blog/okr-progress/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/okr-progress/</guid>
+      <description>My OKR for the end of July was to develop an R package for Get REAL! and complete the summative evaluation report in bookdown.
+The Get REAL! package worked like a charm; I see other additional opportunities for additional functions including for plots.
+I enjoyed working in Bookdown; my frustration was that the final report needs to be submitted in Microsoft Word. There is too much change that needs to occur between the markdown document and word.</description>
+    </item>
+    
+    <item>
+      <title>Argue Better</title>
+      <link>/blog/argue-better/</link>
+      <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/argue-better/</guid>
+      <description>I am enjoying this new [podcast]https://open.spotify.com/show/334O1au7TzGsZztZTrF9zj?si=318Iy3LgREWjXnOlGosYVQ from Arthur Brooks.
+The contention for Brooks is that people argue badly and that the arguments are escalating towards contempt. He points out that arguing and anger can convey caring and can bring people closer together.
+This argument feels correct to me and his podcasts have been both practical and powerful.</description>
+    </item>
+    
+    <item>
+      <title>More questions</title>
+      <link>/blog/more-questions/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/more-questions/</guid>
+      <description>Another theme emerging this summer is the importance of asking good questions. The theme first emerged during a leadership lunch with my organization&amp;rsquo;s CEO. Currently, I am reading Benjamin Franklin: An American Life by Walter Isaacson. Isaacson points out the Franklin used questions to disarm others in argument.
+I had success with this approach last week, and I hope to keep mindful of this approach.</description>
+    </item>
+    
+    <item>
+      <title>More writing</title>
+      <link>/blog/more-writing/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/more-writing/</guid>
+      <description>This past week, I finished Bird by Bird. This book fits with the approach of the Joy is the Playing or in her case writing.
+This afternoon I listened to this podcast with Tim Ferris and Jason Fried. The best part of the conversation pertained to the importance of writing and communicating well. Jason Fried made an asute observation that schools do not teach iteration in writing. I suspect that this is true.</description>
+    </item>
+    
+    <item>
+      <title>R studio cloud</title>
+      <link>/blog/r-studio-cloud/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/r-studio-cloud/</guid>
+      <description>I made this post with R Studio Cloud. Safe your self some trouble and read about project template. I re-read and I still do not have it right. Otherwise, I think I am in love</description>
+    </item>
+    
+    <item>
+      <title>Functions Again</title>
+      <link>/blog/functions-again/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/functions-again/</guid>
+      <description>The output from the spread function was not going to work and had to revert back to the old process. Thankfully, this time I was able to create a function to do the heavy lifting.
+ worktime 100 minutes
+ </description>
+    </item>
+    
+    <item>
+      <title>Spread</title>
+      <link>/blog/spread/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/spread/</guid>
+      <description>I am testing a new method to match student grades and need to move the data to a wide format. This gave me this opportunity to use the spread function. It worked! However, now I am not sure what to do with the output.</description>
+    </item>
+    
+    <item>
+      <title>Long game</title>
+      <link>/blog/long-game/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/long-game/</guid>
+      <description>Earlier this year, I set up an Rmd file with more functions and named the variables more general terms. Hence, I only had to change the name and path of the input file and the name of the output file. Approximately 3.5 hours of work was reduced to 50 minutes. Ultimately, I want to see more the scripts turn into functions, Addin, or Shiny Application.</description>
+    </item>
+    
+    <item>
+      <title>geom_point</title>
+      <link>/blog/geom-point/</link>
+      <pubDate>Sun, 24 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/geom-point/</guid>
+      <description>I have recently discovered the magic of geom_point coupled with fct_reorder. I am not sure how I got along with out it.
+Here is an example, I used yesterday.
+metallica %&amp;gt;% select(2,6,23) %&amp;gt;% ggplot(aes(album_popularity, fct_reorder(album_name, album_popularity))) + geom_point() + geom_vline(xintercept = 50.94, col=&#39;red&#39;)  </description>
+    </item>
+    
+    <item>
+      <title>Fun with Spotifyr</title>
+      <link>/blog/fun-with-spotifyr/</link>
+      <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fun-with-spotifyr/</guid>
+      <description>I played around with the spotifyr package today. I started a Metallica notebook and completed EDA with the variables. I used the forcats package and fct_reorder again to render a plot that to display in order the popularity</description>
+    </item>
+    
+    <item>
+      <title>the more you know</title>
+      <link>/blog/the-more-you-know/</link>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/the-more-you-know/</guid>
+      <description>I am currently reading Weapons of Math Destruction. I had heard about the book prior and had some reservations, and when I picked it up at the library; I still had a tinge of hesitation. I think my understanding was that this was an anti-data book and this is not the case.
+The author Cathy O&amp;rsquo; Neil emphasizes what I strongly believe and that is models and data should be transparent.</description>
+    </item>
+    
+    <item>
+      <title>Brushing up on regression</title>
+      <link>/blog/brushing-up-on-regression/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/brushing-up-on-regression/</guid>
+      <description>Here is a resource on basic stats and data science in R. This morning, I went through the regression chapter and found it very helpful especially the residual section.
+ 50 minutes
+ </description>
+    </item>
+    
+    <item>
+      <title>Flexdashboards</title>
+      <link>/blog/flexdashboards/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/flexdashboards/</guid>
+      <description>Working with Flexdashboards is great-I had forgotten how much fun they are to work with. The other day I was reviewing some my prior applications, and wanted to reuse Flexboard I built last year.
+I brought the file into the new directory and after an overhaul of previous code, I kept running into a strange error. The error message conveyed that the data file was not in the directory. I could see the file in the directory and could successfully run the code chunk.</description>
+    </item>
+    
+    <item>
+      <title>Constraints</title>
+      <link>/blog/constraints/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/constraints/</guid>
+      <description>Typically I spend around 50-100 minutes per day working on R programming and this is typically planned and focused work. This morning I loosed up my rules&amp;ndash;I did not track my time formally and I listened to Volbeat loudly while I worked. I did this because I knew I was going to have extra time today. It was fun but I could feel my brain straining to think and listen at the same time</description>
+    </item>
+    
+    <item>
+      <title>The habit</title>
+      <link>/blog/the-habit/</link>
+      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/the-habit/</guid>
+      <description>One day, I stopped working on the master branch and started creating new branches, committed the files, pushed the changes, merged into the master, checked back into the master to pull the content back down from the repository. One day it just became a habit.
+Speaking of which&amp;ndash;I just finished the The Power of Habit by Charles Duhigg. I liked the book especially the diagrams throughout the book to model the concept and I like the application of Systems Theory.</description>
+    </item>
+    
+    <item>
+      <title>Time for a new streak</title>
+      <link>/blog/time-for-a-new-streak/</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/time-for-a-new-streak/</guid>
+      <description>On May 5th I made a commitment to post everyday to this blog for 30 days. I fulfilled this promise. Posting every day is playing the long game because the short game has been ugly.
+The Ugly I have been stretching for content and my content was not always R related. Because my content was not always R related that got me kicked off of the live updates for R-weekly.</description>
+    </item>
+    
+    <item>
+      <title>worknotes-execution</title>
+      <link>/blog/worknotes-execution/</link>
+      <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/worknotes-execution/</guid>
+      <description>This morning I had excellent execution of a plan. I was tempted to work on a plot that is still in development. I opted to execute my plan for today and executed it.
+I played around with Gitlab issues and project management this morning&amp;ndash;at first I hated it but it started growing on me rapidly&amp;ndash;I started to think about moving over from bitbucket.
+This afternoon and tonight, I was a bit obsessed with starting the process of modeling some sales data.</description>
+    </item>
+    
+    <item>
+      <title>change of plans-R4DS</title>
+      <link>/blog/change-of-plans-r4ds/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/change-of-plans-r4ds/</guid>
+      <description>This morning my window&amp;rsquo;s box was still updating and was not able to work on my main R project. I worked on R4DS and reviewed model basics and relational data. The relational data section seems brilliance and there seems to be a lot of nuanced wisdom there.
+ 50 minutes.
+ </description>
+    </item>
+    
+    <item>
       <title>2018-06-13-shiny-dashboard-worknotes</title>
-      <link>/2018/06/13/shiny-dashboard-worknotes/</link>
+      <link>/blog/shiny-dashboard-worknotes/</link>
       <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/13/shiny-dashboard-worknotes/</guid>
-      <description></description>
+      <guid>/blog/shiny-dashboard-worknotes/</guid>
+      <description>This morning successfully rendered table in shiny dashboard that reflected the number of matches on the student survey. I was thinking of developing a ggplot that reflected current status and goal or prior years. I am still not jazzed about the data entry tables could you plot it? I think I tried to put the different sources in boxes but it was too much. I am just not sure if it is worth the effort to change now.</description>
     </item>
     
     <item>
       <title>shiny-dashboard</title>
-      <link>/2018/06/12/shiny-dashboard/</link>
+      <link>/blog/shiny-dashboard/</link>
       <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/12/shiny-dashboard/</guid>
+      <guid>/blog/shiny-dashboard/</guid>
       <description>This morning, I worked on laying the infrastructure for adding a match indicator in my Shiny app dashboard. I also updated the match script to send the rds file to the bookdown directory.
 My next step is update the server section to render the match information. It may worth considering changing the layout of my table.
  worktime 50 minutes
@@ -34,20 +267,20 @@ My next step is update the server section to render the match information. It ma
     
     <item>
       <title>Legos</title>
-      <link>/2018/06/11/legos/</link>
+      <link>/blog/legos/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/11/legos/</guid>
+      <guid>/blog/legos/</guid>
       <description>This post is fabulous on so many levels.
 I think there is a parallel with automating certain tasks&amp;ndash;there is more quality human tasks that can be done.</description>
     </item>
     
     <item>
       <title>milestones</title>
-      <link>/2018/06/10/milestones/</link>
+      <link>/blog/milestones/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/10/milestones/</guid>
+      <guid>/blog/milestones/</guid>
       <description>This morning I successfully employed the Forcats package and re_code function to change factor levels for easier plotting and implemented the scales function to display the percent sign.
 I like seven point likert scales but I don&amp;rsquo;t like the output of seven point scales on graphs or tables&amp;ndash;especially with a scale like Strongly Disagree through Strongly Agree.
 p_relationship &amp;lt;- parent %&amp;gt;% group_by(Time) %&amp;gt;% #Pre and Post variable mutate(positive_relationships = fct_recode(positive_relationships, #recode the levels to make it easier to plot and table display) &amp;quot;Strong Disagreement&amp;quot; = &amp;quot;Strongly Disagree&amp;quot;, &amp;quot;Strong Disagreement&amp;quot; = &amp;quot;Disagree&amp;quot;, &amp;quot;Slight Disagreement&amp;quot; = &amp;quot;Slightly Disagree&amp;quot;, &amp;quot;Neutral&amp;quot; = &amp;quot;Neither Agree/Disagree&amp;quot;, &amp;quot;Slight Agreement&amp;quot; = &amp;quot;Slightly Agree&amp;quot;, &amp;quot;Strong Agreement&amp;quot; = &amp;quot;Agree&amp;quot;, &amp;quot;Strong Agreement&amp;quot; = &amp;quot;Strongly Agree&amp;quot;))  This is going to be a pain for the whole report but not too bad for each sub-section.</description>
@@ -55,19 +288,19 @@ p_relationship &amp;lt;- parent %&amp;gt;% group_by(Time) %&amp;gt;% #Pre and Po
     
     <item>
       <title>Circles</title>
-      <link>/2018/06/09/circles/</link>
+      <link>/blog/circles/</link>
       <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/09/circles/</guid>
+      <guid>/blog/circles/</guid>
       <description>I have been a bit obsessed with trying to get a nice looking list page for projects for my website. Funny, I revisited the theme code and they have since updated to include archetypes and a method for listing other content.</description>
     </item>
     
     <item>
       <title>worknotes</title>
-      <link>/2018/06/08/worknotes/</link>
+      <link>/blog/worknotes/</link>
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/08/worknotes/</guid>
+      <guid>/blog/worknotes/</guid>
       <description>This morning I updated the getreal2 package with ae and am functions and was able to test ae functions in bookdown environment. Reviewing the workflow, I need a test function to ensure students do have a large average without answering enough questions.
 I took a look at the parent survey and at this time I will use the functions in the janitor package.
 This blog post looks like it should help me with status report functions.</description>
@@ -75,10 +308,10 @@ This blog post looks like it should help me with status report functions.</descr
     
     <item>
       <title>updating-package</title>
-      <link>/2018/06/07/updating-package/</link>
+      <link>/blog/updating-package/</link>
       <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/07/updating-package/</guid>
+      <guid>/blog/updating-package/</guid>
       <description>I was happy to learn that updating a R-package is easy; at least my update this morning was painless. The first time I worked on a package it felt awful.
 This morning I worked to fix some issues. I made the necessary changes and re-built the package with ease. Cleaned up the rest of the report; wiped out unnecessary chunks and merged back in with master.
 I notice when working with bookdown a lot of files change when you preview.</description>
@@ -86,10 +319,10 @@ I notice when working with bookdown a lot of files change when you preview.</des
     
     <item>
       <title>package progress</title>
-      <link>/2018/06/06/package-progress/</link>
+      <link>/blog/package-progress/</link>
       <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/06/package-progress/</guid>
+      <guid>/blog/package-progress/</guid>
       <description>This morning, I worked on getreal2 package and was able test the package in the real world.
 The warnings from yesterday were able to be addressed.
 The param tag needed needed to have the df param right after it. For some reason, I just had dots.
@@ -99,20 +332,20 @@ The only concern testing in the real world is that succcess_c did not load in cu
     
     <item>
       <title>Chronology</title>
-      <link>/2018/06/05/chronology/</link>
+      <link>/blog/chronology/</link>
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/05/chronology/</guid>
+      <guid>/blog/chronology/</guid>
       <description>I heard this interview with Jane Mayer. I was struck by their conversation about doucmenting the chronology of events: the story will write itself.
  </description>
     </item>
     
     <item>
       <title>package warnings</title>
-      <link>/2018/06/05/package-warnings/</link>
+      <link>/blog/package-warnings/</link>
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/05/package-warnings/</guid>
+      <guid>/blog/package-warnings/</guid>
       <description>06/05/2018 Worked on adding specific life skills functions this morning. CMD check a couple of warnings that functions were not documented. ran
  devtools::doucument()
  This updated Roxygen? library; maybe this is why Ctr + Shift + D did not work.
@@ -123,10 +356,10 @@ It says df is not defined?</description>
     
     <item>
       <title>Boring Note</title>
-      <link>/2018/06/04/boring-note/</link>
+      <link>/blog/boring-note/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/04/boring-note/</guid>
+      <guid>/blog/boring-note/</guid>
       <description>Sent e-mail with link to shiny app for status report and html file. Noted that there is a typo as.
  studen post
  Sent proposal of when data entry needs to be completed by.
@@ -135,20 +368,20 @@ Worked on package; noted that I forgot I had already completed a success functio
     
     <item>
       <title>Worknotes</title>
-      <link>/2018/06/03/worknotes/</link>
+      <link>/blog/worknotes/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/03/worknotes/</guid>
+      <guid>/blog/worknotes/</guid>
       <description>One new approach is to post worknotes. My hope is that the work notes help generate better content for future articles and projects.
 Yesterday 06/02/2018 downloaded updated data and ran all. Think I got teacher and parent survey where I want. Strategy will be put the table as they are now but collapse some of the levels so that graph can be a bit cleaner or focused; currently I would have to run the width wider and the output to word is sub-optimal.</description>
     </item>
     
     <item>
       <title>More Content</title>
-      <link>/2018/06/02/more-content/</link>
+      <link>/blog/more-content/</link>
       <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/02/more-content/</guid>
+      <guid>/blog/more-content/</guid>
       <description>I was tempted to update my webpage theme to academic this morning. My past behavior would be to hastily change themes. I managed to hold off and remind myself; I need more contet and develop my writing.
 I watched this webinar from R Studio  on blogdown. What may be underated in the video is the section on Why you should have a website.
  Share what you have learned with your future self &amp;ndash;Yihui Xie</description>
@@ -156,10 +389,10 @@ I watched this webinar from R Studio  on blogdown. What may be underated in the 
     
     <item>
       <title>The point</title>
-      <link>/2018/06/01/the-point/</link>
+      <link>/blog/the-point/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/06/01/the-point/</guid>
+      <guid>/blog/the-point/</guid>
       <description>I came across this article on twitter tonight.
 I don&amp;rsquo;t know that I have the expertise to concur or disagree with this article&amp;ndash;I mean the premise is correct being able to solve business problems seems like a &amp;lsquo;no-brainer&amp;rsquo;.
 Another important skill is political skills. Sometimes you see what others do not see and you have to sell the vision to the right people.</description>
@@ -167,30 +400,30 @@ Another important skill is political skills. Sometimes you see what others do no
     
     <item>
       <title>Flashcards</title>
-      <link>/2018/05/31/flashcards/</link>
+      <link>/blog/flashcards/</link>
       <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/31/flashcards/</guid>
+      <guid>/blog/flashcards/</guid>
       <description>I came across this article on Lifehacker and discovered the resource of Anki Flashcards.
 Anki Web has preloaded templates including R and statistics. I can sync my desktop program with an application on my phone and study R during lunch.</description>
     </item>
     
     <item>
       <title>Back to Drawing Board: Functions</title>
-      <link>/2018/05/30/back-to-drawing-board-functions/</link>
+      <link>/blog/back-to-drawing-board-functions/</link>
       <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/30/back-to-drawing-board-functions/</guid>
+      <guid>/blog/back-to-drawing-board-functions/</guid>
       <description>I was working through some code this weekend and used one of my former post. Yikes, it did not work. Did I just imagine it worked prior?
 I need to work through this page</description>
     </item>
     
     <item>
       <title>ggplot win</title>
-      <link>/2018/05/29/win/</link>
+      <link>/blog/win/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/29/win/</guid>
+      <guid>/blog/win/</guid>
       <description>This weekend I was creating some plots and was pleased that I was purposeful with the plotting arguments rather than copying other code and hoping it turns out the way I want.
 The book R For Data Science is a great way to learn the fundamentals.
 My next challenge is incorporating the scales argument to render the percent sign.</description>
@@ -198,39 +431,39 @@ My next challenge is incorporating the scales argument to render the percent sig
     
     <item>
       <title>Git Fun</title>
-      <link>/2018/05/28/git-fun/</link>
+      <link>/blog/git-fun/</link>
       <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/28/git-fun/</guid>
+      <guid>/blog/git-fun/</guid>
       <description>I was in the process of trying to burn down a git repo but after other failed attempts&amp;ndash;I determined that I was going to have to learn what I was doing wrong.
 I could not seem to connect my new directory to my bitbucket repository. The problem was that I could not find or seem to create a new branch. The key is knowing that a branch can&amp;rsquo;t be a branch until there is files on the branch.</description>
     </item>
     
     <item>
       <title>Package Your Data</title>
-      <link>/2018/05/27/a-package-as-a-product/</link>
+      <link>/blog/a-package-as-a-product/</link>
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/27/a-package-as-a-product/</guid>
+      <guid>/blog/a-package-as-a-product/</guid>
       <description>One reason I want to complete a package is the benefit of storing and accessing data. The directions for completing this task is found here.</description>
     </item>
     
     <item>
       <title>Package Challenge</title>
-      <link>/2018/05/26/package-challenge/</link>
+      <link>/blog/package-challenge/</link>
       <pubDate>Sat, 26 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/26/package-challenge/</guid>
+      <guid>/blog/package-challenge/</guid>
       <description>This post got me fired up this morning.
 I have a report due July 21, I think I can create the report in bookdown and concurrently develop a package.</description>
     </item>
     
     <item>
       <title>Upgrading Old Code</title>
-      <link>/2018/05/25/updating-old-code/</link>
+      <link>/blog/updating-old-code/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/25/updating-old-code/</guid>
+      <guid>/blog/updating-old-code/</guid>
       <description>I started working on upgrading a markdown report this morning using r forcats and r janitor. Like other renovations this turned into a complete overhaul and did not even get to the fun stuff.
 I had to dig into rreadr to update many of the columns to factors. One thing to recall is to knit rather than relying on re-running chunks&amp;ndash;there seems to be something about starting fresh.
 Typically investments like these payoff in the long run.</description>
@@ -238,10 +471,10 @@ Typically investments like these payoff in the long run.</description>
     
     <item>
       <title>Sweeping with the Janitor Package.</title>
-      <link>/2018/05/24/janitor-package/</link>
+      <link>/blog/janitor-package/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/24/janitor-package/</guid>
+      <guid>/blog/janitor-package/</guid>
       <description>I was reviewing a markdown document and see an opportunity to incorporate tably functions from the janitor package, and will need the forcats package to set up the infrastructure.
 I was able to test out the features of tably and adorn and it made me giddy.
 My confession is that I have never used the forcats package but I am excited to learn.</description>
@@ -249,68 +482,68 @@ My confession is that I have never used the forcats package but I am excited to 
     
     <item>
       <title>Playing the Long Game</title>
-      <link>/2018/05/23/more-systems-theory/</link>
+      <link>/blog/more-systems-theory/</link>
       <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/23/more-systems-theory/</guid>
+      <guid>/blog/more-systems-theory/</guid>
       <description>My post highlighted an article that encouraged one to think of systems rather than goals. Today, I heard a podcast from Seth Godin that emphasized the long term and systems.
  In graduate school, I was briefly introduced to Systems Theory and subsequently read The Fifth Discipline. I encourage all to read this book&amp;ndash;it will help you play the long game.</description>
     </item>
     
     <item>
       <title>Systems and  Goals</title>
-      <link>/2018/05/22/systems-vs-goals/</link>
+      <link>/blog/systems-vs-goals/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/22/systems-vs-goals/</guid>
+      <guid>/blog/systems-vs-goals/</guid>
       <description>I read this article today and thought it was an interesting perspective to consider. The author hits the mark with the half-marathon example&amp;ndash;complete the goal and now what.
 As an aspiring data science, I think it is good to measure progress but I also strongly believe in systems and I like where the author was going. I suspect this may be where the beauty of a well designed OKR&amp;rsquo;s can come into play.</description>
     </item>
     
     <item>
       <title>Subprojects</title>
-      <link>/2018/05/21/bookdown/</link>
+      <link>/blog/bookdown/</link>
       <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/21/bookdown/</guid>
+      <guid>/blog/bookdown/</guid>
       <description>A key result from one of my OKR&amp;rsquo;s is to complete an evaluation report with Bookdown. I was unsure of how to incorporate Bookdown into my workflow and determined to start a new directory but at the last minute decided to make a subproject within the larger evaluation project. I never even considered this before and it seems to be working.</description>
     </item>
     
     <item>
       <title>Hugo Resource</title>
-      <link>/2018/05/20/hugo-resource/</link>
+      <link>/blog/hugo-resource/</link>
       <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/20/hugo-resource/</guid>
+      <guid>/blog/hugo-resource/</guid>
       <description>Yesterday, I was writing about making the distinction between different types of content. For instance some content is fine in the confines of a post and some content would be better filling an entire page.
 I have been working through how to organize this content within the confines of my theme. This video is useful in laying the framework to understanding how to structure and display items in the content folder.</description>
     </item>
     
     <item>
       <title>Post vs Project</title>
-      <link>/2018/05/19/post-vs-project/</link>
+      <link>/blog/post-vs-project/</link>
       <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/19/post-vs-project/</guid>
+      <guid>/blog/post-vs-project/</guid>
       <description>I have noticed that most my content displays quite well within the post framework for with this theme. However, at times I want to utilize the full page mode. I know how to do this but I am not positive how to make it look nice. I am going to try hack my way through this and see if I can make this work.
 I am strangely loyal to this theme; or too lazy to make a change.</description>
     </item>
     
     <item>
       <title>Jump In Figure It Out Later</title>
-      <link>/2018/05/18/jump-in-figure-it-out-later/</link>
+      <link>/blog/jump-in-figure-it-out-later/</link>
       <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/18/jump-in-figure-it-out-later/</guid>
+      <guid>/blog/jump-in-figure-it-out-later/</guid>
       <description>My operating approach to trying new things in R.</description>
     </item>
     
     <item>
       <title>What &gt; Why</title>
-      <link>/2018/05/17/what-why/</link>
+      <link>/blog/what-why/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/17/what-why/</guid>
+      <guid>/blog/what-why/</guid>
       <description>Today, I attended the Tampa Bay Nonprofit Leadership Confernece. The Keynote was given by Dr. Tasha Eurich on self-awarness and agile leadership.
 Excited to see @tashaeurich speak and the 8th Annual Nonprofit Leadership Center! @nlctb #TimeWellSpent pic.twitter.com/Ip0Ey0MJn4
 &amp;mdash; Tammy Charles (@TamCharlie) May 17, 2018  
@@ -319,19 +552,19 @@ I enjoyed the hack on emphasizing what over why when a problem emerges.</descrip
     
     <item>
       <title>Build Things</title>
-      <link>/2018/05/16/build-things/</link>
+      <link>/blog/build-things/</link>
       <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/16/build-things/</guid>
+      <guid>/blog/build-things/</guid>
       <description>Insightful suggestion from Austin Kleon&amp;ndash;Make Things == Know Thyself.</description>
     </item>
     
     <item>
       <title>Rain, Excel &amp; a CSV File</title>
-      <link>/2018/05/15/csv-files/</link>
+      <link>/blog/csv-files/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/15/csv-files/</guid>
+      <guid>/blog/csv-files/</guid>
       <description>Monday was a rainy day and a perfect day to keep wiping out a database table. Whenever, I uploaded a CSV file it wiped out a database table. I only managed to do it twice.
  I learned Excel removes blank columns in CSV files when saved
  </description>
@@ -339,40 +572,40 @@ I enjoyed the hack on emphasizing what over why when a problem emerges.</descrip
     
     <item>
       <title>OKRs</title>
-      <link>/2018/05/14/okrs/</link>
+      <link>/blog/okrs/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/14/okrs/</guid>
+      <guid>/blog/okrs/</guid>
       <description>After listening to this podcast with John Doerr&amp;ndash;I am bit obsessed with OKRs. This video from Google Ventures is also insightful.
 I know my upcoming OKR is going to center around completing my next report in Bookdown. I was hesitant to try in February because I was not confident I could get the output to a single-word document.</description>
     </item>
     
     <item>
       <title>trellor-package</title>
-      <link>/2018/05/13/trellor-package/</link>
+      <link>/blog/trellor-package/</link>
       <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/13/trellor-package/</guid>
+      <guid>/blog/trellor-package/</guid>
       <description>I was excited to find the trelloR package today.
 I am never quite satisfied with productivity tools and hopefully this API will let me fine tune how I want every thing.</description>
     </item>
     
     <item>
       <title>Note to self</title>
-      <link>/2018/05/12/note-to-self/</link>
+      <link>/blog/note-to-self/</link>
       <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/12/note-to-self/</guid>
+      <guid>/blog/note-to-self/</guid>
       <description>My post from yesterday included images of both sides of an index card. Apparently, I need the practice of adding images to my posts. I tend to forget to commit the files to the static folder and get stumped for about 10 minutes on why the image does not render online.
 Hence a good is excuse to render this gif file.</description>
     </item>
     
     <item>
       <title>Index Cards</title>
-      <link>/2018/05/11/notecards/</link>
+      <link>/blog/notecards/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/11/notecards/</guid>
+      <guid>/blog/notecards/</guid>
       <description>Below are the index card that kicked off my Florida Absences Project.
 On one side of the card, I write out the general objectives of what I want to accomplish and the start date and end date of the project.
 The reverse is the tactical notes on the project&amp;ndash;
@@ -382,10 +615,10 @@ I like this process; eventually more detail gets moved to Github issues but I li
     
     <item>
       <title>Teaching and Preaching Tidy Data</title>
-      <link>/2018/05/10/data-literacy/</link>
+      <link>/blog/data-literacy/</link>
       <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/10/data-literacy/</guid>
+      <guid>/blog/data-literacy/</guid>
       <description>I have been a middle manager in the social service sector for approximately 10 years. In order to manage people both staff and consumers, one has to be able to manage the influx of data that comes to you.
 The most valuable skill/practice that I have implemented is the practice of keeping tidy data sets and being able to &amp;ldquo;join&amp;rdquo; differing data sets.
 I work with spreadsheet users and I teach and preach tidy data practices all the time.</description>
@@ -393,39 +626,20 @@ I work with spreadsheet users and I teach and preach tidy data practices all the
     
     <item>
       <title>Data Fellowship for Nonprofit Professionals</title>
-      <link>/2018/05/09/data-fellowship-for-nonprofit-data-professionals/</link>
+      <link>/blog/data-fellowship-for-nonprofit-data-professionals/</link>
       <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/09/data-fellowship-for-nonprofit-data-professionals/</guid>
+      <guid>/blog/data-fellowship-for-nonprofit-data-professionals/</guid>
       <description>This Data Fellowship opportunity was posted in the R for Data Science Online Learning Community
 There are amazing professionals doing critical work for society that need help managing and securing data.</description>
     </item>
     
     <item>
-      <title>Maps</title>
-      <link>/2018/05/09/maps/</link>
-      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/05/09/maps/</guid>
-      <description>library(tidyverse)  ## Loading tidyverse: ggplot2 ## Loading tidyverse: tibble ## Loading tidyverse: tidyr ## Loading tidyverse: readr ## Loading tidyverse: purrr ## Loading tidyverse: dplyr  ## Conflicts with tidy packages ----------------------------------------------  ## filter(): dplyr, stats ## lag(): dplyr, stats  library(janitor) library(httr) library(ggmap)  Intro My issue list includes a task to map the Fl Absences data set.
-Get the Data url &amp;lt;- &#39;http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls&#39; #location of data on the internet httr::GET(url, write_disk(absences &amp;lt;- tempfile(fileext = &amp;quot;.</description>
-    </item>
-    
-    <item>
-      <title>Post vs Projects</title>
-      <link>/2018/05/09/post-vs-projects/</link>
-      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/05/09/post-vs-projects/</guid>
-      <description>I just completed a draft of a post; I am not completely statisfied with the rendered output for a host of reasons. My current theme has a left side-bar and for this piece I think the sidebar inhibits the conent&amp;ndash;I suspect the content would look better with an entire page.</description>
-    </item>
-    
-    <item>
       <title>Learning Functions</title>
-      <link>/2018/05/08/learning-functions/</link>
+      <link>/blog/learning-functions/</link>
       <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/08/learning-functions/</guid>
+      <guid>/blog/learning-functions/</guid>
       <description>My latest foray into writing functions led me to a new learning opportunity.
 My first try at this function did not work as expected. The first part of the function worked but the second argument did not take with the mutate statement. The output provided me with a table but did not take my second argument for source.
 base_count &amp;lt;- function(df, source){ mutate(df,&amp;quot;Source&amp;quot; = &amp;quot;source&amp;quot;) %&amp;gt;% count(Source) }  To Stack Overflow I go, and this post helped me out.</description>
@@ -433,20 +647,20 @@ base_count &amp;lt;- function(df, source){ mutate(df,&amp;quot;Source&amp;quot; 
     
     <item>
       <title>Developing my functions </title>
-      <link>/2018/05/07/developing-my-functions/</link>
+      <link>/blog/developing-my-functions/</link>
       <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/07/developing-my-functions/</guid>
+      <guid>/blog/developing-my-functions/</guid>
       <description>I have been a late bloomer in terms of developing my own tool box of functions and I have finally starting to see the opportunities to use functions and even to write my own packages.
 A rule of thumb is that writing a script twice means it is time to write a function; I managed to write a variation of the same script 6 times before it dawned on me this should be a function.</description>
     </item>
     
     <item>
       <title>Keep Playing</title>
-      <link>/2018/05/06/keep-playing/</link>
+      <link>/blog/keep-playing/</link>
       <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/06/keep-playing/</guid>
+      <guid>/blog/keep-playing/</guid>
       <description>I love this comic on so many levels.
 R 3.5 “Joy in Playing”https://t.co/g1TuFXN8ph#Rstats #R #R350 #Homebrew #DataScience pic.twitter.com/EXndTeTXHR
 &amp;mdash; Luis Puerto (@lpuerto) April 28, 2018  
@@ -456,10 +670,10 @@ Keep playing my friends!</description>
     
     <item>
       <title>30 Days</title>
-      <link>/2018/05/05/30-days/</link>
+      <link>/blog/30-days/</link>
       <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/05/05/30-days/</guid>
+      <guid>/blog/30-days/</guid>
       <description>One of my favorite non-R bloggers to follow is Austin Kleon. What I love about his blog is that he talks about the craft of writing and being an artist. He has a rule about writing every day.
 My writing skill has decreased over the past couple of years; but I suspect it mostly has to with the lack of writing.
 It has been a month since my last blog post; my challenge will be to post everyday for 30 days.</description>
@@ -467,20 +681,20 @@ It has been a month since my last blog post; my challenge will be to post everyd
     
     <item>
       <title>Freeing Educational Data With A Shiny App</title>
-      <link>/2018/04/04/freeing-educational-data-with-a-shiny-app/</link>
+      <link>/blog/freeing-educational-data-with-a-shiny-app/</link>
       <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/04/04/freeing-educational-data-with-a-shiny-app/</guid>
+      <guid>/blog/freeing-educational-data-with-a-shiny-app/</guid>
       <description>I built a Shiny Application to free data from a spreadsheet on the Florida Department of Education website. I learned a lot&amp;ndash;specifically making the input variable reactive, sprinkling in html to make it look how I want, and using the DT package for useful rendering of the data.
 Reactive I knew that I wanted to split the data into school types&amp;ndash;elementary, middle, and high and had a sense that my input value would need to be reactive.</description>
     </item>
     
     <item>
       <title>Automation Balance</title>
-      <link>/2018/03/05/automaton-balance/</link>
+      <link>/blog/automaton-balance/</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/03/05/automaton-balance/</guid>
+      <guid>/blog/automaton-balance/</guid>
       <description>I listened to this podcast with the GLG president&amp;ndash;Alexander Saint-Amand and Kara Swisher.
 In this podcast, they discuss the future of education. My takeaway from the discussion is that value is found between the balance of automating and the wisdom of humans. The controversy around YouTube and advertisements on Infowars seems to be another case in point where turning your self completely to automation seems risky.
 Another, interesting discussion centered around the dynamic between teacher and students.</description>
@@ -488,96 +702,78 @@ Another, interesting discussion centered around the dynamic between teacher and 
     
     <item>
       <title>Embracing the Branch</title>
-      <link>/2018/03/05/embracing-the-branch/</link>
+      <link>/blog/embracing-the-branch/</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/03/05/embracing-the-branch/</guid>
+      <guid>/blog/embracing-the-branch/</guid>
       <description>I read this interesting post from Suzan Baert about getting started with Git/Github. I think recommendation 2 about using a dummy repo to experiment with is key and I would recommend this approach to my younger self. My biggest issue was not having the reps and confidence.
 One branch at a time I have been using Git for about three or four years and just in the last month started using branches to make changes on a consistent basis.</description>
     </item>
     
     <item>
       <title>Test Driving The Readxl package</title>
-      <link>/2018/02/26/test-driving-readxl-package/</link>
+      <link>/blog/test-driving-readxl-package/</link>
       <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/02/26/test-driving-readxl-package/</guid>
+      <guid>/blog/test-driving-readxl-package/</guid>
       <description>Introduction: I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good opportunity to learn the readxl package. This post closely follows with the examples on the Github Repo.
 The file consists of a count of students who were absent more than 21 days in the 2015-2016 school year. The data is broken down by school district and school; the data also includes enrollment data and percent of students who missed more than 21 days by school.</description>
     </item>
     
     <item>
       <title>The Streak</title>
-      <link>/2018/02/26/the-streak/</link>
+      <link>/blog/the-streak/</link>
       <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/02/26/the-streak/</guid>
+      <guid>/blog/the-streak/</guid>
       <description>I was not able to get a post published this weekend. It was written but I could not get to render on the site. This post is way to check things out.</description>
     </item>
     
     <item>
       <title>Test Driving readxl</title>
-      <link>/2018/02/23/test-driving/</link>
+      <link>/blog/test-driving/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/02/23/test-driving/</guid>
+      <guid>/blog/test-driving/</guid>
       <description>Introduction I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the Github Repo.
 The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016.</description>
     </item>
     
     <item>
       <title>How I started with R</title>
-      <link>/2018/02/18/how-i-started-with-r/</link>
+      <link>/blog/how-i-started-with-r/</link>
       <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/02/18/how-i-started-with-r/</guid>
+      <guid>/blog/how-i-started-with-r/</guid>
       <description>Yesterday, I was reading a thread on the R-Studio Community about how to convince colleagues to switch from Excel to R. It made me think about what prompted me to make the switch. I am not sure there is anything worse than analyzing survey data in Excel.
 In July of 2011 I started a job at a nonprofit organization as a Quality Assurance Coordinator. My main duty was to develop surveys that measured customer satisfaction and program quality.</description>
     </item>
     
     <item>
-      <title>My week in R</title>
-      <link>/2018/02/17/my-week-in-r/</link>
-      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/02/17/my-week-in-r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shiny Fun</title>
-      <link>/2018/02/17/shiny-fun/</link>
-      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/02/17/shiny-fun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>get_dupes function--Janitor Package</title>
-      <link>/2018/02/10/janitor-for-dupes/</link>
+      <link>/blog/janitor-for-dupes/</link>
       <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/02/10/janitor-for-dupes/</guid>
+      <guid>/blog/janitor-for-dupes/</guid>
       <description>The Janitor Package was recommended to me on the R4DS Slack Channel. I was finally able to check it out this weekend and the get_dupes function is what I have been looking for my whole R life. I can&amp;rsquo;t wait to play with some of the tably features.</description>
     </item>
     
     <item>
       <title>Under the hood with geom_bar</title>
-      <link>/2018/02/01/r4ds/</link>
+      <link>/blog/r4ds/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/02/01/r4ds/</guid>
+      <guid>/blog/r4ds/</guid>
       <description>I have struggled with bar plots using ggplot2&amp;ndash; I never bothered to look under the hood to understand what was happening; I just hacked away until I get a reasonable looking bar plot.
 This has changed since I signed up for the R4DS community slack group in December and have been working my way slowly through the R for Data Science Book. As, I have been going through Chapter 3, I finally started looking under the hood and learning the fundamentals of gglot2.</description>
     </item>
     
     <item>
       <title>list.files</title>
-      <link>/2018/01/27/list-files/</link>
+      <link>/blog/list-files/</link>
       <pubDate>Sat, 27 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/01/27/list-files/</guid>
+      <guid>/blog/list-files/</guid>
       <description>I learned how to use the list.file function from Dean Attali&amp;rsquo;s Post: Mimicking a Google Form with a Shiny App
 However the power of the list.file function finally set this in this week. The function is not merely a method to list the files&amp;ndash;it can be a method to put all those files to an object that can be manipulated&amp;ndash;mind blown. 😄
 Here is my script to combine multiple pdf files using the tabulizer package.</description>
@@ -585,29 +781,20 @@ Here is my script to combine multiple pdf files using the tabulizer package.</de
     
     <item>
       <title>Teaching Shiny</title>
-      <link>/2018/01/19/shiny-for-teaching/</link>
+      <link>/blog/shiny-for-teaching/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/01/19/shiny-for-teaching/</guid>
+      <guid>/blog/shiny-for-teaching/</guid>
       <description>It was a struggle for me to learn to write my own functions in R. The moment it did sink in; My though was this&amp;ndash;this is like a Shiny Input and Output.
 My two cents is that Shiny should be introduced sooner rather than later for those beginning to learn R.The basis for my assertion is this that learning Shiny helped me conceptualize how make my own functions and added to my computer literacy regarding web development.</description>
     </item>
     
     <item>
-      <title>What I love most about Markdown</title>
-      <link>/2018/01/19/what-i-love-most-about-markdown/</link>
-      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/19/what-i-love-most-about-markdown/</guid>
-      <description>What I love most about Rmarkdown documents is writing</description>
-    </item>
-    
-    <item>
       <title>Framework for Troubleshooting</title>
-      <link>/2018/01/13/troubleshooting/</link>
+      <link>/blog/troubleshooting/</link>
       <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/01/13/troubleshooting/</guid>
+      <guid>/blog/troubleshooting/</guid>
       <description>I transitioned from using databases to the RDS format to store evolving data. I ran into some trouble with the RDS format. I was stumped when previous working code would not work on a new data set.
 My troubleshooting framework is as follows:
 1) Look for silly typos.
@@ -617,30 +804,11 @@ The str function is the MVP of this troubleshooting adventure with a a little he
     </item>
     
     <item>
-      <title>Go for a spin?</title>
-      <link>/2018/01/11/go-for-a-spin/</link>
-      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/11/go-for-a-spin/</guid>
-      <description>One reason, I love Rmarkdown is that you can show and check your work. The benefits of rep
-2+2  ## [1] 4 My Rmarkdown documents reports were long and somewhat intense. Last summer in R-studo community I came across this thread on how to organize a project. What struck me was the sourcing of scripts to generate Rmarkdown reports. Initially, I had a hard time with this because I could not figure out the working directory [see this post]</description>
-    </item>
-    
-    <item>
-      <title>Go for a spin?</title>
-      <link>/2018/01/11/go-for-a-spin/</link>
-      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/2018/01/11/go-for-a-spin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Notebooks with R</title>
-      <link>/2018/01/05/notebooks-with-r/</link>
+      <link>/blog/notebooks-with-r/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2018/01/05/notebooks-with-r/</guid>
+      <guid>/blog/notebooks-with-r/</guid>
       <description>I have been ambivalent about using the notebook feature in R studio. I test drove Jupyter Notebooks, and I did not love the experience&amp;ndash;even using R.
 However, I have slowly been adopting notebooks into my work flow and here are my use cases for notebooks.
 One benefit is testing code or troubleshooting code, I am using in a shiny application.
@@ -649,75 +817,66 @@ A second benefit, I have noted with notebooks is that when Preview is selected; 
     
     <item>
       <title>Have an opinion</title>
-      <link>/2017/12/10/have-an-opinion/</link>
+      <link>/blog/have-an-opinion/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/12/10/have-an-opinion/</guid>
+      <guid>/blog/have-an-opinion/</guid>
       <description>Seth&amp;rsquo;s blog post today: I am proud that I practice this and promote this philosophy.</description>
     </item>
     
     <item>
       <title>Meditation</title>
-      <link>/2017/12/10/meditation/</link>
+      <link>/blog/meditation/</link>
       <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/12/10/meditation/</guid>
+      <guid>/blog/meditation/</guid>
       <description>I started the practice of meditating about 2 months ago. I am proud of myself for sticking to it. Some days are better than others but the key is learning that the rep or value is learning to recognize your thoughts have drifted and to come back.
 Meditation is not a cure all but it does help you get out of a bad mental state quicker.</description>
     </item>
     
     <item>
       <title>Balance</title>
-      <link>/2017/12/08/balance/</link>
+      <link>/blog/balance/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/12/08/balance/</guid>
+      <guid>/blog/balance/</guid>
       <description>I recall walking into a college orientation and being uncertain if I was in the right room. The reason I was uncertain is because there were more parents in the room than college kids. It never occurred to me to take my parents with me to college orientation. My bias has been that those students who brought their parents with them were doomed to failure. I suspect my bias is wrong&amp;ndash;maybe.</description>
     </item>
     
     <item>
-      <title>Friday night music</title>
-      <link>/2017/12/08/friday-night-music/</link>
-      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/12/08/friday-night-music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cooper&#39;s Pace</title>
-      <link>/2017/12/07/cooper-s-pace/</link>
+      <link>/blog/cooper-s-pace/</link>
       <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/12/07/cooper-s-pace/</guid>
+      <guid>/blog/cooper-s-pace/</guid>
       <description>Attended a parent teacher conference this morning. I asked the teacher about the pace of his work and she said it&amp;rsquo;s at Cooper&amp;rsquo;s pace. This means that he is delibrate in his work; it took me nearly 40 years to work at a deliberate pace. did this change</description>
     </item>
     
     <item>
       <title>This needs a script</title>
-      <link>/2017/12/06/automation/</link>
+      <link>/blog/automation/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/12/06/automation/</guid>
+      <guid>/blog/automation/</guid>
       <description>I was writing this morning about the benefits of automation and that even the most simple script is a method of automation. Ironically enough I finished parsing through a spreadsheet in preparation of a meeting and when I finished making copies; a new report was sent to me. This needs a script.</description>
     </item>
     
     <item>
       <title>Diminishing Returns</title>
-      <link>/2017/12/05/diminishing-returns/</link>
+      <link>/blog/diminishing-returns/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/12/05/diminishing-returns/</guid>
+      <guid>/blog/diminishing-returns/</guid>
       <description>I listened to a bunch of podcast today but I hardly recall any points. Ok, maybe one point stuck out and that is the value of being bored&amp;ndash;that means maybe not listening to so many podcast in short time frame. Today, the points really had no chance to stick.
 This reminds to revisit the exercise of a working meditation while commuting to work.</description>
     </item>
     
     <item>
       <title>Writing</title>
-      <link>/2017/12/04/writing/</link>
+      <link>/blog/writing/</link>
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/12/04/writing/</guid>
+      <guid>/blog/writing/</guid>
       <description>Last week, I had a couple of hints from blog posts/podcasts that I should be writing every day. Mostly their work/art prompts makes me want to write more.
 I have been impressed with this blog by Austin Kleon and apparently everyone has known about Wait but why
 I am determined not to code or write at night as I believe strong that impacts my sleep. I have been effective in getting up every morning writing code for an ongoing project and do not want to give that time up.</description>
@@ -725,10 +884,10 @@ I am determined not to code or write at night as I believe strong that impacts m
     
     <item>
       <title>A bit of a hack</title>
-      <link>/2017/12/02/a-bit-of-a-hack/</link>
+      <link>/blog/a-bit-of-a-hack/</link>
       <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/12/02/a-bit-of-a-hack/</guid>
+      <guid>/blog/a-bit-of-a-hack/</guid>
       <description>This week I also finished up a feature of an application that I have been thinking about implementing. I wanted to summarize data entry by site location. The problem is that variable I am trying to summarize is free data entry&amp;ndash;hence many ways to write the name of the school and misspelling. I used a bit of hack with the gsub function.
 My approach was this.
 site$school &amp;lt;- toupper(site$school) site$school &amp;lt;- gsub(&amp;quot;DOWDELL MIDDLE&amp;quot;, &amp;quot;DOWDELL&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;DOWDELL MAGNET&amp;quot;, &amp;quot;DOWDELL&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;DOWDELL SCHOOL&amp;quot;, &amp;quot;DOWDELL&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;DOWDELLMIDDLE&amp;quot;, &amp;quot;DOWDELL&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;DOWDELL MIDDLE&amp;quot;, &amp;quot;DOWDELL&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;BLAKE ACADMY&amp;quot;, &amp;quot;BLAKE ACADEMY&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;BLAKEACADMY&amp;quot;, &amp;quot;BLAKE ACADEMY&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;BLAKE ACAMAY&amp;quot;, &amp;quot;BLAKE ACADEMY&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;DREAM ACADENY&amp;quot;, &amp;quot;DREAM ACADEMY&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;FREEDOM MS&amp;quot;, &amp;quot;FREEDOM MIDDLE SCHOOL&amp;quot;, fixed=TRUE, site$school) site$school &amp;lt;- gsub(&amp;quot;RIBUALT MDDLE&amp;quot;, &amp;quot;RIBAULT MIDDLE&amp;quot;, fixed=TRUE, site$school)  However, my sense is that there is a better way implement this with regular expressions.</description>
@@ -736,20 +895,20 @@ site$school &amp;lt;- toupper(site$school) site$school &amp;lt;- gsub(&amp;quot;
     
     <item>
       <title>Data Entry Application</title>
-      <link>/2017/12/01/data-management/</link>
+      <link>/blog/data-management/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/12/01/data-management/</guid>
+      <guid>/blog/data-management/</guid>
       <description>My intent was to build a data entry application with Python using the flask web environment. Somehow I managed to talk myself into using Shiny with the help of this post from Dean Atalli. It only took me about a couple of distracted hours with 3 kids to get through the tutorial and a morning to update a line of code to get the example working.
 The pros to this approach are the following:</description>
     </item>
     
     <item>
       <title>Metallica Concerts with the Tidyverse</title>
-      <link>/2017/11/19/metallica-concerts-with-the-tidyverse/</link>
+      <link>/blog/metallica-concerts-with-the-tidyverse/</link>
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/11/19/metallica-concerts-with-the-tidyverse/</guid>
+      <guid>/blog/metallica-concerts-with-the-tidyverse/</guid>
       <description>Introduction Most of my work in R is hidden from public view&amp;ndash;this seems like a blessing but is a curse in many respects; I get no feedback on my work in R.
 I felt challenged and inspired by David Robinson&amp;rsquo;s post Advice to aspiring data scientist: start a blog
 I completed the following analysis while in the midst of Hurricane Irma in September 2017, and I noticed the analysis utilizes many tidyverse functions.</description>
@@ -757,29 +916,20 @@ I completed the following analysis while in the midst of Hurricane Irma in Septe
     
     <item>
       <title>More Gaps</title>
-      <link>/2017/11/15/more-gaps/</link>
+      <link>/blog/more-gaps/</link>
       <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/11/15/more-gaps/</guid>
+      <guid>/blog/more-gaps/</guid>
       <description>Writing this blog post on Gaps inspired me to re-read parts of the The Fifth Discipline by Peter Senge.
 Gaps are a source of energy and Senge writes creative tension emerges when there is a gap between a person&amp;rsquo;s vision and reality. He uses a rubber band to illustrate that between vision and current reality is tension and the only way to break the tension is move reality toward the vision or move the vision toward reality.</description>
     </item>
     
     <item>
-      <title>Test</title>
-      <link>/2017/11/15/test/</link>
-      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/11/15/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Gaps</title>
-      <link>/2017/11/08/gaps/</link>
+      <link>/blog/gaps/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/11/08/gaps/</guid>
+      <guid>/blog/gaps/</guid>
       <description>I keep coming across the concept of gaps&amp;ndash;more specifically the gap between reality and one&amp;rsquo;s vision for how reality should be. I first came across this concept in the Fifth Discipline by Peter Senge.
 Currently I am reading Man&amp;rsquo;s Search for Meaning by Viktor Frankl.
 This concept also came up in this interview of Ray Dalio that I listened to this week.
@@ -788,20 +938,20 @@ Frankl argues that mental health requires tension and the essence of being a hum
     
     <item>
       <title>working directory</title>
-      <link>/2017/11/04/working-directory/</link>
+      <link>/blog/working-directory/</link>
       <pubDate>Sat, 04 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/11/04/working-directory/</guid>
+      <guid>/blog/working-directory/</guid>
       <description>This seems basic in retrospect but one of the biggest challenges starting with R was understanding the concept of the working directory. For the most part, I figured the working directory out. However a bad habit that festered was changing the working directory in the chunks of my Rmd files.
 Below is how I would configure my R chunks to read data or source scripts/functions. My data sits in multiple folders in the Project Folder, and I could not get the chunk to read the data or source scripts without setting the working directly.</description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>/2017/10/31/ubuntu/</link>
+      <link>/blog/ubuntu/</link>
       <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/10/31/ubuntu/</guid>
+      <guid>/blog/ubuntu/</guid>
       <description>I finally did it. I bought a refrubished laptop and installed Ubuntu to run R. The only trouble I had was installing R studio. It appears there are some challenges adding outside software on this platform&amp;ndash;Ubuntu 16.4
 This article helped me throught the process Install R, R-Studio on Ubuntu
 The only adjustment I had to make was to change the verison number of R-Studio I was downloading. Basically you update the version number; in my case instead of downloading 1.</description>
@@ -809,20 +959,20 @@ The only adjustment I had to make was to change the verison number of R-Studio I
     
     <item>
       <title>Reviewing Functions</title>
-      <link>/2017/10/14/reviewing-functions/</link>
+      <link>/blog/reviewing-functions/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/10/14/reviewing-functions/</guid>
+      <guid>/blog/reviewing-functions/</guid>
       <description>I am starting on the new year of project and was revisiting some functions. I had a function that created a csv file of duplicate values for every organization that submitted data. The function was useful but a pain to run the function for every organization on separate chunks.
 I figured there had to be better way. The following is an incremental improvement to the old process but I do have a sense there is a better way.</description>
     </item>
     
     <item>
       <title>Scheduled Time</title>
-      <link>/2017/10/14/scheduled-time/</link>
+      <link>/blog/scheduled-time/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/10/14/scheduled-time/</guid>
+      <guid>/blog/scheduled-time/</guid>
       <description>More on the book Deep Work. Cal Newport suggest scheduling every minute of your day.
 This is challenging&amp;ndash;it takes training and practice but it has had profound impact on my productivity and well being.
 Everyone has a plan &#39;til they are punched in the mouth.--Mike Tyson  Tasks either take longer or get completed quicker than expected thus there is a lot of adjustment to the schedule but it is well worth the effort.</description>
@@ -830,10 +980,10 @@ Everyone has a plan &#39;til they are punched in the mouth.--Mike Tyson  Tasks e
     
     <item>
       <title>Where have you been my whole R Life</title>
-      <link>/2017/09/30/where-have-you-been-my-whole-r-life/</link>
+      <link>/blog/2017-09-30-doing-mutate-all-wrong/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/09/30/where-have-you-been-my-whole-r-life/</guid>
+      <guid>/blog/2017-09-30-doing-mutate-all-wrong/</guid>
       <description>I hav been using the mutate function in dplyr for about a year now. However, I recently disovered a useful partner in the if_else function.
 Ultimately, this is having a big impact on my workflow.
 Below is my previous workflow. I would make seperate data frames and then bind the data frames together to run counts on the variables of interests.
@@ -842,20 +992,20 @@ lang_success_s &amp;lt;- langarts %&amp;gt;% filter(final &amp;gt;=2, pt_diff &a
     
     <item>
       <title>Converging to Deep Work</title>
-      <link>/2017/09/04/converging-to-deep-work/</link>
+      <link>/blog/converging-to-deep-work/</link>
       <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/09/04/converging-to-deep-work/</guid>
+      <guid>/blog/converging-to-deep-work/</guid>
       <description>I finished reading Deep Work by Cal Newport last month. Mr. Newport puts a framework and rules to what I think we already suspect. The book made me think of two other books Zen and the Art of Motorcycle Maitenance and The War of Art. Both of these books put an emphasis on the benefits of craftmanship.
 The concept of taking a break from focus rather than distraction is profound and his challenge to quit social media for 30 days benefical.</description>
     </item>
     
     <item>
       <title>Debugging</title>
-      <link>/2017/09/02/debugging/</link>
+      <link>/blog/debugging/</link>
       <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/09/02/debugging/</guid>
+      <guid>/blog/debugging/</guid>
       <description> An approach to debugging Take the approach that most likely it is your fault that something is not working. You are simply not providing clear enough directions to the computer&amp;ndash;Your computer is simple and has no grit to problem solve your sloppiness.
 Be thankful that that the computer is throwing an error rather giving a result that is wrong.
 My approach to debugging accounts for the following:
@@ -864,49 +1014,49 @@ My approach to debugging accounts for the following:
     
     <item>
       <title>Leadership Development</title>
-      <link>/2017/06/23/leadership-development/</link>
+      <link>/blog/leadership-development/</link>
       <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/06/23/leadership-development/</guid>
+      <guid>/blog/leadership-development/</guid>
       <description>Seth Godin published a blog post entititled &amp;ldquo;Is Judgement Involved?&amp;rdquo;. Seth&amp;rsquo;s point is the best jobs involve making decisions and taking responsbility&amp;ndash;hence risk.
 I hope you disucss and share this idea; it&amp;rsquo;s still too much of a secret.</description>
     </item>
     
     <item>
       <title>Nonprofits and Data Management</title>
-      <link>/2017/06/11/nonprofits-and-data-management/</link>
+      <link>/blog/nonprofits-and-data-management/</link>
       <pubDate>Sun, 11 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/06/11/nonprofits-and-data-management/</guid>
+      <guid>/blog/nonprofits-and-data-management/</guid>
       <description>Do you agree that good infrastructure makes your life easier? Have you thought about the infrastructure of managing your program data? What are your systems that are in place to collect, manage and analyze your data?
 My experience is that nonprofit organizations do not manage their program data in an optimal way and often manage their data in ways that make it challenging for employees to do their work. My gravest concern is that many nonprofit managers may not even recognize there is a problem.</description>
     </item>
     
     <item>
       <title>Craftsmanship</title>
-      <link>/2017/06/03/craftsmanship/</link>
+      <link>/blog/craftsmanship/</link>
       <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/06/03/craftsmanship/</guid>
+      <guid>/blog/craftsmanship/</guid>
       <description>I have been thinking a lot about craftsmanship and trying to improve my work habits. I listened to a podcast that featured Vince Vaugn, and I was impressed with Vaughn&amp;rsquo;s story. Vaughn&amp;rsquo;s commitment to the craft of acting came through in the episode. In most cases, we rarely think about the process or the journey people take on their road to success. One aspect that stuck out what his commitment to the process and working to get better at acting.</description>
     </item>
     
     <item>
       <title>Blogdown lessons</title>
-      <link>/2017/05/20/blogdown-lessons/</link>
+      <link>/blog/blogdown-lessons/</link>
       <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/05/20/blogdown-lessons/</guid>
+      <guid>/blog/blogdown-lessons/</guid>
       <description>One big challenge in rendering the site was using the R studio GUI Git. How many times did I restart my computer before I deduced the problem? The Git process would stall out.
 To solve, I used the new Git desktop feature (https://desktop.github.com/) and it worked.</description>
     </item>
     
     <item>
       <title>The fix for Disqus and Images</title>
-      <link>/2017/01/12/images/</link>
+      <link>/blog/images/</link>
       <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/01/12/images/</guid>
+      <guid>/blog/images/</guid>
       <description>Is the cure worse than the disease is what I pondered after I fixed an issue with Disqus comments.
 I could not figure out how to get the Disqus Comment section to render on this site.
 The fix for addressing the Disqus issues was changing the baseurl parameter from &amp;ldquo;/&amp;rdquo; to the name of the website in the confg.toml file. This Github Issue helped me resolve.
@@ -916,30 +1066,30 @@ baseurl= &amp;quot;/&amp;quot;  The fix</description>
     
     <item>
       <title>A Plain Markdown Post</title>
-      <link>/2016/12/30/a-plain-markdown-post/</link>
+      <link>/blog/2016-12-30-hello-markdown/</link>
       <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
       
-      <guid>/2016/12/30/a-plain-markdown-post/</guid>
+      <guid>/blog/2016-12-30-hello-markdown/</guid>
       <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
  You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
     </item>
     
     <item>
-      <title>Workflow</title>
-      <link>/2016/11/26/workflow/</link>
+      <title>WorkFlowy</title>
+      <link>/blog/workflowy/</link>
       <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/2016/11/26/workflow/</guid>
+      <guid>/blog/workflowy/</guid>
       <description>I have managed nonprofit evaluation projects with Github, Trello, Slack and WorkFlowy. Github and Trello are more for Task managment and there is some redundancy to the process but I make every attempt to integrate these tools.
 What I think gets lost with Github, Trello, and Slack is that it is hard to see the entire picture. Workflowy is a narrative of what is going on with a project. The best part is being able to hide and then easily bring back content.</description>
     </item>
     
     <item>
       <title>hacked automation</title>
-      <link>/2016/11/05/hacked-automation/</link>
+      <link>/blog/hacked-automation/</link>
       <pubDate>Sat, 05 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/2016/11/05/hacked-automation/</guid>
+      <guid>/blog/hacked-automation/</guid>
       <description>rmarkdown::render(“file.name”)
 The line of code above has dramatically improved my workflow. The render function helped me reach the goal of creating an automated system of creating a status report and share data in a more efficient manner.
 Ultimately, I still want to use the makefile feature but this process has helped identify the structure.
@@ -949,10 +1099,10 @@ Created an Rmd file that does the following</description>
     
     <item>
       <title>makefiles and automation</title>
-      <link>/2016/10/20/makefiles-and-automation/</link>
+      <link>/blog/2016-10-20-makefiles/</link>
       <pubDate>Thu, 20 Oct 2016 21:13:14 -0500</pubDate>
       
-      <guid>/2016/10/20/makefiles-and-automation/</guid>
+      <guid>/blog/2016-10-20-makefiles/</guid>
       <description>I have been working on trying to automate my workflow and want to learn to utilzie a makefile system to run a status report. To be honest, I am struggling to understand what I am reading from the tutorials.
 Next step will be to clone the repository and work through the examples.</description>
     </item>
@@ -969,10 +1119,10 @@ Learning R and basic data science has helped me wrangle nonprofit program data a
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/2015/07/23/hello-r-markdown/</link>
+      <link>/blog/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/2015/07/23/hello-r-markdown/</guid>
+      <guid>/blog/2015-07-23-r-rmarkdown/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
@@ -980,10 +1130,10 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>Lorem Ipsum</title>
-      <link>/2015/01/01/lorem-ipsum/</link>
+      <link>/blog/2015-01-01-lorem-ipsum/</link>
       <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
       
-      <guid>/2015/01/01/lorem-ipsum/</guid>
+      <guid>/blog/2015-01-01-lorem-ipsum/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
@@ -998,19 +1148,19 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title></title>
-      <link>/about/</link>
+      <link>/blog/2016-11-26-workflowy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
-      <description>About       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs &amp;&amp; document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .table th:not([align]) { text-align: left; }    .</description>
+      <guid>/blog/2016-11-26-workflowy/</guid>
+      <description>Workflow /*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */ !function(a,b){&#34;object&#34;==typeof module&amp;&amp;&#34;object&#34;==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error(&#34;jQuery requires a window with a document&#34;);return b(a)}:b(a)}(&#34;undefined&#34;!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l=&#34;1.11.3&#34;,m=function(a,b){return new m.fn.init(a,b)},n=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,o=/^-ms-/,p=/-([\da-z])/gi,q=function(a,b){return b.toUpperCase()};m.fn=m.prototype={jquery:l,constructor:m,selector:&#34;&#34;,length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=m.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return m.each(this,a,b)},map:function(a){return this.pushStack(m.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0a?b:0);return this.pushStack(c=0&amp;&amp;bc?[this[c]]:[])},end:function(){return this.prevObject||this.constructor(null)},push:f,sort:c.sort,splice:c.splice},m.extend=m.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for(&#34;boolean&#34;==typeof g&amp;&amp;(j=g,g=arguments[h]||{},h++),&#34;object&#34;==typeof g||m.isFunction(g)||(g={}),h===i&amp;&amp;(g=this,h--);ih;h++)if(null!=(e=arguments[h]))for(d in e)a=g[d],c=e[d],g!==c&amp;&amp;(j&amp;&amp;c&amp;&amp;(m.isPlainObject(c)||(b=m.isArray(c)))?(b?(b=!1,f=a&amp;&amp;m.isArray(a)?a:[]):f=a&amp;&amp;m.isPlainObject(a)?a:{},g[d]=m.extend(j,f,c)):void 0!==c&amp;&amp;(g[d]=c));return g},m.extend({expando:&#34;jQuery&#34;+(l+Math.random()).replace(/\D/g,&#34;&#34;),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return&#34;function&#34;===m.type(a)},isArray:Array.isArray||function(a){return&#34;array&#34;===m.type(a)},isWindow:function(a){return null!=a&amp;&amp;a==a.window},isNumeric:function(a){return!m.isArray(a)&amp;&amp;a-parseFloat(a)+1=0},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a||&#34;object&#34;!==m.type(a)||a.nodeType||m.isWindow(a))return!1;try{if(a.constructor&amp;&amp;!j.call(a,&#34;constructor&#34;)&amp;&amp;!j.call(a.constructor.prototype,&#34;isPrototypeOf&#34;))return!1}catch(c){return!1}if(k.ownLast)for(b in a)return j.call(a,b);for(b in a);return void 0===b||j.call(a,b)},type:function(a){return null==a?a+&#34;&#34;:&#34;object&#34;==typeof a||&#34;function&#34;==typeof a?h[i.call(a)]||&#34;object&#34;:typeof a},globalEval:function(b){b&amp;&amp;m.trim(b)&amp;&amp;(a.execScript||function(b){a.eval.call(a,b)})(b)},camelCase:function(a){return a.</description>
     </item>
     
     <item>
       <title></title>
-      <link>/1/01/01/</link>
+      <link>/blog/2018-02-23-test-driving/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/1/01/01/</guid>
+      <guid>/blog/2018-02-23-test-driving/</guid>
       <description>Test Driving readxl Kevin
 2018-02-23
 Introduction I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the Github Repo.
@@ -1019,14 +1169,32 @@ The file consists of data from a survey of schools in Florida that provides a co
     
     <item>
       <title></title>
-      <link>/1/01/01/</link>
+      <link>/blog/2018-02-26-test-driving-readxl-package/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/1/01/01/</guid>
+      <guid>/blog/2018-02-26-test-driving-readxl-package/</guid>
       <description>Test Driving readxl package Kevin
 2018-02-26
 Introduction I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the Github Repo.
 The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/</guid>
+      <description>Work Notes /*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */ !function(a,b){&#34;object&#34;==typeof module&amp;&amp;&#34;object&#34;==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error(&#34;jQuery requires a window with a document&#34;);return b(a)}:b(a)}(&#34;undefined&#34;!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l=&#34;1.11.3&#34;,m=function(a,b){return new m.fn.init(a,b)},n=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,o=/^-ms-/,p=/-([\da-z])/gi,q=function(a,b){return b.toUpperCase()};m.fn=m.prototype={jquery:l,constructor:m,selector:&#34;&#34;,length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=m.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return m.each(this,a,b)},map:function(a){return this.pushStack(m.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0a?b:0);return this.pushStack(c=0&amp;&amp;bc?[this[c]]:[])},end:function(){return this.prevObject||this.constructor(null)},push:f,sort:c.sort,splice:c.splice},m.extend=m.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for(&#34;boolean&#34;==typeof g&amp;&amp;(j=g,g=arguments[h]||{},h++),&#34;object&#34;==typeof g||m.isFunction(g)||(g={}),h===i&amp;&amp;(g=this,h--);ih;h++)if(null!=(e=arguments[h]))for(d in e)a=g[d],c=e[d],g!==c&amp;&amp;(j&amp;&amp;c&amp;&amp;(m.isPlainObject(c)||(b=m.isArray(c)))?(b?(b=!1,f=a&amp;&amp;m.isArray(a)?a:[]):f=a&amp;&amp;m.isPlainObject(a)?a:{},g[d]=m.extend(j,f,c)):void 0!==c&amp;&amp;(g[d]=c));return g},m.extend({expando:&#34;jQuery&#34;+(l+Math.random()).replace(/\D/g,&#34;&#34;),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return&#34;function&#34;===m.type(a)},isArray:Array.isArray||function(a){return&#34;array&#34;===m.type(a)},isWindow:function(a){return null!=a&amp;&amp;a==a.window},isNumeric:function(a){return!m.isArray(a)&amp;&amp;a-parseFloat(a)+1=0},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a||&#34;object&#34;!==m.type(a)||a.nodeType||m.isWindow(a))return!1;try{if(a.constructor&amp;&amp;!j.call(a,&#34;constructor&#34;)&amp;&amp;!j.call(a.constructor.prototype,&#34;isPrototypeOf&#34;))return!1}catch(c){return!1}if(k.ownLast)for(b in a)return j.call(a,b);for(b in a);return void 0===b||j.call(a,b)},type:function(a){return null==a?a+&#34;&#34;:&#34;object&#34;==typeof a||&#34;function&#34;==typeof a?h[i.call(a)]||&#34;object&#34;:typeof a},globalEval:function(b){b&amp;&amp;m.</description>
+    </item>
+    
+    <item>
+      <title>Featured-Posts</title>
+      <link>/projects/kevin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/kevin/</guid>
+      <description>Metallica Concerts with the Tidy Verse</description>
     </item>
     
     <item>
@@ -1051,6 +1219,17 @@ The file consists of data from a survey of schools in Florida that provides a co
     
     <item>
       <title>Mapped School District Absences</title>
+      <link>/project/mapped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/mapped/</guid>
+      <description>I came across this data set from the Florida Department of Education in March. In Florida school districts are organized by county and I saw this as an opportunity to improve my mapping skills.
+This tutorial from Erin C. Anderson was instrumental in being able to complete this project. In fact a lot of the code chunks were stolen.
+Data The Florida Department of Education provides data on their website regarding the number of students by school that have missed more than 21 days of school.</description>
+    </item>
+    
+    <item>
+      <title>Mapped School District Absences</title>
       <link>/projects/mapped/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1061,31 +1240,22 @@ Data The Florida Department of Education provides data on their website regardin
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>/kevin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/kevin/</guid>
-      <description>Projects Mapped Florida Absences
-Featured Posts Metallica Concerts with the Tidy Verse
-Shiny Applications Florida Education Absences Application</description>
-    </item>
-    
-    <item>
       <title>Work Notes</title>
       <link>/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/notes/</guid>
-      <description>Working notes raw 06/03/2018 Yesterday 06/02/2018 downloaded updated data and ran all. Think I got teacher and parent survey where I want. Strategy will be put the table as they are now but collapse some of the levels so that graph can be a bit cleaner or focused; currently I would have to run the width wider and the output to word is sub-optimal. There is a function in Forcats that will do this.</description>
+      <description>Working notes raw 8/09/2018 60 minutes
+note to self can&amp;rsquo;t use tabs with pretty-html output. 8/08/2018 50 minutes; computer was working very slowly had to re-start R-studio took some time off thinking last night I still want to write the book and include pictures? 50 minutes putting the structure together. todo don&amp;rsquo;t forget to include improve_program comments
+tried and this did not work @08/08/2018 08/07/2018 50 minutes comments analysis; should be done this week.</description>
     </item>
     
     <item>
       <title>hacked automation</title>
-      <link>/1/01/01/hacked-automation/</link>
+      <link>/blog/2016-11-05-automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/1/01/01/hacked-automation/</guid>
+      <guid>/blog/2016-11-05-automation/</guid>
       <description>rmarkdown::render(&amp;ldquo;file.name&amp;rdquo;)
 The line of code above has dramatically improved my workflow. The render function helped me reach the goal of creating an automated system of creating a status report and share data in a more efficient manner.
 Ultimately, I still want to use the makefile feature but this process has helped identify the structure.

@@ -1,0 +1,1178 @@
+
+
+
+    
+
+
+
+
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "/"
+        },
+        "articleSection" : "",
+        "name" : "Work Notes",
+        "headline" : "Work Notes",
+        "description" : "Working notes raw 8/09/2018 60 minutes
+note to self can&rsquo;t use tabs with pretty-html output. 8/08/2018 50 minutes; computer was working very slowly had to re-start R-studio took some time off thinking last night I still want to write the book and include pictures? 50 minutes putting the structure together. todo don&rsquo;t forget to include improve_program comments
+tried and this did not work @08/08/2018 08/07/2018 50 minutes comments analysis; should be done this week.",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "0001",
+        "datePublished": "0001-01-01 00:00:00 &#43;0000 UTC",
+        "dateModified" : "0001-01-01 00:00:00 &#43;0000 UTC",
+        "url" : "/notes/",
+        "wordCount" : "3868",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            <title>Work Notes - R for the rest of us</title>
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.42.2" />
+        
+
+
+        
+        
+            
+                <meta name="description" content="R for the rest of us.">
+            
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Work Notes"/>
+<meta name="twitter:description" content="Working notes raw 8/09/2018 60 minutes
+note to self can&rsquo;t use tabs with pretty-html output. 8/08/2018 50 minutes; computer was working very slowly had to re-start R-studio took some time off thinking last night I still want to write the book and include pictures? 50 minutes putting the structure together. todo don&rsquo;t forget to include improve_program comments
+tried and this did not work @08/08/2018 08/07/2018 50 minutes comments analysis; should be done this week."/>
+<meta name="twitter:site" content="@kevin_gilds"/>
+
+        <meta property="og:title" content="Work Notes" />
+<meta property="og:description" content="Working notes raw 8/09/2018 60 minutes
+note to self can&rsquo;t use tabs with pretty-html output. 8/08/2018 50 minutes; computer was working very slowly had to re-start R-studio took some time off thinking last night I still want to write the book and include pictures? 50 minutes putting the structure together. todo don&rsquo;t forget to include improve_program comments
+tried and this did not work @08/08/2018 08/07/2018 50 minutes comments analysis; should be done this week." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/notes/" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <meta property="og:image" content="//images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content="Work Notes">
+<meta itemprop="description" content="Working notes raw 8/09/2018 60 minutes
+note to self can&rsquo;t use tabs with pretty-html output. 8/08/2018 50 minutes; computer was working very slowly had to re-start R-studio took some time off thinking last night I still want to write the book and include pictures? 50 minutes putting the structure together. todo don&rsquo;t forget to include improve_program comments
+tried and this did not work @08/08/2018 08/07/2018 50 minutes comments analysis; should be done this week.">
+
+
+
+<meta itemprop="wordCount" content="3868">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="../css/main.css">
+            <link rel="stylesheet" href="../css/add-on.css">
+            <link rel="stylesheet" href="../css/academicons.min.css">
+        
+
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-111258922-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+<header id="header">
+    
+      <h1><a href="../"></a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="../about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="../blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="../projects/">
+                            <i class="fa fa-list">&nbsp;</i>Projects
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="../resume/">
+                            <i class="">&nbsp;</i>Resume
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="../notes">
+                            <i class="fa fa-briefcase">&nbsp;</i>Worknotes
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="../about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="../blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="../projects/">
+                            <h3>
+                                <i class="fa fa-list">&nbsp;</i>Projects
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="../resume/">
+                            <h3>
+                                <i class="">&nbsp;</i>Resume
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="../notes">
+                            <h3>
+                                <i class="fa fa-briefcase">&nbsp;</i>Worknotes
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="../sequence-charts/">Sequence Charts</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-08-19'>
+                                    August 19, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="../2018/08/19/sequence-charts/">Sequence Charts</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-08-19'>
+                                    August 19, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="../blog/a-slump/">A slump</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-08-15'>
+                                    August 15, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="../post/">Posts</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-08-19'>
+                                    August 19, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    
+    <div id="main">
+        <article class="post">
+            
+            <header>
+    <div class="title">
+        
+            <h1><a href="../notes/">Work Notes</a></h1>
+            
+        
+        
+    </div>
+</header>
+
+            <div id="content">
+                
+
+<h1 id="working-notes-raw">Working notes raw</h1>
+
+<p>8/09/2018 60 minutes</p>
+
+<h2 id="note-to-self-can-t-use-tabs-with-pretty-html-output">note to self can&rsquo;t use tabs with pretty-html output.</h2>
+
+<p>8/08/2018 50 minutes;
+        computer was working very slowly had to re-start R-studio took some time off
+        thinking last night I still want to write the book and include pictures?
+    50 minutes putting the structure together.
+    todo don&rsquo;t forget to include improve_program comments</p>
+
+<h2 id="tried-and-this-did-not-work-08-08-2018">tried and this did not work @08/08/2018</h2>
+
+<p>08/07/2018
+50 minutes comments analysis; should be done this week.
+    df %&gt;% filter(!is.na(x1)) awesome script to filter out NA.
+        <a href="https://stackoverflow.com/questions/22353633/filter-for-complete-cases-in-data-frame-using-dplyr-case-wise-deletion">https://stackoverflow.com/questions/22353633/filter-for-complete-cases-in-data-frame-using-dplyr-case-wise-deletion</a></p>
+
+<hr />
+
+<p>07/27/2018-07/28/2018</p>
+
+<p>Worked on framework for council report. Experimented with the janior package. Determiend to work into the report council data but because the report was functioned out there was no easy way to render grouped by council output.  Sunday morning made a push for parameterized reports; my god I am not even close to implementing. Determiend to make seperate branches for each council.</p>
+
+<hr />
+
+<h3 id="07-25-2018">07/25/2018</h3>
+
+<p>Submitted final draft of report this morning. Sunday discovered that the parent and techer survey had duplicates and had to work that out. I determined that I was not going to render this report in Word or even PDF this time around. Moved directory to Gitlab and moved all the rmd documents and data there.</p>
+
+<p>Came up with a clever way to count and analyze pre and post survey data with Janitor. Still need a process to de-dupe; is there a conditional method with the janitor package with the dupes; could you build it.</p>
+
+<p>Writing and implementing the Get REAL! package was awesome. I could not get it to render to Word correctly.</p>
+
+<h3 id="07-04-2018">07/04/2018</h3>
+
+<blockquote>
+<p>worktime 150 minutes</p>
+</blockquote>
+
+<p>tested some script in notebook and converted to functions and updated package. Had to work through some issues. However, we are stuck on the math not adding up.</p>
+
+<p>Stuck on a my function gives me 351 successes and test functions come up with 348 successes. Spent 50 minutes running tests and trying to eyeball the problem.</p>
+
+<p>Found the error. The function was correct; the error was in the test functions not accounting for half increases. tested seems to give the right answer. Need to update the functions in the package.</p>
+
+<h3 id="07-03-2018">07/03/2018</h3>
+
+<blockquote>
+<p>worktime 20 minutes</p>
+</blockquote>
+
+<p>worked on lang notebook.</p>
+
+<h3 id="07-02-2018">07/02/2018</h3>
+
+<blockquote>
+<p>50 minutes</p>
+</blockquote>
+
+<p>finished pushing, pull request, and merge q4. Started working on functions for academic success. Created test notebook have a working type for count; need get to percent, test functions as well; need solid percent, counts and supplemental data.</p>
+
+<h3 id="07-01-2018">07/01/2018</h3>
+
+<blockquote>
+<p>250 minutes</p>
+</blockquote>
+
+<p>Finished the matches for the academic data, successfully added to getreal package and tested in bookdown environment. Everything seems to be working fine</p>
+
+<h3 id="06-03-2018">06/03/2018</h3>
+
+<p>Yesterday 06/02/2018 downloaded updated data and ran all. Think I got teacher and parent survey where I want. Strategy will be put the table as they are now but collapse some of the levels so that graph can be a bit cleaner or focused; currently I would have to run the width wider and the output to word is sub-optimal. There is a function in Forcats that will do this.</p>
+
+<p>06/03/2018: Worked in the bookdown framework but really I was setting up functions for the analysis. It was just side benefit that it was also rendering the bookdown format.</p>
+
+<p>Received this error &lt; Error in rmarkdown::render_site(&ldquo;/home/jdb-work/index.Rmd&rdquo;, encoding = &ldquo;&rdquo;,  :
+  unused argument (knit_root_dir = &ldquo;~&ldquo;)
+Execution halted</p>
+
+<p>I corrected the problem by setting the Set the Knit Directory to Document Directory. Here is github issue that helped me resolve the issue.  <a href="https://github.com/rstudio/rstudio/issues/2158">https://github.com/rstudio/rstudio/issues/2158</a>. Not sure if this is the same problem but used the solution to solve the problem.</p>
+
+<p>Next iteration may be to use the functions developed today and update package so that you may use for other life skills?  Write and utilize the package in iterations.</p>
+
+<p>A couple of thoughs; post work notes on webpage; do I put it as a post or seperate page. tagging the page would be fun. I think I will post it.</p>
+
+<h3 id="05-28-2018">05/28/2018</h3>
+
+<p>Yesterday {05/28/2018} figured out ggplot problem. Need to figure out scales add percent signs.</p>
+
+<p>identified places where functions could be placed. I suspect with a package we could get the whole system report system in a package.</p>
+
+<p>started documenting package but had trouble connecting to git repo.
+making connecting to a git repo without files. need to add git add. commit and master will emerge</p>
+
+<h3 id="05-24-2018">05/24/2018</h3>
+
+<p>Worked on cleaning up parent post survey. Need to change name. The report is structured to pull down by section. Looked at using janitor package; I loved it but there is something to be said for the table output; recall the graphs never work in Word. Also the possibilities with Shiny are fantastic. Could you arrange the ordrer it displays.</p>
+
+<h3 id="05-23-2018">05/23/2018</h3>
+
+<ul>
+<li>Merged in q3 into Master this morning.</li>
+</ul>
+
+<p>working on q3 sections today; noticed that attendance and behavior follow the same structure; I just used save as and adjusted the name of the input and output data. I don&rsquo;t think the time section of the save rds function is just a zombie&ndash;there but not being used.</p>
+
+<h3 id="04-28-2018">04/28/2018</h3>
+
+<p>started on q3, functions, functions. I don&rsquo;t think I can replace q1 and q3 scripts until or unless you run through shiny. But you can leave it a bit more abstract (save as quarter as opposed to q1; however not sure good or bad) when you save it as an RDS that is when you can specify time frame of the data source; Thinking about how many functions I have for each section purr may be a method.</p>
+
+<h3 id="04-22-201">04/22/201</h3>
+
+<p>worked on post surveys; and started shiny sidebar. I think I like the drop down in the body.</p>
+
+<h3 id="01-07-2018">01/07/2018</h3>
+
+<p>Don&rsquo;t forgot to use branches for development; so you can see your bad code.</p>
+
+<h3 id="01-06-2018">01/06/2018</h3>
+
+<p>spin worked</p>
+
+<p>#01/05/2018
+worked on cleaning up academic scripts and reports; nearly ready they are nearly taking shape.</p>
+
+<ul>
+<li>review how to dentisty histograms or see grades through the years&ndash; #01/07/2017&ndash;this is not going to work</li>
+</ul>
+
+<p>#01/04/2017
+downloaded data from qualtrics ran status report; updated application; sent e-mail with status report.</p>
+
+<p>#01/01/2017-01/03/2017
+worked on foundation of academic data. Settled on sourcing rscripts into reports; attempted to use Rmd file and that did not work.</p>
+
+<p>#12/31/2017
+finished am and ae history. completed draft of langarts included reverse engineering of if_else with converting numbers to letter grades. started on reading report but did not save the file and windows crashed while savings. :)</p>
+
+<ul>
+<li><p>put helper r scripts into sub folders that make sense will need to make adjustments to script to reflect this change;</p></li>
+
+<li><p>update name of objects in langarts script; I don&rsquo;t like that it refers to q1_?&ndash;q1 what. Also name of the objects that read; lang grade is not specific enough.</p></li>
+</ul>
+
+<p>#12/30/2017
+created datset with pre survey data, saved to rds. updated hr_history section; created seperate r script hr_history; created seperate data elements and put into table.</p>
+
+<p>##todo</p>
+
+<ul>
+<li>ae_history</li>
+<li>am_history</li>
+</ul>
+
+<p>#12/29/2017
+started working on history; rabbit hole; it can be easy or complicated. downloaded data from db to csv file and placed in history folder.</p>
+
+<p>#12/27/2017
+added q2, q3, and q4 data entry into qualtrics; need to review again.
+worked on ensuring I knew how to combine all the csv files; this worked well no trouble. Need to map out what all needs to be entered; have attendance reports; need to recall; all what I enter.
+started working on updating package and how to document; struck me that matches are going to be a problem with the current configuration. Decisions need to be made on how to handle.</p>
+
+<p>#12/24/2017 &amp; 12/25/2017
+worked on structure for formuative evaluaiton report; I don&rsquo;t think bookdown is going to work if it can&rsquo;t source. split parent and teacher survey off of main report; checked and was able to child it and run it. The reason for this decision was because i was getting a weird message in the output and could not shake it with message=FALSE, comments=FALSE, warning=FALSE. Noted a nuance of round function and this is documented else where.</p>
+
+<p>#12/23/2017</p>
+
+<p>updated data and ran reports. did not e-mail</p>
+
+<p>#12/22/2017</p>
+
+<p>worked on trying to control the name of the file that is downloaded; the download handler takes you to weird places and the reactivity is not working anyway; you have control; you need to determine and you may want to split between download handler and trying to save the data to directory without the handler. ?  Another question since this is interal can you just put the data to console and save it that way?</p>
+
+<p>started work on getReal2 package. able to put outcome data using use_data function. Reading book on documentation.</p>
+
+<p>#12/20/2017</p>
+
+<p>finished basic teacher report. Str saved me again on this data.<br />
+cloned shiny_tracker from linux box and appear to have implemented a attendance data entry form. Next step will be to complete reports out of it.</p>
+
+<p>#12/17/2017
+struggled with the parent report; it was a read RDS problem and to use likert had to switch to reading to csv file.</p>
+
+<p>#12/16/2017
+downloaded data and updated reports</p>
+
+<p>#12/10/2017
+finished q1-lang arts, q1_reading, q1_attendance, q1_behavior; this issue is that you will have to do this for each quarter if you do not figure out a different method to process. cleaned up rds files in processing.</p>
+
+<p>#12/09/2017
+Updated data and status report; need to submit and redloy application</p>
+
+<ul>
+<li><p>started a council notebook with tabs; just need to clean up</p>
+
+<ul>
+<li>this could be a good chance to use parameters
+<br /></li>
+</ul></li>
+
+<li><p>12/10/2017 need to start framework for q1.</p></li>
+</ul>
+
+<p>#12/02/2017
+Added q1 for status report. seems like you got this up and running; including the shiny app; only thing you will need to do or think about is changing the name; also when you may need to make a change when you start counting post surveys. Total time today 4 hours 19 min</p>
+
+<p>#12/01/2017
+ Survey locations finised; this off directed to shiny app finished up shiny app and redeployed with site information.</p>
+
+<ul>
+<li><p>Southeast has some schools LLMS, LL, L are the just one?</p></li>
+
+<li><p>also a data entry with Southeast but with a west central florida school.</p></li>
+</ul>
+
+<p>#11/30/2017
+dded site_count.r to 02A Process-Student-Pre-Survey not able to use read_chunk but was able to source in the script?  I don&rsquo;t think it will be too hard to fix up with script; may want to include council to review sites.</p>
+
+<p>#11/29/2017
+sent status report infomration; that took about 39 minutes. created new branch;  Played with school names and finding method to clean up the data entry. Current method gsub is not optimal because it will require spotting errors and makeing manual adjustments. Looked at regular expressions as a better method but not sure how to implement. I think there a good examples in the tidy text book of regular expressions used in the wild so to speak. Also, I am not sure if this needs to be perject; I am not sure it would be perfect even with regular expressions.</p>
+
+<h1 id="11-25-2017">11/25/2017</h1>
+
+<p>dl data from qualtrics and ran reports; about 11 minutes to dl data and get them ready to be read from scripts. Status report does not render as pdf; you need to recall to update the data anyway; would it be out of line to send as notebook. what is the practice or weaving through notebook and knitted material. The html document sucks in its current form; maybe pretty it up. almost like the duplicate report. Might be the best way to render and communicate the informatin anyway.</p>
+
+<p>It struck me this morning that import script should not be confined to just the survey data and this change should be reflected in the mind map; it will make the mind map better!</p>
+
+<h1 id="11-24-2017">11/24/2017</h1>
+
+<p>Yesterday worked on trying to automate turning surveys answers into strings. my observation is that it may be useful to dl as a numbers rather than choice text; and then display with likert you are just reverse engineering; and this seems to be the practice.</p>
+
+<h1 id="11-23-2017">11/23/2017</h1>
+
+<p>Worked on reviewing duplicate entries and made determination to look for ways to automate this.</p>
+
+<ul>
+<li>fixed southeast student entry.</li>
+<li>downloaded rpivottable and was able to add tabs to report, base, school, grade.</li>
+</ul>
+
+<p>** create instrutions what to look for in report.</p>
+
+<p>find</p>
+
+<p>#11/20/2017 &amp; 11/21/2017</p>
+
+<p>had an idea to complete notebooks on the outcome and reference the code to a full report; was able to do this kind of. I finally figured this <a href="http://zevross.com/blog/2014/07/09/making-use-of-external-r-code-in-knitr-and-r-markdown/">article</a>. It is working beautifully; now to determine what to include in the outcome script file. Have basic count/percent and by council. Do you do average? and how are you going to reference history</p>
+
+<p>#11/19/2017</p>
+
+<p>was able to get the gmailr script to integrate with status report; for now I have my e-mail to test. could not get it to attach file. check around on intrawebs and other people have problems. Spent most of the morning working on documentation and freem mind workflow.</p>
+
+<ul>
+<li><p>made another mindmap to identify milestones, and data sources; this helped.</p></li>
+
+<li><p>make a mindmap of the getReal History book is a heck of a thought.</p></li>
+
+<li><p>made determintation to write one pre survey analysis file; this may be for student, teacher and parent seperately however.. This may change as you start to work on it. I don&rsquo;t know if you are going to compare prior years or not.</p></li>
+
+<li><p>tease the idea of writing an updated internal package for Get Real; I can&rsquo;t recall my own functions and what is needed.</p></li>
+</ul>
+
+<p>#11/18/2017
+pulled data down from qualtrics; data pulled, reports ran, and apps updated.</p>
+
+<p>The only issiue is that I noted that gswcf dropped 3 and thought maybe it was due to duplicates. Compared student survey files and it turned out 3 were missing from the last data pull on 11/11/2017. Found them; identified response_id and could not find them in qualtrics. Saved the data seperate in files and sent message to Rebecca. Played around with gmailr and I can get the main script to run but can&rsquo;t seem to get the attachment working.</p>
+
+<ul>
+<li>don&rsquo;t forget to update the sentence in the status report when the data was pulled? Is there anyway to automate this?</li>
+</ul>
+
+<p>? could you source gmail scrip to run from the status report rmds. Need attachment to work and may want to just put in draft format.</p>
+
+<p>#11/14/2017</p>
+
+<p>sent status report; idea for summarizing by site. May need to use a lookup table. Could you automatically compare the answers.</p>
+
+<p>tested this idea for status report; however, I used the entire survey_status as the whole rather than segmenting by each data source. It did not return any difference. I have hard time seeing that segmenting by source would make a difference.</p>
+
+<pre><code class="language-R">student_pre_count &lt;- student_pre_unique %&gt;%
+	mutate(&quot;Source&quot;  = &quot;Student Pre&quot;) %&gt;%
+	group_by(Source or council) %&gt;%
+	count(Source)
+	
+</code></pre>
+
+<p>#11/12/2017</p>
+
+<h3 id="status-report-application">Status Report Application</h3>
+
+<p>Put multiple tabs on data entry statup application; it works but not jazzed about; thinking of seeing how a tab box would work with the orginal application. Otherwise I think it would require to do a seprate page for all the output and then a council seperate page tab. taboxes in dashboard do not display color.</p>
+
+<p>Have a tab/page for straight data entry status; this you may want to split into info boxes.
+then a council page. Set new branch and merged into master and published.</p>
+
+<p>? I may want to put the input chooser on the inside of body of the page but I am not sure where?</p>
+
+<ul>
+<li>May want to split the data sources into value or info boxes but I think you need to a branch and test.</li>
+</ul>
+
+<p>? by location</p>
+
+<h3 id="status-report-process">status report process</h3>
+
+<p>? write a script to move the csv files to dropbox
+command line script to do this.</p>
+
+<p>? render the pdf file and script to e-mail it or least put in draft email.</p>
+
+<ul>
+<li><p>Need to send rds file to the status application folder&ndash;completed</p></li>
+
+<li><p>correct file extensions on rds file&ndash;completed</p></li>
+</ul>
+
+<p>#11/11/2017</p>
+
+<p>recalled to switch back to master branch before updating data.</p>
+
+<p>In qualtrics before to download from legacy downloader to match with your code. There seems to be a very slight change in the process.</p>
+
+<p>In the run_all script chunks I put as an option cache=TRUE. Need to learn about this; it did speed up the running process. It did not change my pdf output; however, I had it open. Just monitor this.</p>
+
+<p>Not jazzed about vaild surveys entered by council tbl. Maybe try a group_by call. there are a lot of dependcies&ndash;each subject will need to be changed if it works; so how can you test. Maybe test on branch</p>
+
+<p>but this is a starting point.</p>
+
+<pre><code class="language-R">student_pre_count &lt;- student_pre_unique %&gt;%
+	mutate(&quot;Source&quot;  = &quot;Student Pre&quot;) %&gt;%
+	group_by(Source or council) %&gt;%
+	count(Source)
+	
+</code></pre>
+
+<p>What I would like to see happen.</p>
+
+<p>Work flow proesss that will send data to the status update application.</p>
+
+<p>Also a flow to send data to dropbox folder. This may be a change when you test the scripts. This may be subtle challenge to send in  the directory; I did save a bookmark on firebox broweser on using purr to loop and create the files. I wonder if you could add the file path. Recall the script works</p>
+
+<p>student_pre_count</p>
+
+<p>Gateway has a lot of student survey errors on this batch.</p>
+
+<p>#11/10/2017</p>
+
+<p>Going to make another branch; change the app with better data to converge and display data.</p>
+
+<p>set up a notebook and merge the data sets and see what you can produce
+merged rds files that are by council together to determine if that will fix the isse. The issue is that the boxes are moving if the data is not consistent. For instance, Gateway does not have any errors and that is making the box move around; in a simliar fashion West Central Council does not have parent errors and that is throwing the data off.</p>
+
+<ul>
+<li>You are going to have to move the errors to a second page.</li>
+</ul>
+
+<h1 id="11-07-2017">11/07/2017</h1>
+
+<p>Sent status report. Looked at app and when you change the council; things start moving. Not ready to be shared yet.</p>
+
+<ul>
+<li>Need to work on reviewing the duplicates; most likely it will be easier to resolve now rather than waiting all the errors to come in.</li>
+</ul>
+
+<p>#11/06/2017
+Worked on cleaning up status report; and looking at formatting system time.</p>
+
+<h1 id="11-05-2017">11/05/2017</h1>
+
+<p>worked on adding graphs to the status report document. completed viable product for status update application; made some switches which took some time to debug. Determined to leave graphs out; not that interesting. Put errors and status together to avoid too much switch between tasks and keeping the date together; trade off was that errors by council can&rsquo;t be dynamic. Just get a list all together.</p>
+
+<ul>
+<li><p>It may be a good idea to put the errors as one rds and then do the split later or in the server scripts. current method is too efficient.</p></li>
+
+<li><p>Can you think of a way to get the output and save as the current date to monitor progress as we go along. Time series data.</p></li>
+
+<li><p>take the graphs off the status report.</p></li>
+</ul>
+
+<h1 id="11-04-2017">11/04/2017</h1>
+
+<p>downloaded data from qualtrics. ironed out some and kinks in the scripts.</p>
+
+<p>Made the determination to only use 1 import script rather than segment out student, parent, and teacher. The essence of the script was to read the csv file and save back as an rds.</p>
+
+<p>Made the determination to use dashboard shiny app rather than a flexboard. I like the control aspects and putting a lot of different information on the same screen.</p>
+
+<ul>
+<li>Need to delete other import files; actually updated map already</li>
+<li>Clean up the status report. Status report is the mail delirvable.  in case application is not ready.</li>
+<li>Diagram it out.</li>
+<li>Can you write an automatic e-mail script of the status report and link</li>
+</ul>
+
+<h1 id="11-03-2017">11/03/2017</h1>
+
+<p>cloned the wiki to local machine. may want to put the code book and methodology  sections as a holding place.</p>
+
+<p>worked this week on getting ready for a status report. Took a different approach this time instead of an all encompassing script to extract the data; there are many scripts to feed the status report. Will need to evaluate how well this works. Currently it is working and a pdf renders. In theory, only the import files should have to be updated to read the most current downloaded csv files. Maybe you can develop an app this weekend.</p>
+
+<h1 id="10-29-2017">10/29/2017</h1>
+
+<p>Naming conventions should follow this</p>
+
+<p>01-Task-Subject-Sub-Subject</p>
+
+<p>Import      01
+Process     02
+Sub-process 02A or 2B etc
+Match       03
+Analysis    04</p>
+
+<p>add naming convention as task in trello</p>
+
+<p>worked through frame work on getting survey count and survey error counts. Used helper scripts to obtain counts and they will run in the 4 processing script.</p>
+
+<ul>
+<li>02A-Process-Subject-Pre-Survey</li>
+<li>02B-Process-Subject-Pre-Dupes</li>
+<li>02A-Process-Subject-Post-Survey</li>
+<li>02B-Process-Subject-Post-Dupes</li>
+</ul>
+
+<p>Also started R helper script to process all the count RDS file and bind them together. How are you going to chart this?</p>
+
+<ul>
+<li>will need to do this for the council rds file as well.</li>
+</ul>
+
+<h1 id="10-28-2017">10/28/2017</h1>
+
+<p>finished updating parent scripts&ndash;pre, pre_dupes, post post_dupes. Started working on framework for status report; started notebooks for obtaining counts&ndash;dont forget you have to do a duplicates; does this mean another script. Currently put in seperate notebooks but would this be better as a script and when you process the script it is generated?</p>
+
+<p>this was a nice hack to get the raw count rather than using nrows because this way you have the source</p>
+
+<pre><code>#!r
+
+teacher_pre_count &lt;- teacher_status %&gt;%
+	mutate(&quot;Source&quot;  = &quot;Teacher Pre&quot;) %&gt;%
+	count(Source)
+</code></pre>
+
+<p>#10/21/2017</p>
+
+<p>update on working directory issue: I went to global seting to change to establish the project as the working directory; will this hold true every time you start R studio</p>
+
+<p>worked on all the teacher scripts. Came up with I think a better naming schemes for files; Task #&ndash;01, 02 and substep 02A Process Pre  Surve, 02B Process Pre Duplicates&ndash;Next is Name of Data Source&ndash;Next is more descriptive of the file. 02B-Process_Teacher_Pre_Survey.</p>
+
+<p>idea; you could incorporate this wiki as the codebook?</p>
+
+<h1 id="10-20-2017">10/20/2017</h1>
+
+<p>worked on redoing student scripts and outlining process. figured out how not to set working directory with &ldquo;file_folder/name_of_file&rdquo;. However, I am mannually setting the option to run the project directory&ndash;need to hardcode this in with scripts. Also started the process of breaking file structure down in free mind.</p>
+
+<h2 id="10-14-2017">10/14/2017</h2>
+
+<ul>
+<li><p>fixed typo in Q1 grade portal-directions sections</p></li>
+
+<li><p>ran some test scripts with q1 grade portal. It is processing as expected</p></li>
+
+<li><p>worked out script processing frame work.</p></li>
+</ul>
+
+<p>The import file should be kept separate from processing tasks. For example the import script should not also change variable names and other processing tasks. This way there is a clean data set from the csv.</p>
+
+<p>The processing scripts generally can/should contain scripts that change variable names, ensure the survey is completed, change girl code to upper; make council names consistent&ndash;general clean up.</p>
+
+<p>Determined to have a processing script that deals with duplicate as separate file. Processing &ldquo;Module&rdquo; Duplicates. This has some elements of &ldquo;duplication&rdquo;&ndash;no pun intended but it is a distinct task from what we are trying to produce&ndash;A data frame or set without errors.</p>
+
+<p>10/07/2017
+Scripts to process q1 language arts&ndash;needs more splitting into sub sections. Need more test data to see how the scripts respond/work.</p>
+
+<p>10/06/2017
+switched Q1 grade data entry from radial buttons to drop down button. This allows users to deselect a course. Noted that arrow buttons will change the grade value; tab is the better way to navigate. Noted this in the directions.</p>
+
+            </div>
+        </article>
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='../' class="logo"><img src="../img/batman.jpg" alt="Hugo Future Imperfect" /></a>
+      
+    
+    
+      <header>
+        <h2>Learning R for Social Good</h2>
+        <p>Nonprofit Sector Data Science</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/kgilds" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/kevingilds" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/kevin_gilds" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="../sequence-charts/">Sequence Charts</a>
+              </h3>
+              
+              <time class="published" datetime='2018-08-19'>
+                August 19, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="../2018/08/19/sequence-charts/">Sequence Charts</a>
+              </h3>
+              
+              <time class="published" datetime='2018-08-19'>
+                August 19, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="../blog/a-slump/">A slump</a>
+              </h3>
+              
+              <time class="published" datetime='2018-08-15'>
+                August 15, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="../post/">Posts</a>
+              </h3>
+              
+              <time class="published" datetime='2018-08-19'>
+                August 19, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+      </div>
+
+      
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>Documenting my efforts to learn R and life.</p>
+      <a href="../about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/kgilds" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/kevingilds" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/kevin_gilds" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2018
+        
+          R for the rest of us
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="../js/util.js"></script>
+      <script src="../js/main.js"></script>
+      <script src="../js/backToTop.js"></script>
+    
+
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+
