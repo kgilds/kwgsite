@@ -1,0 +1,111 @@
+---
+title: "Mapped School District Absences"
+subtitle: Average percent by School District
+---
+
+
+
+<p>I came across this data set from the Florida Department of Education in March. In Florida school districts are organized by county and I saw this as an opportunity to improve my mapping skills.</p>
+<p>This <a href="http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html">tutorial</a> from Erin C. Anderson was instrumental in being able to complete this project. In fact a lot of the code chunks were stolen.</p>
+<div id="data" class="section level2">
+<h2>Data</h2>
+<p>The <a href="http://www.fldoe.org/accountability/data-sys/edu-info-accountability-services/pk-12-public-school-data-pubs-reports/students.stml">Florida Department of Education</a> provides data on their website regarding the number of students by school that have missed more than 21 days of school. <a href="https://tidydatabykwg57.shinyapps.io/flabsences/">Go here for more information on this data</a></p>
+<pre><code>## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls]
+##   Date: 2018-06-02 22:43
+##   Status: 200
+##   Content-Type: application/msexcel
+##   Size: 751 kB
+## &lt;ON DISK&gt;  /tmp/RtmpRXNuF8/file2181696c2a14.xls</code></pre>
+<pre><code>## Warning: NAs introduced by coercion
+
+## Warning: NAs introduced by coercion</code></pre>
+<p>I want to map the average percent of students who missed 21 or more days during the 2015-2016 school year. Below is a tibble of the output.</p>
+<pre><code>## # A tibble: 74 x 2
+##    district_name  mean
+##            &lt;chr&gt; &lt;dbl&gt;
+##  1       ALACHUA 14.29
+##  2         BAKER 19.64
+##  3           BAY 15.28
+##  4      BRADFORD 17.70
+##  5       BREVARD  6.50
+##  6       BROWARD  9.82
+##  7       CALHOUN 17.78
+##  8     CHARLOTTE  8.41
+##  9        CITRUS 10.38
+## 10          CLAY  9.69
+## # ... with 64 more rows</code></pre>
+</div>
+<div id="working-with-ggmap" class="section level2">
+<h2>Working with ggmap</h2>
+<p>The first step is extract data to build the map.</p>
+<pre class="r"><code>#get state map
+states &lt;- map_data(&quot;state&quot;)</code></pre>
+<p>This code gets the parameters for Florida</p>
+<pre class="r"><code>fl_df &lt;- subset(states, region == &quot;florida&quot;)</code></pre>
+<p>The next step is to extract county parameters from Florida</p>
+<pre class="r"><code>counties &lt;- map_data(&quot;county&quot;)
+fl_county &lt;- subset(counties, region == &quot;florida&quot;)</code></pre>
+<p>This chunk of code will display the state of Florida.</p>
+<pre class="r"><code>fl_base &lt;- ggplot(data = fl_df, mapping = aes(x = long, y = lat, group = group)) + 
+  coord_fixed(1.3) + 
+  geom_polygon(color = &quot;black&quot;, fill = &quot;gray&quot;)
+fl_base + theme_nothing()</code></pre>
+<p><img src="/projects/mapped_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p>This code chunk overlays the county shapes onto the Florida Map.</p>
+<pre class="r"><code>fl_base + theme_nothing() + 
+  geom_polygon(data = fl_county, fill = NA, color = &quot;white&quot;) +
+  geom_polygon(color = &quot;black&quot;, fill = NA)  # get the state border back on top</code></pre>
+<p><img src="/projects/mapped_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+</div>
+<div id="more-data-munging" class="section level2">
+<h2>More data munging</h2>
+<p>In this chunk, I changed the name of the variable district_name to match the county data set. Case matters and the school district data set needed to be made lower in preparation of joining the data sets.</p>
+<pre class="r"><code>absent_21_c &lt;- absent_21 %&gt;%
+  rename(&quot;subregion&quot; = &quot;district_name&quot;)
+
+absent_21_c$subregion &lt;- tolower(absent_21_c$subregion)</code></pre>
+<p>Not all of the district_name and map data perfectly match. This is code will fix that. You will see that the anti-join function is an easy way to test.</p>
+<pre class="r"><code>absent_21_c$subregion &lt;- gsub(&quot;dade&quot;, &quot;miami-dade&quot;, fixed = TRUE, absent_21_c$subregion)
+
+absent_21_c$subregion &lt;- gsub(&quot;desoto&quot;, &quot;de soto&quot;, fixed = TRUE, absent_21_c$subregion)
+
+absent_21_c$subregion &lt;- gsub(&quot;st. johns&quot;, &quot;st johns&quot;, fixed = TRUE, absent_21_c$subregion)
+
+absent_21_c$subregion &lt;- gsub(&quot;st. lucie&quot;, &quot;st lucie&quot;, fixed = TRUE, absent_21_c$subregion)</code></pre>
+</div>
+<div id="ready-to-join" class="section level2">
+<h2>Ready to Join</h2>
+<p>This code chunk joins the two data sets.</p>
+<pre class="r"><code>map_d &lt;- inner_join(fl_county, absent_21_c, by = &quot;subregion&quot;)</code></pre>
+<p>This code chunk uses the anti-join function to ensure that all the counties and school district names match up.</p>
+<pre class="r"><code>non_match &lt;- anti_join(fl_county, absent_21_c, by = &quot;subregion&quot;)
+
+non_match</code></pre>
+<pre><code>## [1] long      lat       group     order     region    subregion
+## &lt;0 rows&gt; (or 0-length row.names)</code></pre>
+<p>This code chunk sets parameters for the map outline.</p>
+<pre class="r"><code>ditch_the_axes &lt;- theme(
+  axis.text = element_blank(),
+  axis.line = element_blank(),
+  axis.ticks = element_blank(),
+  panel.border = element_blank(),
+  panel.grid = element_blank(),
+  axis.title = element_blank()
+  )</code></pre>
+<p>This code chunk plots the data from the school districts on to the map.</p>
+<pre class="r"><code>map_fl_school_absences &lt;- fl_base + 
+      geom_polygon(data = map_d, aes(fill = mean), color = &quot;white&quot;) +
+      geom_polygon(color = &quot;black&quot;, fill = NA) +
+      theme_bw() +
+      ditch_the_axes
+
+map_fl_school_absences</code></pre>
+<p><img src="/projects/mapped_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+<p>Similar to the example in the tutorial; the difference between school districts is not easily distinguishable on the map. This code chunk below is an example of how to add more color to the map.</p>
+<pre class="r"><code>eb2 &lt;- map_fl_school_absences + 
+    scale_fill_gradientn(colours = rev(rainbow(7)),
+                         breaks = c(2, 4, 10, 100, 1000, 10000),
+                         trans = &quot;log10&quot;)
+eb2</code></pre>
+<p><img src="/projects/mapped_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+</div>

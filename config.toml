@@ -1,7 +1,7 @@
 baseurl = "http://kgilds.rbind.io/"
 languageCode = "en-us"
 title = "R for the rest of us"
-theme = "hugo-future-imperfect-master"
+theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
 disqusShortname = "r-for-the-rest-of-us"
