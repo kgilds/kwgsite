@@ -1,0 +1,18 @@
+---
+title: What > Why
+author: Kevin
+date: '2018-05-17'
+slug: what-why
+categories:
+  - leadership
+tags: []
+---
+
+
+Today, I attended the Tampa Bay Nonprofit Leadership Confernece. The Keynote was given by Dr. Tasha Eurich on self-awarness and agile leadership. 
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '997154805368983552')
+```
+
+I enjoyed the hack on emphasizing **what** over **why** when a problem emerges. 
