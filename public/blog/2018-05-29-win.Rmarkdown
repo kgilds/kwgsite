@@ -1,0 +1,16 @@
+---
+title: ggplot win
+author: Kevin
+date: '2018-05-29'
+slug: win
+categories:
+  - R
+tags: []
+---
+
+This weekend I was creating some plots and was pleased that I was purposeful with the plotting arguments rather than copying other code and hoping it turns out the way I want. 
+
+The book [R For Data Science](http://r4ds.had.co.nz/) is a great way to learn the fundamentals. 
+
+My next challenge is incorporating the scales argument to render the percent sign.  
+

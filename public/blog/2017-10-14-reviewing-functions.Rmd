@@ -1,0 +1,40 @@
+---
+title: Reviewing Functions
+author: 'Kevin '
+date: '2017-10-14'
+slug: reviewing-functions
+categories:
+  - R
+  - functions
+tags: []
+description: ''
+featured: ''
+featuredalt: ''
+featuredpath: ''
+linktitle: ''
+---
+
+I am starting on the new year of project and was revisiting some functions. I had a function that created a csv file of duplicate values for every organization that submitted data. The function was useful but a pain to run the function for every organization on separate chunks. 
+
+I figured there had to be better way. The following is an incremental improvement to the old process but I do have a sense there is a better way.
+
+
+```{r eval=FALSE}
+
+
+pre_council_dupes <- preDupes %>%
+	split.data.frame(.$council) #split the data frame into a list based on council
+	
+
+
+for (council in names(pre_council_dupes)){  #loop over the list based on names
+	write.csv(pre_council_dupes[[council]], paste0(council,"_pre_student_dupes.csv")) #write a csv file based on pre_council_dupes object subsetted by council, paste name of council into file name  the _pre_student_dupes.csv is the rest of the file name
+	
+	
+}
+
+pre_council_dupes
+```
+```
+
+

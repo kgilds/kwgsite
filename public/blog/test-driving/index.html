@@ -1,0 +1,829 @@
+
+
+
+    
+
+
+
+
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "/"
+        },
+        "articleSection" : "blog",
+        "name" : "Test Driving readxl",
+        "headline" : "Test Driving readxl",
+        "description" : "Introduction I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the Github Repo.
+The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016.",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2018",
+        "datePublished": "2018-02-23 00:00:00 &#43;0000 UTC",
+        "dateModified" : "2018-02-23 00:00:00 &#43;0000 UTC",
+        "url" : "/blog/test-driving/",
+        "wordCount" : "1222",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            <title>Test Driving readxl - R for the rest of us</title>
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.42.2" />
+        
+
+
+        
+            <meta name="author" content="Kevin">
+        
+        
+            
+                <meta name="description" content="R for the rest of us.">
+            
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Test Driving readxl"/>
+<meta name="twitter:description" content="Introduction I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the Github Repo.
+The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016."/>
+<meta name="twitter:site" content="@kevin_gilds"/>
+
+        <meta property="og:title" content="Test Driving readxl" />
+<meta property="og:description" content="Introduction I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the Github Repo.
+The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/test-driving/" />
+
+
+
+<meta property="article:published_time" content="2018-02-23T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-02-23T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        <meta property="og:image" content="//images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content="Test Driving readxl">
+<meta itemprop="description" content="Introduction I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the r readxl package in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the Github Repo.
+The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016.">
+
+
+<meta itemprop="datePublished" content="2018-02-23T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-02-23T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1222">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="../../css/main.css">
+            <link rel="stylesheet" href="../../css/add-on.css">
+            <link rel="stylesheet" href="../../css/academicons.min.css">
+        
+
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-111258922-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+<header id="header">
+    
+      <h1><a href="../../"></a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="../../about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="../../blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="../../projects/">
+                            <i class="fa fa-list">&nbsp;</i>Projects
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="../../resume/">
+                            <i class="">&nbsp;</i>Resume
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="../../notes">
+                            <i class="fa fa-briefcase">&nbsp;</i>Worknotes
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="../../about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="../../blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="../../projects/">
+                            <h3>
+                                <i class="fa fa-list">&nbsp;</i>Projects
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="../../resume/">
+                            <h3>
+                                <i class="">&nbsp;</i>Resume
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="../../notes">
+                            <h3>
+                                <i class="fa fa-briefcase">&nbsp;</i>Worknotes
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="../../sequence-charts/">Sequence Charts</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-08-19'>
+                                    August 19, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="../../2018/08/19/sequence-charts/">Sequence Charts</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-08-19'>
+                                    August 19, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="../../blog/a-slump/">A slump</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-08-15'>
+                                    August 15, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="../../post/">Posts</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-08-19'>
+                                    August 19, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    
+    <div id="main">
+        <article class="post">
+            
+            <header>
+    <div class="title">
+        
+            <h1><a href="../../blog/test-driving/">Test Driving readxl</a></h1>
+            
+        
+        
+    </div>
+</header>
+
+            <div id="content">
+                <div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>I am interested in school attendance data and found an interesting data set on the Florida Department of Education Website. This seemed like a good time to learn the <code>r readxl package</code> in order to wrangle spreadsheets in the wild. This post closely follows closely with theexamples on the <a href="https://github.com/tidyverse/readxl">Github Repo</a>.</p>
+<p>The file consists of data from a survey of schools in Florida that provides a count of students who were absent more than 21 days in the school year 2015-2016.</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ── tidyverse 1.2.1 ──</code></pre>
+<pre><code>## ✔ ggplot2 3.0.0     ✔ purrr   0.2.5
+## ✔ tibble  1.4.2     ✔ dplyr   0.7.6
+## ✔ tidyr   0.8.1     ✔ stringr 1.3.1
+## ✔ readr   1.1.1     ✔ forcats 0.3.0</code></pre>
+<pre><code>## ── Conflicts ───── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(readxl)
+library(httr)
+library(knitr)</code></pre>
+<div id="getting-the-data" class="section level3">
+<h3>Getting the data</h3>
+<p>The url of the data set is below</p>
+<pre class="r"><code>url &lt;- &#39;http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls&#39;</code></pre>
+<p>Use the Get function from httr to grab the file</p>
+<pre class="r"><code>GET(url, write_disk(absences &lt;- tempfile(fileext = &quot;.xls&quot;)))</code></pre>
+<pre><code>## Response [http://www.fldoe.org/core/fileparse.php/7584/urlt/1516ABS21DAYSchool.xls]
+##   Date: 2018-07-04 01:42
+##   Status: 200
+##   Content-Type: application/msexcel
+##   Size: 751 kB
+## &lt;ON DISK&gt;  /tmp/RtmpySFGjG/file3d2a1df5498f.xls</code></pre>
+</div>
+<div id="read-the-data" class="section level3">
+<h3>Read the data</h3>
+<pre class="r"><code>absences_1 &lt;- read_excel(absences)</code></pre>
+</div>
+<div id="check-the-data-out-with-the-str-function" class="section level3">
+<h3>Check the data out with the str function</h3>
+<pre class="r"><code>str(absences_1)</code></pre>
+<pre><code>## Classes &#39;tbl_df&#39;, &#39;tbl&#39; and &#39;data.frame&#39;:    4039 obs. of  7 variables:
+##  $ Students Absent 21 or More Days by School
+## 2015-16, Final Survey 5: chr  &quot;*To provide meaningful results and to protect the privacy of individual students, data are displayed only when &quot;| __truncated__ &quot;District #&quot; &quot;1&quot; &quot;1&quot; ...
+##  $ X__1                                                              : chr  NA &quot;District Name&quot; &quot;ALACHUA&quot; &quot;ALACHUA&quot; ...
+##  $ X__2                                                              : chr  NA &quot;School #&quot; &quot;22&quot; &quot;31&quot; ...
+##  $ X__3                                                              : chr  NA &quot;School Name&quot; &quot;EARLY LEARNING ACADEMY AT DUVAL&quot; &quot;J. J. FINLEY ELEMENTARY SCHOOL&quot; ...
+##  $ X__4                                                              : chr  NA &quot;Enrollments&quot; &quot;456&quot; &quot;721&quot; ...
+##  $ X__5                                                              : chr  NA &quot;Absent 21 Days or Over&quot; &quot;127&quot; &quot;38&quot; ...
+##  $ X__6                                                              : chr  NA &quot;% Absent 21 or More Days&quot; &quot;0.27850877192000001&quot; &quot;0.05270457697&quot; ...</code></pre>
+</div>
+<div id="display-the-data" class="section level3">
+<h3>Display the data</h3>
+<pre class="r"><code>absences_1</code></pre>
+<pre><code>## # A tibble: 4,039 x 7
+##    `Students Absent 21 or More Da… X__1   X__2   X__3   X__4  X__5  X__6  
+##    &lt;chr&gt;                           &lt;chr&gt;  &lt;chr&gt;  &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; 
+##  1 *To provide meaningful results… &lt;NA&gt;   &lt;NA&gt;   &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt;  &lt;NA&gt;  
+##  2 District #                      Distr… Schoo… Schoo… Enro… Abse… % Abs…
+##  3 1                               ALACH… 22     EARLY… 456   127   0.278…
+##  4 1                               ALACH… 31     J. J.… 721   38    0.052…
+##  5 1                               ALACH… 41     STEPH… 593   34    0.057…
+##  6 1                               ALACH… 52     A.QUI… 173   90    0.520…
+##  7 1                               ALACH… 71     LAKE … 629   106   0.168…
+##  8 1                               ALACH… 81     SIDNE… 198   63    0.318…
+##  9 1                               ALACH… 82     HOSPI… 25    0     0     
+## 10 1                               ALACH… 91     LITTL… 791   71    0.089…
+## # ... with 4,029 more rows</code></pre>
+<p>The output is not in a tidy format. The first row has a title and the second row provides a description of the data. Lets extract just the meta data using <code>r (n_max = 2)</code>.</p>
+<pre class="r"><code>meta &lt;- read_excel(absences, n_max = 2)
+
+meta</code></pre>
+<pre><code>## # A tibble: 2 x 7
+##   `Students Absent 21 or More Days… X__1   X__2  X__3  X__4  X__5   X__6  
+##   &lt;chr&gt;                             &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt; 
+## 1 *To provide meaningful results a… &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt;  &lt;NA&gt;  &lt;NA&gt;   &lt;NA&gt;  
+## 2 District #                        Distr… Scho… Scho… Enro… Absen… % Abs…</code></pre>
+<p>This is not exactly what I want. Using <code>r (n_max = 2)</code> we captured the title and message about the data but we also captured the other columns and row information. I am going to use the range argument to isolate the title and description of the data.</p>
+<pre class="r"><code>meta_1 &lt;- read_excel(absences, range=&quot;A1:A2&quot;)
+
+meta_1</code></pre>
+<pre><code>## # A tibble: 1 x 1
+##   `Students Absent 21 or More Days by School\n2015-16, Final Survey 5`    
+##   &lt;chr&gt;                                                                   
+## 1 *To provide meaningful results and to protect the privacy of individual…</code></pre>
+<p>An important warning about the data is cut off in the blog down output. I am going to isolate on the cell to clearly display the message about the data.</p>
+<pre class="r"><code>meta_2 &lt;- read_excel(absences, range=&quot;A2&quot;)
+
+meta_2</code></pre>
+<pre><code>## # A tibble: 0 x 1
+## # ... with 1 variable: `*To provide meaningful results and to protect the
+## #   privacy of individual students, data are displayed only when the total
+## #   number of students in a group is at least 10 and when the performance
+## #   of individuals would not be disclosed. Data for groups less than 10
+## #   are displayed with an asterisk (*).` &lt;lgl&gt;</code></pre>
+<p>This did the trick. The message indicates that an asterisk is used when there is less than 10 students at a school. There is a <code>r (na)</code> argument in the read_excel function but I could not get it work with a plain asterisk or an asterisk in quotes. Maybe a regular expression would work.</p>
+<pre class="r"><code>absences_2 &lt;- read_excel(absences, skip =2, na = &quot;*&quot;)
+
+absences_2 &lt;- read_excel(absences, skip =2, na = *)</code></pre>
+</div>
+<div id="let-me-introduce-you-to-skip" class="section level3">
+<h3>Let me introduce you to skip:</h3>
+<p>Now, that we have the title and message about the data, let us put the data in tidy format. From our exercise above we know that the first two rows are not helpful. Fortunately we can use the <code>r (skip = 2)</code> argument to bypass the first 2 rows.</p>
+<pre class="r"><code>absences_2 &lt;- read_excel(absences, skip = 2)</code></pre>
+</div>
+<div id="use-str-again-to-check-what-we-are-dealing-with" class="section level3">
+<h3>Use str again to check what we are dealing with</h3>
+<pre class="r"><code>str(absences_2)</code></pre>
+<pre><code>## Classes &#39;tbl_df&#39;, &#39;tbl&#39; and &#39;data.frame&#39;:    4037 obs. of  7 variables:
+##  $ District #              : num  1 1 1 1 1 1 1 1 1 1 ...
+##  $ District Name           : chr  &quot;ALACHUA&quot; &quot;ALACHUA&quot; &quot;ALACHUA&quot; &quot;ALACHUA&quot; ...
+##  $ School #                : num  22 31 41 52 71 81 82 91 101 111 ...
+##  $ School Name             : chr  &quot;EARLY LEARNING ACADEMY AT DUVAL&quot; &quot;J. J. FINLEY ELEMENTARY SCHOOL&quot; &quot;STEPHEN FOSTER ELEMENTARY SCHOOL&quot; &quot;A.QUINN JONES CENTER&quot; ...
+##  $ Enrollments             : chr  &quot;456&quot; &quot;721&quot; &quot;593&quot; &quot;173&quot; ...
+##  $ Absent 21 Days or Over  : chr  &quot;127&quot; &quot;38&quot; &quot;34&quot; &quot;90&quot; ...
+##  $ % Absent 21 or More Days: chr  &quot;0.27850877192000001&quot; &quot;0.05270457697&quot; &quot;0.057335581779999999&quot; &quot;0.52023121387000004&quot; ...</code></pre>
+<p>Lovely, we are going to have to convert some of these variables to numeric.</p>
+<pre class="r"><code>absences_2$Enrollments &lt;- as.numeric(absences_2$Enrollments)</code></pre>
+<pre><code>## Warning: NAs introduced by coercion</code></pre>
+<pre class="r"><code>absences_2$`Absent 21 Days or Over` &lt;- as.numeric(absences_2$`Absent 21 Days or Over`)</code></pre>
+<pre><code>## Warning: NAs introduced by coercion</code></pre>
+<pre class="r"><code>absences_2$`% Absent 21 or More Days` &lt;- as.numeric(absences_2$`% Absent 21 or More Days`)</code></pre>
+<pre><code>## Warning: NAs introduced by coercion</code></pre>
+<pre class="r"><code>str(absences_2)</code></pre>
+<pre><code>## Classes &#39;tbl_df&#39;, &#39;tbl&#39; and &#39;data.frame&#39;:    4037 obs. of  7 variables:
+##  $ District #              : num  1 1 1 1 1 1 1 1 1 1 ...
+##  $ District Name           : chr  &quot;ALACHUA&quot; &quot;ALACHUA&quot; &quot;ALACHUA&quot; &quot;ALACHUA&quot; ...
+##  $ School #                : num  22 31 41 52 71 81 82 91 101 111 ...
+##  $ School Name             : chr  &quot;EARLY LEARNING ACADEMY AT DUVAL&quot; &quot;J. J. FINLEY ELEMENTARY SCHOOL&quot; &quot;STEPHEN FOSTER ELEMENTARY SCHOOL&quot; &quot;A.QUINN JONES CENTER&quot; ...
+##  $ Enrollments             : num  456 721 593 173 629 198 25 791 345 647 ...
+##  $ Absent 21 Days or Over  : num  127 38 34 90 106 63 0 71 29 67 ...
+##  $ % Absent 21 or More Days: num  0.2785 0.0527 0.0573 0.5202 0.1685 ...</code></pre>
+<p>In part II, we will dive into the data. Stay tuned.</p>
+</div>
+</div>
+
+            </div>
+        </article>
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='../../' class="logo"><img src="../../img/batman.jpg" alt="Hugo Future Imperfect" /></a>
+      
+    
+    
+      <header>
+        <h2>Learning R for Social Good</h2>
+        <p>Nonprofit Sector Data Science</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/kgilds" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/kevingilds" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/kevin_gilds" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="../../sequence-charts/">Sequence Charts</a>
+              </h3>
+              
+              <time class="published" datetime='2018-08-19'>
+                August 19, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="../../2018/08/19/sequence-charts/">Sequence Charts</a>
+              </h3>
+              
+              <time class="published" datetime='2018-08-19'>
+                August 19, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="../../blog/a-slump/">A slump</a>
+              </h3>
+              
+              <time class="published" datetime='2018-08-15'>
+                August 15, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="../../post/">Posts</a>
+              </h3>
+              
+              <time class="published" datetime='2018-08-19'>
+                August 19, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+      </div>
+
+      
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>Documenting my efforts to learn R and life.</p>
+      <a href="../../about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/kgilds" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/kevingilds" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/kevin_gilds" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2018
+        
+          R for the rest of us
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="../../js/util.js"></script>
+      <script src="../../js/main.js"></script>
+      <script src="../../js/backToTop.js"></script>
+    
+
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+
